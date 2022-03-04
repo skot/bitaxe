@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "bitaxe")(type "KiCad")(uri "${KIPRJMOD}/bitaxe.kicad_sym")(options "")(descr ""))
+  (lib (name "dayminer")(type "KiCad")(uri "${KIPRJMOD}/dayminer.kicad_sym")(options "")(descr ""))
+  (lib (name "eagle_import")(type "KiCad")(uri "${KIPRJMOD}/DayMiner-eagle-import.kicad_sym")(options "")(descr ""))
+)
