@@ -38,3 +38,10 @@ Check my [BM1387 Scripts](https://github.com/skot/bm1387_scripts)!
 | TXO   | 1.8V Serial output        |
 | RST   | Inverted reset pin to the first BM1387. Unsure what to use this for.        |
 | GND   | Common ground        |
+
+## Goals
+- Figure out the BM1387 communication and put all of that in an onboard microcontroller like the ESP32-C3 (RISC-V, yum).
+- Connect up the BM1387 internal temperature to the onboard microcontroller.
+- Connect up the fan speed sensor to the onboard microcontroller.
+- Develop some software in Rust to getblocktemplate from a bitcoin node and communicate work to a fleet of bitaxes.
+- add an onboard power sensor
