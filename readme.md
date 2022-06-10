@@ -1,3 +1,5 @@
+**EEP! pin pitch on the BM1387 footprint is wrong!!** Don't make this board until this gets sorted. see issue [#5](https://github.com/skot/bitaxe/issues/5)
+
 # The bitaxe
 ![](doc/assembled.png)
 an experimental bitcoin mining machine. Uses 2x Bitmain BM1387 ASICs. Should be able to hash at around 130GH/s. Needs a lot of work!
