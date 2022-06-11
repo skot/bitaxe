@@ -80,7 +80,7 @@
       (dxfusepcbnewfont true)
       (psnegative false)
       (psa4output false)
-      (plotreference false)
+      (plotreference true)
       (plotvalue false)
       (plotinvisibletext false)
       (sketchpadsonfab false)
