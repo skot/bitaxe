@@ -3641,7 +3641,7 @@
     (property "Value" "330uF" (id 1) (at 238.125 67.0559 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder_flip" (id 2) (at 235.9152 70.485 0)
+    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder" (id 2) (at 235.9152 70.485 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 234.95 66.675 0)
@@ -4236,7 +4236,7 @@
 
   (symbol (lib_id "DayMiner-eagle-import:CAP0402") (at 276.86 154.305 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid 82494300-14ee-4d15-aa1d-70b7cbf70aba)
+    (uuid 82494300-14ee-4d15-aa1d-70b7cbf70abb)
     (property "Reference" "C20" (id 0) (at 278.384 151.384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
@@ -4628,7 +4628,7 @@
     (property "Value" "330uF" (id 1) (at 237.49 145.7959 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder_flip" (id 2) (at 234.6452 149.225 0)
+    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder" (id 2) (at 234.6452 149.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 233.68 145.415 0)
@@ -5471,15 +5471,15 @@
       (reference "C16") (unit 1) (value "1uF") (footprint "DayMiner:C0402")
     )
     (path "/acfd78ad-ef0a-414c-9378-060e937bcb37"
-      (reference "C17") (unit 1) (value "330uF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder_flip")
+      (reference "C17") (unit 1) (value "330uF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder")
     )
     (path "/358da881-61fd-4ea9-810a-034bc845f90c"
-      (reference "C18") (unit 1) (value "330uF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder_flip")
+      (reference "C18") (unit 1) (value "330uF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder")
     )
     (path "/9e197296-7ecf-47fb-b06b-346b771006ce"
       (reference "C19") (unit 1) (value "0.1uF") (footprint "DayMiner:C0402")
     )
-    (path "/82494300-14ee-4d15-aa1d-70b7cbf70aba"
+    (path "/82494300-14ee-4d15-aa1d-70b7cbf70abb"
       (reference "C20") (unit 1) (value "0.1uF") (footprint "DayMiner:C0402")
     )
     (path "/712015c5-d68b-4fe8-bafb-b8df3cc18c42"
