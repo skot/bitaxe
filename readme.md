@@ -2,7 +2,7 @@
 ![](doc/assembled.png)
 an early-stage experimental bitcoin mining machine. Uses a single Bitmain BM1397 ASICs.
 
-## BM1387
+## BM1397
 ![BM1397 pic](doc/BM1397.png)
 
 - The BM1397 is a undocumented SHA256 mining ASIC from Bitmain. It's mostly used in the Antminer S17
