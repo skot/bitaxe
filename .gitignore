@@ -28,3 +28,4 @@ fp-info-cache
 *.xml
 *.csv
 *auto_saved_files*
+*bak
