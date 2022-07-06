@@ -1,5 +1,6 @@
 # The bitaxe
 ![](doc/bitaxe.png)
+
 an early-stage experimental bitcoin mining machine. Uses two Bitmain BM1387 ASICs.
 
 ## BM1387
