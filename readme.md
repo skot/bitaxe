@@ -1,6 +1,6 @@
 # The bitaxe
 ![](doc/assembled.png)
-an early-stage experimental bitcoin mining machine. Uses a single Bitmain BM1397 ASICs.
+an early-stage experimental bitcoin mining machine. Uses a single Bitmain BM1397 ASIC (chip).
 
 ## BM1397
 ![BM1397 pic](doc/BM1397.png)
