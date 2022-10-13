@@ -5,9 +5,15 @@ an early-stage experimental bitcoin mining machine. Uses a single Bitmain BM1397
 ![BM1397 pic](doc/BM1397.png)
 
 - The BM1397 is a undocumented SHA256 mining ASIC from Bitmain. It's mostly used in the Antminer S17
-- Bitmain claims the BM1397 has 0.045j/Gh efficiency
-- The BM1397 is available for around $20 each in low quantities from Aliexpress
+- Bitmain claims the BM1397 has 0.03J/GH efficiency
+- The BM1397 is available (new) for around $20 each in low quantities from Aliexpress
+    - I have seen some used BM1397 sellers; DYOR
+        - [HYG SRong](https://www.aliexpress.us/item/3256804436095856.html) -- $4.66 @ QTY 10 w/ shipping
+        - [BTC Zone](https://www.aliexpress.us/item/3256804305413883.html) -- $6 @ QTY 10 w/ shipping
+        - [punuo-ic](https://www.aliexpress.us/item/3256804576938680.html) -- $6.16 @ QTY 1 w/ shipping
+
 - The BM1397 has the same footprint as the BM1387, but a very different pinout.
+    - It also has two "Modes" that change some of the signal pins around to make chaining easy
 
 ## Current Status
 - I have not built up any or tested any of these PCBs yet. Parts and PCBs are supposed to arrive any day now..
