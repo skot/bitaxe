@@ -15,10 +15,7 @@ an early-stage experimental bitcoin mining machine. Uses a single Bitmain BM1397
 ## Hardware
 - [BM1397 from random AliExpress seller](https://www.aliexpress.com/item/3256802274958527.html). I got the "AG" variant. Not really sure what the difference is.
 - [40x40mm heatsink and 5V fan](https://www.aliexpress.com/item/2251832861666365.html) from a random AliExpress seller. At least half of these arrived broken in some way. But they are cheap and the working ones do keep the BM1387's nice and cool when used with some thermal compound.
-- The serial port is 1.8V. The [FTDI TTL-232RG-VREG1V8-WE](https://www.digikey.com/en/products/detail/ftdi,-future-technology-devices-international-ltd/TTL-232RG-VREG1V8-WE/2441359) USB adapter does the trick, although it's pretty expensive.
-- [jim.sh Micro1v8 FT230X](https://www.amazon.com/dp/B076B9YRMP) adapters also work.
-- Neither the FTDI cable or the jim.sh adapter breakout any of the CBUS pins that could be used for the reset line.
-    - for that I'm going to try the [UMFT231XE-01](https://www.digikey.com/en/products/detail/ftdi-future-technology-devices-international-ltd/UMFT231XE-01/4487117) breakout board.
+- The BM1397 serial port is 1.8V.
 - I added level shifters for the interface with the [ESP32-C3](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitc-02.html#user-guide-c3-devkitc-02-v1-header-blocks) (Because it has 3.3V GPIOs)
 - I added a NCT218 so that the BM1397 core temperature can be read out over I2C
 - [KiCad 6](https://www.kicad.org) design files
@@ -46,5 +43,9 @@ an early-stage experimental bitcoin mining machine. Uses a single Bitmain BM1397
 - Develop some firmware for the ESP32 to connect to a stratum server/pool over WiFi and get work for the mining ASIC
     - Firmware should monitor fan speed
     - Firmware should monitor BM1397 core temperature (via NCT218)
+    - Firmware should tune each BM1397 by adjusting it's core voltage
+- Put a high current, low voltage buck regulator on the board that the ESP32 can adjust the voltage of.
+    - This might be something like the TPS40305. I've made a separate [prototype of that power supply](https://github.com/skot/TPS40305_Supply)
+    - One way to adjust the output voltage of these power supplies is with a DAC. The regular ESP32 has one, but the ESP32-C3 doesn't :(
 - Develop some software in Rust to getblocktemplate from a bitcoin node and communicate work to a fleet of bitaxes.
 - add an onboard power sensor so we can set the hashrate (ASIC requency) and therefore current to extract maximum power from a solar panel.
