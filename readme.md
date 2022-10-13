@@ -10,14 +10,15 @@ an early-stage experimental bitcoin mining machine. Uses a single Bitmain BM1397
 - The BM1397 has the same footprint as the BM1387, but a very different pinout.
 
 ## Current Status
-- I have not built up any or tested any of these PCBs yet. Hopefully soon!
+- I have not built up any or tested any of these PCBs yet. Parts and PCBs are supposed to arrive any day now..
 
 ## Hardware
 - [BM1397 from random AliExpress seller](https://www.aliexpress.com/item/3256802274958527.html). I got the "AG" variant. Not really sure what the difference is.
 - [40x40mm heatsink and 5V fan](https://www.aliexpress.com/item/2251832861666365.html) from a random AliExpress seller. At least half of these arrived broken in some way. But they are cheap and the working ones do keep the BM1387's nice and cool when used with some thermal compound.
-- The BM1397 serial port is 1.8V.
+- The BM1397 serial port is 1.8V. These pins are broken out, but the main idea is to communicate with the BM1397 from the ESP32
 - I added level shifters for the interface with the [ESP32-C3](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitc-02.html#user-guide-c3-devkitc-02-v1-header-blocks) (Because it has 3.3V GPIOs)
 - I added a NCT218 so that the BM1397 core temperature can be read out over I2C
+    - NCT218 are pretty hard to come by these days. Maybe a replacement is needed.
 - [KiCad 6](https://www.kicad.org) design files
 - All of the parts on the board are listed in the KiCad BOM
 
