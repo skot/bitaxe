@@ -11,6 +11,7 @@ an early-stage experimental bitcoin mining machine. Uses a single Bitmain BM1397
         - [HYG SRong](https://www.aliexpress.us/item/3256804436095856.html) -- $4.66 @ QTY 10 w/ shipping
         - [BTC Zone](https://www.aliexpress.us/item/3256804305413883.html) -- $6 @ QTY 10 w/ shipping
         - [punuo-ic](https://www.aliexpress.us/item/3256804576938680.html) -- $6.16 @ QTY 1 w/ shipping
+        - Rumor has it these pages don't work outside the US?
 
 - The BM1397 has the same footprint as the BM1387, but a very different pinout.
     - It also has two "Modes" that change some of the signal pins around to make chaining easy
@@ -34,6 +35,7 @@ an early-stage experimental bitcoin mining machine. Uses a single Bitmain BM1397
 ## Connections
 ![](doc/render.png)
 
+### Board IO
 | Pin Name     | Description |
 | ----------- | ----------- |
 | VIN      | ASIC VIN - ASIC core voltage. Rumor has it this should be around 1.5V for the the BM1397. This needs more experimentation.       |
@@ -46,13 +48,25 @@ an early-stage experimental bitcoin mining machine. Uses a single Bitmain BM1397
 | RST   | Inverted reset pin to the first BM1397. Unsure how necessary this is.        |
 | GND   | Common ground        |
 
+### ESP32 IO
+| Signal    | ESP32 Pin | Description         |
+|-----------|-----------|---------------------|
+| FAN_TACH  | GPIO4     | Fan Speed output    |
+| TEMP_ALRT | GPIO9     | NCT218 Alert output |
+| SCL       | GPIO18    | I2C Clock (NCT218)  |
+| SDA       | GPIO19    | I2C Data (NCT218)   |
+| RX        | GPIO2     | BM1397 RO           |
+| TX        | GPIO3     | BM1397 CI           |
+| RST       | GPIO10    | BM1397 NRSTI        |
+
 ## Goals
 - Develop some firmware for the ESP32 to connect to a stratum server/pool over WiFi and get work for the mining ASIC
     - Firmware should monitor fan speed
     - Firmware should monitor BM1397 core temperature (via NCT218)
     - Firmware should tune each BM1397 by adjusting it's core voltage
 - Put a high current, low voltage buck regulator on the board that the ESP32 can adjust the voltage of.
-    - This might be something like the TPS40305. I've made a separate [prototype of that power supply](https://github.com/skot/TPS40305_Supply)
-    - One way to adjust the output voltage of these power supplies is with a DAC. The regular ESP32 has one, but the ESP32-C3 doesn't :(
+    - This might be something like the [TPS40305](https://www.ti.com/product/TPS40305). I've made a separate [prototype PCB of that power supply](https://github.com/skot/TPS40305_Supply)
+    - One way to adjust the output voltage of these power supplies is with a current-output DAC. The [Maxim DS4432](https://datasheets.maximintegrated.com/en/ds/DS4432.pdf) seems purpose built for this kind of thing.
 - Develop some software in Rust to getblocktemplate from a bitcoin node and communicate work to a fleet of bitaxes.
+    - This would be like mining pool software. Maybe [Stratum V2](https://stratumprotocol.org) would work for this?
 - add an onboard power sensor so we can set the hashrate (ASIC requency) and therefore current to extract maximum power from a solar panel.
