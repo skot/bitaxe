@@ -1,4 +1,5 @@
 # The bitaxeMax!
+![bitaxeMax assembled](doc/assembled.png)
 an early-stage experimental bitcoin mining machine. Uses a single Bitmain BM1397 ASIC (chip).
 
 ## BM1397
@@ -33,7 +34,7 @@ an early-stage experimental bitcoin mining machine. Uses a single Bitmain BM1397
 - still TBD
 
 ## Connections
-![](doc/render.png)
+![bitaxeMax KiCad render](doc/render.png)
 
 ### Board IO
 | Pin Name     | Description |
