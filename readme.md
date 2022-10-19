@@ -18,7 +18,7 @@ an early-stage experimental bitcoin mining machine. Uses a single Bitmain BM1397
     - It also has two "Modes" that change some of the signal pins around to make chaining easy
 
 ## Current Status
-- I have not built up any or tested any of these PCBs yet. Parts and PCBs are supposed to arrive any day now..
+- Parts and PCBs have arrived and I have assembled two of these! Everything seems to fit. No smoke. Haven't tested mining yet.
 
 ## Hardware
 - [BM1397 from random AliExpress seller](https://www.aliexpress.com/item/3256802274958527.html). I got the "AG" variant. Not really sure what the difference is.
