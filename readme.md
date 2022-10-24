@@ -9,11 +9,11 @@ an early-stage experimental bitcoin mining machine. Uses a single Bitmain BM1397
 - Bitmain claims the BM1397 has 0.03J/GH efficiency
 - The BM1397 is available (new) for around $20 each in low quantities from Aliexpress
     - I have seen some used BM1397 sellers; DYOR
-        - [HYG SRong](https://www.aliexpress.us/item/3256804436095856.html) -- $4.66 @ QTY 10 w/ shipping
-        - [BTC Zone](https://www.aliexpress.us/item/3256804305413883.html) -- $6 @ QTY 10 w/ shipping
-        - [punuo-ic](https://www.aliexpress.us/item/3256804576938680.html) -- $6.16 @ QTY 1 w/ shipping
-        - Rumor has it these pages don't work outside the US?
-
+        - [HYG SRong](https://www.aliexpress.us/item/3256804436095856.html) -- $4.66 @ QTY 10 w/ shipping (US)
+        - [BTC Zone](https://www.aliexpress.us/item/3256804305413883.html) -- $6 @ QTY 10 w/ shipping (US)
+        - [punuo-ic](https://www.aliexpress.us/item/3256804576938680.html) -- $6.16 @ QTY 1 w/ shipping (US)
+        - [Lucky tool parts](https://de.aliexpress.com/item/1005004022512968.html) -- $12.31 @ QTY 1 w/o shiping (DE)
+- Choose your BM1397 version: [Guide here](https://d-central.tech/bm1397-ad-ag-ah-ai-antminer-17-series-chip-replacement-guide/)
 - The BM1397 has the same footprint as the BM1387, but a very different pinout.
     - It also has two "Modes" that change some of the signal pins around to make chaining easy
 
