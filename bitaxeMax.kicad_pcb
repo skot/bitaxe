@@ -4283,7 +4283,7 @@
   (gr_text "FAN" (at 72.83 102.36 90) (layer "B.SilkS") (tstamp 6b36e3da-a1d3-4df1-93b4-1410fb861198)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "R1" (at 96.42 53.33) (layer "B.SilkS") (tstamp 6f534946-fe9f-49cf-841c-a0dfd71b74a2)
+  (gr_text "R2" (at 96.42 53.33) (layer "B.SilkS") (tstamp 6f534946-fe9f-49cf-841c-a0dfd71b74a2)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "GND" (at 119.36 59.47) (layer "B.SilkS") (tstamp 72c4d3ee-dd6a-4d18-8856-39b8fd779a7b)
