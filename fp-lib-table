@@ -1,5 +1,5 @@
 (fp_lib_table
   (lib (name "DayMiner")(type "KiCad")(uri "${KIPRJMOD}/DayMiner.pretty")(options "")(descr ""))
-  (lib (name "TPS40305")(type "KiCad")(uri "${KIPRJMOD}/TPS40305_supply.pretty")(options "")(descr ""))
+  (lib (name "TPS40305_supply")(type "KiCad")(uri "${KIPRJMOD}/TPS40305_supply.pretty")(options "")(descr ""))
   (lib (name "BM1397")(type "KiCad")(uri "/Users/skot/Work/Bitcoin/BM1397/cad/BM1397.pretty")(options "")(descr ""))
 )
