@@ -3,4 +3,5 @@
   (lib (name "dayminer")(type "KiCad")(uri "${KIPRJMOD}/dayminer.kicad_sym")(options "")(descr ""))
   (lib (name "eagle_import")(type "KiCad")(uri "${KIPRJMOD}/DayMiner-eagle-import.kicad_sym")(options "")(descr ""))
   (lib (name "TPS40305")(type "KiCad")(uri "${KIPRJMOD}/TPS40305.kicad_sym")(options "")(descr ""))
+  (lib (name "BM1397")(type "KiCad")(uri "/Users/skot/Work/Bitcoin/BM1397/cad/BM1397.kicad_sym")(options "")(descr ""))
 )
