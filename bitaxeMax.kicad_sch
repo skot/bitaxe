@@ -3995,7 +3995,7 @@
     (property "Value" "BM1397_mode1" (id 1) (at 116.84 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "DayMiner:SON45P800X800X70-33T645X800N" (id 2) (at 113.665 71.755 0)
+    (property "Footprint" "bitaxe:BM1397" (id 2) (at 113.665 71.755 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 113.665 71.755 0)
@@ -4180,7 +4180,7 @@
     (property "Value" "oscillator" (id 1) (at 41.275 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "DayMiner:O 25,0-JO32-B-1V3-1-T1-LF" (id 2) (at 40.005 97.155 0)
+    (property "Footprint" "bitaxe:O 25,0-JO32-B-1V3-1-T1-LF" (id 2) (at 40.005 97.155 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.jauch.com/downloadfile/5ef1edcfb8e2f73163c8ce8009ef659d1/jo32-1.8-3.3v.pdf" (id 3) (at 40.005 97.155 0)
@@ -4721,7 +4721,7 @@
       (reference "H6") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.5mm")
     )
     (path "/c2c4c89f-d26c-46ad-8ca9-fddab83afb42"
-      (reference "IC1") (unit 1) (value "BM1397_mode1") (footprint "DayMiner:SON45P800X800X70-33T645X800N")
+      (reference "IC1") (unit 1) (value "BM1397_mode1") (footprint "bitaxe:BM1397")
     )
     (path "/070242be-4252-4b22-aa9b-8f7edccbbd89"
       (reference "J1") (unit 1) (value "Conn_01x01") (footprint "TPS40305_supply:63862-1")
@@ -4868,7 +4868,7 @@
       (reference "TP19") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/da2b1d8a-4f67-42b6-82c6-b1b3c8edd2d0"
-      (reference "U1") (unit 1) (value "oscillator") (footprint "DayMiner:O 25,0-JO32-B-1V3-1-T1-LF")
+      (reference "U1") (unit 1) (value "oscillator") (footprint "bitaxe:O 25,0-JO32-B-1V3-1-T1-LF")
     )
     (path "/344ae6a9-1ee5-471b-96c8-2558947378a6"
       (reference "U2") (unit 1) (value "SN74LVC1T45QDCKRQ1") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
@@ -4895,7 +4895,7 @@
       (reference "U9") (unit 1) (value "TPS40305") (footprint "TPS40305_supply:TPS40305")
     )
     (path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/3bb37263-3b43-4f43-bba6-c0ec681def98"
-      (reference "U10") (unit 1) (value "DS4432U+") (footprint "")
+      (reference "U10") (unit 1) (value "DS4432U+") (footprint "Package_SO:TSSOP-8_3x3mm_P0.65mm")
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/958db401-f10e-405e-a8bd-b19901d7ace4"
       (reference "U11") (unit 1) (value "MCP1824") (footprint "Package_TO_SOT_SMD:SOT-23-5")
