@@ -2,4 +2,5 @@
   (lib (name "DayMiner")(type "KiCad")(uri "${KIPRJMOD}/DayMiner.pretty")(options "")(descr ""))
   (lib (name "TPS40305_supply")(type "KiCad")(uri "${KIPRJMOD}/TPS40305_supply.pretty")(options "")(descr ""))
   (lib (name "bitaxe")(type "KiCad")(uri "${KIPRJMOD}/bitaxe.pretty")(options "")(descr ""))
+  (lib (name "Tag-Connect")(type "KiCad")(uri "${KIPRJMOD}/Tag-Connect.pretty")(options "")(descr ""))
 )

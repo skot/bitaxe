@@ -821,6 +821,9 @@
     (path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/89552359-e64c-4ef0-97ec-17f2c49cd40f"
       (reference "J4") (unit 1) (value "Conn_01x04") (footprint "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical")
     )
+    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/b8a28296-1115-4057-9556-d2cf7d99b384"
+      (reference "J?") (unit 1) (value "TC2030-IDC-NL") (footprint "Tag-Connect:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")
+    )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/19f0a32e-ae99-44fa-81e5-b40e1daaca24"
       (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
