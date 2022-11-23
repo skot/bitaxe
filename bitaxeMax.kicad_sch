@@ -210,6 +210,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid eec6f68b-8554-4435-8c88-4fafda10a267)
   )
+  (wire (pts (xy 99.695 53.34) (xy 107.315 53.34))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid fb150e19-1ef3-4ea1-8a17-ed02fd7c8667)
+  )
 
   (text "bitaxe, yo" (at 160.655 186.055 0)
     (effects (font (size 5 5) (thickness 1) bold) (justify left bottom))
@@ -247,6 +251,10 @@
   (label "RX" (at 135.89 79.375 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 795c3981-9287-49b0-96d8-85ab23b8e5a9)
+  )
+  (label "3V3" (at 103.505 53.34 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a040410f-d8e9-47f1-ad67-5a0613e63ff4)
   )
   (label "3V3" (at 135.89 88.265 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -527,7 +535,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 70dddb56-4d5a-48ce-935c-1cba5754008c)
     )
-    (pin "SDA" input (at 163.195 113.03 0)
+    (pin "SDA" bidirectional (at 163.195 113.03 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid ab8b3fae-a527-4a08-9cea-411ed3bb0262)
     )
@@ -567,13 +575,17 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 317fd698-be46-4f1b-843d-aa42118bd002)
     )
-    (pin "SDA" input (at 99.695 59.69 0)
+    (pin "SDA" bidirectional (at 99.695 59.69 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 782b8d76-867c-4d80-8cd1-603313eeff01)
     )
     (pin "5V" output (at 82.55 55.245 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 0f51833d-c854-4c2c-b22b-12364713779b)
+    )
+    (pin "3V3" input (at 99.695 53.34 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 24f34f08-ba90-4da4-bb47-4712ca4c30ec)
     )
   )
 
@@ -587,7 +599,7 @@
     (property "Sheet file" "esp32.kicad_sch" (id 1) (at 144.78 93.9296 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "SDA" output (at 166.37 79.375 0)
+    (pin "SDA" bidirectional (at 166.37 79.375 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid bca82dc7-5a68-4d25-a4ac-0590b1e5b728)
     )
@@ -744,7 +756,7 @@
       (reference "C34") (unit 1) (value "47uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/d54f7744-30cf-45fb-af71-4312b53c3de5"
-      (reference "C35") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C35") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/399ea33e-b8f3-493f-85f2-9d94d17debb6"
       (reference "C36") (unit 1) (value "47uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
@@ -771,7 +783,7 @@
       (reference "C43") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/a2d61183-cd5d-4633-a7d9-a7e71805d94e"
-      (reference "C44") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C44") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/b5b1991e-6d8c-4229-9833-5cd6d35c5203"
       (reference "C45") (unit 1) (value "470pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -787,6 +799,15 @@
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/bc2ce79f-1ec1-4fb7-9751-454ef7e53e4c"
       (reference "C49") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/188d57da-3c98-436a-8c81-5977f54c3d12"
+      (reference "C50") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/c5870637-0523-41e9-874a-71b2f66251ff"
+      (reference "C51") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/3903062e-17c1-4da6-8131-f9864e0b6c32"
+      (reference "C52") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a097db18-83db-4470-ba17-86144dcc33ba"
       (reference "H1") (unit 1) (value "AlignmentHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
@@ -822,7 +843,7 @@
       (reference "J4") (unit 1) (value "Conn_01x04") (footprint "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical")
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/b8a28296-1115-4057-9556-d2cf7d99b384"
-      (reference "J?") (unit 1) (value "TC2030-IDC-NL") (footprint "Tag-Connect:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")
+      (reference "J5") (unit 1) (value "TC2030-IDC-NL") (footprint "Tag-Connect:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")
     )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/19f0a32e-ae99-44fa-81e5-b40e1daaca24"
       (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
@@ -836,8 +857,8 @@
     (path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/b6b30125-e7df-4c27-b1cc-077ce9c15368"
       (reference "L1") (unit 1) (value "150nH") (footprint "TPS40305_supply:FP1005R1-R15-R")
     )
-    (path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/351d0c84-d84a-4c9d-8889-1620467019b6"
-      (reference "Q1") (unit 1) (value "CSD16340Q3") (footprint "TPS40305_supply:CSD16340Q3")
+    (path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/b5483bc8-812e-44cd-ae35-0417ba81bdab"
+      (reference "Q1") (unit 1) (value "CSD17311Q5") (footprint "TPS40305_supply:CSD17311Q5")
     )
     (path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/313cab15-ce0c-4810-a76b-d2d1176e9e26"
       (reference "Q2") (unit 1) (value "CSD17311Q5") (footprint "TPS40305_supply:CSD17311Q5")
@@ -898,6 +919,9 @@
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/5789c52b-3609-41e7-be1d-5729b7e77272"
       (reference "R19") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/a930f1f9-770d-4102-9206-132d361de264"
+      (reference "R20") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/abb48bb8-d506-414e-b34e-36eb24c10c9d"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
