@@ -899,11 +899,11 @@
     )
   )
 
-  (hierarchical_label "TX" (shape input) (at 66.04 128.27 180)
+  (hierarchical_label "TX" (shape input) (at 66.04 125.73 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 03f8291f-7f6b-4aee-91d5-da22b4b659cb)
   )
-  (hierarchical_label "RX" (shape input) (at 66.04 125.73 180)
+  (hierarchical_label "RX" (shape input) (at 66.04 128.27 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 3a7747b4-9316-465c-87e0-f6fdc7a69bcf)
   )
