@@ -791,6 +791,12 @@
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/21a05317-0418-484b-b8b6-1852474b704c"
       (reference "C18") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
+    (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/5e2c0617-e309-4b91-9ac3-eb1348a4b6f3"
+      (reference "C19") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/56d16bff-8133-4078-9865-4c9ca225d7a2"
+      (reference "C20") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/0d2c52c3-4da7-4dec-95f1-e7d054138579"
       (reference "C22") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -866,12 +872,6 @@
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/3903062e-17c1-4da6-8131-f9864e0b6c32"
       (reference "C52") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/56d16bff-8133-4078-9865-4c9ca225d7a2"
-      (reference "C?") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/5e2c0617-e309-4b91-9ac3-eb1348a4b6f3"
-      (reference "C?") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
     (path "/a097db18-83db-4470-ba17-86144dcc33ba"
       (reference "H1") (unit 1) (value "AlignmentHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
     )
@@ -909,7 +909,7 @@
       (reference "J5") (unit 1) (value "TC2030-IDC-NL") (footprint "Tag-Connect:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/ea636c85-0f31-4cc7-9c63-123271cbee79"
-      (reference "J?") (unit 1) (value "Conn_01x08") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
+      (reference "J6") (unit 1) (value "Conn_01x08") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
     )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/19f0a32e-ae99-44fa-81e5-b40e1daaca24"
       (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
@@ -990,19 +990,19 @@
       (reference "R20") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/31c23965-1f11-4829-a075-752a5f23d6db"
-      (reference "R?") (unit 1) (value "R_US") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R21") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/3aae0178-f7e3-422e-8a22-f5ac497bcbb0"
-      (reference "R?") (unit 1) (value "R_US") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R22") (unit 1) (value "12K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/40b5e4da-b18e-458f-a00a-902f7a18d8e8"
-      (reference "R?") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R23") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/69b52d10-220b-4bf9-90f7-ea43d2c31997"
-      (reference "R?") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R24") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/8f340d23-2454-4e7d-a23f-b33d39f03306"
-      (reference "R?") (unit 1) (value "19.3K") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R25") (unit 1) (value "19.3K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/abb48bb8-d506-414e-b34e-36eb24c10c9d"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
@@ -1064,6 +1064,9 @@
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/582916fd-dbeb-4918-bbeb-dd83930cba85"
       (reference "U1") (unit 1) (value "oscillator") (footprint "bitaxe:O 25,0-JO32-B-1V3-1-T1-LF")
     )
+    (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/8505365d-1709-410c-a8d0-ab8be104f84d"
+      (reference "U2") (unit 1) (value "TXB0104RGYR") (footprint "bitaxe:TXB0104")
+    )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/c43eae62-9970-425f-a9e5-322424cab065"
       (reference "U5") (unit 1) (value "MCP1824") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
@@ -1087,9 +1090,6 @@
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/f7cf6f45-b680-4be1-a452-0271fa958554"
       (reference "U12") (unit 1) (value "ESP32-S3-WROOM-1") (footprint "Espressif:ESP32-S3-WROOM-1")
-    )
-    (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/8505365d-1709-410c-a8d0-ab8be104f84d"
-      (reference "U?") (unit 1) (value "TXB0104RGYR") (footprint "bitaxe:TXB0104")
     )
   )
 )
