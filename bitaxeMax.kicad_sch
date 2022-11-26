@@ -909,7 +909,7 @@
       (reference "J5") (unit 1) (value "TC2030-IDC-NL") (footprint "Tag-Connect:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/ea636c85-0f31-4cc7-9c63-123271cbee79"
-      (reference "J?") (unit 1) (value "Conn_01x08") (footprint "")
+      (reference "J?") (unit 1) (value "Conn_01x08") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
     )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/19f0a32e-ae99-44fa-81e5-b40e1daaca24"
       (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
