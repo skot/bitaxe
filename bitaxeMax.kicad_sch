@@ -797,6 +797,9 @@
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/56d16bff-8133-4078-9865-4c9ca225d7a2"
       (reference "C20") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
+    (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/3738415e-fba9-44e7-abde-80c338842f84"
+      (reference "C21") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/0d2c52c3-4da7-4dec-95f1-e7d054138579"
       (reference "C22") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -808,6 +811,9 @@
     )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/de3724da-7c81-486b-8c2f-8fab6e38deba"
       (reference "C25") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/c6b648d9-8211-4da8-848a-5a780f1214be"
+      (reference "C26") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/d8d3c999-e20c-4039-b359-df0c621efeb4"
       (reference "C32") (unit 1) (value "470pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -872,12 +878,6 @@
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/3903062e-17c1-4da6-8131-f9864e0b6c32"
       (reference "C52") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/3738415e-fba9-44e7-abde-80c338842f84"
-      (reference "C?") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/c6b648d9-8211-4da8-848a-5a780f1214be"
-      (reference "C?") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
     (path "/a097db18-83db-4470-ba17-86144dcc33ba"
       (reference "H1") (unit 1) (value "AlignmentHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
     )
@@ -912,10 +912,13 @@
       (reference "J4") (unit 1) (value "Conn_01x04") (footprint "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical")
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/b8a28296-1115-4057-9556-d2cf7d99b384"
-      (reference "J5") (unit 1) (value "TC2030-IDC-NL") (footprint "Tag-Connect:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")
+      (reference "J5") (unit 1) (value "TC2030-IDC") (footprint "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical")
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/ea636c85-0f31-4cc7-9c63-123271cbee79"
       (reference "J6") (unit 1) (value "Conn_01x08") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
+    )
+    (path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/92ec7d58-8004-4a05-be6a-e331f51859e9"
+      (reference "J7") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/19f0a32e-ae99-44fa-81e5-b40e1daaca24"
       (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
@@ -1061,11 +1064,29 @@
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/e87a2da7-959f-48df-b451-d339b8c7ac53"
       (reference "TP19") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
+    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/3ae34400-7a81-4b5b-86f9-d6596e9b4288"
+      (reference "TP20") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/d6b72701-a148-43d8-b1ee-252be8e83095"
+      (reference "TP21") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/31c9eb95-690d-4148-a4d5-e65306eb0409"
+      (reference "TP22") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/5d43952f-9058-486b-8cd3-5aa97211169d"
+      (reference "TP23") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/37c64752-650a-4d2d-82d4-0e2668b6de36"
+      (reference "TP24") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/582916fd-dbeb-4918-bbeb-dd83930cba85"
       (reference "U1") (unit 1) (value "25MHz") (footprint "bitaxe:O 25,0-JO32-B-1V3-1-T1-LF")
     )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/8505365d-1709-410c-a8d0-ab8be104f84d"
       (reference "U2") (unit 1) (value "TXB0104RGYR") (footprint "bitaxe:TXB0104")
+    )
+    (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/160b598e-a016-4f85-b65c-4a2971fd0829"
+      (reference "U3") (unit 1) (value "SN74AXC1T45DBVR") (footprint "bitaxe:SN74AXC1T45")
     )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/c43eae62-9970-425f-a9e5-322424cab065"
       (reference "U5") (unit 1) (value "MCP1824") (footprint "Package_TO_SOT_SMD:SOT-23-5")
@@ -1090,9 +1111,6 @@
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/f7cf6f45-b680-4be1-a452-0271fa958554"
       (reference "U12") (unit 1) (value "ESP32-S3-WROOM-1") (footprint "Espressif:ESP32-S3-WROOM-1")
-    )
-    (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/160b598e-a016-4f85-b65c-4a2971fd0829"
-      (reference "U?") (unit 1) (value "SN74AXC1T45DBVR") (footprint "bitaxe:SN74AXC1T45")
     )
   )
 )
