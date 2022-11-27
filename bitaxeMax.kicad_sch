@@ -872,6 +872,12 @@
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/3903062e-17c1-4da6-8131-f9864e0b6c32"
       (reference "C52") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
+    (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/3738415e-fba9-44e7-abde-80c338842f84"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/c6b648d9-8211-4da8-848a-5a780f1214be"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
     (path "/a097db18-83db-4470-ba17-86144dcc33ba"
       (reference "H1") (unit 1) (value "AlignmentHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
     )
@@ -989,12 +995,6 @@
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/a930f1f9-770d-4102-9206-132d361de264"
       (reference "R20") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/31c23965-1f11-4829-a075-752a5f23d6db"
-      (reference "R21") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/3aae0178-f7e3-422e-8a22-f5ac497bcbb0"
-      (reference "R22") (unit 1) (value "12K") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/40b5e4da-b18e-458f-a00a-902f7a18d8e8"
       (reference "R23") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
@@ -1062,7 +1062,7 @@
       (reference "TP19") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/582916fd-dbeb-4918-bbeb-dd83930cba85"
-      (reference "U1") (unit 1) (value "oscillator") (footprint "bitaxe:O 25,0-JO32-B-1V3-1-T1-LF")
+      (reference "U1") (unit 1) (value "25MHz") (footprint "bitaxe:O 25,0-JO32-B-1V3-1-T1-LF")
     )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/8505365d-1709-410c-a8d0-ab8be104f84d"
       (reference "U2") (unit 1) (value "TXB0104RGYR") (footprint "bitaxe:TXB0104")
@@ -1090,6 +1090,9 @@
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/f7cf6f45-b680-4be1-a452-0271fa958554"
       (reference "U12") (unit 1) (value "ESP32-S3-WROOM-1") (footprint "Espressif:ESP32-S3-WROOM-1")
+    )
+    (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/160b598e-a016-4f85-b65c-4a2971fd0829"
+      (reference "U?") (unit 1) (value "SN74AXC1T45DBVR") (footprint "bitaxe:SN74AXC1T45")
     )
   )
 )
