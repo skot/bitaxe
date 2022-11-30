@@ -1091,12 +1091,6 @@
     (path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/dbe78ea1-de61-4cfe-8d9a-6a7db6a2845a"
       (reference "TP16") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
-    (path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/ec68a3d3-bcb9-484b-b5ae-c14470d3327b"
-      (reference "TP17") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
-    (path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/85ce86f1-0401-42bb-a43c-6e3427a9c661"
-      (reference "TP18") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/e87a2da7-959f-48df-b451-d339b8c7ac53"
       (reference "TP19") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
@@ -1105,12 +1099,6 @@
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/d6b72701-a148-43d8-b1ee-252be8e83095"
       (reference "TP21") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
-    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/31c9eb95-690d-4148-a4d5-e65306eb0409"
-      (reference "TP22") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
-    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/5d43952f-9058-486b-8cd3-5aa97211169d"
-      (reference "TP23") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/37c64752-650a-4d2d-82d4-0e2668b6de36"
       (reference "TP24") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
