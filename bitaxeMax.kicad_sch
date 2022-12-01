@@ -909,7 +909,7 @@
       (reference "J4") (unit 1) (value "Conn_01x04") (footprint "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical")
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/b8a28296-1115-4057-9556-d2cf7d99b384"
-      (reference "J5") (unit 1) (value "TC2030-IDC") (footprint "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical")
+      (reference "J5") (unit 1) (value "TC2030-IDC") (footprint "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/ea636c85-0f31-4cc7-9c63-123271cbee79"
       (reference "J6") (unit 1) (value "Conn_01x08") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")

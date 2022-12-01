@@ -837,6 +837,22 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
+      (pin passive line (at 12.7 -8.89 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "16" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 12.7 -8.89 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "17" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 12.7 -8.89 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "18" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 12.7 -8.89 180) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "19" (effects (font (size 1.27 1.27))))
+      )
       (pin bidirectional line (at -11.43 2.54 0) (length 2.54)
         (name "A1" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))

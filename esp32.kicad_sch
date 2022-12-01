@@ -2212,7 +2212,7 @@
     (uuid b8a28296-1115-4057-9556-d2cf7d99b384)
     (property "Reference" "J5" (id 0) (at 244.475 127 0))
     (property "Value" "TC2030-IDC" (id 1) (at 244.475 129.54 0))
-    (property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical" (id 2) (at 243.205 139.7 0)
+    (property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical" (id 2) (at 243.205 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 243.205 139.7 0)
