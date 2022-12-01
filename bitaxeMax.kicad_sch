@@ -870,7 +870,7 @@
       (reference "C50") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/c5870637-0523-41e9-874a-71b2f66251ff"
-      (reference "C51") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C51") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/3903062e-17c1-4da6-8131-f9864e0b6c32"
       (reference "C52") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -999,10 +999,10 @@
       (reference "R20") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/b457aa81-3be1-4430-a3ed-234bf5c35fb4"
-      (reference "R21") (unit 1) (value "60") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R21") (unit 1) (value "60.4") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/f4c2e4dc-16ac-49c0-af63-2217c99fadf2"
-      (reference "R22") (unit 1) (value "60") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R22") (unit 1) (value "60.4") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/40b5e4da-b18e-458f-a00a-902f7a18d8e8"
       (reference "R23") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -1011,7 +1011,7 @@
       (reference "R24") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/8f340d23-2454-4e7d-a23f-b33d39f03306"
-      (reference "R25") (unit 1) (value "19.3K") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R25") (unit 1) (value "19.1K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/4baed28b-52fe-44cf-a86f-be57fb762253"
       (reference "R26") (unit 1) (value "100") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -1020,10 +1020,10 @@
       (reference "R27") (unit 1) (value "100") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/0ff5c174-b4d6-4928-b612-43b6f806c2a1"
-      (reference "R28") (unit 1) (value "260") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R28") (unit 1) (value "261") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/55d7d968-c100-4c66-9d2b-9016d06aaded"
-      (reference "R29") (unit 1) (value "260") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R29") (unit 1) (value "261") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/7ae085fb-cfbe-4947-a86b-587ee792e940"
       (reference "R30") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
