@@ -69,9 +69,9 @@
   (pad "4" smd rect (at 1.5621 1.000001) (size 1.1938 0.7112) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 771d931b-e029-49c7-af61-6dbf8780359c))
   (pad "5" smd rect (at 1.5621 0) (size 1.1938 0.7112) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 36b27e7f-72f1-41c7-919e-d77c9037f86f))
   (pad "6" smd rect (at 1.5621 -1.000001) (size 1.1938 0.7112) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 85f42910-7f2d-4df6-b1cd-8e54a41068e0))
-  (model "${KIPRJMOD}/3d/PLCC6_LED_3_5X3_4X2_8_CRW.step"
+  (model "${KIPRJMOD}/3d/Cree_PLCC6.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )
