@@ -1302,6 +1302,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 12a679f1-4313-4ca4-8f1c-e2cb6374b594)
   )
+  (text "The INA260 is currently out of stock everywhere.\nThis part is totally optional, feel free to leave \nit out if you can't source it."
+    (at 45.085 167.005 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 28aacb57-a6fc-43bb-9d91-26d348359559)
+  )
   (text "Power Monitor" (at 63.5 111.76 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 291464d9-ef11-4a98-9bbc-476b98bef6ea)
