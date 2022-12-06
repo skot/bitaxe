@@ -5,7 +5,7 @@ In order to get PCBs made, you usually need to provide them with the following f
 - Gerbers
 - Drill Files
 
-Additionally if you want to have a shop assemble the boards for you, you’ll also need to provide;
+Additionally if you want to have a shop assemble the boards for you (PCBA), you’ll also need to provide;
 
 - Bill of Materials (BOM)
 - Centroid file (XY)
@@ -18,9 +18,9 @@ Gerbers are a set of files in a standard format that allow a PCB manufacturer to
 - Silkscreen Layer
 - Soldermask layer
 - Board outline
-- Drills (Okay, this is actually not a gerber, but your PCB house will definitely need it)
+- Drill files (Okay, this is actually not a gerber, but your PCB house will definitely need it)
 
-Any* PCB CAD software will allow you to generate gerbers. We use [KiCad](https://www.kicad.org) because it is open source, free, and *awesome*. Here is how to generate gerbers in KiCad v6;
+Any worthwhile PCB CAD software will allow you to generate gerbers. We use [KiCad](https://www.kicad.org) because it is open source, free, and *awesome*. Here is how to generate gerbers in KiCad v6;
 
 1. Open up the design in KiCad and switch to the PCB board editor view (ie not the schematic). Some people call this pcbnew.
 2. Choose File → Fabrication Outputs → Gerbers (.gbr)…
