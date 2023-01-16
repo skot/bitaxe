@@ -39,12 +39,12 @@ graph TD
   A[bitaxeMAX] --> B{type of mining ?}
   B-->|node|C(RPC)
   C-->D(getblocktemplate)
-  D-->H(local network\nno DNS request\nIP:PORT enough)
+  D-->H(local network<br>no DNS request<br>IP:PORT enough)
   B-->|pool|E(stratum)
   E-->|v1|F(HTTP/JSON)
-  F-->I(plain text => string manipulation => less embedded friendly\nnot authenticated => not safe\ncompatible with most Pool)
+  F-->I(plain text => string manipulation => less embedded friendly<br>not authenticated => not safe<br>compatible with most Pool)
   E-->|v2|G(Binary/NoiseProtocol)
-  G-->J(binary => embedded friendly\nauthenticated => safe\nDNS request needed\ncompatible with Braiins Pool only\nRust library available)
+  G-->J(binary => embedded friendly<br>authenticated => safe<br>DNS request needed<br>compatible with Braiins Pool only<br>Rust library available)
 ```
 
 ## Hardware
