@@ -37,8 +37,8 @@ bitaxeMAX is **not** a high ROI miner, do not expect any kind of income from it.
 ```mermaid
 graph TD
   A[bitaxeMAX] --> B{type of mining ?}
-  B-->|node|C(RPC)
-  C-->D(getblocktemplate)
+  B-->|node|C(getblocktemplate)
+  C-->D(RPC)
   D-->H(local network<br>no DNS request<br>IP:PORT enough)
   B-->|pool|E(stratum)
   E-->|v1|F(HTTP/JSON)
