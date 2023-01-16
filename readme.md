@@ -1,6 +1,17 @@
-# The bitaxeMax!
+# The bitaxeMax !
 ![bitaxeMax assembled](doc/assembled.png)
 an early-stage experimental bitcoin mining machine. Uses a single Bitmain BM1397 ASIC (chip).
+
+## Goals
+
+bitaxeMAX aims to be a **versatile standalone embedded ASIC BTC miner**.
+
+- **Versatile**: solo/pool mining, autotune power/heat/efficiency.
+- **Standalone**: no external PC or piece of software needed to drive it, fully autonomous.
+- **Embedded**: low cost, low maintenance, high availability, high reliability, low power.
+- **ASIC**: based on very efficient BM1397 from Antminer.
+
+bitaxeMAX is **not** a high ROI miner, do not expect any kind of income from it. It is designed for DIYers to learn about ASIC BTC mining.
 
 ## BM1397
 ![BM1397 pic](doc/BM1397.png)
@@ -16,9 +27,25 @@ an early-stage experimental bitcoin mining machine. Uses a single Bitmain BM1397
 - Choose your BM1397 version: [Guide here](https://d-central.tech/bm1397-ad-ag-ah-ai-antminer-17-series-chip-replacement-guide/)
 - The BM1397 has the same footprint as the BM1387, but a very different pinout.
     - It also has two "Modes" that change some of the signal pins around to make chaining easy
+- The BM1397 is drived by an undocumented protocol over UART. Baudrate is 115200bps by default but can go up to 6Mbps in order to provide mining jobs quickly enough to the ASIC daisy-chain.
 
 ## Current Status
 - Parts and PCBs have arrived and I have assembled two of these! Everything seems to fit. No smoke. Haven't tested mining yet.
+
+## Getting Mining Jobs
+
+```mermaid
+graph TD
+  A[bitaxeMAX] --> B{type of mining ?}
+  B-->|node|C(RPC)
+  C-->D(getblocktemplate)
+  D-->H(local network\nno DNS request\nIP:PORT enough)
+  B-->|pool|E(stratum)
+  E-->|v1|F(HTTP/JSON)
+  F-->I(plain text => string manipulation => less embedded friendly\nnot authenticated => not safe\ncompatible with most Pool)
+  E-->|v2|G(Binary/NoiseProtocol)
+  G-->J(binary => embedded friendly\nauthenticated => safe\nDNS request needed\ncompatible with Braiins Pool only\nRust library available)
+```
 
 ## Hardware
 - [BM1397 from random AliExpress seller](https://www.aliexpress.com/item/3256802274958527.html). I got the "AG" variant. Not really sure what the difference is.
@@ -60,7 +87,7 @@ an early-stage experimental bitcoin mining machine. Uses a single Bitmain BM1397
 | TX        | GPIO3     | BM1397 CI           |
 | RST       | GPIO10    | BM1397 NRSTI        |
 
-## Goals
+## TODO List
 - Develop some firmware for the ESP32 to connect to a stratum server/pool over WiFi and get work for the mining ASIC
     - Firmware should monitor fan speed
     - Firmware should monitor BM1397 core temperature (via NCT218)
