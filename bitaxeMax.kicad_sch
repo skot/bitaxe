@@ -821,6 +821,12 @@
     (path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/384597ad-1777-489b-81b5-40f7cec241e5"
       (reference "C29") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
+    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/1d7cb1fe-4288-4dbe-8ac2-1ba624ca1916"
+      (reference "C30") (unit 1) (value "6.8pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/5d5ced45-9f2b-49b5-b588-8485a9596c77"
+      (reference "C31") (unit 1) (value "6.8pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
     (path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/d8d3c999-e20c-4039-b359-df0c621efeb4"
       (reference "C32") (unit 1) (value "470pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -1174,6 +1180,9 @@
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/eaf2dc6a-3191-4cee-8b43-b668709746d3"
       (reference "U13") (unit 1) (value "CLX6E-FKC") (footprint "bitaxe:CLX6E-FKC-CH1M1D1BB7C3D3")
+    )
+    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/cc8c433b-8d1f-4f53-97a3-355a253383f9"
+      (reference "Y1") (unit 1) (value "32.768kHz") (footprint "bitaxe:SC32S-7PF20PPM")
     )
   )
 )
