@@ -1115,9 +1115,6 @@
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/e87a2da7-959f-48df-b451-d339b8c7ac53"
       (reference "TP19") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
-    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/3ae34400-7a81-4b5b-86f9-d6596e9b4288"
-      (reference "TP20") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/d6b72701-a148-43d8-b1ee-252be8e83095"
       (reference "TP21") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
