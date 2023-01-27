@@ -523,7 +523,7 @@
 
   (sheet (at 82.55 74.93) (size 17.78 26.67) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 255 255 194 1.0000))
     (uuid 4cf9c075-d009-4c35-9949-adda70ae20c7)
     (property "Sheet name" "BM1397" (id 0) (at 82.55 74.2184 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -575,7 +575,7 @@
 
   (sheet (at 145.415 116.205) (size 17.78 18.415) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 255 255 194 1.0000))
     (uuid 8e8832ea-6bf1-49d2-b3a5-32a207f555d2)
     (property "Sheet name" "Fan" (id 0) (at 145.415 115.4934 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -615,7 +615,7 @@
 
   (sheet (at 82.55 49.53) (size 17.145 16.51) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 255 255 194 1.0000))
     (uuid 8ec0a9c6-2b78-44ef-a83d-9047d2828409)
     (property "Sheet name" "Power" (id 0) (at 82.55 48.8184 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -655,7 +655,7 @@
 
   (sheet (at 144.78 74.295) (size 21.59 34.925) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 255 255 194 1.0000))
     (uuid ca857324-2ec8-447e-bd58-90d0c2e6b6d7)
     (property "Sheet name" "ESP32" (id 0) (at 144.78 73.5834 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -918,7 +918,7 @@
       (reference "J3") (unit 1) (value "Conn_01x05") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/89552359-e64c-4ef0-97ec-17f2c49cd40f"
-      (reference "J4") (unit 1) (value "Conn_01x04") (footprint "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical")
+      (reference "J4") (unit 1) (value "Conn_01x04") (footprint "bitaxe:470531000")
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/b8a28296-1115-4057-9556-d2cf7d99b384"
       (reference "J5") (unit 1) (value "TC2030-IDC") (footprint "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")
@@ -1106,6 +1106,12 @@
     (path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/dbe78ea1-de61-4cfe-8d9a-6a7db6a2845a"
       (reference "TP16") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
+    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/e895d0c0-d000-4642-9ffa-fc59a9997882"
+      (reference "TP17") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/8a18f719-7df5-4ac0-8923-6bedc873fdf6"
+      (reference "TP18") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/e87a2da7-959f-48df-b451-d339b8c7ac53"
       (reference "TP19") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
@@ -1114,6 +1120,12 @@
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/d6b72701-a148-43d8-b1ee-252be8e83095"
       (reference "TP21") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/f1210fe1-0ea6-4a4c-afd4-74b6cead2c8b"
+      (reference "TP22") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/8cb98e81-3cc8-4670-b3ca-0aa42588171e"
+      (reference "TP23") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/37c64752-650a-4d2d-82d4-0e2668b6de36"
       (reference "TP24") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
@@ -1141,18 +1153,6 @@
     )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/ca128811-4b64-4ba5-af0d-b7b678e50f94"
       (reference "TP32") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
-    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/8a18f719-7df5-4ac0-8923-6bedc873fdf6"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
-    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/8cb98e81-3cc8-4670-b3ca-0aa42588171e"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
-    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/e895d0c0-d000-4642-9ffa-fc59a9997882"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
-    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/f1210fe1-0ea6-4a4c-afd4-74b6cead2c8b"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/582916fd-dbeb-4918-bbeb-dd83930cba85"
       (reference "U1") (unit 1) (value "25MHz") (footprint "bitaxe:O 25,0-JO32-B-1V3-1-T1-LF")
