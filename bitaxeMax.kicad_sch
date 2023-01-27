@@ -1142,6 +1142,18 @@
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/ca128811-4b64-4ba5-af0d-b7b678e50f94"
       (reference "TP32") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
+    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/8a18f719-7df5-4ac0-8923-6bedc873fdf6"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/8cb98e81-3cc8-4670-b3ca-0aa42588171e"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/e895d0c0-d000-4642-9ffa-fc59a9997882"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/f1210fe1-0ea6-4a4c-afd4-74b6cead2c8b"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/582916fd-dbeb-4918-bbeb-dd83930cba85"
       (reference "U1") (unit 1) (value "25MHz") (footprint "bitaxe:O 25,0-JO32-B-1V3-1-T1-LF")
     )
