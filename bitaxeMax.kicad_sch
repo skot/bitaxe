@@ -932,6 +932,9 @@
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/437529f9-77d5-424e-aabb-8e3e278b8004"
       (reference "J8") (unit 1) (value "Conn_02x06_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical_SMD")
     )
+    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/5303da4c-df6c-44f9-bc9e-5134047f46d1"
+      (reference "J9") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+    )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/19f0a32e-ae99-44fa-81e5-b40e1daaca24"
       (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
@@ -940,6 +943,9 @@
     )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/548c8a3c-3602-4691-842f-e8e32f6352c3"
       (reference "JP3") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm")
+    )
+    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/cff5eef3-607f-40cb-8cdc-8d768d1d2253"
+      (reference "JP4") (unit 1) (value "JTAG Source") (footprint "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm")
     )
     (path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/b6b30125-e7df-4c27-b1cc-077ce9c15368"
       (reference "L1") (unit 1) (value "150nH") (footprint "TPS40305_supply:FP1005R1-R15-R")
