@@ -929,11 +929,11 @@
     (path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/92ec7d58-8004-4a05-be6a-e331f51859e9"
       (reference "J7") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
-    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/437529f9-77d5-424e-aabb-8e3e278b8004"
-      (reference "J8") (unit 1) (value "Conn_02x06_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical_SMD")
-    )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/5303da4c-df6c-44f9-bc9e-5134047f46d1"
       (reference "J9") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+    )
+    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/228245f9-7521-4dc4-9fc6-7452d30289e7"
+      (reference "J10") (unit 1) (value "FTSH-105-01-F-DV-K") (footprint "bitaxe:FTSH-105-01-F-DV-K")
     )
     (path "/4cf9c075-d009-4c35-9949-adda70ae20c7/19f0a32e-ae99-44fa-81e5-b40e1daaca24"
       (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
@@ -1042,24 +1042,6 @@
     )
     (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/55d7d968-c100-4c66-9d2b-9016d06aaded"
       (reference "R29") (unit 1) (value "261") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/7ae085fb-cfbe-4947-a86b-587ee792e940"
-      (reference "R30") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/7b83b26c-df73-497f-a68a-759b241b99e6"
-      (reference "R31") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/71145d46-0771-49c0-9ba0-020bdd749977"
-      (reference "R32") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/91de0707-74a0-4828-b5d5-42b704fa910c"
-      (reference "R33") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/1e42a0a2-1709-4747-b183-8fb154ca3161"
-      (reference "R34") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/02a960a0-1870-4dea-b0be-b6a9f748a42c"
-      (reference "R35") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/1bcfcdba-f6cd-4dd6-9d4a-672b71b4796f"
       (reference "R36") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
