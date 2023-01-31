@@ -10,12 +10,12 @@ bitaxe is the first fully open source hardware Bitcoin ASIC miner.
 - **Open Source**: All design files are provided.
 
 ## Features
-- ESP32-S3-WROOM-1 wifi microcontroller on board
-- TI TPS40305 buck regulator steps down the 5V input to power the BM1397
-- Maxim DS4432U+ current DAC digitally adjusts the BM1397 core voltage from 0.04V to 2.4V
-- TI INA260 power meter measures the input voltage and current of the miner
-- Microchip EMC2101 measures the BM1397 internal diode temperature. Also PWM controls the fan and monitors tach output.
-- Two sweet RGB status LEDs
+- **ESP32-S3-WROOM-1** wifi microcontroller on board
+- **TI TPS40305** buck regulator steps down the 5V input to power the BM1397
+- **Maxim DS4432U+** current DAC digitally adjusts the BM1397 core voltage from 0.04V to 2.4V
+- **TI INA260** power meter measures the input voltage and current of the miner
+- **Microchip EMC2101** measures the BM1397 internal diode temperature. Also PWM controls the fan and monitors tach output.
+- Two **sweet** RGB status LEDs
 
 ## BM1397
 ![BM1397 pic](doc/BM1397.png)
@@ -30,7 +30,7 @@ bitaxe is the first fully open source hardware Bitcoin ASIC miner.
 
 ## Current Status
 - The hardware has been built and tested.
-- Using cgminer on a separate computer, the hardware can mine in excess of 400 GH/s
+- Using cgminer on a separate computer, the bitaxe can mine in excess of 400 GH/s
 - ESP32 miner firmware is still underdevelopment.
 
 
