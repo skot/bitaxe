@@ -1,0 +1,14 @@
+- Get a convection toaster oven. Nothing fancy, it just has a fan inside for more even heating. This is like a $50 Black and Decker kind of thing. Never use this oven for food.
+- Get a thermocouple thermometer. These are $30ish
+- Use Sn63/Pb37 no-clean, leaded, solder paste. I usually get MG Chemicals brand, in a syringe. Keep it in the refrigerator so it's nice and cold before you stencil it. (obvs don't get it near your food). Wash your hands well after.
+- Take your time to get the paste stenciled right. Don't be afraid to wipe it off with IPA and try again. The paste stencils better when it's cold.
+- Use tweezers to put all of the parts on the pasted board.
+- Put the board(s) in the toaster oven. I usually put them right on the wire rack, which is in the metal tray.
+- Put the thermocouple inside the toaster oven. Close the door on the thermocouple wire so that it holds the end right above the PCB, inside the oven.
+- Turn the oven on bake, medium setting.
+- Once the temp gets to 140C, turn down the oven heat and try and keep it at 140-150C for 2 minutes. Open the door a little if it's getting to hot. This is the "Soak" phase
+- After two minutes, turn the heat to high
+- Once the temp reaches 200C start a timer for 30 seconds. Keep the temp between 200 and 220C for this phase. Usually you don't need to do anything. This is the "Reflow" phase. You should see all of the paste melt.
+- After 30 seconds, turn off the toaster oven. open the door.
+- Let the boards cool for a bit in the oven with the door open.
+- Once cool to touch, inspect the boards with a microscope for dry pads and/or bridges. Depending on how well you did with stenciling there may be a few, especially on QFP packages. QFNs sometimes too. Fix these up with paste flux, solder braid and your soldering iron.

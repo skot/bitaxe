@@ -46,6 +46,15 @@ bitaxe is the first fully open source hardware Bitcoin ASIC miner.
 ## Software
 - [ESP-Miner](https://github.com/skot/ESP-Miner) firmware in progress.
 
+## Power Supply Requirements
+- [5VDC Power supply](https://www.amazon.com/BTF-LIGHTING-Plastic-Adapter-Transformer-WS2812B/dp/B01D8FM4N4). Should be capable of over 15W
+    - Needs to connect with [spade-style connectors](https://www.amazon.com/gp/product/B01G4POUAU)
+
+### ESP32 Programming Requirements
+- [ESP-Prog](https://www.digikey.com/en/products/detail/espressif-systems/ESP-PROG/10259352) ESP32 Programmer
+- [TC2030-IDC-NL](https://www.tag-connect.com/product/tc2030-idc-nl) Tag Connect Cable
+- [TC2030-CLIP](https://www.tag-connect.com/product/tc2030-retaining-clip-board-3-pack)
+
 ## Connections
 ![bitaxeMax KiCad render](doc/render.png)
 
@@ -54,3 +63,7 @@ bitaxe is the first fully open source hardware Bitcoin ASIC miner.
 | ----------- | ----------- |
 | +5V      | Main input. This should be 5V, 15W       |
 | GND      | Main input ground      |
+
+## Building
+- Check out [building.md](building.md) for PCB ordering tips
+- Check out [assembly.md](assembly.md) for assembly tips
