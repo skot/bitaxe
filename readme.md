@@ -26,7 +26,7 @@ bitaxe is the first fully open source hardware Bitcoin ASIC miner.
 - Choose your BM1397 version: [Guide here](https://d-central.tech/bm1397-ad-ag-ah-ai-antminer-17-series-chip-replacement-guide/)
 - The BM1397 has the same footprint as the BM1387, but a very different pinout.
     - It also has two "Modes" that change some of the signal pins around to make chaining easy
-- The BM1397 is drived by an undocumented protocol over UART. Baudrate is 115200bps by default but can go up to 6Mbps in order to provide mining jobs quickly enough to the ASIC daisy-chain.
+- The BM1397 is driven by an undocumented protocol over UART. Baudrate is 115200bps by default but can go up to 6Mbps in order to provide mining jobs quickly enough to the ASIC daisy-chain.
 
 ## Current Status
 - The hardware has been built and tested.
