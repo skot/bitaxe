@@ -40,7 +40,7 @@ bitaxe is the first fully open source hardware Bitcoin ASIC miner.
     - Swap this fan with the [Noctua NF-A4x10](https://noctua.at/en/products/fan/nf-a4x10-pwm) 5V 4-Pin fan for a much more pleasant experience.
 - The BM1397 serial port is 1.8V. These pins are broken out, but the main idea is to communicate with the BM1397 from the ESP32
 - Level shifters to interface the 1.8V BM1397 with the 3.3V ESP32. These pins are also broken out.
-- [KiCad 6](https://www.kicad.org) design files
+- [KiCad 7](https://www.kicad.org) design files
 - All of the parts on the board are listed in the KiCad BOM
 
 ## Software
