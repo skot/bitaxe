@@ -4,7 +4,7 @@ bitaxe is the first fully open source hardware Bitcoin ASIC miner.
 
 
 ## This is a fork of the original Bitaxe project from Skot.
-- **CHANGES:**
+**CHANGES:**
 - I have changed a few things on the board design in order to make it cheaper and easier to build and use.
 - **Power connector** power is now delivered trough a generic [barrel jack](https://www.aliexpress.com/item/1005001688314286.html)
 - **JTAG connnector** has been changed for a 2x5 2.54mm pin headers (the smd connector was a bit pricey) [use this cable](https://www.aliexpress.com/item/4000927548547.html)
