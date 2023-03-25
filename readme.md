@@ -11,6 +11,8 @@ bitaxe is the first fully open source hardware Bitcoin ASIC miner.
 - **TC2030 connector**: I have added the 2x3 2.54mm pin headers so you dont need to buy this [cable](https://www.tag-connect.com/product/tc2030-idc-nl) for $30+ but you can use this [cable](https://www.aliexpress.com/item/4000927548547.html)
 - I have also added pin description on the silkscreen for the I2C debug connector
 
+**NOTE:** This has not been tested in real world.
+
 ## Goals
 - **Standalone**: can mine directly to your pool over WiFi. No External computer needed.
 - **Embedded**: low cost, low maintenance, high availability, high reliability, low power.
