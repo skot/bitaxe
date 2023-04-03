@@ -255,10 +255,6 @@
     (effects (font (size 5 5) (thickness 1) bold) (justify left bottom))
     (uuid 65740984-b4b1-4ee3-94a0-449abd771ae0)
   )
-  (text "bitaxeMAX" (at 311.15 252.73 0)
-    (effects (font (size 10 10) (thickness 2) bold italic) (justify left bottom))
-    (uuid d3b9be8e-63b3-4592-a537-0d7bb5e36a10)
-  )
 
   (label "VDD" (at 135.89 101.6 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
