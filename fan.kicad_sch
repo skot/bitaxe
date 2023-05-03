@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "bitaxe, yo!")
+    (date "2023-05-02")
+    (rev "2.3")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 0 6.858 0)

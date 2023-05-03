@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "bitaxe, yo!")
+    (date "2023-05-02")
+    (rev "2.3")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 2.54 0)

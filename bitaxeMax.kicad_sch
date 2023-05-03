@@ -5,9 +5,9 @@
   (paper "A")
 
   (title_block
-    (title "le bitaxeMax")
-    (date "2022-11-08")
-    (rev "2")
+    (title "bitaxe, yo!")
+    (date "2023-05-02")
+    (rev "2.3")
   )
 
   (lib_symbols
@@ -229,11 +229,6 @@
   (wire (pts (xy 99.695 53.34) (xy 107.315 53.34))
     (stroke (width 0) (type default))
     (uuid fb150e19-1ef3-4ea1-8a17-ed02fd7c8667)
-  )
-
-  (text "bitaxe, yo" (at 160.655 186.055 0)
-    (effects (font (size 5 5) (thickness 1) bold) (justify left bottom))
-    (uuid 65740984-b4b1-4ee3-94a0-449abd771ae0)
   )
 
   (label "VDD" (at 135.89 101.6 0) (fields_autoplaced)

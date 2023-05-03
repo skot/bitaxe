@@ -8911,7 +8911,7 @@
   (gr_text "/ 21M" (at 104.55 111.11) (layer "B.SilkS") (tstamp 59704df5-e73b-497c-8438-3b6ff4527e61)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "BM1397 V2.2" (at 82.755 88.692) (layer "B.SilkS") (tstamp 6e1635fa-28be-4fd8-abdb-2932782ea6fd)
+  (gr_text "BM1397 V2.3" (at 82.755 88.692) (layer "B.SilkS") (tstamp 6e1635fa-28be-4fd8-abdb-2932782ea6fd)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "BOOT" (at 113.14 92.111 90) (layer "B.SilkS") (tstamp 6e94cc59-a9b6-46b7-b400-8371ba877825)
