@@ -4528,7 +4528,7 @@
   )
 
   (symbol (lib_name "SolderJumper_2_Open_1") (lib_id "Jumper:SolderJumper_2_Open") (at 115.57 180.975 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board no) (dnp no)
     (uuid f11d1ce1-d8c6-4dcb-bbe2-4827c1b53ed6)
     (property "Reference" "JP5" (at 115.57 183.515 0)
       (effects (font (size 1.27 1.27)))
@@ -4540,6 +4540,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 115.57 180.975 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "T" (at 115.57 180.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3a620f93-be47-4446-8986-79a47758ddb7))
