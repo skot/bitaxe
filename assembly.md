@@ -1,6 +1,9 @@
-- Get a convection toaster oven. Nothing fancy, it just has a fan inside for more even heating. This is like a $50 Black and Decker kind of thing. Never use this oven for food.
+- Get a convection toaster oven. Nothing fancy, it just has a fan inside for more even heating. This is like a $75 Black and Decker kind of thing. Never use this oven for food.
+  - [BLACK+DECKER TO3250XSB 8-Slice Extra Wide Convection Countertop Toaster Oven, Includes Bake Pan, Broil Rack & Toasting Rack, Stainless Steel/Black](https://www.amazon.com/BLACK-DECKER-TO3250XSB-Convection-Countertop/dp/B00LU2I428)
 - Get a thermocouple thermometer. These are $30ish
-- Use Sn63/Pb37 no-clean, leaded, solder paste. I usually get MG Chemicals brand, in a syringe. Keep it in the refrigerator so it's nice and cold before you stencil it. (obvs don't get it near your food). Wash your hands well after.
+  - [Digital 2 Channels K-Type Thermometer w/ 4 Thermocouples (Wired & Stainless Steel), -50~1300°C (-58~2372°F) Handheld Desktop High Temperature Kelvin Scale Dual Measurement Meter Sensor](https://www.amazon.com/Thermometer-Thermocouples-50-1300°C-Temperature-Measurement/dp/B07P8NWH67)
+- Use Sn63/Pb37 no-clean, leaded, solder paste. Keep it in the refrigerator so it's nice and cold before you stencil it. (obvs don't get it near your food). Wash your hands well after.
+  - [Chip Quik SMD291AX50T3 Solder Paste in jar 50g (T3) Sn63/Pb37 no clean](https://www.amazon.com/gp/product/B07BH5LP5G)
 - Take your time to get the paste stenciled right. Don't be afraid to wipe it off with IPA and try again. The paste stencils better when it's cold.
 - Use tweezers to put all of the parts on the pasted board.
 - Put the board(s) in the toaster oven. I usually put them right on the wire rack, which is in the metal tray.
