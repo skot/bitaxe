@@ -5,7 +5,9 @@
 - Use Sn63/Pb37 no-clean, leaded, solder paste. Keep it in the refrigerator so it's nice and cold before you stencil it. (obvs don't get it near your food). Wash your hands well after.
   - [Chip Quik SMD291AX50T3 Solder Paste in jar 50g (T3) Sn63/Pb37 no clean](https://www.amazon.com/gp/product/B07BH5LP5G)
 - Take your time to get the paste stenciled right. Don't be afraid to wipe it off with IPA and try again. The paste stencils better when it's cold.
-- Use tweezers to put all of the parts on the pasted board.
+- Use tweezers to put all of the parts on the pasted board. I like the curved Aven Technik 7-SA Tweezers. I have also been known to wear a dorky magnifier headset.
+  - [Aven 18072ARS 7-SA Style Artis Tweezer, Black with Yellow Print](https://www.amazon.com/Aven-18072ARS-Style-Tweezer-Yellow/dp/B01D4R1OXW)
+  - [Headband Magnifier Hands Free Jeweler Loupe Head Mount Magnifying Headset Visor Double Optical Glass 4 Replaceable Lenses for Reading,Repair(1.5X,2.0X,2.5X,3.5X)](https://www.amazon.com/Headband-Magnifier-Jeweler-Magnifying-Replaceable/dp/B08RYVH7DL)
 - Put the board(s) in the toaster oven. I usually put them right on the wire rack, which is in the metal tray.
 - Put the thermocouple inside the toaster oven. Close the door on the thermocouple wire so that it holds the end right above the PCB, inside the oven.
 - Turn the oven on bake, medium setting.
@@ -15,3 +17,4 @@
 - After 30 seconds, turn off the toaster oven. open the door.
 - Let the boards cool for a bit in the oven with the door open.
 - Once cool to touch, inspect the boards with a microscope for dry pads and/or bridges. Depending on how well you did with stenciling there may be a few, especially on QFP packages. QFNs sometimes too. Fix these up with paste flux, solder braid and your soldering iron.
+- If you have parts on both sides of the board, it's fine to just repeat the steps on the second side. The surface tension of the solder almost always keeps the parts from falling off. When you reflow the second side, make a little stand out of metal to keep the bottom side parts off the wire rack in the toaster oven.
