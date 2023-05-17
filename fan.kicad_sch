@@ -671,6 +671,15 @@
     (uuid fcf421db-2d7c-4f81-9c2a-6f50c059b820)
   )
 
+  (text "For NebulaMiner; optional" (at 45.72 113.665 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 762136c8-39fa-4c78-83d8-f8d0b84c0889)
+  )
+  (text "EMC2101 Controls the fan, and reads the ASIC chip temperature"
+    (at 114.3 63.5 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 92d1bbcf-ce90-4936-bcfe-3e60d679acd4)
+  )
   (text "I2C Address: 0x4C" (at 136.525 89.535 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e8713c99-6ab0-4c50-92f6-a466cf91cfaf)

@@ -1302,6 +1302,11 @@
     (uuid ffc648a3-0643-4a71-83da-4b11a3f85139)
   )
 
+  (text "DS4432U+ Lets us change the TPS40305 voltage over I2C"
+    (at 196.215 141.605 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 05541e83-ed40-4bc3-a1e6-ed0a30bcc452)
+  )
   (text "I2C Address: 0x48" (at 217.17 103.505 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 12a679f1-4313-4ca4-8f1c-e2cb6374b594)
@@ -1314,6 +1319,11 @@
   (text "Power Monitor" (at 63.5 111.76 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 291464d9-ef11-4a98-9bbc-476b98bef6ea)
+  )
+  (text "TPS40305 is a Buck regulator that steps 5V down to around 1.5V for the BM1397"
+    (at 106.045 19.05 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 571660ee-1079-45b0-9d6b-76a5bbad41fc)
   )
   (text "I2C Address: 0x40" (at 60.325 158.75 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
