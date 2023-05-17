@@ -373,7 +373,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 37.465 179.07 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 11b3d4e8-2628-4a40-8ff8-a648827b2eb8)
     (property "Reference" "H3" (at 40.005 177.7999 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -390,9 +390,6 @@
     (property "PARTNO" "https://www.amazon.com/dp/B07MDFS1YS" (at 37.465 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DNP" "T" (at 37.465 179.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (instances
       (project "bitaxeMax"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -403,7 +400,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 37.465 172.72 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e4cf7cf-9964-4d64-80bc-9a8d32a7cbd1)
     (property "Reference" "H2" (at 40.005 171.4499 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -418,9 +415,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "PARTNO" "https://www.amazon.com/dp/B07MDFS1YS" (at 37.465 172.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DNP" "T" (at 37.465 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
@@ -464,7 +458,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 37.465 166.37 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a097db18-83db-4470-ba17-86144dcc33ba)
     (property "Reference" "H1" (at 40.005 165.0999 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -481,9 +475,6 @@
     (property "PARTNO" "https://www.amazon.com/dp/B07MDFS1YS" (at 37.465 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DNP" "T" (at 37.465 166.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (instances
       (project "bitaxeMax"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -494,7 +485,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 63.5 186.055 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab5bb22a-5663-430c-9f9f-42a0a4a983d1)
     (property "Reference" "H6" (at 66.04 184.7849 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -508,9 +499,6 @@
     (property "Datasheet" "~" (at 63.5 186.055 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DNP" "T" (at 63.5 186.055 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (instances
       (project "bitaxeMax"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -521,7 +509,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 63.5 178.435 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bff2ac6a-2ec4-47c3-a5eb-4ce77d0e5ec2)
     (property "Reference" "H5" (at 66.04 177.1649 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -535,9 +523,6 @@
     (property "Datasheet" "~" (at 63.5 178.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DNP" "T" (at 63.5 178.435 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (instances
       (project "bitaxeMax"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -548,7 +533,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 37.465 186.055 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f695d883-8c65-46c1-95e4-8c074a67d8cb)
     (property "Reference" "H4" (at 40.005 184.7849 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -563,9 +548,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "PARTNO" "https://www.amazon.com/dp/B07MDFS1YS" (at 37.465 186.055 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DNP" "T" (at 37.465 186.055 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances

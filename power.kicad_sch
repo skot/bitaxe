@@ -2065,9 +2065,6 @@
     (property "Datasheet" "~" (at 54.102 91.186 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DNP" "T" (at 54.102 91.186 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (pin "1" (uuid 76a927a2-ef32-4aed-a419-a634d406b1fa))
     (pin "2" (uuid 144f75f1-4ef1-4399-9a3d-0543b68eac6a))
     (instances
@@ -2307,7 +2304,7 @@
   )
 
   (symbol (lib_id "Device:R_US") (at 247.015 128.905 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid bcd9a94c-a54a-4739-a1d1-722cdf0dd56b)
     (property "Reference" "R17" (at 248.92 127.6349 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2319,9 +2316,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 247.015 128.905 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DNP" "T" (at 247.015 128.905 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid be52b58e-9953-4821-a2bb-31199b949cb4))
