@@ -1,3 +1,5 @@
+
+## Oven Assembly method
 - Get a convection toaster oven. Nothing fancy, it just has a fan inside for more even heating. Never use this oven for food.
   - [BLACK+DECKER TO3250XSB 8-Slice Extra Wide Convection Countertop Toaster Oven, Includes Bake Pan, Broil Rack & Toasting Rack, Stainless Steel/Black](https://www.amazon.com/BLACK-DECKER-TO3250XSB-Convection-Countertop/dp/B00LU2I428)
 - Get a thermocouple thermometer. Make sure the probe and probe jacket can go to ~300C
@@ -18,3 +20,10 @@
 - Let the boards cool for a bit in the oven with the door open.
 - Once cool to touch, inspect the boards with a microscope for dry pads and/or bridges. Depending on how well you did with stenciling there may be a few, especially on QFP packages. QFNs sometimes too. Fix these up with paste flux, solder braid and your soldering iron.
 - If you have parts on both sides of the board, it's fine to just repeat the steps on the second side. The surface tension of the solder almost always keeps the parts from falling off while they are getting reflowed upside down. When you reflow the second side, make a little stand out of metal to keep the bottom side parts off the wire rack in the toaster oven.
+  
+
+## Hot air Assembly method
+If you are comfortable with a hot air station and soldering iron it's possible to assemble the board with or without a stencil.
+- pre-tin the solder pads with leaded solder (183C melting point). Solder wire or paste whatever is your preference
+- use a good flux such as [Amtech](https://www.amazon.com/NC-559-V2-TF-no-clean-tacky-flux-hand-soldering/dp/B09Y7KF2TM) or similar
+

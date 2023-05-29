@@ -1,8 +1,10 @@
-# The bitaxe
-bitaxe is the first fully open source hardware Bitcoin ASIC miner.
-![bitaxeMax assembled](doc/bitaxe_v2.jpg)
+# The bitaxe w/ Test Socket
+Inspired by the first fully open source hardware Bitcoin ASIC miner.  
+Here is the Test Socket version.
+![bitaxeMax assembled](doc/bitaxe_v2_ts.jpg)
 
 ## Goals
+- **Automated Chip Tester**: to verify the functionality of a chip for hashboard repairs.
 - **Standalone**: can mine directly to your pool over WiFi. No External computer needed.
 - **Embedded**: low cost, low maintenance, high availability, high reliability, low power.
 - **ASIC**: based on the very efficient BM1397 from Bitmain.
@@ -30,25 +32,29 @@ bitaxe is the first fully open source hardware Bitcoin ASIC miner.
 
 ## Current Status
 - The hardware has been built and tested.
-- Using cgminer on a separate computer, the bitaxe can mine in excess of 400 GH/s
+- Using cgminer on a separate computer, the bitaxe can mine in excess of 400 GH/s (will need a 1.8V [FT232](https://www.amazon.com/dp/B094G8NY45) or [FT230](https://www.amazon.com/dp/B076B9YRMP) USB UART adapter and modified [cgminer](https://github.com/skot/cgminer))
 - ESP32 miner firmware is still underdevelopment.
 
 
 ## Hardware
 - [BM1397 from random AliExpress seller](https://www.aliexpress.com/item/3256802274958527.html). I got the "AG" variant. Not really sure what the difference is.
-- [40x40mm heatsink and 5V fan](https://www.aliexpress.com/item/2251832861666365.html) from a random AliExpress seller. At least half of these arrived broken in some way. But they are cheap and the working ones do keep the BM1387's nice and cool when used with some thermal compound.
-    - Swap this fan with the [Noctua NF-A4x10](https://noctua.at/en/products/fan/nf-a4x10-pwm) 5V 4-Pin fan for a much more pleasant experience.
+- Heatsink - SEE BELOW
 - The BM1397 serial port is 1.8V. These pins are broken out, but the main idea is to communicate with the BM1397 from the ESP32
 - Level shifters to interface the 1.8V BM1397 with the 3.3V ESP32. These pins are also broken out.
 - [KiCad 7](https://www.kicad.org) design files
-- All of the parts on the board are listed in the KiCad BOM
+- Most of the parts on the board are listed in the KiCad BOM except the test socket
+
+
+## Test Socket
+- [ASIC chip test base](https://thanosmining.com/products/asic-chip-test-base-bm1397-bm1396-bm1398-bm1362?DIST=Q0dEHQ%3D%3D) from Thanos Mining until another source is located. Note the pin alignments may be different from a different source.
+- A custom heatsink is required, work is underway to produce an as built CAD file from what was created by a machinist.
 
 ## Software
 - [ESP-Miner](https://github.com/skot/ESP-Miner) firmware in progress.
 
 ## Power Supply Requirements
 - [5VDC Power supply](https://www.amazon.com/BTF-LIGHTING-Plastic-Adapter-Transformer-WS2812B/dp/B01D8FM4N4). Should be capable of over 15W
-    - Needs to connect with [spade-style connectors](https://www.amazon.com/gp/product/B01G4POUAU)
+    - Should connect with [spade-style connectors](https://www.amazon.com/gp/product/B01G4POUAU)
 
 ### ESP32 Programming Requirements
 - [ESP-Prog](https://www.digikey.com/en/products/detail/espressif-systems/ESP-PROG/10259352) ESP32 Programmer
