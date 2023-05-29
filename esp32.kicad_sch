@@ -1901,7 +1901,7 @@
   )
 
   (symbol (lib_id "Device:R_US") (at 226.06 95.25 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 14c0f81c-3188-4466-9f0a-12886ec5ac3e)
     (property "Reference" "R18" (at 229.235 94.615 0)
       (effects (font (size 1.27 1.27)))
@@ -2256,7 +2256,7 @@
   )
 
   (symbol (lib_id "Device:R_US") (at 234.315 95.25 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 5789c52b-3609-41e7-be1d-5729b7e77272)
     (property "Reference" "R19" (at 237.49 94.615 0)
       (effects (font (size 1.27 1.27)))
