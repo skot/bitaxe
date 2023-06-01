@@ -1,4 +1,6 @@
-# The bitaxe
+# Closed Source is Antithetical to Bitcoin
+
+# Presenting: The bitaxe
 bitaxe is the first fully open source hardware Bitcoin ASIC miner.
 ![bitaxeMax assembled](doc/bitaxe_v2.jpg)
 
@@ -16,6 +18,7 @@ bitaxe is the first fully open source hardware Bitcoin ASIC miner.
 - **TI INA260** power meter measures the input voltage and current of the miner
 - **Microchip EMC2101** measures the BM1397 internal diode temperature. Also PWM controls the fan and monitors tach output.
 - Two **sweet** RGB status LEDs
+- 0.91" **SSD1306 OLED** I2C Display Module 
 
 ## BM1397
 ![BM1397 pic](doc/BM1397.png)
@@ -29,10 +32,11 @@ bitaxe is the first fully open source hardware Bitcoin ASIC miner.
 - The BM1397 is driven by an undocumented protocol over UART. Baudrate is 115200bps by default but can go up to 6Mbps in order to provide mining jobs quickly enough to the ASIC daisy-chain.
 
 ## Current Status
-- The hardware has been built and tested.
+- v2.2 hardware has been built and tested -- it works!
 - Using cgminer on a separate computer, the bitaxe can mine in excess of 400 GH/s
 - ESP32 miner firmware is still underdevelopment.
-
+    - Recently we have confirmed this is working! But it is not yet optimized. Check out [ESP-Miner](https://github.com/skot/esp-miner/tree/nonce_checking) for the latest. 
+- This is an _advanced_ build! It's also still early days, so prolly not the best thing if you're just looking for a bitcoin miner to run.
 
 ## Hardware
 - [BM1397 from random AliExpress seller](https://www.aliexpress.com/item/3256802274958527.html). I got the "AG" variant. Not really sure what the difference is.
@@ -52,18 +56,21 @@ bitaxe is the first fully open source hardware Bitcoin ASIC miner.
 One of the best ways currently to test a new bitaxe is with a usbserial adapter and cgminer running on a separate computer.
 - You need a basic firmware running on the ESP32 that will power up the ASIC. [ESP-Miner i2c_test](https://github.com/skot/esp-miner/tree/i2c_test) is good for this.
 - You need a **1.8V** ftdi usbserial adapter. there are several on Amazon based on the FT232RL and one called "jim.sh" built on the FT230X
-    - Connect this usbserial adapter to the 1.8V serial debiug header on the bitaxe. It's the one below the heatsink next to the fan connector.
-        - make sure to connect the usbserial adapter `RTS` line to the bitaxe `RST` pin. Yes, that spelling is correct.
-- Download and build the [cgminer-bitaxe](https://github.com/skot/cgminer-bitaxe) fork. It has been modified to look for FT232RL or FT230X usbserial adapters and use the RTS signal for RST. 
+    - Connect the usbserial adapter to the 1.8V serial debug header on the bitaxe. It's the one below the heatsink next to the fan connector.
+        - Make sure to connect the usbserial adapter `RTS` line to the bitaxe `RST` pin. Yes, that spelling is correct.
+- Download and build the [cgminer-bitaxe](https://github.com/skot/cgminer-bitaxe) fork. 
+    - This fork has a modified version of the GekkoScience CompacF driver to look for FT232RL or FT230X usbserial adapters and use the RTS signal for RST. 
 
 ## Power Supply Requirements
 - [5VDC Power supply](https://www.amazon.com/BTF-LIGHTING-Plastic-Adapter-Transformer-WS2812B/dp/B01D8FM4N4). Should be capable of over 15W
     - Needs to connect with [spade-style connectors](https://www.amazon.com/gp/product/B01G4POUAU)
 
 ### ESP32 Programming Requirements
+To program the onboard ESP32, you need the following tools;
 - [ESP-Prog](https://www.digikey.com/en/products/detail/espressif-systems/ESP-PROG/10259352) ESP32 Programmer
 - [TC2030-IDC-NL](https://www.tag-connect.com/product/tc2030-idc-nl) Tag Connect Cable
 - [TC2030-CLIP](https://www.tag-connect.com/product/tc2030-retaining-clip-board-3-pack)
+- This is best done with VSCode and the Espressif plugin
 
 ## Connections
 ![bitaxeMax KiCad render](doc/render.png)
