@@ -45,6 +45,16 @@ bitaxe is the first fully open source hardware Bitcoin ASIC miner.
 
 ## Software
 - [ESP-Miner](https://github.com/skot/ESP-Miner) firmware in progress.
+    - check out the `i2c_test` branch for a basic firmware to init all hardware (besides BM1397)
+    - check out the `nonce_checking` branch for the latest developments in the ESP32 miner
+
+### Testing
+One of the best ways currently to test a new bitaxe is with a usbserial adapter and cgminer running on a separate computer.
+- You need a basic firmware running on the ESP32 that will power up the ASIC. [ESP-Miner i2c_test](https://github.com/skot/esp-miner/tree/i2c_test) is good for this.
+- You need a **1.8V** ftdi usbserial adapter. there are several on Amazon based on the FT232RL and one called "jim.sh" built on the FT230X
+    - Connect this usbserial adapter to the 1.8V serial debiug header on the bitaxe. It's the one below the heatsink next to the fan connector.
+        - make sure to connect the usbserial adapter `RTS` line to the bitaxe `RST` pin. Yes, that spelling is correct.
+- Download and build the [cgminer-bitaxe](https://github.com/skot/cgminer-bitaxe) fork. It has been modified to look for FT232RL or FT230X usbserial adapters and use the RTS signal for RST. 
 
 ## Power Supply Requirements
 - [5VDC Power supply](https://www.amazon.com/BTF-LIGHTING-Plastic-Adapter-Transformer-WS2812B/dp/B01D8FM4N4). Should be capable of over 15W
