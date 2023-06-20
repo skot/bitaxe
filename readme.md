@@ -1,4 +1,7 @@
-# Closed Source is Antithetical to Bitcoin
+```
+Closed Source is Antithetical to Bitcoin
+```
+
 
 # Presenting: The bitaxe
 bitaxe is the first fully open source hardware Bitcoin ASIC miner.
