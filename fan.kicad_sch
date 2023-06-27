@@ -465,9 +465,6 @@
   (junction (at 259.08 111.76) (diameter 0) (color 0 0 0 0)
     (uuid 6c3eac31-00b6-41b7-9a55-41222213f42e)
   )
-  (junction (at 191.77 107.95) (diameter 0) (color 0 0 0 0)
-    (uuid 852dd06d-6608-4be3-b0e9-5f7a1309e3cc)
-  )
   (junction (at 113.665 130.81) (diameter 0) (color 0 0 0 0)
     (uuid 87ef46bd-96ad-44be-955d-f6da0bc07018)
   )
@@ -719,10 +716,6 @@
     (stroke (width 0) (type default))
     (uuid a6664df2-2c7f-4383-864f-c825e1df10bd)
   )
-  (wire (pts (xy 194.31 107.95) (xy 191.77 107.95))
-    (stroke (width 0) (type default))
-    (uuid a900ce98-d535-42d4-a97b-4716508340f6)
-  )
   (wire (pts (xy 259.08 111.76) (xy 259.08 113.665))
     (stroke (width 0) (type default))
     (uuid ac7c986b-412a-4c42-be33-fcae4c5e9853)
@@ -853,11 +846,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9e9b318e-2a32-4ad3-ab59-7bf2d7c2171b)
   )
-  (text "EMC2101 Controls the fan, and reads the ASIC chip temperature"
-    (at 114.3 105.41 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid bb162e50-f810-4b0a-87bd-03c8468a63ef)
-  )
   (text "I2C Address: 0x4C" (at 136.525 89.535 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e8713c99-6ab0-4c50-92f6-a466cf91cfaf)
@@ -983,10 +971,6 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 2518f970-d8af-4fed-99d8-73d36d826f2d)
   )
-  (hierarchical_label "3V3" (shape input) (at 194.31 107.95 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 2e35be47-eab2-4364-94ab-9164b2fe35e3)
-  )
   (hierarchical_label "SDA" (shape input) (at 170.815 117.475 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 4ea56548-c14a-4bd1-a21e-3db69794b267)
@@ -1027,7 +1011,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 276.86 64.77 90) (mirror x) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 06eb653b-c15c-416b-be86-59e88d0695a0)
-    (property "Reference" "TP15" (at 270.51 64.77 90)
+    (property "Reference" "TP12" (at 270.51 64.77 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 271.145 66.0399 90)
@@ -1043,7 +1027,7 @@
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "TP15") (unit 1)
+          (reference "TP12") (unit 1)
         )
       )
     )
@@ -1052,7 +1036,7 @@
   (symbol (lib_id "DayMiner-eagle-import:RESISTOR0402-RES") (at 97.155 113.665 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0bb3c68d-436f-4ed6-bcac-515872107a10)
-    (property "Reference" "R20" (at 95.885 117.345 0)
+    (property "Reference" "R25" (at 95.885 117.345 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "100" (at 101.6 117.345 0)
@@ -1075,7 +1059,7 @@
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "R20") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -1084,7 +1068,7 @@
   (symbol (lib_id "Device:C") (at 191.77 119.38 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12e90d75-95b6-4574-8ac5-be70628b40d7)
-    (property "Reference" "C55" (at 196.215 118.11 0)
+    (property "Reference" "C68" (at 196.215 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "0.1uF" (at 198.12 122.555 0)
@@ -1110,7 +1094,7 @@
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "C55") (unit 1)
+          (reference "C68") (unit 1)
         )
       )
     )
@@ -1119,7 +1103,7 @@
   (symbol (lib_id "Device:R_US") (at 255.27 62.23 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1bcfcdba-f6cd-4dd6-9d4a-672b71b4796f)
-    (property "Reference" "R36" (at 259.08 60.96 0)
+    (property "Reference" "R30" (at 259.08 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.6k" (at 259.08 63.5 0)
@@ -1142,7 +1126,7 @@
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "R36") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -1151,7 +1135,7 @@
   (symbol (lib_id "DayMiner-eagle-import:RESISTOR0402-RES") (at 97.79 111.125 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 249c7544-0fac-4343-af6b-f32124191021)
-    (property "Reference" "R22" (at 93.345 107.95 0)
+    (property "Reference" "R27" (at 93.345 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "100" (at 97.79 107.95 0)
@@ -1174,7 +1158,7 @@
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "R22") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -1183,7 +1167,7 @@
   (symbol (lib_id "dayminer:EMC2101") (at 144.78 120.015 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a66da2a-e040-4721-9762-bd72db664611)
-    (property "Reference" "U4" (at 153.67 111.125 0)
+    (property "Reference" "U10" (at 153.67 111.125 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EMC2101" (at 138.43 111.125 0)
@@ -1212,7 +1196,7 @@
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "U4") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -1221,7 +1205,7 @@
   (symbol (lib_id "Device:C") (at 191.77 77.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2d0f3f1e-319b-4949-afff-d4285e71670d)
-    (property "Reference" "C33" (at 196.215 76.2 0)
+    (property "Reference" "C67" (at 196.215 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "0.1uF" (at 198.12 80.645 0)
@@ -1247,7 +1231,7 @@
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "C33") (unit 1)
+          (reference "C67") (unit 1)
         )
       )
     )
@@ -1256,7 +1240,7 @@
   (symbol (lib_id "Device:C") (at 259.08 75.565 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 384597ad-1777-489b-81b5-40f7cec241e5)
-    (property "Reference" "C29" (at 263.525 74.295 0)
+    (property "Reference" "C71" (at 263.525 74.295 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "0.1uF" (at 265.43 78.74 0)
@@ -1282,7 +1266,7 @@
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "C29") (unit 1)
+          (reference "C71") (unit 1)
         )
       )
     )
@@ -1291,7 +1275,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 252.73 117.475 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47af0dc1-bdac-49f1-ac6e-999f1475ff36)
-    (property "Reference" "C56" (at 245.745 116.205 0)
+    (property "Reference" "C70" (at 245.745 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220uF" (at 243.205 118.745 0)
@@ -1314,7 +1298,7 @@
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "C56") (unit 1)
+          (reference "C70") (unit 1)
         )
       )
     )
@@ -1323,7 +1307,7 @@
   (symbol (lib_id "Device:C") (at 113.665 125.095 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 65328b7a-3b48-4f63-86e0-0da96cee6133)
-    (property "Reference" "C50" (at 113.03 123.19 0)
+    (property "Reference" "C66" (at 113.03 123.19 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "470pF" (at 113.03 128.27 0)
@@ -1346,7 +1330,7 @@
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "C50") (unit 1)
+          (reference "C66") (unit 1)
         )
       )
     )
@@ -1355,7 +1339,7 @@
   (symbol (lib_id "DayMiner-eagle-import:RESISTOR0402-RES") (at 97.79 69.215 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6ebdf47b-3f81-4e3a-bb18-61c1badc2624)
-    (property "Reference" "R8" (at 93.345 66.04 0)
+    (property "Reference" "R26" (at 93.345 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "100" (at 97.79 66.04 0)
@@ -1378,7 +1362,7 @@
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "R8") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -1387,7 +1371,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 291.465 69.85 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 89552359-e64c-4ef0-97ec-17f2c49cd40f)
-    (property "Reference" "J4" (at 291.465 60.325 0)
+    (property "Reference" "J6" (at 291.465 60.325 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x04" (at 291.465 60.325 0)
@@ -1412,7 +1396,7 @@
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "J4") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -1421,7 +1405,7 @@
   (symbol (lib_id "Device:R_US") (at 255.27 104.14 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e2ef631-1a01-46b8-8573-123d3e8bd516)
-    (property "Reference" "R25" (at 259.08 102.87 0)
+    (property "Reference" "R31" (at 259.08 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.6k" (at 259.08 105.41 0)
@@ -1444,7 +1428,7 @@
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "R25") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -1487,7 +1471,7 @@
   (symbol (lib_id "Device:C") (at 259.08 117.475 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a51222ed-6da6-4a80-8ece-e5b50aade384)
-    (property "Reference" "C57" (at 263.525 116.205 0)
+    (property "Reference" "C72" (at 263.525 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "0.1uF" (at 265.43 120.65 0)
@@ -1513,7 +1497,7 @@
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "C57") (unit 1)
+          (reference "C72") (unit 1)
         )
       )
     )
@@ -1522,7 +1506,7 @@
   (symbol (lib_id "Device:R_US") (at 179.07 114.3 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b19bd7f9-e3ab-4377-84a7-bd1b1b546445)
-    (property "Reference" "R24" (at 182.245 113.03 0)
+    (property "Reference" "R29" (at 182.245 113.03 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 182.88 115.57 0)
@@ -1545,7 +1529,7 @@
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "R24") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -1554,7 +1538,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 243.205 109.22 90) (mirror x) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid bfd9951e-a409-4e95-b28e-8390543c24f9)
-    (property "Reference" "TP20" (at 236.855 109.22 90)
+    (property "Reference" "TP11" (at 236.855 109.22 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 237.49 110.4899 90)
@@ -1570,7 +1554,7 @@
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "TP20") (unit 1)
+          (reference "TP11") (unit 1)
         )
       )
     )
@@ -1579,7 +1563,7 @@
   (symbol (lib_id "Device:C") (at 113.665 83.185 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8d3c999-e20c-4039-b359-df0c621efeb4)
-    (property "Reference" "C32" (at 113.03 81.28 0)
+    (property "Reference" "C65" (at 113.03 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "470pF" (at 113.03 86.36 0)
@@ -1602,7 +1586,7 @@
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "C32") (unit 1)
+          (reference "C65") (unit 1)
         )
       )
     )
@@ -1611,7 +1595,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 243.205 67.31 90) (mirror x) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid dbe78ea1-de61-4cfe-8d9a-6a7db6a2845a)
-    (property "Reference" "TP16" (at 236.855 67.31 90)
+    (property "Reference" "TP10" (at 236.855 67.31 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 237.49 68.5799 90)
@@ -1627,7 +1611,7 @@
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "TP16") (unit 1)
+          (reference "TP10") (unit 1)
         )
       )
     )
@@ -1636,7 +1620,7 @@
   (symbol (lib_id "DayMiner-eagle-import:RESISTOR0402-RES") (at 97.155 71.755 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e870a66b-b80d-418b-8f22-61939ccda599)
-    (property "Reference" "R7" (at 95.885 75.435 0)
+    (property "Reference" "R24" (at 95.885 75.435 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "100" (at 101.6 75.435 0)
@@ -1659,7 +1643,7 @@
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "R7") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -1668,7 +1652,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 252.73 75.565 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea238a8f-7ed9-44a5-81a6-863ba1ce82e4)
-    (property "Reference" "C28" (at 245.745 74.295 0)
+    (property "Reference" "C69" (at 245.745 74.295 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220uF" (at 243.205 76.835 0)
@@ -1691,7 +1675,7 @@
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "C28") (unit 1)
+          (reference "C69") (unit 1)
         )
       )
     )
@@ -1700,7 +1684,7 @@
   (symbol (lib_id "Device:R_US") (at 179.07 72.39 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2e7af10-6fc6-4a2c-97e4-ae7d4261ed60)
-    (property "Reference" "R9" (at 182.245 71.12 0)
+    (property "Reference" "R28" (at 182.245 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 182.88 73.66 0)
@@ -1723,7 +1707,7 @@
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "R9") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -1732,7 +1716,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 276.86 106.68 90) (mirror x) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid f75bdc3a-7e15-4d98-bf11-867fdd2a4e3d)
-    (property "Reference" "TP21" (at 270.51 106.68 90)
+    (property "Reference" "TP13" (at 270.51 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 271.145 107.9499 90)
@@ -1748,7 +1732,7 @@
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "TP21") (unit 1)
+          (reference "TP13") (unit 1)
         )
       )
     )
@@ -1757,7 +1741,7 @@
   (symbol (lib_id "dayminer:EMC2101") (at 144.78 78.105 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb04dc24-7397-4d6c-a497-8e47f07f421a)
-    (property "Reference" "U7" (at 153.67 69.215 0)
+    (property "Reference" "U9" (at 153.67 69.215 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EMC2101" (at 138.43 69.215 0)
@@ -1786,7 +1770,7 @@
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "U7") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
