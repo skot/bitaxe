@@ -729,10 +729,6 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 62229c31-0a19-4517-a39d-91313c1f1447)
     )
-    (pin "CLK_TEST" output (at 144.78 86.995 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid da59662b-419b-417e-a8f7-ea6f3ceb7656)
-    )
     (instances
       (project "bitaxeMax"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "3"))
