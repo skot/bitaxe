@@ -2,7 +2,13 @@
 
   (uuid dcd2fc1c-da48-40a9-b97c-5712d9530f4f)
 
-  (paper "A4")
+  (paper "A")
+
+  (title_block
+    (title "le bitaxeUltra")
+    (date "2023-07-10")
+    (rev "0")
+  )
 
   (lib_symbols
     (symbol "CLX6E-FKC_1" (in_bom yes) (on_board yes)
@@ -1912,7 +1918,7 @@
     (pin "1" (uuid 1c3a1d1b-9a5f-457c-9dda-86ca35fd28cc))
     (pin "2" (uuid 01d6f6d8-6565-4266-8415-c84a7626accc))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "R28") (unit 1)
         )
@@ -1941,7 +1947,7 @@
     (pin "1" (uuid 6e571a84-0fe0-43f2-8428-0d277a368cfb))
     (pin "2" (uuid dfd534dd-d6bb-4d59-9267-cb2804b6e674))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "R18") (unit 1)
         )
@@ -1973,7 +1979,7 @@
     (pin "1" (uuid c75e9860-de33-438e-a407-8dad2b0a1b11))
     (pin "2" (uuid dca3ec9d-a2fb-4371-a8a9-5352895b81c6))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "C50") (unit 1)
         )
@@ -2005,7 +2011,7 @@
     (pin "1" (uuid 14958e33-062b-4def-be20-d23187506543))
     (pin "2" (uuid 07eb90a8-60bf-4560-891b-866efa73ea55))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "C30") (unit 1)
         )
@@ -2045,7 +2051,7 @@
     (pin "8" (uuid 5485409f-e518-445c-9439-5acbbd40c057))
     (pin "9" (uuid 2d4c0b92-d1c0-4e1d-87a8-def67f27efa2))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "J10") (unit 1)
         )
@@ -2070,7 +2076,7 @@
     )
     (pin "1" (uuid 6c80949f-7252-44eb-b8dd-4c384fb69d3e))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "TP27") (unit 1)
         )
@@ -2095,7 +2101,7 @@
     )
     (pin "1" (uuid 862fb296-b799-4c1e-81b6-5123b5e2eb1d))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "TP29") (unit 1)
         )
@@ -2131,7 +2137,7 @@
     (pin "5" (uuid 724f9ff7-69cc-42ce-b5ff-3b321fd6a831))
     (pin "6" (uuid 32ecd13a-b64e-430d-ae35-a0a0de0be2de))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "U4") (unit 1)
         )
@@ -2163,7 +2169,7 @@
     (pin "1" (uuid 6bf047b0-1801-4321-a107-8a905138f5c8))
     (pin "2" (uuid 27146afd-63e0-4d93-bc6a-579e961327c9))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "C52") (unit 1)
         )
@@ -2195,7 +2201,7 @@
     (pin "1" (uuid 3f09a8c7-42d5-4099-9cdb-fbb1106914fd))
     (pin "2" (uuid ce7cbed7-8b54-4230-bb44-770f2644062b))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "R26") (unit 1)
         )
@@ -2223,7 +2229,7 @@
     (pin "3" (uuid e139c2da-5494-4120-9962-b7daed5932e3))
     (pin "4" (uuid c6b24230-6b57-4608-9ab5-22ce3a38045b))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "J9") (unit 1)
         )
@@ -2255,38 +2261,9 @@
     (pin "1" (uuid 686e1bb4-9235-44e4-a39c-14055f689e82))
     (pin "2" (uuid 350e8498-fcee-4a41-ba79-5bbbe7aac2c6))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "R29") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_US") (at 234.315 95.25 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
-    (uuid 5789c52b-3609-41e7-be1d-5729b7e77272)
-    (property "Reference" "R19" (at 237.49 94.615 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1k" (at 238.125 97.155 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 233.299 94.996 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 234.315 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DK" "" (at 234.315 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cb3f1451-fe5a-4c40-8326-883f89d83c5f))
-    (pin "2" (uuid 6d161729-9d7f-41ce-a4c1-8488d6014dc7))
-    (instances
-      (project "bitaxeMax"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-          (reference "R19") (unit 1)
         )
       )
     )
@@ -2316,7 +2293,7 @@
     (pin "1" (uuid 80925e83-e06c-41c9-b3d5-a4a859c67b3b))
     (pin "2" (uuid d8e78b63-48ea-4ab4-9e91-2ee4332da99e))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "C31") (unit 1)
         )
@@ -2350,7 +2327,7 @@
     (pin "3" (uuid 8490b48f-60a3-42f7-8628-8de5e57a9c4a))
     (pin "5" (uuid a5d484fa-3d95-4ce0-aea9-e4f34c867a4e))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "U11") (unit 1)
         )
@@ -2375,7 +2352,7 @@
     )
     (pin "1" (uuid bdb86906-10fa-4758-b254-4e96569f468e))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "TP30") (unit 1)
         )
@@ -2400,7 +2377,7 @@
     )
     (pin "1" (uuid 9e8b4eb4-74dc-4db3-83bf-53bc92676456))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "TP31") (unit 1)
         )
@@ -2432,7 +2409,7 @@
     (pin "1" (uuid 62e5f768-9992-4cd7-be49-0b3b446cccb9))
     (pin "2" (uuid e7d28050-72f4-45eb-a015-a4f3ee142e6a))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "R27") (unit 1)
         )
@@ -2457,7 +2434,7 @@
     )
     (pin "1" (uuid 573ef469-b4d6-43d4-afbc-d0950e066836))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "TP18") (unit 1)
         )
@@ -2482,7 +2459,7 @@
     )
     (pin "1" (uuid 6b292727-4f70-4d8f-96f5-efa0c938a0c4))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "TP23") (unit 1)
         )
@@ -2507,7 +2484,7 @@
     )
     (pin "1" (uuid 42d62c44-37eb-489a-bad4-7db76f46b082))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "TP28") (unit 1)
         )
@@ -2532,7 +2509,7 @@
     )
     (pin "1" (uuid 1c5cf85d-e03b-4f35-aed0-b414693672ca))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "TP25") (unit 1)
         )
@@ -2564,7 +2541,7 @@
     (pin "1" (uuid d85063b1-5901-451d-9353-b7b93413a2ac))
     (pin "2" (uuid 69f2f625-4dae-4d26-8f18-a97ae381b9d5))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "R20") (unit 1)
         )
@@ -2596,7 +2573,7 @@
     (pin "1" (uuid dcdd7ff8-0f3e-4494-8520-72cf1184eaab))
     (pin "2" (uuid 8f0f2b8d-8f85-4662-9aa4-359cadeaf817))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "R21") (unit 1)
         )
@@ -2626,7 +2603,7 @@
     (pin "5" (uuid a06a1aae-d2bd-48be-b952-dc050c8f91cc))
     (pin "6" (uuid 67e9134a-6763-459b-a624-ccf7f5d5d423))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "J5") (unit 1)
         )
@@ -2658,7 +2635,7 @@
     (pin "1" (uuid a7f00382-3d01-4650-a27b-aab15191c84d))
     (pin "2" (uuid f378a78f-1bd4-4e35-9e47-8efd6355c982))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "C49") (unit 1)
         )
@@ -2690,7 +2667,7 @@
     (pin "1" (uuid 00488e55-1697-4ef6-99d0-c057db81ada9))
     (pin "2" (uuid caf7a1a4-9e58-416f-b06d-4e036c024c54))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "C51") (unit 1)
         )
@@ -2715,7 +2692,7 @@
     )
     (pin "1" (uuid 8433699d-a17d-4780-8ee8-d1a237bb99c1))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "TP26") (unit 1)
         )
@@ -2747,7 +2724,7 @@
     (pin "1" (uuid d8649492-0bdb-4e8b-9172-573d3fdab4f4))
     (pin "2" (uuid fe96bdb7-8039-4c7d-b6b6-3e18d09cafa9))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "Y1") (unit 1)
         )
@@ -2774,7 +2751,7 @@
     (pin "2" (uuid 3e90b9ea-8e0f-41eb-a489-6ff7ee8a4577))
     (pin "3" (uuid 8bacbfec-2f80-4218-acaa-50473db7c8d7))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "JP4") (unit 1)
         )
@@ -2799,7 +2776,7 @@
     )
     (pin "1" (uuid f7b07cb2-1eb0-44e0-849e-d7789c65aa2a))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "TP21") (unit 1)
         )
@@ -2824,7 +2801,7 @@
     )
     (pin "1" (uuid 249d2dfe-ad91-487e-8958-b62eb119fb08))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "TP19") (unit 1)
         )
@@ -2849,7 +2826,7 @@
     )
     (pin "1" (uuid 5bde86c6-e0c3-47b0-bbf9-bccf284ddd8a))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "TP17") (unit 1)
         )
@@ -2881,7 +2858,7 @@
     (pin "7" (uuid ec6c82f3-a0e9-4edd-aa3f-f30f9122914d))
     (pin "8" (uuid ef5767dc-ed60-457e-a17e-c77be3d78f7c))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "J6") (unit 1)
         )
@@ -2917,7 +2894,7 @@
     (pin "5" (uuid 714e6cab-c590-44eb-8124-ee2774dcbdbe))
     (pin "6" (uuid 9fe1cda1-f5e5-495f-8421-0505b404e812))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "U13") (unit 1)
         )
@@ -2942,7 +2919,7 @@
     )
     (pin "1" (uuid 1f34e96e-bafc-429c-9955-bc361fc4acdc))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "TP22") (unit 1)
         )
@@ -2974,7 +2951,7 @@
     (pin "1" (uuid 50c3e3c7-9453-4b37-984d-c414860a4241))
     (pin "2" (uuid 44a0bcf2-8ef3-41a9-8842-e863cb8074b0))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "C27") (unit 1)
         )
@@ -3006,7 +2983,7 @@
     (pin "1" (uuid a2d77051-09b5-4a05-bf7a-30cc4d7c57d8))
     (pin "2" (uuid 67b87eea-e703-49b5-b65c-3c15a9617fc5))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "R22") (unit 1)
         )
@@ -3077,7 +3054,7 @@
     (pin "8" (uuid 94ebb7e8-8f12-433f-9e36-a03b3ada0d07))
     (pin "9" (uuid 0d9fd7ab-c44b-479d-b15a-5eb7e238b019))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "U12") (unit 1)
         )

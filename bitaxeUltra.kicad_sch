@@ -5,9 +5,9 @@
   (paper "A")
 
   (title_block
-    (title "le bitaxeMax")
-    (date "2022-11-08")
-    (rev "2")
+    (title "le bitaxeUltra")
+    (date "2023-07-10")
+    (rev "0")
   )
 
   (lib_symbols
@@ -364,7 +364,7 @@
     )
     (pin "1" (uuid 4984b62d-8332-4a09-977f-123023f049ba))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J1") (unit 1)
         )
@@ -391,7 +391,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H3") (unit 1)
         )
@@ -418,7 +418,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H2") (unit 1)
         )
@@ -449,7 +449,7 @@
     )
     (pin "1" (uuid f5569a1c-b94a-472a-8536-70db3c61eaaa))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J2") (unit 1)
         )
@@ -476,7 +476,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H1") (unit 1)
         )
@@ -500,7 +500,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H6") (unit 1)
         )
@@ -524,7 +524,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H5") (unit 1)
         )
@@ -551,7 +551,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H4") (unit 1)
         )
@@ -563,10 +563,10 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 255 255 194 1.0000))
     (uuid 4cf9c075-d009-4c35-9949-adda70ae20c7)
-    (property "Sheetname" "BM1397" (at 82.55 74.2184 0)
+    (property "Sheetname" "BM1366" (at 82.55 74.2184 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "bm1397.kicad_sch" (at 82.55 102.1846 0)
+    (property "Sheetfile" "bm1366.kicad_sch" (at 82.55 102.1846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "TX" input (at 100.33 81.915 0)
@@ -610,7 +610,7 @@
       (uuid 746a60e5-2c5b-489f-bdee-b8c1d246af1a)
     )
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "4"))
       )
     )
@@ -655,7 +655,7 @@
       (uuid bd400dac-fa49-4fe4-a836-d4296963da31)
     )
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "5"))
       )
     )
@@ -700,7 +700,7 @@
       (uuid 31e2def0-a6e4-410f-9883-8adb3501ac6b)
     )
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "2"))
       )
     )
@@ -765,7 +765,7 @@
       (uuid 5661c07e-fbdf-4c99-a7a6-3ce8e5efce89)
     )
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "3"))
       )
     )
