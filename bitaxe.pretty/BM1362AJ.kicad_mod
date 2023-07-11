@@ -65,7 +65,7 @@
     (thermal_bridge_angle 45) (tstamp ce76a842-b639-4410-828f-372f336fb835))
   (pad "24" smd rect (at 3.9305 -3.4925 90) (size 0.262 1.1) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp 7540d85e-c811-4cfa-a176-b3ac344a4dae))
-  (pad "25" smd custom (at -3.08 -4) (size 0 0) (layers "F.Cu" "F.Paste" "F.Mask")
+  (pad "25" smd custom (at 3.11 4.02 180) (size 0.001 0.001) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45)
     (options (clearance outline) (anchor rect))
     (primitives
@@ -82,21 +82,6 @@
         )
         (width 0.001) (fill yes))
     ) (tstamp ec9fb5d9-e741-414e-8cd0-02f9b9455e6a))
-  (pad "26" smd custom (at -3.09 -0.19) (size 0.001 0.001) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45)
-    (options (clearance outline) (anchor rect))
-    (primitives
-      (gr_poly
-        (pts
-          (xy 0 0)
-          (xy 0 4.19)
-          (xy 6.19 4.19)
-          (xy 6.19 0)
-          (xy 5.83 0)
-          (xy 5.83 2.402)
-          (xy 0.36 2.402)
-          (xy 0.36 0)
-        )
-        (width 0.001) (fill yes))
-    ) (tstamp 83b7c0c8-6a5b-46db-8b4e-186ede7cd6b3))
+  (pad "26" smd rect (at 0 -3.12) (size 6.19 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45) (tstamp 83b7c0c8-6a5b-46db-8b4e-186ede7cd6b3))
 )
