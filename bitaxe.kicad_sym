@@ -217,7 +217,7 @@
         (name "MODE_0" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 17.78 -5.08 180) (length 2.54)
+      (pin input line (at 17.78 -5.08 180) (length 2.54)
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
