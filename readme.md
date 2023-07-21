@@ -29,7 +29,7 @@ bitaxe is the first fully open source hardware Bitcoin ASIC miner.
 - The BM1366 appears to roll more than just the nonce on the chip. This is great news, because it allows much longer serial chains of ASICs and new work doesn't need to be sent as often.
 
 ## Current Status
-- v1 hadware has been built, and it does not catch on fire! We even have a response from the BM1366AG over serial.
+- v1 hardware has been built, and it does not catch on fire! We even have a response from the BM1366AG over serial.
 - This is an _advanced_ build! It's also still early days, so prolly not the best thing if you're just looking for a bitcoin miner to run.
 
 ## Hardware
