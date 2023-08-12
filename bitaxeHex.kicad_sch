@@ -3025,7 +3025,7 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 255 255 194 1.0000))
     (uuid 831c2d7c-1b0c-48f0-8d88-f1b4f08c2544)
-    (property "Sheetname" "BM1398-2" (at 154.94 66.675 0)
+    (property "Sheetname" "BM1397-2" (at 154.94 66.675 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "bm1397-2.kicad_sch" (at 151.13 103.4546 0)
