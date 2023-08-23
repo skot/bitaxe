@@ -1,9 +1,9 @@
 ```
 Closed Source is Antithetical to Bitcoin
 ```
-# Presenting: The bitaxe_Ultra_
-bitaxe is the first fully open source hardware Bitcoin ASIC miner.
-![bitaxeMax assembled](doc/built.png)
+# The bitaxeUltra
+bitaxe is the first fully open source hardware Bitcoin ASIC miner. Ultra is the 3rd major revision that now includes the BM1366 ASIC from the S19XP
+![bitaxeUltra assembled](doc/built.png)
 
 ## Goals
 - **Standalone**: can mine directly to your pool over WiFi. No External computer needed.
@@ -29,7 +29,8 @@ bitaxe is the first fully open source hardware Bitcoin ASIC miner.
 - The BM1366 appears to roll more than just the nonce on the chip. This is great news, because it allows much longer serial chains of ASICs and new work doesn't need to be sent as often.
 
 ## Current Status
-- v1 hardware has been built, and it does not catch on fire! We even have a response from the BM1366AG over serial.
+![bitaxeUltra running](doc/ultra_running.png)
+- v1 hardware has been built, and it does mine! Quite well actually. Be sure to check the [issues](https://github.com/skot/bitaxe/issues) for known bugs, reworks and errata.
 - This is an _advanced_ build! It's also still early days, so prolly not the best thing if you're just looking for a bitcoin miner to run.
 
 ## Hardware
@@ -42,12 +43,13 @@ bitaxe is the first fully open source hardware Bitcoin ASIC miner.
 - All of the parts on the board are listed in the KiCad BOM
 
 ## Software
-- The [ESP-Miner](https://github.com/skot/ESP-Miner) firmware used for the BM1397-based bitaxe has not yet been adapted for the BM1366.
-- If you have some insight on the BM1366 protocol, please get in touch.
+- The [ESP-Miner](https://github.com/skot/ESP-Miner) firmware used for the BM1397-based bitaxe has been adapted for the BM1366 and the current main branch can support both.
+- There is still work to be done on reverse engineering the BM1366 register map. If you can help, get in touch! 
 
 
 ## Power Supply Requirements
 - [5VDC Power supply](https://www.amazon.com/BTF-LIGHTING-Plastic-Adapter-Transformer-WS2812B/dp/B01D8FM4N4). Should be capable of over 15W
+    - **DO NOT** use the BS barrel to screw terminal adapter that comes with some of these power supplies. They have horrible series resistance and your bitaxe will not be happy!
     - Needs to connect with [spade-style connectors](https://www.amazon.com/gp/product/B01G4POUAU)
 
 ### ESP32 Programming Requirements
