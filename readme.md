@@ -2,7 +2,7 @@
 Closed Source is Antithetical to Bitcoin
 ```
 # The bitaxeUltra
-bitaxe is the first fully open source hardware Bitcoin ASIC miner. Ultra is the 3rd major revision that now includes the BM1366 ASIC from the S19XP
+bitaxe is a fully open source hardware Bitcoin ASIC miner. Ultra is the 3rd major revision of the bitaxe that now includes the BM1366 ASIC from the S19XP
 ![bitaxeUltra assembled](doc/built.png)
 
 ## Goals
