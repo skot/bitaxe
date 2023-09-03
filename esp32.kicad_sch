@@ -5,7 +5,7 @@
   (paper "A")
 
   (title_block
-    (title "le bitaxeUltra")
+    (title "le bitaxeTTGO")
     (date "2023-07-10")
     (rev "0")
   )
@@ -1580,7 +1580,7 @@
     (pin "1" (uuid a2e670ef-266c-4b62-ad38-e959efbf2836))
     (pin "2" (uuid e86f54bb-ada3-4c5a-820a-7aff2ca21ecc))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "C21") (unit 1)
         )
@@ -1612,7 +1612,7 @@
     (pin "1" (uuid 14958e33-062b-4def-be20-d23187506543))
     (pin "2" (uuid 07eb90a8-60bf-4560-891b-866efa73ea55))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "C30") (unit 1)
         )
@@ -1644,7 +1644,7 @@
     (pin "1" (uuid 6bf047b0-1801-4321-a107-8a905138f5c8))
     (pin "2" (uuid 27146afd-63e0-4d93-bc6a-579e961327c9))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "C52") (unit 1)
         )
@@ -1672,7 +1672,7 @@
     (pin "3" (uuid e139c2da-5494-4120-9962-b7daed5932e3))
     (pin "4" (uuid c6b24230-6b57-4608-9ab5-22ce3a38045b))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "J9") (unit 1)
         )
@@ -1704,7 +1704,7 @@
     (pin "1" (uuid 8804aa22-b898-47fd-9d37-81c9b83f82a0))
     (pin "2" (uuid 7f1b3121-c967-4ba3-a978-9868102292b9))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "SW2") (unit 1)
         )
@@ -1743,7 +1743,7 @@
     (pin "8" (uuid 7bdc119d-835c-49df-b641-e28a0589c9e0))
     (pin "9" (uuid a0bdebe5-108c-47bd-b3b8-9afbf7e25bae))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "USB1") (unit 1)
         )
@@ -1775,7 +1775,7 @@
     (pin "1" (uuid 80925e83-e06c-41c9-b3d5-a4a859c67b3b))
     (pin "2" (uuid d8e78b63-48ea-4ab4-9e91-2ee4332da99e))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "C31") (unit 1)
         )
@@ -1809,7 +1809,7 @@
     (pin "3" (uuid 8490b48f-60a3-42f7-8628-8de5e57a9c4a))
     (pin "5" (uuid a5d484fa-3d95-4ce0-aea9-e4f34c867a4e))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "U11") (unit 1)
         )
@@ -1834,7 +1834,7 @@
     )
     (pin "1" (uuid 9e8b4eb4-74dc-4db3-83bf-53bc92676456))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "TP31") (unit 1)
         )
@@ -1859,7 +1859,7 @@
     )
     (pin "1" (uuid 573ef469-b4d6-43d4-afbc-d0950e066836))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "TP18") (unit 1)
         )
@@ -1884,7 +1884,7 @@
     )
     (pin "1" (uuid 6b292727-4f70-4d8f-96f5-efa0c938a0c4))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "TP23") (unit 1)
         )
@@ -1916,7 +1916,7 @@
     (pin "1" (uuid 8a371615-a057-49b8-aa5f-f69351413816))
     (pin "2" (uuid 8f622bbf-2ba6-491c-b755-1a4ab1415165))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "R1") (unit 1)
         )
@@ -1948,7 +1948,7 @@
     (pin "1" (uuid b90647d3-2628-479f-b7ce-19df3e73b37a))
     (pin "2" (uuid fcbeb4a7-b330-4f35-91c7-72677e015e4a))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "D1") (unit 1)
         )
@@ -1978,7 +1978,7 @@
     (pin "5" (uuid a06a1aae-d2bd-48be-b952-dc050c8f91cc))
     (pin "6" (uuid 67e9134a-6763-459b-a624-ccf7f5d5d423))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "J5") (unit 1)
         )
@@ -2010,7 +2010,7 @@
     (pin "1" (uuid a7f00382-3d01-4650-a27b-aab15191c84d))
     (pin "2" (uuid f378a78f-1bd4-4e35-9e47-8efd6355c982))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "C49") (unit 1)
         )
@@ -2042,7 +2042,7 @@
     (pin "1" (uuid 00488e55-1697-4ef6-99d0-c057db81ada9))
     (pin "2" (uuid caf7a1a4-9e58-416f-b06d-4e036c024c54))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "C51") (unit 1)
         )
@@ -2074,7 +2074,7 @@
     (pin "1" (uuid d8649492-0bdb-4e8b-9172-573d3fdab4f4))
     (pin "2" (uuid fe96bdb7-8039-4c7d-b6b6-3e18d09cafa9))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "Y1") (unit 1)
         )
@@ -2099,7 +2099,7 @@
     )
     (pin "1" (uuid 249d2dfe-ad91-487e-8958-b62eb119fb08))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "TP19") (unit 1)
         )
@@ -2124,7 +2124,7 @@
     )
     (pin "1" (uuid 5bde86c6-e0c3-47b0-bbf9-bccf284ddd8a))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "TP17") (unit 1)
         )
@@ -2155,7 +2155,7 @@
     (pin "6" (uuid e672c72a-09dd-428b-9029-0358c67b2dd0))
     (pin "7" (uuid ec6c82f3-a0e9-4edd-aa3f-f30f9122914d))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "J6") (unit 1)
         )
@@ -2180,7 +2180,7 @@
     )
     (pin "1" (uuid 1f34e96e-bafc-429c-9955-bc361fc4acdc))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "TP22") (unit 1)
         )
@@ -2212,7 +2212,7 @@
     (pin "1" (uuid 50c3e3c7-9453-4b37-984d-c414860a4241))
     (pin "2" (uuid 44a0bcf2-8ef3-41a9-8842-e863cb8074b0))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "C27") (unit 1)
         )
@@ -2283,7 +2283,7 @@
     (pin "8" (uuid 94ebb7e8-8f12-433f-9e36-a03b3ada0d07))
     (pin "9" (uuid 0d9fd7ab-c44b-479d-b15a-5eb7e238b019))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "U12") (unit 1)
         )
@@ -2315,7 +2315,7 @@
     (pin "1" (uuid b89f0a20-d736-468c-bff6-857dae3287c2))
     (pin "2" (uuid 3103e5e6-499b-442e-b620-dae158643a92))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "SW1") (unit 1)
         )
