@@ -2191,7 +2191,7 @@
   (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0") (at 256.54 60.325 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7fb21b3-a789-42b3-9511-5aefd9fdeef8)
-    (property "Reference" "J?" (at 266.7 41.275 0)
+    (property "Reference" "J8" (at 266.7 41.275 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "USB_C_Receptacle_USB2.0" (at 237.49 41.275 0)
@@ -2223,7 +2223,7 @@
     (instances
       (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-          (reference "J?") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
