@@ -56,10 +56,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_edge_clearance|77189000|87496615|f7b225a8-1a30-4385-af28-27306407650f|391c3d07-931f-4d2e-a809-56975caf8278",
-        "track_dangling|129500000|58355000|b92bf38c-617e-4a1b-b089-9fcbf7a1c9aa|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -120,7 +117,7 @@
         "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
-        "min_hole_clearance": 0.15,
+        "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
