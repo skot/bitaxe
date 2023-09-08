@@ -2194,7 +2194,7 @@
     (property "Datasheet" "https://gct.co/connector/usb4105" (at 234.315 69.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DK" "https://www.digikey.com/en/products/detail/gct/USB4105-GF-A/11198441" (at 238.125 69.215 0)
+    (property "DK" "2073-USB4105-GF-ACT-ND" (at 238.125 69.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "A1" (uuid 62a34c2c-ae8b-454b-ac95-eec995bb0d57))
