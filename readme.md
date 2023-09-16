@@ -1,7 +1,7 @@
 ```
 Closed Source is Antithetical to Bitcoin
 ```
-# Presenting: The bitaxe
+# Presenting: [The bitaxe](https://bitaxe.org)
 bitaxe is a fully open source hardware Bitcoin ASIC miner.
 ![bitaxeMax assembled](doc/bitaxe_v2.jpg)
 
