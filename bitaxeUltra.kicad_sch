@@ -556,6 +556,30 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:Fiducial") (at 109.855 177.8 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 226f8b0a-c778-48c6-b7b8-bc48760364ad)
+    (property "Reference" "FID6" (at 113.03 177.165 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (at 113.03 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (at 109.855 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 109.855 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "bitaxeUltra"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "FID6") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 37.465 154.94 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 59c27c33-b129-49be-9ee9-fb57c68083b4)
@@ -605,6 +629,54 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:Fiducial") (at 109.855 188.595 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8a3b8f25-758d-4f64-b405-452b5f1c3e1f)
+    (property "Reference" "FID8" (at 113.03 187.96 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (at 113.03 190.5 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (at 109.855 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 109.855 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "bitaxeUltra"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "FID8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:Fiducial") (at 109.855 172.085 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8b790f99-5ac1-41bb-a94f-d1372278739b)
+    (property "Reference" "FID5" (at 113.03 171.45 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (at 113.03 173.99 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (at 109.855 172.085 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 109.855 172.085 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "bitaxeUltra"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "FID5") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Mechanical:MountingHole") (at 63.5 186.055 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab5bb22a-5663-430c-9f9f-42a0a4a983d1)
@@ -624,6 +696,30 @@
       (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:Fiducial") (at 109.855 182.88 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b1efafb1-faad-4b62-862c-ba8dab7b6227)
+    (property "Reference" "FID7" (at 113.03 182.245 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (at 113.03 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (at 109.855 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 109.855 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "bitaxeUltra"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "FID7") (unit 1)
         )
       )
     )
