@@ -1979,7 +1979,7 @@
   )
 
   (symbol (lib_id "bitaxe:176x320_st7789") (at 182.88 4.445 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 8b198b33-a5c6-4902-a836-24aa9cdfea6c)
     (property "Reference" "U3" (at 220.345 -13.335 0)
       (effects (font (size 1.524 1.524)) (justify left))
