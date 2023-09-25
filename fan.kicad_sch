@@ -2,7 +2,13 @@
 
   (uuid e3011397-6e70-47ae-93ca-7e99c3d9ef05)
 
-  (paper "A4")
+  (paper "A")
+
+  (title_block
+    (title "le bitaxeTTGO")
+    (date "2023-07-10")
+    (rev "0")
+  )
 
   (lib_symbols
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
@@ -453,9 +459,6 @@
   (junction (at 113.665 78.105) (diameter 0) (color 0 0 0 0)
     (uuid 16b23821-7d6b-487b-8ca1-9e26088410c1)
   )
-  (junction (at 74.295 108.585) (diameter 0) (color 0 0 0 0)
-    (uuid 23afe978-f5cf-4f6b-8985-26b74419e8fe)
-  )
   (junction (at 191.77 66.04) (diameter 0) (color 0 0 0 0)
     (uuid 36098384-a65d-46b5-bc4f-e2e32971eae4)
   )
@@ -526,10 +529,6 @@
     (stroke (width 0) (type default))
     (uuid 3d767762-78e5-4a51-a409-b2755dbefa8f)
   )
-  (wire (pts (xy 147.32 99.06) (xy 147.32 102.235))
-    (stroke (width 0) (type default))
-    (uuid 3fa2ca25-04a2-4c69-84e9-517e1d8eda28)
-  )
   (wire (pts (xy 157.48 75.565) (xy 170.815 75.565))
     (stroke (width 0) (type default))
     (uuid 42db09df-c353-4633-a6e0-ba0aa8bd35b9)
@@ -566,10 +565,6 @@
     (stroke (width 0) (type default))
     (uuid 72e81bab-498b-4535-8d4a-2073ba8d694a)
   )
-  (wire (pts (xy 74.295 105.41) (xy 74.295 108.585))
-    (stroke (width 0) (type default))
-    (uuid 8a4c4c03-ca3f-4ee5-95fa-a572e0e5cbc7)
-  )
   (wire (pts (xy 191.77 66.04) (xy 191.77 73.66))
     (stroke (width 0) (type default))
     (uuid 8a847dd2-01e8-421f-84b3-b8dc6a1fe296)
@@ -594,10 +589,6 @@
     (stroke (width 0) (type default))
     (uuid a5620cc8-56ef-4b6f-8bc7-372e4d76fe90)
   )
-  (wire (pts (xy 74.295 108.585) (xy 74.295 111.125))
-    (stroke (width 0) (type default))
-    (uuid a5a87a70-5002-4502-a947-ff0c8b4fd788)
-  )
   (wire (pts (xy 167.005 116.205) (xy 178.435 116.205))
     (stroke (width 0) (type default))
     (uuid a6664df2-2c7f-4383-864f-c825e1df10bd)
@@ -614,10 +605,6 @@
     (stroke (width 0) (type default))
     (uuid b32eeff5-b74c-46a6-b457-08158d948ffb)
   )
-  (wire (pts (xy 67.31 108.585) (xy 74.295 108.585))
-    (stroke (width 0) (type default))
-    (uuid b5e2ce99-e73b-42b3-96ac-bc562ebbf8c8)
-  )
   (wire (pts (xy 157.48 83.185) (xy 191.77 83.185))
     (stroke (width 0) (type default))
     (uuid bc80b019-7e27-4cd8-b69f-170fcd14ff84)
@@ -625,10 +612,6 @@
   (wire (pts (xy 147.32 109.855) (xy 147.32 111.125))
     (stroke (width 0) (type default))
     (uuid c1fd8110-ee2e-4ae6-b874-020f36ec0426)
-  )
-  (wire (pts (xy 74.295 97.79) (xy 74.295 94.615))
-    (stroke (width 0) (type default))
-    (uuid c91812db-df16-4832-a7b7-2d5915f33749)
   )
   (wire (pts (xy 157.48 78.105) (xy 179.07 78.105))
     (stroke (width 0) (type default))
@@ -658,28 +641,29 @@
     (stroke (width 0) (type default))
     (uuid e476b5b8-eaad-47b5-a0c1-7269008507dc)
   )
-  (wire (pts (xy 74.295 94.615) (xy 85.725 94.615))
+  (wire (pts (xy 147.32 99.06) (xy 147.32 102.235))
     (stroke (width 0) (type default))
-    (uuid f9eb6af4-7673-4476-93b3-92c8f63ed31a)
+    (uuid f67dcf35-7c2d-42ec-925d-e874ce1de872)
   )
   (wire (pts (xy 151.13 123.19) (xy 151.13 127))
     (stroke (width 0) (type default))
     (uuid fa5ccc40-3f15-429c-a73a-02c307af9a27)
   )
-  (wire (pts (xy 74.295 118.745) (xy 74.295 127))
-    (stroke (width 0) (type default))
-    (uuid fcf421db-2d7c-4f81-9c2a-6f50c059b820)
-  )
 
+  (text "EMC2101 Controls the fan, and reads the ASIC chip temperature"
+    (at 114.3 63.5 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 92d1bbcf-ce90-4936-bcfe-3e60d679acd4)
+  )
+  (text "This sets default fan speed to 100% ->" (at 105.41 106.68 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9391c903-b245-477b-9482-f6c66e86b3b1)
+  )
   (text "I2C Address: 0x4C" (at 136.525 89.535 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e8713c99-6ab0-4c50-92f6-a466cf91cfaf)
   )
 
-  (label "GND" (at 74.295 127 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 131ce57c-0e71-4603-b0a3-b77fcc258887)
-  )
   (label "FAN_PWM" (at 160.02 78.105 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1472b4b3-985a-4e48-bc16-0d0d4a8ede12)
@@ -696,6 +680,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5dbcfe0f-034a-4016-9873-2205d3808900)
   )
+  (label "3V3" (at 147.32 100.965 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5fa41b17-79b5-453a-b335-52571b617545)
+  )
   (label "FAN_TACH" (at 120.015 83.185 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 64f63d0b-350f-4561-8a33-32a03a6c08c6)
@@ -703,10 +691,6 @@
   (label "GND" (at 156.845 127 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 65ec0d2a-9245-4718-a004-ad2f1ed90296)
-  )
-  (label "3V3" (at 147.32 100.965 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 6baea13d-6785-4fc7-9b4c-fce039572700)
   )
   (label "FAN_PWM" (at 168.91 108.585 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -732,10 +716,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a919bf4d-298c-43bd-bd61-fea10e7d6e58)
   )
-  (label "FAN_TACH" (at 75.565 94.615 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d118f65a-ce81-4eb7-ab9a-ec3d707daf6a)
-  )
   (label "FAN_TACH" (at 168.91 111.125 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid eea3c07d-89b2-49b6-a9fa-0f493ec420c4)
@@ -757,10 +737,6 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 2518f970-d8af-4fed-99d8-73d36d826f2d)
   )
-  (hierarchical_label "ALERT" (shape input) (at 67.31 108.585 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 353211a2-9093-49ea-9ccc-394da59b4846)
-  )
   (hierarchical_label "SCL" (shape input) (at 170.815 73.025 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid d5e8abee-3767-476f-8e5d-433184682270)
@@ -779,7 +755,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 168.91 108.585 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 06eb653b-c15c-416b-be86-59e88d0695a0)
     (property "Reference" "TP15" (at 162.56 108.585 90)
       (effects (font (size 1.27 1.27)))
@@ -793,12 +769,9 @@
     (property "Datasheet" "~" (at 168.91 113.665 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DNP" "T" (at 168.91 108.585 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (pin "1" (uuid b9cdf6f5-db2c-4466-a095-1509db66167f))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
           (reference "TP15") (unit 1)
         )
@@ -808,11 +781,11 @@
 
   (symbol (lib_id "Device:R_US") (at 147.32 106.045 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 1bcfcdba-f6cd-4dd6-9d4a-672b71b4796f)
-    (property "Reference" "R36" (at 151.13 104.775 0)
+    (uuid 0f840166-0c95-48dc-92ea-ad52bb35b8b5)
+    (property "Reference" "R51" (at 151.13 104.775 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10k" (at 151.13 107.315 0)
+    (property "Value" "5.6k" (at 151.13 107.315 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 146.304 105.791 90)
@@ -821,15 +794,23 @@
     (property "Datasheet" "~" (at 147.32 106.045 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DK" "311-10KJRCT-ND" (at 147.32 106.045 0)
+    (property "DK" "13-RC0402FR-135K6LCT-ND" (at 147.32 106.045 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 05ec95b9-0bae-4322-a79c-e5d493c10314))
-    (pin "2" (uuid 850ab7c1-1834-4c38-9917-6a073fb7ed05))
+    (property "PARTNO" "RC0402FR-135K6L" (at 147.32 106.045 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 040f18aa-d767-4ef9-b8dc-85487a341f50))
+    (pin "2" (uuid 29de5c54-6212-4c5e-bdd2-a782df5e7e9a))
     (instances
-      (project "bitaxeMax"
+      (project "fan"
+        (path "/e3011397-6e70-47ae-93ca-7e99c3d9ef05"
+          (reference "R51") (unit 1)
+        )
+      )
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "R36") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -850,16 +831,16 @@
     (property "Datasheet" "" (at 191.77 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "311-3342-1-ND" (at 191.77 77.47 0)
-      (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
-    )
     (property "DK" "1292-1639-1-ND" (at 191.77 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PARTNO" "0402X104K100CT" (at 191.77 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e1611bb1-77e5-4d0e-bc71-d474ce92fb27))
     (pin "2" (uuid 35f5221b-1ac6-482a-b604-412f5acd65e5))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
           (reference "C33") (unit 1)
         )
@@ -882,47 +863,18 @@
     (property "Datasheet" "" (at 151.13 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "311-3342-1-ND" (at 151.13 119.38 0)
-      (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
-    )
     (property "DK" "1292-1639-1-ND" (at 151.13 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PARTNO" "0402X104K100CT" (at 151.13 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 19b7c567-950a-4608-9570-0f0ef1cda34d))
     (pin "2" (uuid 981cf881-1b55-4236-9f43-d6028a10610f))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
           (reference "C29") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_US") (at 74.295 101.6 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 69b52d10-220b-4bf9-90f7-ea43d2c31997)
-    (property "Reference" "R24" (at 77.47 100.965 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10k" (at 78.105 103.505 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 73.279 101.346 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 74.295 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DK" "311-10KJRCT-ND" (at 74.295 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid aa2b5bc2-dcee-45c4-9bcb-b10bd9be360c))
-    (pin "2" (uuid 382700da-3862-409d-a34d-f0085c950e98))
-    (instances
-      (project "bitaxeMax"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "R24") (unit 1)
         )
       )
     )
@@ -946,10 +898,13 @@
     (property "DK" "RMCF0402FT100RCT-ND" (at 97.79 69.215 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
     )
+    (property "PARTNO" "RMCF0402FT100R" (at 97.79 69.215 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 630760ad-a1aa-42de-ba85-4117f9748853))
     (pin "2" (uuid 74b7ca68-dd74-4a0a-8e26-2ad2ab92a1a7))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
           (reference "R8") (unit 1)
         )
@@ -983,38 +938,9 @@
     (pin "3" (uuid dc277c1e-9d04-46c8-b49f-88d8be8970e0))
     (pin "4" (uuid 60b34f21-437e-4be7-9172-47fab6f2d33e))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
           (reference "J4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_US") (at 74.295 114.935 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8f340d23-2454-4e7d-a23f-b33d39f03306)
-    (property "Reference" "R25" (at 77.47 114.3 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "19.1k" (at 79.375 116.84 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 73.279 114.681 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 74.295 114.935 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DK" "YAG3027CT-ND" (at 74.295 114.935 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 037c87e3-bd71-4e4b-9051-52e716648c69))
-    (pin "2" (uuid 7c519291-a118-4635-b59c-d1f9d52c6607))
-    (instances
-      (project "bitaxeMax"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "R25") (unit 1)
         )
       )
     )
@@ -1038,10 +964,13 @@
     (property "DK" "1276-1566-1-ND" (at 113.665 83.185 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
     )
+    (property "PARTNO" "CL05B471KB5NNNC" (at 113.665 83.185 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 98d2b06e-d38f-4672-b369-555ed6090613))
     (pin "2" (uuid 9ccb3bcf-3ff8-491e-9f52-be9ff580a4b4))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
           (reference "C32") (unit 1)
         )
@@ -1050,7 +979,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 135.255 111.125 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid dbe78ea1-de61-4cfe-8d9a-6a7db6a2845a)
     (property "Reference" "TP16" (at 128.905 111.125 90)
       (effects (font (size 1.27 1.27)))
@@ -1064,12 +993,9 @@
     (property "Datasheet" "~" (at 135.255 116.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DNP" "T" (at 135.255 111.125 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (pin "1" (uuid 8220d9cc-4dbd-4ca0-b3b9-8e7032d8c315))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
           (reference "TP16") (unit 1)
         )
@@ -1095,10 +1021,13 @@
     (property "DK" "RMCF0402FT100RCT-ND" (at 97.155 71.755 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
     )
+    (property "PARTNO" "RMCF0402FT100R" (at 97.155 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 40a68cbb-c6d4-4810-924c-be324ef86e62))
     (pin "2" (uuid a6cebf86-ce09-4447-80cf-e845e05c4eba))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
           (reference "R7") (unit 1)
         )
@@ -1130,7 +1059,7 @@
     (pin "1" (uuid fd4dc29f-639f-4bb4-aa7b-116dd0f1f23f))
     (pin "2" (uuid 188c7b98-423a-402b-95d1-52b06de18da2))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
           (reference "C28") (unit 1)
         )
@@ -1156,10 +1085,13 @@
     (property "DK" "311-10KJRCT-ND" (at 179.07 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "PARTNO" "RC0402JR-0710KL" (at 179.07 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 254c89af-070d-4eb3-855d-5f59cc9260f2))
     (pin "2" (uuid e3a95dd9-3ce3-49ba-b367-af8493c19616))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
           (reference "R9") (unit 1)
         )
@@ -1197,7 +1129,7 @@
     (pin "7" (uuid e1bb788b-9f33-4c06-9c5d-d26107eb7be6))
     (pin "8" (uuid dd998fe8-e98a-4316-9c45-270c06880f47))
     (instances
-      (project "bitaxeMax"
+      (project "bitaxeTTGO"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
           (reference "U7") (unit 1)
         )
