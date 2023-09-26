@@ -338,7 +338,7 @@
     (uuid fb150e19-1ef3-4ea1-8a17-ed02fd7c8667)
   )
 
-  (text "bitaxe, TTGO" (at 160.655 186.055 0)
+  (text "NerdAxe_ultra" (at 160.655 186.055 0)
     (effects (font (size 5 5) (thickness 1) bold) (justify left bottom))
     (uuid 65740984-b4b1-4ee3-94a0-449abd771ae0)
   )
@@ -451,7 +451,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H3") (unit 1)
         )
@@ -478,7 +478,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H2") (unit 1)
         )
@@ -505,7 +505,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H1") (unit 1)
         )
@@ -529,7 +529,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H6") (unit 1)
         )
@@ -553,7 +553,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H5") (unit 1)
         )
@@ -599,7 +599,7 @@
           (reference "DC1") (unit 1)
         )
       )
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "DC1") (unit 1)
         )
@@ -626,7 +626,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H4") (unit 1)
         )
@@ -681,7 +681,7 @@
       (uuid b69586b8-ef82-44da-8081-d3af2cd1f872)
     )
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "6"))
       )
     )
@@ -730,7 +730,7 @@
       (uuid fe07d78e-8200-43d1-ae9c-4d7599be57f0)
     )
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "4"))
       )
     )
@@ -771,7 +771,7 @@
       (uuid 3bc71f2d-53ea-4dbd-b8fb-74681448b62d)
     )
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "5"))
       )
     )
@@ -816,7 +816,7 @@
       (uuid 31e2def0-a6e4-410f-9883-8adb3501ac6b)
     )
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "2"))
       )
     )
