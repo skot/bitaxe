@@ -546,6 +546,16 @@
           (number "8" (effects (font (size 1.27 1.27))))
         )
       )
+      (symbol "TXB0104RGYR_1_1"
+        (pin no_connect line (at -11.43 -8.89 0) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at -11.43 -8.89 0) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "9" (effects (font (size 1.27 1.27))))
+        )
+      )
     )
     (symbol "bitaxe:oscillator" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -3.81 5.08 0)
@@ -2749,6 +2759,8 @@
     (pin "5" (uuid e39579a4-b434-41eb-9af7-6ba199e4f83c))
     (pin "7" (uuid f7a5d3e7-d24e-400d-b66d-d85600978a03))
     (pin "8" (uuid f0eed417-f05d-4f7d-8b00-97b0bf0fadcf))
+    (pin "6" (uuid 8128458e-410b-4c5d-ab99-8576d542809b))
+    (pin "9" (uuid 7d59c6d4-568e-499f-8479-9fa59a93b9cc))
     (instances
       (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
