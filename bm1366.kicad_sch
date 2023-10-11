@@ -5,9 +5,9 @@
   (paper "A")
 
   (title_block
-    (title "le bitaxeUltra")
-    (date "2023-07-10")
-    (rev "0")
+    (title "BM1366 bitaxe")
+    (date "2023-10-10")
+    (rev "1.1")
   )
 
   (lib_symbols
