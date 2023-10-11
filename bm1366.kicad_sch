@@ -2296,7 +2296,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 86.995 167.005 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 46162382-af39-4765-82f8-a46ef23bd514)
     (property "Reference" "J3" (at 85.725 159.385 0)
       (effects (font (size 1.27 1.27)) (justify left))
