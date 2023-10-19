@@ -3693,7 +3693,7 @@
         (number "11" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -13.97 7.62 0) (length 2.54)
-        (name "SS" (effects (font (size 1.27 1.27))))
+        (name "EN/SS" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at 12.7 -7.62 180) (length 2.54)
