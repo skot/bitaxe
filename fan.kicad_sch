@@ -7,7 +7,7 @@
   (title_block
     (title "BM1366 bitaxe")
     (date "2023-10-10")
-    (rev "1.1")
+    (rev "202")
   )
 
   (lib_symbols
