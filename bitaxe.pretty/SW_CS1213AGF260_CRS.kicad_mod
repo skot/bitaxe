@@ -60,8 +60,8 @@
     (stroke (width 0.0254) (type solid)) (layer "F.Fab") (tstamp 9c2fb3f2-25a5-4386-b69b-60a98cd0bd56))
   (pad "1" smd rect (at -2.159 0) (size 0.508 1.524) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f387cb65-3337-488a-9d79-8cacc2123b51))
   (pad "2" smd rect (at 2.159 0) (size 0.508 1.524) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5b7cdef8-2568-465e-8428-668e6c37f5f1))
-  (model "${KIPRJMOD}/3d/SW_CS1213AGF260_CRS.step"
-    (offset (xyz 0 0 0))
+  (model "${KIPRJMOD}/3d/CS1213AG-tr.stp"
+    (offset (xyz -1.95 -1.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
