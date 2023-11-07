@@ -1511,10 +1511,13 @@
     (property "PARTNO" "CL21A106KOQNNNE" (at 157.48 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C89827" (at 157.48 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 010b16f3-e6f3-4bac-9c59-1b2778730cb3))
     (pin "2" (uuid bf6f8b10-71ad-405e-b94e-acd218548e67))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "C43") (unit 1)
         )
@@ -1543,10 +1546,13 @@
     (property "PARTNO" "RC0402FR-074K99L" (at 212.725 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C140155" (at 212.725 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0e1cbb49-cccd-4492-843b-15125d5e784e))
     (pin "2" (uuid 5b129f4d-ed0b-4306-a063-7cb15744777b))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "R14") (unit 1)
         )
@@ -1575,10 +1581,13 @@
     (property "PARTNO" "GRM32ER61C476KE15L" (at 62.865 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C2932477" (at 62.865 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e3a0e233-42f2-4c61-9aa9-733f476eb991))
     (pin "2" (uuid 7a9bf2c8-61ba-4e97-8452-47c419420916))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "C37") (unit 1)
         )
@@ -1607,10 +1616,13 @@
     (property "DK" "P16200CT-ND" (at 230.505 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C2158095" (at 230.505 52.705 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 5ffef7f8-a915-445a-b501-8cb77de835b4))
     (pin "2" (uuid 4b40d362-c0ad-448b-9693-d92a3764d135))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "C46") (unit 1)
         )
@@ -1639,6 +1651,9 @@
     (property "PARTNO" "TPS40305DRCR" (at 122.555 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C140285" (at 122.555 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 5319476c-75fc-453a-9fdd-46032f92ddbb))
     (pin "10" (uuid e07117b0-b3b1-41ad-be52-0186b3426db5))
     (pin "11" (uuid 95a823e8-f419-4dd3-9ad3-664eb260ce41))
@@ -1651,7 +1666,7 @@
     (pin "8" (uuid b19995c8-e1b2-49ea-b9a2-89486ec0931e))
     (pin "9" (uuid 75c92398-3b56-4119-b2db-36e3995afcc1))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "U9") (unit 1)
         )
@@ -1697,7 +1712,7 @@
     (pin "8" (uuid 3d7186d4-ff6a-4396-83e5-1cab37bba6a2))
     (pin "9" (uuid ace86d51-a149-439d-972e-ca598c4d818d))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "U8") (unit 1)
         )
@@ -1726,10 +1741,13 @@
     (property "PARTNO" "GRM32ER61C476KE15L" (at 41.275 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C2932477" (at 41.275 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7790abbf-d08f-4eeb-b241-03319143fa14))
     (pin "2" (uuid 259ebe45-1a68-4cbf-99c3-08857911c244))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "C34") (unit 1)
         )
@@ -1764,7 +1782,7 @@
     (pin "4" (uuid 99359bff-ca85-46d3-9b4e-35a61050dafb))
     (pin "5" (uuid ba905e54-abf2-4c63-bd1e-495413877fc6))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "Q2") (unit 1)
         )
@@ -1793,10 +1811,13 @@
     (property "PARTNO" "CL05B332KB5NNNC" (at 85.09 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C1536" (at 85.09 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ccf1edf9-dd49-47b7-989c-f7c63ec0b9a8))
     (pin "2" (uuid 87155ef7-875b-4c23-a702-5850b53ab8f3))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "C39") (unit 1)
         )
@@ -1825,10 +1846,13 @@
     (property "PARTNO" "GRM32ER61C476KE15L" (at 52.07 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C2932477" (at 52.07 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b3cdfb1a-943b-4d6f-baf4-878623771a0a))
     (pin "2" (uuid 7693683a-2d9e-4f90-85c8-c96bfff50092))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "C36") (unit 1)
         )
@@ -1857,10 +1881,13 @@
     (property "PARTNO" "CL21B105KOFNNNG" (at 74.295 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C111768" (at 74.295 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 10154c04-9ae6-4381-833e-cce615011a01))
     (pin "2" (uuid 67a610f8-fb41-401d-9826-f48b61007c51))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "C38") (unit 1)
         )
@@ -1898,7 +1925,7 @@
     (pin "7" (uuid 2628aa8d-3d5a-414c-bd0f-b0630f5b19bc))
     (pin "8" (uuid 73e96ff6-787e-4540-a786-05d255092096))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "U10") (unit 1)
         )
@@ -1927,10 +1954,13 @@
     (property "DK" "445-6008-1-ND" (at 243.205 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C87164" (at 243.205 52.705 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 41f74697-fcef-49a0-aed8-49c880f3d4e0))
     (pin "2" (uuid 277195e3-d2a0-46da-b69c-c60912aa9950))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "C47") (unit 1)
         )
@@ -1959,10 +1989,13 @@
     (property "PARTNO" "CC0805KRX7R9BB152" (at 95.25 56.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C152884" (at 95.25 56.515 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 050a01da-97db-4190-9875-a351cfb0ff9b))
     (pin "2" (uuid 3b0c4dd0-b693-4f69-8af5-a1c2fe938704))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "C41") (unit 1)
         )
@@ -1991,10 +2024,13 @@
     (property "PARTNO" "RC0402FR-073K32L" (at 212.725 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C284517" (at 212.725 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7feb26ae-f568-4ea0-bc36-dbb959890598))
     (pin "2" (uuid d9c6f52c-a2f9-4235-8659-251eeaa6864d))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "R15") (unit 1)
         )
@@ -2023,10 +2059,13 @@
     (property "PARTNO" "RC0402JR-07100KL" (at 148.59 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C279979" (at 148.59 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e2c3f04a-2118-48c0-b464-489f8027de67))
     (pin "2" (uuid c5b7e661-339b-4bb6-9707-e03aaf49d99d))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "R11") (unit 1)
         )
@@ -2055,10 +2094,13 @@
     (property "PARTNO" "0402X104K100CT" (at 145.415 37.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C1525" (at 145.415 37.465 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 064c5e07-a38d-4af8-a507-b94ee56eb402))
     (pin "2" (uuid 7b1ab3e2-6b7d-4b19-9d4f-c751d47e2a9e))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "C42") (unit 1)
         )
@@ -2084,7 +2126,7 @@
     (pin "1" (uuid 76a927a2-ef32-4aed-a419-a634d406b1fa))
     (pin "2" (uuid 144f75f1-4ef1-4399-9a3d-0543b68eac6a))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "J7") (unit 1)
         )
@@ -2113,10 +2155,13 @@
     (property "PARTNO" "RC0402FR-0780K6L" (at 238.125 128.905 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C323624" (at 238.125 128.905 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 78d9ac0a-13f7-4963-99c1-f968fee94249))
     (pin "2" (uuid f16065f7-a461-4f3b-8571-07d8eae38e51))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "R16") (unit 1)
         )
@@ -2145,10 +2190,13 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 193.04 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C113791" (at 193.04 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 8eb495af-5321-4bf7-b11c-6709212e3a18))
     (pin "2" (uuid 92cd5633-4b41-48b2-ac91-ee28ead48eea))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "C44") (unit 1)
         )
@@ -2177,10 +2225,13 @@
     (property "PARTNO" "RC0402FR-071K33L" (at 201.93 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C334646" (at 201.93 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 275b13c8-08df-4acb-a747-b54254b3acef))
     (pin "2" (uuid b1bb7b02-d7d1-4db1-8f5c-ed600acec128))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "R13") (unit 1)
         )
@@ -2209,10 +2260,13 @@
     (property "PARTNO" "RC0402FR-073K83L" (at 95.25 65.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C100402" (at 95.25 65.405 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f4089f89-1202-4a28-9157-b28b4bc32b37))
     (pin "2" (uuid 2e2348e5-c4b7-4ad0-9424-392fcc5e4d56))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "R10") (unit 1)
         )
@@ -2247,7 +2301,7 @@
     (pin "4" (uuid f90ab513-2ba1-4dc9-89ab-d881afcae105))
     (pin "5" (uuid 8b04a844-8b53-4c50-a3d9-30a781483480))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "Q1") (unit 1)
         )
@@ -2276,10 +2330,13 @@
     (property "PARTNO" "0805B471K500CT" (at 201.93 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C77469" (at 201.93 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9d747154-83d9-42d5-9669-55ea478b5ed6))
     (pin "2" (uuid ddd11eef-cd6c-4c78-8d46-c10b9ace7c62))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "C45") (unit 1)
         )
@@ -2311,7 +2368,7 @@
     (pin "1" (uuid abab59dc-29a5-4e42-9bad-01aea2423a9a))
     (pin "2" (uuid 20ead0f3-7e39-4e86-8373-fa3b2d298160))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "L1") (unit 1)
         )
@@ -2337,7 +2394,7 @@
     (pin "1" (uuid be52b58e-9953-4821-a2bb-31199b949cb4))
     (pin "2" (uuid a1a1c11d-6036-437f-bcb9-8c467f8f3be9))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "R17") (unit 1)
         )
@@ -2366,10 +2423,13 @@
     (property "PARTNO" "RMCF0402FT4K12" (at 170.18 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C327340" (at 170.18 61.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid a60f8dba-a9d3-435f-b08e-a8f015d1aea9))
     (pin "2" (uuid 597c9557-dea4-48f4-9b6c-5338e2200b82))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "R12") (unit 1)
         )
@@ -2398,10 +2458,13 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 45.085 136.525 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C113791" (at 45.085 136.525 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7e66c19b-145a-4250-9295-c484373338fc))
     (pin "2" (uuid 8e23f9ef-f546-4fae-9f7c-df9c96c8949c))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "C35") (unit 1)
         )
@@ -2430,10 +2493,13 @@
     (property "PARTNO" "CC0805JRNPO9BN181" (at 87.63 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C152881" (at 87.63 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid a763950b-e8f7-4158-ad4c-abd6a3e480fb))
     (pin "2" (uuid a6b157d0-1634-4fda-86c2-67e835f39654))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "C40") (unit 1)
         )
@@ -2462,10 +2528,13 @@
     (property "PARTNO" "RC0402JR-0710KL" (at 135.89 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part" "C269674" (at 135.89 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 1356b841-cb63-4d27-bd74-d3e0d05985d9))
     (pin "2" (uuid d5383e0e-9908-4c0f-9dc3-aa2b67badd08))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "R4") (unit 1)
         )

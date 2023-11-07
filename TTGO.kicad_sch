@@ -317,7 +317,7 @@
     (pin "23" (uuid f9da44b6-8bda-4509-95e4-1b5cde8a63b4))
     (pin "24" (uuid d254e08d-6da0-4403-9835-9e817fc99638))
     (instances
-      (project "bitaxeTTGO"
+      (project "NerdAxe_ultra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26d98239-cc99-433b-80b9-07c779389fec"
           (reference "U3") (unit 1)
         )
