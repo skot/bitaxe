@@ -2190,7 +2190,7 @@
   )
 
   (symbol (lib_id "Device:R_US") (at 148.59 50.8 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 60eb474d-bf13-4229-bfbb-14795576201f)
     (property "Reference" "R11" (at 148.59 48.26 90)
       (effects (font (size 1.27 1.27)))
