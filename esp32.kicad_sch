@@ -1733,7 +1733,7 @@
     (property "Value" "Conn_01x04" (at 198.882 34.9249 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right" (at 196.85 32.385 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Right" (at 196.85 32.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 196.85 32.385 0)
@@ -1742,10 +1742,10 @@
     (property "DK" "NPTC041KFXC-RC" (at 196.85 32.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d76aad96-c9f4-4555-8715-c8bffb9a4d31))
-    (pin "2" (uuid 54fb90cc-e9ab-4b52-b38f-b39f033b06c8))
-    (pin "3" (uuid b92f99c0-a481-408a-953b-d8f458e7362d))
-    (pin "4" (uuid c4d9a376-c999-455a-a4c6-095ac2c5c21f))
+    (pin "1" (uuid bea27d36-57fe-4540-8315-0a89ab2f9a0f))
+    (pin "2" (uuid 189fd90f-2219-440d-98e4-c78da5850ba1))
+    (pin "3" (uuid 0bfff99f-6120-4756-98be-1b6394d1459a))
+    (pin "4" (uuid 0d3245c1-e4a4-4750-9b24-a4b01a243f77))
     (instances
       (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
