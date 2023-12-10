@@ -1783,15 +1783,4 @@
     )
 
     (stroke (width 0) (type solid)) (fill solid) (layer "F.Cu") (tstamp badd7262-86f8-4797-95cc-fa8f7ec73944))
-  (fp_poly
-    (pts
-      (xy -13.342467 5.653705)
-      (xy -13.345327 5.666093)
-      (xy -13.356358 5.667597)
-      (xy -13.373509 5.659973)
-      (xy -13.370249 5.653705)
-      (xy -13.345521 5.651212)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 17769abd-254c-472d-b386-ac5c76ba80ac))
 )
