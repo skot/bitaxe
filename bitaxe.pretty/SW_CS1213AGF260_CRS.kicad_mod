@@ -58,8 +58,8 @@
     (stroke (width 0.0254) (type solid)) (layer "F.Fab") (tstamp 762333b3-30aa-49dc-b9f3-bef1b4bffd90))
   (fp_line (start 1.905 1.397) (end 1.905 -1.397)
     (stroke (width 0.0254) (type solid)) (layer "F.Fab") (tstamp 9c2fb3f2-25a5-4386-b69b-60a98cd0bd56))
-  (pad "1" smd rect (at -2.159 0) (size 0.508 1.524) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f387cb65-3337-488a-9d79-8cacc2123b51))
-  (pad "2" smd rect (at 2.159 0) (size 0.508 1.524) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5b7cdef8-2568-465e-8428-668e6c37f5f1))
+  (pad "1" smd rect (at -2.06 0) (size 0.9 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f387cb65-3337-488a-9d79-8cacc2123b51))
+  (pad "2" smd rect (at 2.05 0) (size 0.9 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5b7cdef8-2568-465e-8428-668e6c37f5f1))
   (model "${KIPRJMOD}/3d/CS1213AG-tr.stp"
     (offset (xyz -1.95 -1.5 0))
     (scale (xyz 1 1 1))
