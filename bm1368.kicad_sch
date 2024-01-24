@@ -351,11 +351,11 @@
           (number "14" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -17.78 -17.78 0) (length 2.54)
-          (name "VDDIO_18_0" (effects (font (size 1.27 1.27))))
+          (name "VDDIO_12_0" (effects (font (size 1.27 1.27))))
           (number "15" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at 17.78 -17.78 180) (length 2.54)
-          (name "VDDIO_18_1" (effects (font (size 1.27 1.27))))
+          (name "VDDIO_12_1" (effects (font (size 1.27 1.27))))
           (number "16" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at 17.78 -15.24 180) (length 2.54)
@@ -851,7 +851,7 @@
     (stroke (width 0) (type default))
     (uuid 108651fa-ca57-43b9-947f-b0756fca0962)
   )
-  (wire (pts (xy 186.69 100.33) (xy 193.675 100.33))
+  (wire (pts (xy 186.69 95.25) (xy 193.675 95.25))
     (stroke (width 0) (type default))
     (uuid 11fcdb2c-f63a-4003-966e-e70e842aaf33)
   )
@@ -1039,7 +1039,7 @@
     (stroke (width 0) (type default))
     (uuid 5c514e94-c2c5-462e-a204-c9ac53c7587b)
   )
-  (wire (pts (xy 186.69 95.25) (xy 193.675 95.25))
+  (wire (pts (xy 186.69 102.87) (xy 193.675 102.87))
     (stroke (width 0) (type default))
     (uuid 5dc5a257-044d-4719-8cde-0e2c41aa079a)
   )
@@ -1371,7 +1371,7 @@
     (stroke (width 0) (type default))
     (uuid c1b51c76-1b9c-4589-b34f-8449463f97d1)
   )
-  (wire (pts (xy 186.69 107.95) (xy 193.675 107.95))
+  (wire (pts (xy 186.69 110.49) (xy 193.675 110.49))
     (stroke (width 0) (type default))
     (uuid c2928435-cfd4-4771-8714-ae7b69fb58bc)
   )
@@ -1467,7 +1467,7 @@
     (stroke (width 0) (type default))
     (uuid e0efa358-15e4-4abc-ba9b-98b3546a52cd)
   )
-  (wire (pts (xy 186.69 102.87) (xy 193.675 102.87))
+  (wire (pts (xy 186.69 100.33) (xy 193.675 100.33))
     (stroke (width 0) (type default))
     (uuid e25070b6-22fd-4aea-b47b-65744987d982)
   )
@@ -1589,7 +1589,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0ea31127-7e63-4196-a43e-4500e8a953f0)
   )
-  (label "CLKO" (at 186.69 100.33 0) (fields_autoplaced)
+  (label "CLKO" (at 186.69 95.25 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 15152b96-34a8-4582-b3e0-67e8fab76efb)
   )
@@ -1597,7 +1597,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 15aa53c4-d7b5-4dfd-9800-72202df77ee4)
   )
-  (label "CO" (at 186.69 102.87 0) (fields_autoplaced)
+  (label "CO" (at 186.69 100.33 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1a04e66f-0b8d-4402-acad-6177c5036a14)
   )
@@ -1689,7 +1689,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7334c8d4-2319-43d3-9032-db5ad171df9f)
   )
-  (label "BO" (at 186.69 95.25 0) (fields_autoplaced)
+  (label "BO" (at 186.69 102.87 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7e41fe1f-f300-473f-b366-f4b4fb3f62fc)
   )
@@ -1741,7 +1741,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid c043af10-27e8-4b51-8ad6-dee1cff3b799)
   )
-  (label "PIN_MODE" (at 186.69 107.95 0) (fields_autoplaced)
+  (label "PIN_MODE" (at 186.69 110.49 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c0fac74e-2d0d-4fe9-80e5-650cdfed3210)
   )
@@ -1842,7 +1842,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 34.29 87.63 90) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 03dcb443-9eb3-4cd4-b357-f54a3406fd81)
-    (property "Reference" "TP36" (at 27.94 87.63 90)
+    (property "Reference" "TP36" (at 27.305 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 28.575 86.3601 90)
@@ -1856,7 +1856,7 @@
     )
     (pin "1" (uuid 1dcff689-cdae-4539-b1a8-0d61ecb5c494))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP36") (unit 1)
         )
@@ -1888,7 +1888,7 @@
     (pin "1" (uuid 17d4e7d4-b214-4a39-8e27-a690e2b28f89))
     (pin "2" (uuid 0850aa19-4f16-4825-a1fc-db2f55b4d191))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C24") (unit 1)
         )
@@ -1913,7 +1913,7 @@
     )
     (pin "1" (uuid 79488dcb-27a4-4230-b8fd-3ecd10324f3c))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP4") (unit 1)
         )
@@ -1945,7 +1945,7 @@
     (pin "1" (uuid 9451208d-fdd9-4672-a491-fd84802e9d93))
     (pin "2" (uuid 943699cc-027d-4ec8-b1b2-c1a473a6dd6d))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C22") (unit 1)
         )
@@ -1977,7 +1977,7 @@
     (pin "1" (uuid c8029404-bae9-4b91-ad34-ea10e39c6e89))
     (pin "2" (uuid ea445103-8f9c-4ebb-bf0d-9a211f67085f))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C7") (unit 1)
         )
@@ -1985,24 +1985,24 @@
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 193.675 102.87 270) (unit 1)
+  (symbol (lib_id "Connector:TestPoint") (at 193.675 100.33 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 2088ee90-c532-42ef-ab99-2e697b0d7457)
-    (property "Reference" "TP45" (at 200.025 102.87 90)
+    (property "Reference" "TP45" (at 200.66 100.33 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TestPoint" (at 199.39 104.1399 90)
+    (property "Value" "TestPoint" (at 199.39 101.5999 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 193.675 107.95 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 193.675 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 193.675 107.95 0)
+    (property "Datasheet" "~" (at 193.675 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4388f038-cc71-4c6e-b5b0-1ff782c1c546))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP45") (unit 1)
         )
@@ -2034,7 +2034,7 @@
     (pin "1" (uuid 3083051c-0ba3-4e2d-b59f-d6a2cd13a62b))
     (pin "2" (uuid c399cab2-928e-4088-8661-7c545fe987fc))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C18") (unit 1)
         )
@@ -2059,7 +2059,7 @@
     )
     (pin "1" (uuid 20d5b93a-faeb-4eda-af25-7d55d6dd6ac3))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "#PWR02") (unit 1)
         )
@@ -2070,7 +2070,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 34.29 85.09 90) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 26ed3709-d6d7-4eab-b500-6fd5b0deda96)
-    (property "Reference" "TP35" (at 27.94 85.09 90)
+    (property "Reference" "TP35" (at 27.305 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 28.575 83.8201 90)
@@ -2084,7 +2084,7 @@
     )
     (pin "1" (uuid 6553f1b2-ada5-4ac5-bfb1-66433c8f6c99))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP35") (unit 1)
         )
@@ -2109,7 +2109,7 @@
     )
     (pin "1" (uuid 3a350b44-0fad-4f23-a17b-283c88d1db53))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP9") (unit 1)
         )
@@ -2141,7 +2141,7 @@
     (pin "1" (uuid 9279f016-0fa9-4827-a06f-2ebbc7cc9e8b))
     (pin "2" (uuid 668f1479-2bf7-40a7-b636-18cf4be5c222))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C17") (unit 1)
         )
@@ -2155,7 +2155,7 @@
     (property "Reference" "R6" (at 81.915 159.385 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10k" (at 81.915 161.925 0)
+    (property "Value" "100" (at 81.915 161.925 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 84.709 160.401 90)
@@ -2164,10 +2164,10 @@
     (property "Datasheet" "~" (at 85.725 160.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DK" "311-10KJRCT-ND" (at 85.725 160.655 0)
+    (property "DK" "311-100LRCT-ND" (at 85.725 160.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PARTNO" "RC0402JR-0710KL" (at 85.725 160.655 0)
+    (property "PARTNO" "RC0402FR-07100RL" (at 85.725 160.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d04c1ba1-c21f-4d0d-ad3d-5616ddc56113))
@@ -2178,7 +2178,7 @@
           (reference "R6") (unit 1)
         )
       )
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "R18") (unit 1)
         )
@@ -2203,7 +2203,7 @@
     )
     (pin "1" (uuid 94e15880-70b0-495f-8f40-941faf54a42d))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP2") (unit 1)
         )
@@ -2259,7 +2259,7 @@
     (pin "9" (uuid d26bfe76-160b-432a-8deb-993e7f04a1b5))
     (pin "1" (uuid 1ba7a6b9-4b7a-4a69-a754-e2ca5cba8a86))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "U4") (unit 1)
         )
@@ -2270,7 +2270,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 193.675 87.63 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 56655690-df16-4e69-b6c0-fea509e53c3d)
-    (property "Reference" "TP40" (at 200.025 87.63 90)
+    (property "Reference" "TP40" (at 200.66 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 199.39 88.8999 90)
@@ -2284,7 +2284,7 @@
     )
     (pin "1" (uuid f437fd26-fe52-43b2-8c61-8878572e445f))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP40") (unit 1)
         )
@@ -2316,7 +2316,7 @@
     (pin "1" (uuid 80d6757b-36ab-4020-9d87-3e20e1e158b0))
     (pin "2" (uuid 6bd12d4f-ea8a-4777-9c71-018980ecb40f))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C20") (unit 1)
         )
@@ -2350,7 +2350,7 @@
     (pin "3" (uuid 9b475f38-e222-4a71-8d13-fdc74ad66519))
     (pin "4" (uuid 2772e650-84f1-490f-a1d5-3ef874778502))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "U1") (unit 1)
         )
@@ -2382,7 +2382,7 @@
     (pin "1" (uuid fbacc8d8-11d5-42d3-800d-39f468ff3351))
     (pin "2" (uuid 80ac9411-bb1d-44da-8c2b-ebc3cd65342a))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C9") (unit 1)
         )
@@ -2414,7 +2414,7 @@
     (pin "1" (uuid 3b057095-7866-406f-87b4-3665a51ea1e8))
     (pin "2" (uuid b9822b40-625a-49da-90fe-cf0c012c0bde))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C19") (unit 1)
         )
@@ -2446,7 +2446,7 @@
     (pin "1" (uuid 564202af-4379-4471-ae82-dfc752bdd69c))
     (pin "2" (uuid 089d72ef-590b-458a-8198-032b8e5c5826))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C13") (unit 1)
         )
@@ -2457,7 +2457,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 193.675 82.55 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 5eb2f083-5eb4-40db-a5b2-dc52b2fbd11f)
-    (property "Reference" "TP42" (at 200.025 82.55 90)
+    (property "Reference" "TP42" (at 200.66 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 199.39 83.8199 90)
@@ -2471,7 +2471,7 @@
     )
     (pin "1" (uuid 3fac8890-4b87-4558-a111-7deef2a01bc2))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP42") (unit 1)
         )
@@ -2482,7 +2482,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 193.675 97.79 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 62e8faf4-cb78-41f2-85ed-c2f03bcb41ab)
-    (property "Reference" "TP43" (at 200.025 97.79 90)
+    (property "Reference" "TP43" (at 200.66 97.79 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 199.39 99.0599 90)
@@ -2496,7 +2496,7 @@
     )
     (pin "1" (uuid dd91b083-fa7c-4e73-835e-74ffbf7bd8ab))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP43") (unit 1)
         )
@@ -2507,7 +2507,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 34.29 82.55 90) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 646264a0-296a-4782-8b76-e6fe7ec28a41)
-    (property "Reference" "TP34" (at 27.94 82.55 90)
+    (property "Reference" "TP34" (at 27.305 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 28.575 81.2801 90)
@@ -2521,7 +2521,7 @@
     )
     (pin "1" (uuid b5c33d95-ca2a-446f-981a-0044cb5d7430))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP34") (unit 1)
         )
@@ -2553,7 +2553,7 @@
     (pin "1" (uuid c98f29e9-1c8c-4664-a9e6-65697b23c311))
     (pin "2" (uuid 543df290-5f28-4e1a-bf1c-0b4407204ebe))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C1") (unit 1)
         )
@@ -2578,7 +2578,7 @@
     )
     (pin "1" (uuid cc459d75-3068-4754-b92b-34bda32ef9ee))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP14") (unit 1)
         )
@@ -2589,7 +2589,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 193.675 92.71 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 7fc48c38-d825-4969-b6fc-10868c7cd8c7)
-    (property "Reference" "TP38" (at 200.025 92.71 90)
+    (property "Reference" "TP38" (at 200.66 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 199.39 93.9799 90)
@@ -2603,7 +2603,7 @@
     )
     (pin "1" (uuid d3809a17-9838-48e8-b002-d86f14aa052b))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP38") (unit 1)
         )
@@ -2628,7 +2628,7 @@
     )
     (pin "1" (uuid 5e699c01-8dd7-495f-9619-6c613c1d943c))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP8") (unit 1)
         )
@@ -2660,7 +2660,7 @@
     (pin "1" (uuid 172d1b73-ca40-4ca8-b20a-7bb6185d4df5))
     (pin "2" (uuid 6089fc5f-d9bb-498c-a78d-ace46983e368))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C12") (unit 1)
         )
@@ -2692,7 +2692,7 @@
     (pin "1" (uuid bcae088f-8dbd-46d0-9ca8-998919ecdd9b))
     (pin "2" (uuid 0499c080-4e45-405a-b34f-5fa03398a555))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C10") (unit 1)
         )
@@ -2727,7 +2727,7 @@
     (pin "4" (uuid 023e6c4d-0976-41da-87fe-129c16b9c188))
     (pin "5" (uuid 2737c79b-2024-49bf-b880-e405425717ce))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "U6") (unit 1)
         )
@@ -2776,7 +2776,7 @@
     (pin "6" (uuid 8128458e-410b-4c5d-ab99-8576d542809b))
     (pin "9" (uuid 7d59c6d4-568e-499f-8479-9fa59a93b9cc))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "U2") (unit 1)
         )
@@ -2808,7 +2808,7 @@
     (pin "1" (uuid 26145353-a55d-43f8-81fd-db623477764d))
     (pin "2" (uuid af892945-e5cc-4219-bad7-93d9966a93fc))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C3") (unit 1)
         )
@@ -2833,7 +2833,7 @@
     )
     (pin "1" (uuid 40156a10-ce4f-46ee-a387-f60a7e53aad1))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "#PWR04") (unit 1)
         )
@@ -2865,7 +2865,7 @@
     (pin "1" (uuid 3d8cd938-a8d9-48e9-9535-f1ef23baa442))
     (pin "2" (uuid bc3217dd-fd66-4c10-98e6-102e61fb0b8f))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C11") (unit 1)
         )
@@ -2876,7 +2876,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 34.29 92.71 90) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 9c69d652-1ab6-459b-82d7-4a51697f992e)
-    (property "Reference" "TP11" (at 27.94 92.71 90)
+    (property "Reference" "TP11" (at 27.305 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 28.575 91.4401 90)
@@ -2890,7 +2890,7 @@
     )
     (pin "1" (uuid 8756bf30-e324-4cd4-8329-61749e7b2733))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP11") (unit 1)
         )
@@ -2898,24 +2898,24 @@
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 193.675 100.33 270) (unit 1)
+  (symbol (lib_id "Connector:TestPoint") (at 193.675 95.25 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 9ea76516-3dab-48d7-98a7-6d2e5246184d)
-    (property "Reference" "TP44" (at 200.025 100.33 90)
+    (property "Reference" "TP44" (at 200.66 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TestPoint" (at 199.39 101.5999 90)
+    (property "Value" "TestPoint" (at 199.39 96.5199 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 193.675 105.41 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 193.675 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 193.675 105.41 0)
+    (property "Datasheet" "~" (at 193.675 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid dbf8e33a-9048-42bb-97df-7f6b36c10d62))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP44") (unit 1)
         )
@@ -2947,7 +2947,7 @@
     (pin "1" (uuid 3ec9d1c1-b4b1-4355-8c06-cdf4ace83918))
     (pin "2" (uuid 61a36583-22ee-47c3-b821-6bb13672abe4))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C4") (unit 1)
         )
@@ -2979,7 +2979,7 @@
     (pin "1" (uuid 2c4d3fa5-ef5d-41dd-a77c-e0b6bfb3f466))
     (pin "2" (uuid 90a406ae-e4af-46fd-8985-323948ffc8b3))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C14") (unit 1)
         )
@@ -3011,7 +3011,7 @@
     (pin "1" (uuid 4b15c767-eb50-4f7d-af15-8906a255a4ef))
     (pin "2" (uuid 7ea6d6fb-ac15-4406-bb02-3726db24a825))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C5") (unit 1)
         )
@@ -3036,7 +3036,7 @@
     )
     (pin "1" (uuid 0286b460-6192-4c74-9736-67724f9659a5))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP3") (unit 1)
         )
@@ -3061,7 +3061,7 @@
     )
     (pin "1" (uuid 81ea6c67-0d23-471c-b563-70889b4ee442))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP6") (unit 1)
         )
@@ -3069,24 +3069,24 @@
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 193.675 95.25 270) (unit 1)
+  (symbol (lib_id "Connector:TestPoint") (at 193.675 102.87 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid abb48bb8-d506-414e-b34e-36eb24c10c9d)
-    (property "Reference" "TP1" (at 200.025 95.25 90)
+    (property "Reference" "TP1" (at 200.025 102.87 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TestPoint" (at 199.39 96.5199 90)
+    (property "Value" "TestPoint" (at 199.39 104.1399 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 193.675 100.33 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 193.675 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 193.675 100.33 0)
+    (property "Datasheet" "~" (at 193.675 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f257acc4-5ab1-4a22-908e-ee6982183392))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP1") (unit 1)
         )
@@ -3111,7 +3111,7 @@
     )
     (pin "1" (uuid 751ac957-c4ec-4e7d-8ea9-abe0325c6278))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP7") (unit 1)
         )
@@ -3122,7 +3122,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 193.675 85.09 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid b22328d3-2eb5-48db-9aeb-db1f4e426991)
-    (property "Reference" "TP41" (at 200.025 85.09 90)
+    (property "Reference" "TP41" (at 200.66 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 199.39 86.3599 90)
@@ -3136,7 +3136,7 @@
     )
     (pin "1" (uuid 7fe2e3cf-9985-4649-a3b7-ae5534ff7eb0))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP41") (unit 1)
         )
@@ -3161,7 +3161,7 @@
     )
     (pin "1" (uuid 848268ce-2b6a-4de2-9578-4822d014c1b9))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP13") (unit 1)
         )
@@ -3169,24 +3169,24 @@
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 193.675 107.95 270) (unit 1)
+  (symbol (lib_id "Connector:TestPoint") (at 193.675 110.49 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid bd787298-fa5b-46a0-b04c-5046d2eda11a)
-    (property "Reference" "TP46" (at 200.025 107.95 90)
+    (property "Reference" "TP46" (at 200.66 110.49 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TestPoint" (at 199.39 109.2199 90)
+    (property "Value" "TestPoint" (at 199.39 111.7599 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 193.675 113.03 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 193.675 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 193.675 113.03 0)
+    (property "Datasheet" "~" (at 193.675 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a72fe0fb-1ea5-4146-b0ad-b9905f12b8a0))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP46") (unit 1)
         )
@@ -3197,7 +3197,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 50.8 105.41 90) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid c1b5666c-1542-48a2-b86e-fa12e2bf62de)
-    (property "Reference" "TP10" (at 44.45 105.41 90)
+    (property "Reference" "TP10" (at 43.815 105.41 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 45.085 104.1401 90)
@@ -3211,7 +3211,7 @@
     )
     (pin "1" (uuid 60637a3a-e901-43ca-b463-c11b3e0efbbe))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP10") (unit 1)
         )
@@ -3246,7 +3246,7 @@
     (pin "4" (uuid 742e7c25-fd70-4985-afab-6008f4357acc))
     (pin "5" (uuid 71e48ce4-a1ae-4ca9-b48c-ecc502f6aeb1))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "U5") (unit 1)
         )
@@ -3271,7 +3271,7 @@
     )
     (pin "1" (uuid a2f2bb4c-4a57-4035-a64d-16887c3a9579))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "#PWR01") (unit 1)
         )
@@ -3308,7 +3308,7 @@
           (reference "R6") (unit 1)
         )
       )
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "R6") (unit 1)
         )
@@ -3340,7 +3340,7 @@
     (pin "1" (uuid 4aaa6c67-c73a-4021-846b-13b77e5e4399))
     (pin "2" (uuid cd15a455-7b60-4815-b747-d67b4928612e))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C23") (unit 1)
         )
@@ -3372,7 +3372,7 @@
     (pin "1" (uuid 77ed74ca-f994-4cee-8af8-7cfc5b53bfca))
     (pin "2" (uuid f15683db-556e-400c-b802-9976b64c956e))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C16") (unit 1)
         )
@@ -3404,7 +3404,7 @@
     (pin "1" (uuid 2643cab2-2f1a-4a30-a135-06699aa0b743))
     (pin "2" (uuid 6046d5a9-ebb1-40dd-8ffc-3fbc76eae88f))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C2") (unit 1)
         )
@@ -3436,7 +3436,7 @@
     (pin "1" (uuid 9231506b-8725-4c7b-8c36-648e9b93c642))
     (pin "2" (uuid 74bd51bd-c2a9-4d62-b2a4-49b72cf93c50))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C8") (unit 1)
         )
@@ -3468,7 +3468,7 @@
     (pin "1" (uuid 8426c37d-b979-459c-ac6e-a65bd9190f09))
     (pin "2" (uuid 3190513b-9b82-4ce3-8fa4-1b1c5faf250c))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C25") (unit 1)
         )
@@ -3493,7 +3493,7 @@
     )
     (pin "1" (uuid 2837f722-b3fb-4cb9-b929-f3d7e19d2b40))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "TP5") (unit 1)
         )
@@ -3525,7 +3525,7 @@
     (pin "1" (uuid 87e62bab-b921-413d-a479-681b650e20da))
     (pin "2" (uuid 10827297-bfe2-44ce-9dc7-6ac3f223c121))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C6") (unit 1)
         )
@@ -3539,7 +3539,7 @@
     (property "Reference" "R6" (at 58.42 122.555 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10k" (at 58.42 125.095 0)
+    (property "Value" "1k" (at 58.42 125.095 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 61.214 123.571 90)
@@ -3548,10 +3548,10 @@
     (property "Datasheet" "~" (at 62.23 123.825 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DK" "311-10KJRCT-ND" (at 62.23 123.825 0)
+    (property "DK" "311-1.00KLRCT-ND" (at 62.23 123.825 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PARTNO" "RC0402JR-0710KL" (at 62.23 123.825 0)
+    (property "PARTNO" "RC0402FR-071KL" (at 62.23 123.825 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cc06281c-a8f5-46f6-8a0d-4b4afb20116b))
@@ -3562,7 +3562,7 @@
           (reference "R6") (unit 1)
         )
       )
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "R17") (unit 1)
         )
@@ -3594,7 +3594,7 @@
     (pin "1" (uuid 611c247a-6ff1-4177-af51-948bb4f2cc81))
     (pin "2" (uuid 3d5c01b4-0e92-46bc-8043-006aba202fcb))
     (instances
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "C15") (unit 1)
         )
@@ -3608,7 +3608,7 @@
     (property "Reference" "R6" (at 48.26 122.555 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10k" (at 48.26 125.095 0)
+    (property "Value" "1k" (at 48.26 125.095 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 51.054 123.571 90)
@@ -3617,10 +3617,10 @@
     (property "Datasheet" "~" (at 52.07 123.825 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DK" "311-10KJRCT-ND" (at 52.07 123.825 0)
+    (property "DK" "311-1.00KLRCT-ND" (at 52.07 123.825 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PARTNO" "RC0402JR-0710KL" (at 52.07 123.825 0)
+    (property "PARTNO" "RC0402FR-071KL" (at 52.07 123.825 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 48fee8d3-5dcb-4b2b-84db-6118632a6c3f))
@@ -3631,7 +3631,7 @@
           (reference "R6") (unit 1)
         )
       )
-      (project "bitaxeUltra"
+      (project "bitaxeSupra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
           (reference "R11") (unit 1)
         )
