@@ -6158,10 +6158,10 @@
       (net 16 "/SCL") (pinfunction "Pin_3") (pintype "passive") (tstamp 0856c4c6-03bc-4e55-baae-f3a7c0c927b5))
     (pad "4" thru_hole oval (at 0.15 -7.62 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 64 "/SDA") (pinfunction "Pin_4") (pintype "passive") (tstamp 4a1bdf34-0d36-440e-8ea8-1c2f825a4960))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/3d/OLED_0.91_128x32.stp"
+      (offset (xyz -17.5 -3.5 2.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
