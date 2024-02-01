@@ -2448,6 +2448,30 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 63.5 200.66 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5313c0b0-9b02-4f3c-a3dd-576f0907eeff)
+    (property "Reference" "H2" (at 66.04 199.3899 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 66.04 201.9299 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.5mm" (at 63.5 200.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 63.5 200.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "bitaxeUltra"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector:Barrel_Jack_Switch") (at 64.77 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5536283f-3eb9-4437-9f90-6ac7a73e160e)
@@ -2501,6 +2525,30 @@
       (project "bitaxeUltra"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 63.5 193.04 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 851a53f9-f1ca-4ce1-af0f-02bbfb2e817b)
+    (property "Reference" "H1" (at 66.04 191.7699 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 66.04 194.3099 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.5mm" (at 63.5 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 63.5 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "bitaxeUltra"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "H1") (unit 1)
         )
       )
     )
