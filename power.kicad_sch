@@ -6,8 +6,8 @@
 
   (title_block
     (title "Bitaxe Ultra")
-    (date "2023-12-10")
-    (rev "204")
+    (date "2023-12-15")
+    (rev "205")
   )
 
   (lib_symbols

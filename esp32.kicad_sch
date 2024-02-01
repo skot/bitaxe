@@ -6,8 +6,8 @@
 
   (title_block
     (title "Bitaxe Ultra")
-    (date "2023-12-10")
-    (rev "204")
+    (date "2023-12-15")
+    (rev "205")
   )
 
   (lib_symbols
@@ -2198,7 +2198,7 @@
   )
 
   (symbol (lib_id "lcsc:SS310_C85658") (at 215.265 53.975 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid a1ebaab2-f9ac-4f90-aa32-e62ee0c4c26f)
     (property "Reference" "D1" (at 215.265 50.8 0)
       (effects (font (size 1.27 1.27)))
