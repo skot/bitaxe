@@ -1733,7 +1733,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 226.695 120.65 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20191a02-e2f5-4b0f-94d4-20b911b30979)
     (property "Reference" "J6" (at 229.87 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
