@@ -5,9 +5,9 @@
   (paper "A")
 
   (title_block
-    (title "Bitaxe Ultra")
-    (date "2023-12-15")
-    (rev "205")
+    (title "Bitaxe Supra")
+    (date "2024-02-14")
+    (rev "401")
   )
 
   (lib_symbols
@@ -2311,7 +2311,7 @@
     (uuid fb150e19-1ef3-4ea1-8a17-ed02fd7c8667)
   )
 
-  (text "ultra" (at 235.585 186.055 0)
+  (text "supra" (at 235.585 186.055 0)
     (effects (font (size 5 5) (thickness 1) bold italic) (justify left bottom))
     (uuid 65740984-b4b1-4ee3-94a0-449abd771ae0)
   )

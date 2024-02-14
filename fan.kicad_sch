@@ -5,9 +5,9 @@
   (paper "A")
 
   (title_block
-    (title "Bitaxe Ultra")
-    (date "2023-12-15")
-    (rev "205")
+    (title "Bitaxe Supra")
+    (date "2024-02-14")
+    (rev "401")
   )
 
   (lib_symbols
