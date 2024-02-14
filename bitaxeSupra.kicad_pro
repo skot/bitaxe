@@ -510,7 +510,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "bitaxeUltra.kicad_pro",
+    "filename": "bitaxeSupra.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -551,7 +551,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "bitaxeUltra.step",
+      "step": "bitaxeSupra.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
