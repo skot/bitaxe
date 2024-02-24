@@ -51,4 +51,6 @@ That’s it! Take all of those generated files and give them to your PCB house. 
 
 ### Generating PCBA Manufacturing files
 
-- TBD
+Generally speaking, PCBA shops are going to want a file telling them the exact placement of all the components. This is referred to as "Centroid file", "Component Placement (.pos)" and "XY file". 
+You can generate this in KiCad by switching to PCB Editor and choosing `File` -> `Fabrication Outputs` -> `Component Placement (.pos)`. 
+Check with your PCBA shop to see exactly how they want this file formatted.
