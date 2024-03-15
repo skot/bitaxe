@@ -1,0 +1,112 @@
+(footprint "CSD17311Q5" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (property "DK" "296-27625-1-ND")
+  (property "PARTNO" "CSD17311Q5")
+  (property "Sheetfile" "File: power.kicad_sch")
+  (property "Sheetname" "Power")
+  (attr smd)
+  (fp_text reference "Q1" (at -4.003636 -1.639887 -90 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f934e664-9106-4feb-8654-e42df45d7e78)
+  )
+  (fp_text value "CSD17311Q5" (at 9.34 -1.74 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 806b48ea-bd61-46f9-bcc0-150953e1a96b)
+  )
+  (fp_text user "${REFERENCE}" (at 6.7 -0.18 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f8366908-802f-44f3-a89f-54395a4e20f5)
+  )
+  (fp_poly
+    (pts
+      (xy -2.53 -0.38)
+      (xy -3.09 -0.38)
+      (xy -3.09 -0.91)
+      (xy -2.52 -0.91)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp 52c12cfb-a670-4424-bee1-27261182e9e0))
+  (fp_poly
+    (pts
+      (xy -2.53 0.92)
+      (xy -3.09 0.92)
+      (xy -3.09 0.39)
+      (xy -2.52 0.39)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp 6deb9fe6-255b-4593-a6c9-0175e2c3b69d))
+  (fp_poly
+    (pts
+      (xy -2.51 -1.67)
+      (xy -3.07 -1.67)
+      (xy -3.07 -2.2)
+      (xy -2.5 -2.2)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp 64e4bea5-7185-467b-b55e-ad1c50d552e4))
+  (fp_poly
+    (pts
+      (xy -2.51 2.22)
+      (xy -3.07 2.22)
+      (xy -3.07 1.69)
+      (xy -2.5 1.69)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp 2670355c-fc15-482f-8ec8-770e1f4e1de8))
+  (fp_poly
+    (pts
+      (xy 1.68 2.08)
+      (xy -2.3 2.08)
+      (xy -2.3 0.16)
+      (xy 1.68 0.16)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp f2e40b64-d3c2-4418-ae63-3fba570d8dd6))
+  (fp_poly
+    (pts
+      (xy 1.69 -0.2)
+      (xy -2.29 -0.2)
+      (xy -2.29 -2.12)
+      (xy 1.69 -2.12)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp e1a604e4-1a4a-425f-be7f-9b749fb7d0b1))
+  (fp_rect (start -3.05 -2.55) (end 3.05 2.55)
+    (stroke (width 0.12) (type solid)) (fill none) (layer "F.SilkS") (tstamp 627ddc12-2faf-4beb-80cf-20468e1c5677))
+  (fp_circle (center 3.37 2.93) (end 3.59 2.92)
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 30690fc3-e11f-452a-a6f1-bfabf6c49d26))
+  (pad "1" smd rect (at 2.7525 1.93 90) (size 0.7 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0f8badda-bcb0-4b36-8a40-c582eae3484d))
+  (pad "2" smd rect (at 2.7525 0.6317 90) (size 0.7 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 67f54887-bae3-4db3-8934-265e541cc8e1))
+  (pad "3" smd rect (at 2.7525 -0.6317 270) (size 0.7 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c57d80c6-2c32-4110-bfe0-d4dcb575235c))
+  (pad "4" smd rect (at 2.7525 -1.93 90) (size 0.7 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b25628bd-7529-4b07-8e77-c32ad39575b8))
+  (pad "5" smd custom (at 1.8475 -2.28) (size 0.01 0.01) (layers "F.Cu" "F.Mask")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 0)
+          (xy 0 4.56)
+          (xy -5 4.56)
+          (xy -5 3.898)
+          (xy -4.32 3.898)
+          (xy -4.32 3.2647)
+          (xy -5 3.2647)
+          (xy -5 2.5997)
+          (xy -4.32 2.5997)
+          (xy -4.32 1.9664)
+          (xy -5 1.9664)
+          (xy -5 1.3014)
+          (xy -4.32 1.3014)
+          (xy -4.32 0.6681)
+          (xy -5 0.6681)
+          (xy -5 0)
+        )
+        (width 0.01) (fill yes))
+    ) (tstamp 1b49a467-95b9-4eb4-8cd5-fab5950a5fbc))
+  (model "${KIPRJMOD}/3d/DQH0008A.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
