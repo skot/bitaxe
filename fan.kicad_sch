@@ -5,9 +5,9 @@
   (paper "A")
 
   (title_block
-    (title "le bitaxeTTGO")
+    (title "NerdAxe")
     (date "2023-07-10")
-    (rev "0")
+    (rev "1.1")
   )
 
   (lib_symbols

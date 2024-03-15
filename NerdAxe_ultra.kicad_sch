@@ -5,7 +5,7 @@
   (paper "A")
 
   (title_block
-    (title "le bitaxeTTGO")
+    (title "bitaxeTTGO")
     (date "2023-07-10")
     (rev "0")
   )
@@ -388,7 +388,11 @@
     (uuid fb150e19-1ef3-4ea1-8a17-ed02fd7c8667)
   )
 
-  (text "NerdAxe_ultra" (at 160.655 186.055 0)
+  (text "credits to Bitaxe project members" (at 161.925 185.42 0)
+    (effects (font (size 3 3) (thickness 1) bold) (justify left bottom))
+    (uuid 4533c569-c310-4492-ac90-5eb55be4d4ed)
+  )
+  (text "NerdAxe" (at 161.29 180.34 0)
     (effects (font (size 5 5) (thickness 1) bold) (justify left bottom))
     (uuid 65740984-b4b1-4ee3-94a0-449abd771ae0)
   )

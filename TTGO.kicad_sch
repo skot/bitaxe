@@ -2,7 +2,12 @@
 
   (uuid 55533dba-17cc-4a5f-a550-63ba803af93a)
 
-  (paper "A4")
+  (paper "A")
+
+  (title_block
+    (title "NerdAxe")
+    (rev "1.1")
+  )
 
   (lib_symbols
     (symbol "Device:R_US" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
