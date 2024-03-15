@@ -1,9 +1,11 @@
 ```
 Closed Source is Antithetical to Bitcoin
 ```
-# The bitaxeUltra
-bitaxe is a fully open source hardware Bitcoin ASIC miner. Ultra is the 3rd major revision of the bitaxe that now includes the BM1366 ASIC from the S19XP
-![bitaxeUltra assembled](doc/built.png)
+# The NerdAxeUltra
+TNerdAxeUltra is a fork from bitaxe Ultra controlled by the common board used on Nerdminer project called TTGO-TDisplay.
+It has the same power as bitaxeUltra with fullcolor display graphics. 
+This bitaxe revision includes the BM1366 ASIC from the S19XP
+![NerdAxeUltra design](doc/NerdAxe.png)
 
 ## Goals
 - **Standalone**: can mine directly to your pool over WiFi. No External computer needed.
@@ -13,7 +15,7 @@ bitaxe is a fully open source hardware Bitcoin ASIC miner. Ultra is the 3rd majo
 - **Open Source**: All design files are provided.
 
 ## Features
-- **ESP32-S3-WROOM-1** wifi microcontroller on board
+- **TTGO-TDisplay** wifi microcontroller display board
 - **TI TPS40305** buck regulator steps down the 5V input to power the BM1366
 - **Maxim DS4432U+** current DAC digitally adjusts the BM1366 core voltage from 0.04V to 2.4V
 - **TI INA260** power meter measures the input voltage and current of the miner
