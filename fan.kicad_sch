@@ -5,9 +5,9 @@
 	(uuid "e3011397-6e70-47ae-93ca-7e99c3d9ef05")
 	(paper "A")
 	(title_block
-		(title "bitaxeSupra")
-		(date "2024-02-14")
-		(rev "401")
+		(title "axeTester")
+		(date "2024-04-04")
+		(rev "1")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -1627,7 +1627,7 @@
 			(uuid "b9cdf6f5-db2c-4466-a095-1509db66167f")
 		)
 		(instances
-			(project "bitaxeSupra"
+			(project "axeTester"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
 					(reference "TP15")
 					(unit 1)
@@ -1718,7 +1718,7 @@
 					(unit 1)
 				)
 			)
-			(project "bitaxeSupra"
+			(project "axeTester"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
 					(reference "R2")
 					(unit 1)
@@ -1806,7 +1806,7 @@
 			(uuid "35f5221b-1ac6-482a-b604-412f5acd65e5")
 		)
 		(instances
-			(project "bitaxeSupra"
+			(project "axeTester"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
 					(reference "C33")
 					(unit 1)
@@ -1894,7 +1894,7 @@
 			(uuid "981cf881-1b55-4236-9f43-d6028a10610f")
 		)
 		(instances
-			(project "bitaxeSupra"
+			(project "axeTester"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
 					(reference "C29")
 					(unit 1)
@@ -1988,7 +1988,7 @@
 			(uuid "60b34f21-437e-4be7-9172-47fab6f2d33e")
 		)
 		(instances
-			(project "bitaxeSupra"
+			(project "axeTester"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
 					(reference "J4")
 					(unit 1)
@@ -2055,7 +2055,7 @@
 			(uuid "8220d9cc-4dbd-4ca0-b3b9-8e7032d8c315")
 		)
 		(instances
-			(project "bitaxeSupra"
+			(project "axeTester"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
 					(reference "TP16")
 					(unit 1)
@@ -2142,7 +2142,7 @@
 			(uuid "188c7b98-423a-402b-95d1-52b06de18da2")
 		)
 		(instances
-			(project "bitaxeSupra"
+			(project "axeTester"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
 					(reference "C28")
 					(unit 1)
@@ -2227,7 +2227,7 @@
 			(uuid "e3a95dd9-3ce3-49ba-b367-af8493c19616")
 		)
 		(instances
-			(project "bitaxeSupra"
+			(project "axeTester"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
 					(reference "R9")
 					(unit 1)
@@ -2330,7 +2330,7 @@
 			(uuid "dd998fe8-e98a-4316-9c45-270c06880f47")
 		)
 		(instances
-			(project "bitaxeSupra"
+			(project "axeTester"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
 					(reference "U7")
 					(unit 1)

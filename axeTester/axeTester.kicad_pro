@@ -550,7 +550,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "bitaxeSupra.kicad_pro",
+    "filename": "axeTester.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -593,7 +593,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "bitaxeSupra.step",
+      "step": "axeTester.step",
       "svg": "",
       "vrml": ""
     },
