@@ -1,0 +1,101 @@
+(footprint "pogopin-P50-E2-0.68"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.92 -0.01 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "689ecbea-534f-4bc5-9679-1c3b02360888")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "pogopin-P50-E2-0.68"
+		(at 0.03 5.45 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bfbe4ef7-bd4e-4a17-b60b-fc57f3680ecd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af3a097b-22cd-4f0c-af7a-75fc5b9dc352")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ffa4c1b6-a411-434a-b01c-1ed31b8c7438")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e14d592b-2056-4261-9f75-0e503ff1e9d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0.03 6.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2b7f86c1-d072-4cc4-8b97-4d6e797bb945")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.26 1.26)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0d052145-369f-4971-a4d5-21ab03f4cda9")
+	)
+	(model "${KIPRJMOD}/3d/P-0D-0512.STEP"
+		(offset
+			(xyz 0 0 5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -90 0)
+		)
+	)
+)

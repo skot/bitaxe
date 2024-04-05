@@ -1,0 +1,101 @@
+(footprint "J-5515PT-1-00-0000"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.59 0.06 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "537f4c08-8cd4-42ff-94a5-b6106c3aa361")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "J-5515PT-1-00-0000"
+		(at 4.48 -9.59 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c78efcb0-24bc-4cf0-b596-90dbdafe8e4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a6dddca-345e-4f2e-8341-22536041e247")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24680ada-98bf-4b4b-9dd1-98576e5d6c09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9aa841c-4df8-48b6-b35a-d17bd8a37c76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 4.48 -8.09 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3647cb91-792c-4071-9923-880fd41c262e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.6 2.6)
+		(drill 0.825)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "07c9de03-949c-4293-ab67-64b4bb4611ab")
+	)
+	(model "${KIPRJMOD}/3d/J-5515PT-1-00-0000.stp"
+		(offset
+			(xyz 0 -9.82 16)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -90 0)
+		)
+	)
+)
