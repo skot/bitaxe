@@ -10413,6 +10413,18 @@
 		(layer "User.2")
 		(uuid "c35d4274-f8df-41d3-8ff7-53386a270df9")
 	)
+	(gr_text "axeTester v1"
+		(at 112.4 149.62 0)
+		(layer "B.SilkS")
+		(uuid "2c52f320-592c-470f-9399-38460fbcd5c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
 		(start 136.928 57.528)
 		(end 139.2506 59.8506)
