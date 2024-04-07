@@ -700,174 +700,6 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Crystal"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Two pin crystal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_0_1"
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -3085,12 +2917,6 @@
 		(uuid "06299bca-d5c5-40c6-a011-f86aca00c466")
 	)
 	(junction
-		(at 123.825 29.845)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1dc4e333-4cdf-40f0-9173-67e0015365ce")
-	)
-	(junction
 		(at 238.125 92.075)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3119,12 +2945,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f6d0888-a9b7-4392-8806-6476e1dbe232")
-	)
-	(junction
-		(at 148.59 29.845)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95a82d1e-d3ac-4099-b4fd-92a30b7fd12d")
 	)
 	(junction
 		(at 35.56 80.01)
@@ -3169,18 +2989,16 @@
 		(uuid "42f439d0-a945-45ba-8d5d-b181d6d4d19d")
 	)
 	(no_connect
+		(at 222.885 59.055)
+		(uuid "8106f728-92d1-4f10-b6c6-c97ed421eeb9")
+	)
+	(no_connect
 		(at 222.885 84.455)
 		(uuid "f15f9d2f-17ca-42a0-85bd-91df0f614e04")
 	)
-	(wire
-		(pts
-			(xy 187.96 59.055) (xy 191.77 59.055)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04399091-6b10-427b-89b6-1f940b264a5a")
+	(no_connect
+		(at 222.885 61.595)
+		(uuid "f51ec655-ef83-4496-81ae-27b8a42c7c41")
 	)
 	(wire
 		(pts
@@ -3264,16 +3082,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 29.845) (xy 148.59 29.845)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fdaefaa-3a80-4965-90fd-fc438d510ed3")
-	)
-	(wire
-		(pts
 			(xy 72.39 168.275) (xy 80.01 168.275)
 		)
 		(stroke
@@ -3331,16 +3139,6 @@
 			(type default)
 		)
 		(uuid "2c065bc6-df17-4baa-b1be-363f07257eb8")
-	)
-	(wire
-		(pts
-			(xy 123.825 42.545) (xy 123.825 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c6f9af8-b762-4750-bd04-43bc0095027e")
 	)
 	(wire
 		(pts
@@ -3434,16 +3232,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 29.845) (xy 155.575 29.845)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4949ff34-258c-4617-9ea7-dd3b86b44b59")
-	)
-	(wire
-		(pts
 			(xy 69.85 120.65) (xy 77.47 120.65)
 		)
 		(stroke
@@ -3484,16 +3272,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 29.845) (xy 123.825 29.845)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56dfd12f-7644-4e9a-b90a-69ab82116af2")
-	)
-	(wire
-		(pts
 			(xy 31.115 81.915) (xy 35.56 81.915)
 		)
 		(stroke
@@ -3501,36 +3279,6 @@
 			(type default)
 		)
 		(uuid "5c5a4ae7-0775-43be-9d50-78a16eeab951")
-	)
-	(wire
-		(pts
-			(xy 123.825 42.545) (xy 148.59 42.545)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c6614ff-ec56-414c-97c3-32f4082b1c6e")
-	)
-	(wire
-		(pts
-			(xy 203.2 61.595) (xy 187.96 61.595)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dfceef2-3e23-4144-a4af-97d1878ea567")
-	)
-	(wire
-		(pts
-			(xy 123.825 29.845) (xy 123.825 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ed4192a-7dcd-432c-8a8c-d31e86d055a2")
 	)
 	(wire
 		(pts
@@ -3581,16 +3329,6 @@
 			(type default)
 		)
 		(uuid "6b03d2db-54d4-4ef0-92c3-b194d88627cf")
-	)
-	(wire
-		(pts
-			(xy 199.39 59.055) (xy 222.885 59.055)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dcecae1-6c53-4a36-8907-1c225e022307")
 	)
 	(wire
 		(pts
@@ -3671,16 +3409,6 @@
 			(type default)
 		)
 		(uuid "81a6935e-0086-407a-89aa-7a7bfde2f3e4")
-	)
-	(wire
-		(pts
-			(xy 123.825 29.845) (xy 133.35 29.845)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83c85c4f-303e-4f66-b697-eee0753ee6a1")
 	)
 	(wire
 		(pts
@@ -3844,16 +3572,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 61.595) (xy 187.96 59.055)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af3c287b-b7ff-46de-963c-f871218954c7")
-	)
-	(wire
-		(pts
 			(xy 191.77 120.65) (xy 221.615 120.65)
 		)
 		(stroke
@@ -3871,16 +3589,6 @@
 			(type default)
 		)
 		(uuid "b93e7777-fdff-48e5-a1df-c2eed8288ea3")
-	)
-	(wire
-		(pts
-			(xy 148.59 29.845) (xy 148.59 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba1c0b53-460c-482a-9a79-6132a2fc794d")
 	)
 	(wire
 		(pts
@@ -3974,16 +3682,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 39.37) (xy 148.59 42.545)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d81f80a7-41fc-483e-99a2-af2f586b4370")
-	)
-	(wire
-		(pts
 			(xy 132.715 55.88) (xy 121.92 55.88)
 		)
 		(stroke
@@ -4001,16 +3699,6 @@
 			(type default)
 		)
 		(uuid "dc68cb9d-1a2b-43ed-a2f4-d8cc26112f6f")
-	)
-	(wire
-		(pts
-			(xy 210.82 61.595) (xy 222.885 61.595)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e18f8412-8b0a-4d31-b7b7-f78809192e04")
 	)
 	(wire
 		(pts
@@ -4163,17 +3851,6 @@
 		)
 		(uuid "03258c8e-7f04-46cc-ab71-178d844ea937")
 	)
-	(text "RTC Clock Crystal"
-		(exclude_from_sim no)
-		(at 130.81 45.085 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "39a5ca83-a7a4-4e02-ad63-cb1a80eb366e")
-	)
 	(text "ESP32 3V3 LDO"
 		(exclude_from_sim no)
 		(at 41.91 45.72 0)
@@ -4306,17 +3983,6 @@
 		)
 		(uuid "4cac0bec-d331-4162-80ba-2e0dd6034e61")
 	)
-	(label "XOUT32"
-		(at 150.495 29.845 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4df81096-d9cf-4b01-aa68-0cf5527d130c")
-	)
 	(label "EN"
 		(at 68.58 80.01 0)
 		(fields_autoplaced yes)
@@ -4394,17 +4060,6 @@
 		)
 		(uuid "7498408d-6318-4529-9e1a-fa6c16d61a78")
 	)
-	(label "GND"
-		(at 188.595 61.595 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "84228a89-2d0d-49c9-9a7e-9c2fe2b020e3")
-	)
 	(label "XIN32"
 		(at 69.85 120.65 0)
 		(fields_autoplaced yes)
@@ -4426,17 +4081,6 @@
 			(justify left bottom)
 		)
 		(uuid "88b85565-6a52-42b2-bd15-4dcc51e0bafb")
-	)
-	(label "GND"
-		(at 138.43 42.545 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8bb4d64c-01dd-4bc7-a80e-c38e7fc4aa4d")
 	)
 	(label "3V3"
 		(at 76.835 165.735 0)
@@ -4514,17 +4158,6 @@
 			(justify left bottom)
 		)
 		(uuid "a391a179-450c-46a6-afa4-8d2bc4228ba6")
-	)
-	(label "XIN32"
-		(at 116.84 29.845 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a44c5345-dddb-423e-91a6-9c986d8e36ef")
 	)
 	(label "GND"
 		(at 201.93 135.89 0)
@@ -4912,94 +4545,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 123.825 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "1d7cb1fe-4288-4dbe-8ac2-1ba624ca1916")
-		(property "Reference" "C30"
-			(at 127.635 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6.8pF"
-			(at 127.635 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 124.7902 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.825 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.825 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "399-C0402C689C5GAC7867CT-ND"
-			(at 123.825 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "C0402C689C5GAC7867"
-			(at 123.825 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14958e33-062b-4def-be20-d23187506543")
-		)
-		(pin "2"
-			(uuid "07eb90a8-60bf-4560-891b-866efa73ea55")
-		)
-		(instances
-			(project "bitaxeSupra"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
 		(at 226.695 120.65 0)
 		(unit 1)
@@ -5076,91 +4621,6 @@
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 207.01 61.595 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c5e499b-2065-43ff-bc60-6343eaacc6c9")
-		(property "Reference" "R5"
-			(at 203.2 60.325 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 211.455 60.325 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 207.264 60.579 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 207.01 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 207.01 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "RMCF0402JT5K10CT-ND"
-			(at 207.01 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RMCF0402JT5K10"
-			(at 207.01 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "013c3f5a-4e82-4f92-aad2-1cbc3c4ba531")
-		)
-		(pin "2"
-			(uuid "f8210b1b-f969-4863-95e2-52c6e5f759a5")
-		)
-		(instances
-			(project "bitaxeSupra"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5529,94 +4989,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 148.59 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "5d5ced45-9f2b-49b5-b588-8485a9596c77")
-		(property "Reference" "C31"
-			(at 151.765 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6.8pF"
-			(at 151.765 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 149.5552 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "399-C0402C689C5GAC7867CT-ND"
-			(at 148.59 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "C0402C689C5GAC7867"
-			(at 148.59 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80925e83-e06c-41c9-b3d5-a4a859c67b3b")
-		)
-		(pin "2"
-			(uuid "d8e78b63-48ea-4ab4-9e91-2ee4332da99e")
-		)
-		(instances
-			(project "bitaxeSupra"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bitaxe:RT9080-33GJ5")
 		(at 51.435 30.48 0)
 		(unit 1)
@@ -5840,91 +5212,6 @@
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
 					(reference "TP23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 195.58 59.055 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "97993b8d-1824-4ecc-bc74-71ad7e5ab638")
-		(property "Reference" "R3"
-			(at 191.77 57.785 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 200.025 57.785 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 195.834 58.039 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "RMCF0402JT5K10CT-ND"
-			(at 195.58 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RMCF0402JT5K10"
-			(at 195.58 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f88b5ada-29d8-46e1-a4ec-415f50d9d982")
-		)
-		(pin "2"
-			(uuid "62cb7900-3498-4873-905b-c13a348d7608")
-		)
-		(instances
-			(project "bitaxeSupra"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6269,91 +5556,6 @@
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
 					(reference "C51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal")
-		(at 137.16 29.845 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "cc8c433b-8d1f-4f53-97a3-355a253383f9")
-		(property "Reference" "Y1"
-			(at 137.16 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "32.768kHz"
-			(at 137.16 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bitaxe:SC32S-7PF20PPM"
-			(at 137.16 29.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sii.co.jp/en/quartz/files/2013/03/SC-32S_Leaflet_e20151217.pdf"
-			(at 137.16 29.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 29.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "728-1074-1-ND"
-			(at 137.16 29.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "SC32S-7PF20PPM"
-			(at 137.16 29.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8649492-0bdb-4e8b-9172-573d3fdab4f4")
-		)
-		(pin "2"
-			(uuid "fe96bdb7-8039-4c7d-b6b6-3e18d09cafa9")
-		)
-		(instances
-			(project "bitaxeSupra"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-					(reference "Y1")
 					(unit 1)
 				)
 			)
