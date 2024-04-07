@@ -61,7 +61,7 @@
       ],
       "drc_exclusions": [
         "copper_sliver|106861292|83945279|00000000-0000-0000-0000-000000000000|B.Cu",
-        "footprint_type_mismatch|116422000|99265000|57c8f3a1-debc-47be-9fca-9386eebd5d18|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|116402000|99495000|9f416566-4bb1-43fd-b7fb-3102bc74f289|00000000-0000-0000-0000-000000000000",
         "footprint_type_mismatch|80865000|83260000|5f5c86f5-95cd-4905-bd18-164d92426b99|00000000-0000-0000-0000-000000000000",
         "footprint_type_mismatch|98201691|69422200|aef1432b-8855-42bc-b18c-d8aba33100e8|00000000-0000-0000-0000-000000000000"
       ],
@@ -555,7 +555,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "bitaxeUltra.kicad_pro",
+    "filename": "bitaxeSupra.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -598,7 +598,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "bitaxeUltra.step",
+      "step": "bitaxeSupra.step",
       "svg": "",
       "vrml": ""
     },
@@ -700,7 +700,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "bitaxe.kicad_wks",
     "plot_directory": "./",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
@@ -727,7 +727,7 @@
     ],
     [
       "4cf9c075-d009-4c35-9949-adda70ae20c7",
-      "BM1366"
+      "BM1368"
     ],
     [
       "8e8832ea-6bf1-49d2-b3a5-32a207f555d2",
