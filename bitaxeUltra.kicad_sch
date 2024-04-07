@@ -1386,16 +1386,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 45.72) (xy 90.805 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "764fb54b-4db4-48a0-9651-742faf312287")
-	)
-	(wire
-		(pts
 			(xy 165.735 83.185) (xy 174.625 83.185)
 		)
 		(stroke
@@ -1647,17 +1637,6 @@
 			(justify left bottom)
 		)
 		(uuid "65740984-b4b1-4ee3-94a0-449abd771ae0")
-	)
-	(label "PLUG_SENSE"
-		(at 90.805 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "07cdd847-41dc-4cd8-8003-1b7221fd9683")
 	)
 	(label "VDD"
 		(at 165.735 83.185 0)
