@@ -575,20 +575,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -13.97 21.59 0)
+			(property "Reference" "U4"
+				(at -15.24 21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "BM1368_mode1"
-				(at 11.43 21.59 0)
+				(at 1.905 21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "bitaxe:BM1368"
@@ -689,7 +691,7 @@
 				(pin unspecified line
 					(at -17.78 -5.08 0)
 					(length 2.54)
-					(name "?"
+					(name "ROSC_SEL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -707,7 +709,7 @@
 				(pin unspecified line
 					(at -17.78 -7.62 0)
 					(length 2.54)
-					(name "?"
+					(name "LITE_PAD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -725,7 +727,7 @@
 				(pin unspecified line
 					(at -17.78 -10.16 0)
 					(length 2.54)
-					(name "?"
+					(name "INV_CLKO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -887,7 +889,7 @@
 				(pin unspecified line
 					(at 17.78 -7.62 180)
 					(length 2.54)
-					(name "?"
+					(name "TEMP_P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -905,7 +907,7 @@
 				(pin unspecified line
 					(at 17.78 -5.08 180)
 					(length 2.54)
-					(name "?"
+					(name "TEMP_N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -941,7 +943,7 @@
 				(pin output line
 					(at 17.78 0 180)
 					(length 2.54)
-					(name "CO"
+					(name "CLKO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -977,7 +979,7 @@
 				(pin output line
 					(at 17.78 5.08 180)
 					(length 2.54)
-					(name "CLKO"
+					(name "CO"
 						(effects
 							(font
 								(size 1.27 1.27)
