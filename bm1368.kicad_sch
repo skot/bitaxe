@@ -4213,7 +4213,7 @@
 		)
 		(uuid "078b7634-83e7-44a5-8b31-8fe55bf0cbdb")
 	)
-	(label "1V8"
+	(label "1V2"
 		(at 86.36 132.08 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4224,7 +4224,7 @@
 		)
 		(uuid "1141fd6f-53c7-4fd2-a9a5-1644bd7872fa")
 	)
-	(label "1V8"
+	(label "1V2"
 		(at 68.58 29.21 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4466,7 +4466,7 @@
 		)
 		(uuid "794d3cb0-5332-405a-a468-925df591d19a")
 	)
-	(label "1V8"
+	(label "1V2"
 		(at 48.26 168.91 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4763,14 +4763,14 @@
 		)
 		(uuid "d65bb128-40a9-49e7-a21c-6927fbc623cc")
 	)
-	(label "1V8"
-		(at 73.66 171.45 0)
+	(label "1V2"
+		(at 77.47 171.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d7ac791c-639e-4bbd-943c-b62e5e90528e")
 	)
@@ -8869,7 +8869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.jauch.com/downloadfile/5ef1edcfb8e2f73163c8ce8009ef659d1/jo32-1.8-3.3v.pdf"
+		(property "Datasheet" ""
 			(at 60.96 171.45 0)
 			(effects
 				(font
@@ -8887,7 +8887,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1908-O250-JO32-B-1V3-1-T1-LFCT-ND"
+		(property "DK" ""
 			(at 62.23 170.18 0)
 			(effects
 				(font
@@ -8896,7 +8896,16 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "O 25,0-JO32-B-1V3-1-T1-LF"
+		(property "PARTNO" "SX3M25.000E20F30THN"
+			(at 62.23 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137262"
 			(at 62.23 170.18 0)
 			(effects
 				(font
@@ -9009,7 +9018,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP1824T-1802E"
+		(property "Value" "MCP1824T-1202E/OT"
 			(at 56.515 25.4 0)
 			(effects
 				(font
@@ -9044,7 +9053,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "MCP1824T-1802E/OT"
+		(property "PARTNO" "MCP1824T-1202E/OT"
 			(at 49.53 30.48 0)
 			(effects
 				(font
@@ -9053,7 +9062,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "MCP1824T-1802E/OTCT-ND"
+		(property "DK" "MCP1824T-1202E/OTCT-ND"
 			(at 49.53 30.48 0)
 			(effects
 				(font
