@@ -695,6 +695,10 @@
 		(color 0 0 0 0)
 		(uuid "eef211f1-f5ae-4328-a58e-79df94f7ae76")
 	)
+	(no_connect
+		(at 72.39 45.72)
+		(uuid "1fefc908-afd4-49eb-a14b-58b0c6ae4c05")
+	)
 	(wire
 		(pts
 			(xy 129.54 46.99) (xy 207.01 46.99)
@@ -1784,7 +1788,7 @@
 				)
 			)
 		)
-		(property "Value" "PJ-036AH-SMT"
+		(property "Value" "54-00164"
 			(at 64.77 39.37 0)
 			(effects
 				(font
@@ -1792,7 +1796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-036AH-SMT_Horizontal"
+		(property "Footprint" "bitaxe:TENSILITY_54-00164"
 			(at 66.04 46.736 0)
 			(effects
 				(font
@@ -1801,7 +1805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.cuidevices.com/product/resource/pj-036ah-smt-tr.pdf"
+		(property "Datasheet" "https://tensility.s3.amazonaws.com/uploads/pdffiles/54-00164.pdf?X-Amz-Expires=600&X-Amz-Date=20240425T233931Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIS2S4WRDQDSWDRZQ%2F20240425%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=db47604833b748f16eb1b48a1cb56220ad6cd713e88f354ff5cc2bea6dae9c43"
 			(at 66.04 46.736 0)
 			(effects
 				(font
@@ -1819,7 +1823,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "CP-036AHPJTR-ND"
+		(property "DK" "839-54-00164CT-ND"
 			(at 64.77 45.72 0)
 			(effects
 				(font
@@ -1828,7 +1832,16 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "PJ-036AH-SMT"
+		(property "PARTNO" "54-00164"
+			(at 64.77 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C431534"
 			(at 64.77 45.72 0)
 			(effects
 				(font
