@@ -1,0 +1,125 @@
+(footprint "SLC1175-271MEC_COC"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "SLC1175-271MEC ")
+	(property "Reference" "REF**"
+		(at -3.75 -4.91 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2bec2b5b-7b5e-4cc1-a8c6-c822b52195fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SLC1175-271MEC_COC"
+		(at -0.25 5.42 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b415c3de-fa1c-467e-8d9f-8cf2aa159e7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f42ce028-028e-40f8-a5ab-f3fa010a6936")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18672466-64a8-4136-9483-b99e13335949")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0ab5c08-4669-4fbb-8040-f4ee9778c142")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -5.4 -3.75)
+		(end 5.4 3.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "76608f73-1996-4008-8c2b-2d1a18f1aacc")
+	)
+	(fp_rect
+		(start -6.09 -3.84)
+		(end 6.05 3.83)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "be42e1c1-4ca9-419b-8ebe-a2d26147215e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.11 7.01 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1cfd30f6-6ad2-477d-97dc-87325b74f529")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.975 0 90)
+		(size 2.6 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9e595048-33af-4298-b276-86526adcc237")
+	)
+	(pad "2" smd rect
+		(at 3.975 0 90)
+		(size 2.6 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dee5a524-abe0-409c-8f6c-a998a5f2862e")
+	)
+	(model "${KIPRJMOD}/3d/SLC1175-271MEC_COC.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
