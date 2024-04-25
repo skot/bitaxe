@@ -2935,12 +2935,6 @@
 		(uuid "68f44e50-d75c-4ac0-8d26-75f889ce478f")
 	)
 	(junction
-		(at 53.34 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "693d3b16-6abd-4ddb-87c9-a9e18e436739")
-	)
-	(junction
 		(at 40.005 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2951,12 +2945,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a93e32a3-6f16-494f-8082-8bf5569d8d71")
-	)
-	(junction
-		(at 38.1 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b16ffa0d-807e-402b-8a5b-5b891b798b5b")
 	)
 	(junction
 		(at 35.56 81.915)
@@ -2999,16 +2987,6 @@
 	(no_connect
 		(at 222.885 61.595)
 		(uuid "f51ec655-ef83-4496-81ae-27b8a42c7c41")
-	)
-	(wire
-		(pts
-			(xy 35.56 113.03) (xy 38.1 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a67a13d-96e2-4d17-9da9-e767097fcee7")
 	)
 	(wire
 		(pts
@@ -3169,16 +3147,6 @@
 			(type default)
 		)
 		(uuid "36d4dbd7-f515-4b25-bb2a-2e240b149b71")
-	)
-	(wire
-		(pts
-			(xy 38.1 99.06) (xy 38.1 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36e161d7-8c96-4e42-97c8-65d92c42bcb8")
 	)
 	(wire
 		(pts
@@ -3452,26 +3420,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 113.03) (xy 77.47 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ee9ab23-1502-4ac8-b5dd-6f3801a9b1ef")
-	)
-	(wire
-		(pts
-			(xy 51.435 107.95) (xy 53.34 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3ee7a95-a27a-424d-87cf-5f6522338f9f")
-	)
-	(wire
-		(pts
 			(xy 184.912 34.925) (xy 191.77 34.925)
 		)
 		(stroke
@@ -3479,16 +3427,6 @@
 			(type default)
 		)
 		(uuid "a400cce4-372a-4af2-9e5f-c1c8d65e0044")
-	)
-	(wire
-		(pts
-			(xy 53.34 107.95) (xy 77.47 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5158953-b491-4a05-a43b-a0904c70014f")
 	)
 	(wire
 		(pts
@@ -3642,6 +3580,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 115.57) (xy 77.47 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f6db91-90c0-4990-944f-7dc09a720956")
+	)
+	(wire
+		(pts
 			(xy 217.17 77.47) (xy 217.17 74.295)
 		)
 		(stroke
@@ -3692,26 +3640,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 105.41) (xy 53.34 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc68cb9d-1a2b-43ed-a2f4-d8cc26112f6f")
-	)
-	(wire
-		(pts
-			(xy 38.1 95.25) (xy 53.34 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e35dc694-41af-4cb6-b707-7e0c031be993")
-	)
-	(wire
-		(pts
 			(xy 217.17 71.755) (xy 222.885 71.755)
 		)
 		(stroke
@@ -3729,16 +3657,6 @@
 			(type default)
 		)
 		(uuid "e537da81-33bd-4a19-856f-a6dd23ca9c9c")
-	)
-	(wire
-		(pts
-			(xy 53.34 97.79) (xy 53.34 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7cc5f7b-9b43-480e-9fd7-07d8a69b7bf2")
 	)
 	(wire
 		(pts
@@ -3830,16 +3748,6 @@
 		)
 		(uuid "f6a6f8ab-34f6-48b5-a0a8-7aafbe926c0e")
 	)
-	(wire
-		(pts
-			(xy 38.1 106.68) (xy 38.1 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa9c42c0-9254-468a-bc57-c0c5996bc564")
-	)
 	(text "Accessory Port"
 		(exclude_from_sim no)
 		(at 220.98 113.03 0)
@@ -3927,17 +3835,6 @@
 			(justify left bottom)
 		)
 		(uuid "33350876-e28c-422e-95b7-31a96ae4ecc4")
-	)
-	(label "3V3"
-		(at 43.815 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "36e51d8a-72dd-4d08-8d1d-aefb8c96da63")
 	)
 	(label "EN"
 		(at 51.435 165.735 0)
@@ -4360,18 +4257,6 @@
 		)
 		(uuid "54da2509-e2bf-497c-a431-7ebd75a744fa")
 	)
-	(hierarchical_label "PLUG_SENSE"
-		(shape input)
-		(at 35.56 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5dc2f857-9d2f-49f8-96eb-243ef2d644ca")
-	)
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 200.025 100.33 0)
@@ -4420,9 +4305,9 @@
 		)
 		(uuid "7226b6ce-b2d3-4b92-b279-b595075ed42f")
 	)
-	(hierarchical_label "PWR_EN"
-		(shape output)
-		(at 51.435 107.95 180)
+	(hierarchical_label "SMB_ALRT"
+		(shape input)
+		(at 66.04 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4430,7 +4315,7 @@
 			)
 			(justify right)
 		)
-		(uuid "c841212f-ff3b-49e4-b2a6-c04e5b6e16ec")
+		(uuid "b1a7355f-e2a2-4cd3-b9db-cefa7fdb3e09")
 	)
 	(hierarchical_label "5V"
 		(shape input)
@@ -4709,100 +4594,6 @@
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
 					(reference "C52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 38.1 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47585a82-f110-4541-8671-911954080b37")
-		(property "Reference" "R20"
-			(at 40.005 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 40.005 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 39.116 103.124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-1.00MLRCT-ND"
-			(at 38.1 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402FR-071ML"
-			(at 38.1 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6cc1bc6a-a47c-45e1-bd51-43f33aeaad0a")
-		)
-		(pin "2"
-			(uuid "16c755dd-cd62-444d-91e2-d08a4919e510")
-		)
-		(instances
-			(project "esp32"
-				(path "/dcd2fc1c-da48-40a9-b97c-5712d9530f4f"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-			(project "bitaxeSupra"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5556,100 +5347,6 @@
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
 					(reference "C51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 53.34 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3ca354c-c817-45bb-85d7-640f91a3814a")
-		(property "Reference" "R20"
-			(at 55.245 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 55.245 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 54.356 101.854 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-10KJRCT-ND"
-			(at 53.34 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402JR-0710KL"
-			(at 53.34 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a11ac75-84b9-4937-afdc-2bde77e5ca41")
-		)
-		(pin "2"
-			(uuid "d674c121-d53a-4f31-8206-38fc175fe917")
-		)
-		(instances
-			(project "esp32"
-				(path "/dcd2fc1c-da48-40a9-b97c-5712d9530f4f"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-			(project "bitaxeSupra"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-					(reference "R7")
 					(unit 1)
 				)
 			)

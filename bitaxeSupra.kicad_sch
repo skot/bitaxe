@@ -797,16 +797,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 77.47) (xy 175.26 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6141b714-6192-4e6a-91ce-bc42ed5eae64")
-	)
-	(wire
-		(pts
 			(xy 209.55 49.53) (xy 209.55 69.85)
 		)
 		(stroke
@@ -837,16 +827,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 45.72) (xy 91.44 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "764fb54b-4db4-48a0-9651-742faf312287")
-	)
-	(wire
-		(pts
 			(xy 166.37 83.82) (xy 175.26 83.82)
 		)
 		(stroke
@@ -874,16 +854,6 @@
 			(type default)
 		)
 		(uuid "8ace5b8b-7377-49c8-9eb1-d8a1aa7310cc")
-	)
-	(wire
-		(pts
-			(xy 129.54 55.88) (xy 175.26 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ce87036-b6af-4b41-ad65-33bb105dd054")
 	)
 	(wire
 		(pts
@@ -1017,6 +987,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 55.88) (xy 175.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd46077f-9ee9-4ed6-949b-22f57ccde5fe")
+	)
+	(wire
+		(pts
 			(xy 35.56 179.07) (xy 35.56 193.04)
 		)
 		(stroke
@@ -1124,17 +1104,6 @@
 			(type default)
 		)
 		(uuid "fb150e19-1ef3-4ea1-8a17-ed02fd7c8667")
-	)
-	(label "PLUG_SENSE"
-		(at 91.44 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "07cdd847-41dc-4cd8-8003-1b7221fd9683")
 	)
 	(label "VDD"
 		(at 166.37 83.82 0)
@@ -1311,17 +1280,6 @@
 			(justify right bottom)
 		)
 		(uuid "d1d5a32b-73a4-4bbc-a612-b8498e760989")
-	)
-	(label "PLUG_SENSE"
-		(at 160.02 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f0a9aaba-6e8c-421e-a698-9f9a04138776")
 	)
 	(label "TX"
 		(at 166.37 72.39 0)
@@ -2991,7 +2949,7 @@
 			)
 			(uuid "31e2def0-a6e4-410f-9883-8adb3501ac6b")
 		)
-		(pin "PWR_EN" input
+		(pin "SMB_ALRT" output
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -2999,7 +2957,7 @@
 				)
 				(justify right)
 			)
-			(uuid "029c510a-ae4a-4626-b80b-34f7d530870f")
+			(uuid "cea3d115-b7dc-46bf-bd36-089b43c92dc1")
 		)
 		(instances
 			(project "bitaxeSupra"
@@ -3129,7 +3087,7 @@
 			)
 			(uuid "62229c31-0a19-4517-a39d-91313c1f1447")
 		)
-		(pin "PWR_EN" output
+		(pin "SMB_ALRT" input
 			(at 175.26 55.88 180)
 			(effects
 				(font
@@ -3137,17 +3095,7 @@
 				)
 				(justify left)
 			)
-			(uuid "1a2f37ca-553c-4963-bff4-ced19850eeb9")
-		)
-		(pin "PLUG_SENSE" input
-			(at 175.26 77.47 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d1f8be99-dd1f-4f6b-9189-9ff99857aff0")
+			(uuid "646a20c3-2c54-4b89-b96f-4f3825b4b1fd")
 		)
 		(instances
 			(project "bitaxeSupra"
