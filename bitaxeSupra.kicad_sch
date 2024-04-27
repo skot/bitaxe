@@ -1661,7 +1661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 85.09 43.18 0)
 			(effects
 				(font
@@ -1727,7 +1727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 74.93 48.26 0)
 			(effects
 				(font
@@ -2925,7 +2925,6 @@
 	(sheet
 		(at 113.03 40.64)
 		(size 16.51 20.32)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2944,7 +2943,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 113.03 62.1796 0)
+			(at 113.03 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)

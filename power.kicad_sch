@@ -3952,17 +3952,6 @@
 		)
 		(uuid "77670c47-f2fb-42ed-b45e-0ca5b52ae24f")
 	)
-	(label "CoreV"
-		(at 232.41 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8be74089-9128-4d9f-80ad-54d9a787e60a")
-	)
 	(label "PGOOD"
 		(at 165.1 114.3 0)
 		(fields_autoplaced yes)
@@ -4028,6 +4017,17 @@
 			(justify left bottom)
 		)
 		(uuid "e4d54fff-1860-416c-a61d-6ad47f12827b")
+	)
+	(label "VDD"
+		(at 226.06 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f269d587-0a43-42ae-8e60-805f22ec0654")
 	)
 	(label "3V3"
 		(at 172.72 100.33 0)
@@ -4522,7 +4522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 222.25 91.44 0)
 			(effects
 				(font
@@ -5040,7 +5040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 218.44 27.94 0)
 			(effects
 				(font
@@ -5655,7 +5655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "bitaxe:TestPoint_Pad_D0.8mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 78.74 96.52 0)
 			(effects
 				(font
@@ -6156,7 +6156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "bitaxe:Net-Tie-0.25mm"
+		(property "Footprint" "bitaxe:NetTie-0.25mm"
 			(at 119.38 124.46 0)
 			(effects
 				(font
@@ -7006,7 +7006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "bitaxe:Net-Tie-0.25mm"
+		(property "Footprint" "bitaxe:NetTie-0.25mm"
 			(at 119.38 142.24 0)
 			(effects
 				(font

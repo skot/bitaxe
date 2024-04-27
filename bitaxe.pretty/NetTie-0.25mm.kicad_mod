@@ -1,0 +1,34 @@
+(footprint "NetTie-0.25mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (property "DK" "P16200CT-ND")
+  (property "PARTNO" "2R5TPE220MAFB")
+  (property "Sheetfile" "File: power.kicad_sch")
+  (property "Sheetname" "Power")
+  (attr smd)
+  (fp_text reference "NT" (at 0.03 0.89) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 96a94053-ac79-4f9c-be59-a6c7ed80e01a)
+  )
+  (fp_text value "0" (at -0.04 0.73 180) (layer "F.Fab") hide
+      (effects (font (size 0.64 0.64) (thickness 0.15)))
+    (tstamp a0fd932a-36d5-483c-9a3b-f3e9080654d3)
+  )
+  (fp_poly
+    (pts
+      (xy -0.35 -0.11)
+      (xy 0.35 -0.11)
+      (xy 0.35 0.11)
+      (xy -0.35 0.11)
+    )
+
+    (stroke (width 0.02) (type solid)) (fill solid) (layer "F.Cu") (tstamp c7d47039-cb9d-49ac-8b7b-b10e7037d9e1))
+  (pad "1" smd rect (at -0.35 0) (size 0.5 0.25) (layers "F.Cu" "F.Paste" "F.Mask")
+    (clearance 0.01) (tstamp e4b6d801-b8c5-4289-9214-d85fea90a1b9))
+  (pad "2" smd rect (at 0.35 0) (size 0.5 0.25) (layers "F.Cu" "F.Paste" "F.Mask")
+    (clearance 0.01) (tstamp 111f88ee-2f7c-4767-932f-1b6fadb16825))
+  (model "${KIPRJMOD}/3D/2R5TPE220MAFB.step"
+    (offset (xyz 0 -13.75 -1.65))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
+)

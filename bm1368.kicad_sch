@@ -2770,16 +2770,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 40.64) (xy 204.47 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d0c20ec-9bd9-49ec-9f80-b368425484f6")
-	)
-	(wire
-		(pts
 			(xy 31.75 55.88) (xy 31.75 58.42)
 		)
 		(stroke
@@ -3227,16 +3217,6 @@
 			(type default)
 		)
 		(uuid "8ab2cdd3-1c2f-4cb3-a4cd-6e680f7e5465")
-	)
-	(wire
-		(pts
-			(xy 224.79 40.64) (xy 229.87 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c3c985f-ebcc-4499-a6c6-0972133800be")
 	)
 	(wire
 		(pts
@@ -4401,7 +4381,7 @@
 		(uuid "71096b3b-11ed-4184-a5f7-2e359a27a2ad")
 	)
 	(label "CI"
-		(at 193.04 40.64 0)
+		(at 194.31 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4478,7 +4458,7 @@
 		(uuid "7d3a82d2-a1cb-4824-af68-1ae074785f56")
 	)
 	(label "RO"
-		(at 193.04 35.56 0)
+		(at 194.31 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4566,7 +4546,7 @@
 		(uuid "a00e7bb8-b0f1-4758-92fa-0f355807ca46")
 	)
 	(label "RST_N"
-		(at 193.04 38.1 0)
+		(at 194.31 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6293,7 +6273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 193.04 33.02 0)
 			(effects
 				(font
@@ -8531,7 +8511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 193.04 27.94 0)
 			(effects
 				(font
@@ -8962,7 +8942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 193.04 30.48 0)
 			(effects
 				(font
@@ -9877,72 +9857,6 @@
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
 					(reference "TP38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 193.04 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "f347d2f3-5f2a-40fc-9b31-41b580c925eb")
-		(property "Reference" "TP29"
-			(at 186.69 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 187.325 39.3701 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 193.04 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59a710b3-e18a-4973-af55-a701b2f73b6d")
-		)
-		(instances
-			(project "bitaxeSupra"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-					(reference "TP29")
 					(unit 1)
 				)
 			)
