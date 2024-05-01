@@ -654,6 +654,12 @@
 		)
 	)
 	(junction
+		(at 73.66 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17b125a3-1dd6-4676-8eaf-b2fdaed64842")
+	)
+	(junction
 		(at 209.55 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -695,9 +701,15 @@
 		(color 0 0 0 0)
 		(uuid "eef211f1-f5ae-4328-a58e-79df94f7ae76")
 	)
-	(no_connect
-		(at 72.39 45.72)
-		(uuid "1fefc908-afd4-49eb-a14b-58b0c6ae4c05")
+	(wire
+		(pts
+			(xy 73.66 45.72) (xy 73.66 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c3d2539-b6d5-4097-865c-a38059f28a26")
 	)
 	(wire
 		(pts
@@ -791,7 +803,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 48.26) (xy 80.01 48.26)
+			(xy 72.39 48.26) (xy 73.66 48.26)
 		)
 		(stroke
 			(width 0)
@@ -848,6 +860,16 @@
 			(type default)
 		)
 		(uuid "709afa4e-d8c4-4691-895e-92848cbcc479")
+	)
+	(wire
+		(pts
+			(xy 73.66 48.26) (xy 80.01 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aef8dee-d96e-4a37-b9c6-35b4cc89d714")
 	)
 	(wire
 		(pts
@@ -938,6 +960,16 @@
 			(type default)
 		)
 		(uuid "a90c3150-3b08-4013-9223-de5bb8ffb554")
+	)
+	(wire
+		(pts
+			(xy 72.39 45.72) (xy 73.66 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b070f0cb-626b-478d-9483-9933b676da19")
 	)
 	(wire
 		(pts
@@ -1643,7 +1675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d5c8dc1-a7b2-4a2e-9713-7f4fc272efda")
-		(property "Reference" "TP20"
+		(property "Reference" "TP1"
 			(at 80.01 36.83 90)
 			(effects
 				(font
@@ -1694,7 +1726,7 @@
 		(instances
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP20")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -1709,7 +1741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "418f2cde-f91e-4839-acdd-4673be10cedc")
-		(property "Reference" "TP12"
+		(property "Reference" "TP2"
 			(at 80.01 54.61 90)
 			(effects
 				(font
@@ -1760,7 +1792,7 @@
 		(instances
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP12")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -1776,7 +1808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5313c0b0-9b02-4f3c-a3dd-576f0907eeff")
-		(property "Reference" "H2"
+		(property "Reference" "H8"
 			(at 68.58 187.9599 0)
 			(effects
 				(font
@@ -1824,7 +1856,7 @@
 		(instances
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H2")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -1938,7 +1970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59c27c33-b129-49be-9ee9-fb57c68083b4")
-		(property "Reference" "H7"
+		(property "Reference" "H1"
 			(at 42.545 154.305 90)
 			(effects
 				(font
@@ -1989,7 +2021,7 @@
 		(instances
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H7")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -2005,7 +2037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "851a53f9-f1ca-4ce1-af0f-02bbfb2e817b")
-		(property "Reference" "H1"
+		(property "Reference" "H7"
 			(at 68.58 180.3399 0)
 			(effects
 				(font
@@ -2053,7 +2085,7 @@
 		(instances
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H1")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -2453,7 +2485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3e5503a-2395-4929-8788-b2e28964eab6")
-		(property "Reference" "H9"
+		(property "Reference" "H3"
 			(at 42.545 170.815 90)
 			(effects
 				(font
@@ -2504,7 +2536,7 @@
 		(instances
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H9")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -2520,7 +2552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d52c7b79-cf50-4aa4-81be-8dc31945235a")
-		(property "Reference" "H8"
+		(property "Reference" "H2"
 			(at 42.545 163.195 90)
 			(effects
 				(font
@@ -2571,7 +2603,7 @@
 		(instances
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H8")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -2587,7 +2619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9afb881-0e5b-49ff-817d-f9c0c6c7cc5d")
-		(property "Reference" "H10"
+		(property "Reference" "H4"
 			(at 42.545 178.435 90)
 			(effects
 				(font
@@ -2638,7 +2670,7 @@
 		(instances
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H10")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -2654,7 +2686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed5fd8c8-a8cc-4fa5-8c18-545c4d1fc1a6")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 76.2 157.48 0)
 			(effects
 				(font
@@ -2700,7 +2732,7 @@
 		(instances
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)

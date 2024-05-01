@@ -1818,7 +1818,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06eb653b-c15c-416b-be86-59e88d0695a0")
-		(property "Reference" "TP15"
+		(property "Reference" "TP38"
 			(at 162.56 109.22 90)
 			(effects
 				(font
@@ -1869,7 +1869,7 @@
 		(instances
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-					(reference "TP15")
+					(reference "TP38")
 					(unit 1)
 				)
 			)
@@ -1960,7 +1960,7 @@
 			)
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-					(reference "R2")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -1976,7 +1976,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d0f3f1e-319b-4949-afff-d4285e71670d")
-		(property "Reference" "C33"
+		(property "Reference" "C53"
 			(at 196.215 76.2 0)
 			(effects
 				(font
@@ -2048,7 +2048,7 @@
 		(instances
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-					(reference "C33")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -2064,7 +2064,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "384597ad-1777-489b-81b5-40f7cec241e5")
-		(property "Reference" "C29"
+		(property "Reference" "C52"
 			(at 155.575 118.11 0)
 			(effects
 				(font
@@ -2136,7 +2136,7 @@
 		(instances
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-					(reference "C29")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -2152,7 +2152,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38e55153-c158-4bf3-9d86-c049b8df6de3")
-		(property "Reference" "R3"
+		(property "Reference" "R22"
 			(at 88.9 79.88 0)
 			(effects
 				(font
@@ -2225,7 +2225,7 @@
 		(instances
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-					(reference "R3")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -2241,7 +2241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "451b05f0-07e7-46bd-96f4-929eebf6ebf2")
-		(property "Reference" "C26"
+		(property "Reference" "C50"
 			(at 106.045 78.105 0)
 			(effects
 				(font
@@ -2314,7 +2314,7 @@
 		(instances
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-					(reference "C26")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -2329,7 +2329,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4bbcbd8a-40af-4eab-9cf2-c698dee71610")
-		(property "Reference" "C28"
+		(property "Reference" "C51"
 			(at 140.335 118.11 0)
 			(effects
 				(font
@@ -2401,7 +2401,7 @@
 		(instances
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-					(reference "C28")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -2416,7 +2416,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b09bca5-7234-4153-b743-6b2041b4170c")
-		(property "Reference" "TP4"
+		(property "Reference" "TP35"
 			(at 82.55 67.31 90)
 			(effects
 				(font
@@ -2467,7 +2467,7 @@
 		(instances
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-					(reference "TP4")
+					(reference "TP35")
 					(unit 1)
 				)
 			)
@@ -2484,7 +2484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89552359-e64c-4ef0-97ec-17f2c49cd40f")
-		(property "Reference" "J4"
+		(property "Reference" "J6"
 			(at 184.15 104.775 0)
 			(effects
 				(font
@@ -2561,7 +2561,7 @@
 		(instances
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-					(reference "J4")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2576,7 +2576,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8cadcad4-88d9-4530-9e4b-bc5d985ade6d")
-		(property "Reference" "TP6"
+		(property "Reference" "TP36"
 			(at 82.55 82.55 90)
 			(effects
 				(font
@@ -2627,7 +2627,7 @@
 		(instances
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-					(reference "TP6")
+					(reference "TP36")
 					(unit 1)
 				)
 			)
@@ -2643,7 +2643,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cff16533-7803-45f8-a359-1f4070de0aff")
-		(property "Reference" "R5"
+		(property "Reference" "R23"
 			(at 86.995 70.485 0)
 			(effects
 				(font
@@ -2716,7 +2716,7 @@
 		(instances
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-					(reference "R5")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -2732,7 +2732,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dbe78ea1-de61-4cfe-8d9a-6a7db6a2845a")
-		(property "Reference" "TP16"
+		(property "Reference" "TP37"
 			(at 129.54 111.76 90)
 			(effects
 				(font
@@ -2783,7 +2783,7 @@
 		(instances
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-					(reference "TP16")
+					(reference "TP37")
 					(unit 1)
 				)
 			)
@@ -2798,7 +2798,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2e7af10-6fc6-4a2c-97e4-ae7d4261ed60")
-		(property "Reference" "R9"
+		(property "Reference" "R25"
 			(at 182.245 71.12 0)
 			(effects
 				(font
@@ -2868,7 +2868,7 @@
 		(instances
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-					(reference "R9")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -2883,7 +2883,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb04dc24-7397-4d6c-a497-8e47f07f421a")
-		(property "Reference" "U7"
+		(property "Reference" "U10"
 			(at 153.67 69.85 0)
 			(effects
 				(font
@@ -2971,7 +2971,7 @@
 		(instances
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-					(reference "U7")
+					(reference "U10")
 					(unit 1)
 				)
 			)
