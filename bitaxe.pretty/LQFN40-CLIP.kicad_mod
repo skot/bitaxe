@@ -710,7 +710,7 @@
 		(remove_unused_layers no)
 		(uuid "40fce14e-6704-4c6a-acd5-e418237962dc")
 	)
-	(model "${KIPRJMOD}/3d/RVF0040A.stp"
+	(model "${KIPRJMOD}/3d/TPS546D24ARVFR.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -718,7 +718,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )

@@ -1796,6 +1796,18 @@
 		)
 		(uuid "d5e8abee-3767-476f-8e5d-433184682270")
 	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 125.73 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e480797d-9ea7-4ae8-8eb8-9ef3a702d09e")
+	)
 	(hierarchical_label "SDA"
 		(shape input)
 		(at 171.45 76.2 0)
