@@ -2969,6 +2969,34 @@
 		(uuid "02206119-49c1-4ae9-94a1-d2c5f40445fa")
 	)
 	(no_connect
+		(at 77.47 95.25)
+		(uuid "18bb6445-79af-4ba3-8399-764ff62c3e30")
+	)
+	(no_connect
+		(at 77.47 107.95)
+		(uuid "19385c23-e0a6-4626-b6d7-f82bc298bcd2")
+	)
+	(no_connect
+		(at 191.77 110.49)
+		(uuid "1b81bab3-5527-4699-bb92-39b32dabfd16")
+	)
+	(no_connect
+		(at 77.47 100.33)
+		(uuid "2d3c8775-cb5c-4559-adfe-390bfe04ef96")
+	)
+	(no_connect
+		(at 191.77 97.79)
+		(uuid "36e8be29-176e-4e21-bbfd-e488ad58b0bf")
+	)
+	(no_connect
+		(at 191.77 95.25)
+		(uuid "3a91bb47-33e2-4855-840e-d059a6e05e05")
+	)
+	(no_connect
+		(at 77.47 113.03)
+		(uuid "3e09cabc-92fe-492e-af46-eb7874512e6e")
+	)
+	(no_connect
 		(at 222.885 53.975)
 		(uuid "3fe82e25-3284-4a45-a7fe-6d2eb47d85d8")
 	)
@@ -2977,8 +3005,52 @@
 		(uuid "42f439d0-a945-45ba-8d5d-b181d6d4d19d")
 	)
 	(no_connect
+		(at 77.47 97.79)
+		(uuid "454a9f46-5841-4bf6-b365-f2eac4c9b564")
+	)
+	(no_connect
+		(at 77.47 120.65)
+		(uuid "47a24cec-e653-421f-a3cb-4344bdb3b4c5")
+	)
+	(no_connect
+		(at 77.47 105.41)
+		(uuid "4df61c21-944d-4c39-99be-f981c2c9be56")
+	)
+	(no_connect
+		(at 77.47 123.19)
+		(uuid "6a4cc4c1-14fa-4ad0-a383-8c51816cbbe4")
+	)
+	(no_connect
+		(at 77.47 102.87)
+		(uuid "76ce1e03-5430-478c-ae54-0b8274b8c60f")
+	)
+	(no_connect
 		(at 222.885 59.055)
 		(uuid "8106f728-92d1-4f10-b6c6-c97ed421eeb9")
+	)
+	(no_connect
+		(at 191.77 115.57)
+		(uuid "867c68a8-5c11-4d96-a77c-46dc5dcc8fb3")
+	)
+	(no_connect
+		(at 77.47 92.71)
+		(uuid "880b95c9-62ea-411c-87d2-c51b38f24aa6")
+	)
+	(no_connect
+		(at 191.77 113.03)
+		(uuid "a54c9c2b-8fa6-4770-acc2-8d054b39ae52")
+	)
+	(no_connect
+		(at 191.77 92.71)
+		(uuid "d3f9581c-3c55-4eb7-b731-dc4f665cb1b6")
+	)
+	(no_connect
+		(at 77.47 118.11)
+		(uuid "ddafbd72-dc22-4bb2-8ddc-ef92025fabff")
+	)
+	(no_connect
+		(at 191.77 118.11)
+		(uuid "e42691b2-ffa6-459a-8bf1-463592e5bc41")
 	)
 	(no_connect
 		(at 222.885 84.455)
@@ -3200,16 +3272,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 120.65) (xy 77.47 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a4fe3fe-a6f9-4740-9be7-2b068bbd1506")
-	)
-	(wire
-		(pts
 			(xy 77.47 85.09) (xy 66.04 85.09)
 		)
 		(stroke
@@ -3297,16 +3359,6 @@
 			(type default)
 		)
 		(uuid "6b03d2db-54d4-4ef0-92c3-b194d88627cf")
-	)
-	(wire
-		(pts
-			(xy 69.85 123.19) (xy 77.47 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70333b9d-c895-4c88-9ed8-cf5fe3ca88a3")
 	)
 	(wire
 		(pts
@@ -3957,17 +4009,6 @@
 		)
 		(uuid "7498408d-6318-4529-9e1a-fa6c16d61a78")
 	)
-	(label "XIN32"
-		(at 69.85 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8444d329-343b-4f29-9337-c0932d760dcd")
-	)
 	(label "TX"
 		(at 70.485 125.73 0)
 		(fields_autoplaced yes)
@@ -4022,17 +4063,6 @@
 			(justify left bottom)
 		)
 		(uuid "a274ec4d-33f9-4d3b-9b61-fcbef4c0f482")
-	)
-	(label "XOUT32"
-		(at 69.85 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a2df7ded-74ae-4cb3-963d-726e9be7a85f")
 	)
 	(label "SCL"
 		(at 184.912 34.925 0)

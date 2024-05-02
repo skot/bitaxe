@@ -173,7 +173,7 @@
 				)
 			)
 			(symbol "Barrel_Jack_Switch_1_1"
-				(pin passive line
+				(pin power_out line
 					(at 7.62 2.54 180)
 					(length 2.54)
 					(name "~"
@@ -191,7 +191,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 7.62 -2.54 180)
 					(length 2.54)
 					(name "~"
@@ -1897,7 +1897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://tensility.s3.amazonaws.com/uploads/pdffiles/54-00164.pdf?X-Amz-Expires=600&X-Amz-Date=20240425T233931Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIS2S4WRDQDSWDRZQ%2F20240425%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=db47604833b748f16eb1b48a1cb56220ad6cd713e88f354ff5cc2bea6dae9c43"
+		(property "Datasheet" "~"
 			(at 66.04 46.736 0)
 			(effects
 				(font
@@ -1906,7 +1906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DC Barrel Jack with an internal switch"
 			(at 64.77 45.72 0)
 			(effects
 				(font

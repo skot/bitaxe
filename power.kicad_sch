@@ -1032,7 +1032,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -13.97 -12.7 0)
 					(length 2.54)
 					(name "MSEL2"
@@ -1068,7 +1068,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -13.97 -20.32 0)
 					(length 2.54)
 					(name "VSEL"
@@ -1086,7 +1086,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at -13.97 -16.51 0)
 					(length 2.54)
 					(name "ADRSEL"
@@ -1104,7 +1104,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin input line
 					(at -13.97 -8.89 0)
 					(length 2.54)
 					(name "MSEL1"
