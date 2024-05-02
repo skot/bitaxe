@@ -1594,6 +1594,17 @@
 		)
 		(uuid "1472b4b3-985a-4e48-bc16-0d0d4a8ede12")
 	)
+	(label "TEMP_DN"
+		(at 120.65 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4264f182-09d9-45eb-bdcf-1e736adeb1e2")
+	)
 	(label "GND"
 		(at 160.02 83.82 0)
 		(fields_autoplaced yes)
@@ -1703,6 +1714,17 @@
 			(justify left bottom)
 		)
 		(uuid "a919bf4d-298c-43bd-bd61-fea10e7d6e58")
+	)
+	(label "TEMP_DP"
+		(at 120.65 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9b5bd16-f2ff-453b-876b-9bf201b35a39")
 	)
 	(label "TEMP_N"
 		(at 73.66 76.2 0)
@@ -2033,7 +2055,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "478-KGM05AR71C104KHTR-ND"
+		(property "DK" "1292-1639-1-ND"
 			(at 191.77 77.47 0)
 			(effects
 				(font
@@ -2042,7 +2064,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "KGM05AR71C104KH"
+		(property "PARTNO" "0402X104K100CT"
 			(at 191.77 77.47 0)
 			(effects
 				(font
@@ -2209,7 +2231,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "RMCF0402FT100RCT-ND"
+		(property "DK" "311-100LRCT-ND"
 			(at 90.17 76.2 0)
 			(effects
 				(font
@@ -2219,7 +2241,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RMCF0402FT100R"
+		(property "PARTNO" "RC0402FR-07100RL"
 			(at 90.17 76.2 0)
 			(effects
 				(font
@@ -2386,7 +2408,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "490-9969-1-ND"
+		(property "DK" "490-6533-1-ND"
 			(at 144.78 119.38 0)
 			(effects
 				(font
@@ -2395,7 +2417,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "GRM32ER61A107ME20L"
+		(property "PARTNO" "GRM32EC80J107ME20L"
 			(at 144.78 119.38 0)
 			(effects
 				(font
@@ -2700,7 +2722,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "RMCF0402FT100RCT-ND"
+		(property "DK" "311-100LRCT-ND"
 			(at 91.44 73.66 0)
 			(effects
 				(font
@@ -2710,7 +2732,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RMCF0402FT100R"
+		(property "PARTNO" "RC0402FR-07100RL"
 			(at 91.44 73.66 0)
 			(effects
 				(font

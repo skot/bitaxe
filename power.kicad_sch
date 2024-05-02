@@ -4258,7 +4258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 177.8 60.96 0)
 			(effects
 				(font
@@ -4276,7 +4276,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-10746-1-ND"
 			(at 177.8 60.96 0)
 			(effects
 				(font
@@ -4285,7 +4285,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "GRM21BR61A226ME44L"
 			(at 177.8 60.96 0)
 			(effects
 				(font
@@ -4345,7 +4345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 41.91 25.4 0)
 			(effects
 				(font
@@ -4450,7 +4450,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-49.9LRCT-ND"
 			(at 167.64 57.15 0)
 			(effects
 				(font
@@ -4459,7 +4459,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-0749R9L"
 			(at 167.64 57.15 0)
 			(effects
 				(font
@@ -4673,7 +4673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 31.75 81.28 0)
 			(effects
 				(font
@@ -4778,7 +4778,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-3.74KLRCT-ND"
 			(at 78.74 67.31 0)
 			(effects
 				(font
@@ -4787,7 +4787,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-073K74L"
 			(at 78.74 67.31 0)
 			(effects
 				(font
@@ -4865,7 +4865,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "YAG3213CT-ND"
 			(at 83.82 121.92 0)
 			(effects
 				(font
@@ -4874,7 +4874,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-0768K1L"
 			(at 83.82 121.92 0)
 			(effects
 				(font
@@ -4934,7 +4934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 158.75 83.82 0)
 			(effects
 				(font
@@ -5191,7 +5191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 224.79 68.58 0)
 			(effects
 				(font
@@ -5209,7 +5209,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-6533-1-ND"
 			(at 224.79 68.58 0)
 			(effects
 				(font
@@ -5218,7 +5218,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "GRM32EC80J107ME20L"
 			(at 224.79 68.58 0)
 			(effects
 				(font
@@ -5278,7 +5278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 214.63 60.96 0)
 			(effects
 				(font
@@ -5296,7 +5296,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-6533-1-ND"
 			(at 214.63 60.96 0)
 			(effects
 				(font
@@ -5305,7 +5305,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "GRM32EC80J107ME20L"
 			(at 214.63 60.96 0)
 			(effects
 				(font
@@ -5365,7 +5365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 83.82 25.4 0)
 			(effects
 				(font
@@ -5652,7 +5652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 146.05 50.8 0)
 			(effects
 				(font
@@ -5739,7 +5739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 62.23 25.4 0)
 			(effects
 				(font
@@ -5757,7 +5757,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "1276-3376-1-ND"
 			(at 62.23 25.4 0)
 			(effects
 				(font
@@ -5766,7 +5766,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "CL32A476KOJNNNE"
 			(at 62.23 25.4 0)
 			(effects
 				(font
@@ -5844,7 +5844,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "YAG2984CT-ND"
 			(at 57.15 121.92 0)
 			(effects
 				(font
@@ -5853,7 +5853,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-0714K7L"
 			(at 57.15 121.92 0)
 			(effects
 				(font
@@ -5913,7 +5913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 52.07 25.4 0)
 			(effects
 				(font
@@ -5931,7 +5931,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "1276-3376-1-ND"
 			(at 52.07 25.4 0)
 			(effects
 				(font
@@ -5940,7 +5940,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "CL32A476KOJNNNE"
 			(at 52.07 25.4 0)
 			(effects
 				(font
@@ -6018,7 +6018,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-0.0JRCT-ND"
 			(at 66.04 121.92 0)
 			(effects
 				(font
@@ -6027,7 +6027,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402JR-070RL"
 			(at 66.04 121.92 0)
 			(effects
 				(font
@@ -6174,7 +6174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 234.95 60.96 0)
 			(effects
 				(font
@@ -6192,7 +6192,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-6533-1-ND"
 			(at 234.95 60.96 0)
 			(effects
 				(font
@@ -6201,7 +6201,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "GRM32EC80J107ME20L"
 			(at 234.95 60.96 0)
 			(effects
 				(font
@@ -6279,7 +6279,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-8.25KLRCT-ND"
 			(at 46.99 83.82 0)
 			(effects
 				(font
@@ -6288,7 +6288,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-078K25L"
 			(at 46.99 83.82 0)
 			(effects
 				(font
@@ -6415,7 +6415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 146.05 30.48 0)
 			(effects
 				(font
@@ -6676,7 +6676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 64.77 67.31 0)
 			(effects
 				(font
@@ -6763,7 +6763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 88.9 67.31 0)
 			(effects
 				(font
@@ -6850,7 +6850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 72.39 25.4 0)
 			(effects
 				(font
@@ -6937,7 +6937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 92.71 25.4 0)
 			(effects
 				(font
@@ -7111,7 +7111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 186.69 68.58 0)
 			(effects
 				(font
@@ -7129,7 +7129,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-10746-1-ND"
 			(at 186.69 68.58 0)
 			(effects
 				(font
@@ -7138,7 +7138,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "GRM21BR61A226ME44L"
 			(at 186.69 68.58 0)
 			(effects
 				(font
@@ -7285,7 +7285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 195.58 60.96 0)
 			(effects
 				(font
@@ -7303,7 +7303,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-10746-1-ND"
 			(at 195.58 60.96 0)
 			(effects
 				(font
@@ -7312,7 +7312,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "GRM21BR61A226ME44L"
 			(at 195.58 60.96 0)
 			(effects
 				(font
@@ -7372,7 +7372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 204.47 68.58 0)
 			(effects
 				(font
@@ -7390,7 +7390,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-6533-1-ND"
 			(at 204.47 68.58 0)
 			(effects
 				(font
@@ -7399,7 +7399,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "GRM32EC80J107ME20L"
 			(at 204.47 68.58 0)
 			(effects
 				(font
@@ -7441,7 +7441,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1R"
+		(property "Value" "1"
 			(at 150.876 64.262 0)
 			(effects
 				(font
@@ -7528,7 +7528,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "49.9R"
+		(property "Value" "49.9"
 			(at 172.72 93.98 90)
 			(effects
 				(font
@@ -7738,7 +7738,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "YAG2958CT-ND"
 			(at 83.82 49.53 0)
 			(effects
 				(font
@@ -7747,7 +7747,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-0711K8L"
 			(at 83.82 49.53 0)
 			(effects
 				(font

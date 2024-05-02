@@ -4596,7 +4596,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "478-KGM05AR71C104KHTR-ND"
+		(property "DK" "1292-1639-1-ND"
 			(at 132.715 62.23 0)
 			(effects
 				(font
@@ -4605,7 +4605,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "KGM05AR71C104KH"
+		(property "PARTNO" "0402X104K100CT"
 			(at 132.715 62.23 0)
 			(effects
 				(font

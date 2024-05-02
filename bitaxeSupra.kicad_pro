@@ -624,6 +624,12 @@
       "fields_ordered": [
         {
           "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -638,25 +644,19 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -668,7 +668,7 @@
           "group_by": false,
           "label": "DK",
           "name": "DK",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -692,7 +692,7 @@
           "group_by": false,
           "label": "PARTNO",
           "name": "PARTNO",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
