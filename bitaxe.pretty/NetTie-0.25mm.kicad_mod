@@ -1,34 +1,126 @@
-(footprint "NetTie-0.25mm" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (property "DK" "P16200CT-ND")
-  (property "PARTNO" "2R5TPE220MAFB")
-  (property "Sheetfile" "File: power.kicad_sch")
-  (property "Sheetname" "Power")
-  (attr smd)
-  (fp_text reference "NT" (at 0.03 0.89) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 96a94053-ac79-4f9c-be59-a6c7ed80e01a)
-  )
-  (fp_text value "0" (at -0.04 0.73 180) (layer "F.Fab") hide
-      (effects (font (size 0.64 0.64) (thickness 0.15)))
-    (tstamp a0fd932a-36d5-483c-9a3b-f3e9080654d3)
-  )
-  (fp_poly
-    (pts
-      (xy -0.35 -0.11)
-      (xy 0.35 -0.11)
-      (xy 0.35 0.11)
-      (xy -0.35 0.11)
-    )
-
-    (stroke (width 0.02) (type solid)) (fill solid) (layer "F.Cu") (tstamp c7d47039-cb9d-49ac-8b7b-b10e7037d9e1))
-  (pad "1" smd rect (at -0.35 0) (size 0.5 0.25) (layers "F.Cu" "F.Paste" "F.Mask")
-    (clearance 0.01) (tstamp e4b6d801-b8c5-4289-9214-d85fea90a1b9))
-  (pad "2" smd rect (at 0.35 0) (size 0.5 0.25) (layers "F.Cu" "F.Paste" "F.Mask")
-    (clearance 0.01) (tstamp 111f88ee-2f7c-4767-932f-1b6fadb16825))
-  (model "${KIPRJMOD}/3D/2R5TPE220MAFB.step"
-    (offset (xyz 0 -13.75 -1.65))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 90))
-  )
+(footprint "NetTie-0.25mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "NT"
+		(at 0.03 0.89 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "96a94053-ac79-4f9c-be59-a6c7ed80e01a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "0"
+		(at -0.04 0.73 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0fd932a-36d5-483c-9a3b-f3e9080654d3")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62f7e405-01dd-4a84-9058-e94c7069487d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3d018cc-80d9-4302-8acf-c500d9c3230c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4b0eca4-5049-4263-8c6e-209805242b42")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "DK" "P16200CT-ND"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "755d9d19-c742-414a-82aa-7a79bfa448d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "PARTNO" "2R5TPE220MAFB"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "111a0bea-3582-44b5-92b9-b693137ac05d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -0.35 -0.14) (xy 0.1 -0.14) (xy 0.1 0.11) (xy -0.35 0.11)
+		)
+		(stroke
+			(width 0.001)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "c7d47039-cb9d-49ac-8b7b-b10e7037d9e1")
+	)
+	(pad "1" smd rect
+		(at -0.35 -0.01)
+		(size 0.001 0.25)
+		(layers "F.Cu" "F.Mask")
+		(clearance 0.01)
+		(uuid "e4b6d801-b8c5-4289-9214-d85fea90a1b9")
+	)
+	(pad "2" smd rect
+		(at 0.1 -0.01)
+		(size 0.001 0.25)
+		(layers "F.Cu" "F.Mask")
+		(clearance 0.01)
+		(uuid "111f88ee-2f7c-4767-932f-1b6fadb16825")
+	)
+	(model "${KIPRJMOD}/3D/2R5TPE220MAFB.step"
+		(offset
+			(xyz 0 -13.75 -1.65)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
 )
