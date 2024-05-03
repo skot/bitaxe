@@ -29724,7 +29724,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bitaxe:logo"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30282,7 +30282,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bitaxe:logo-fcu"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
