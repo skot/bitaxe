@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" "bitaxe:BM1368"
+	(property "Footprint" "BM1368"
 		(at -0.17 9.35 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -486,5 +486,16 @@
 		(layers "F.Cu")
 		(thermal_bridge_angle 45)
 		(uuid "3937522a-7f3f-45cf-81bb-ed0a1877dbbb")
+	)
+	(model "${KIPRJMOD}/3d/BM1368xx.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
 	)
 )

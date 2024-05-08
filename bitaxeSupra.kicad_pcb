@@ -1991,17 +1991,6 @@
 			(clearance 0.01)
 			(uuid "16e28540-6626-4584-9037-05b3f2b15cd5")
 		)
-		(model "${KIPRJMOD}/3D/2R5TPE220MAFB.step"
-			(offset
-				(xyz 0 -13.75 -1.65)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
