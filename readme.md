@@ -2,8 +2,8 @@
 Closed Source is Antithetical to Bitcoin
 ```
 # The NerdAxe
-NerdAxe is a fork from bitaxe Ultra with fullcolor display graphics. NerdAxe is indented to be an upgrade board for these who have a NerdMiner and would like to have more powerful mining features not without loosing the NerdMiner essence. That's why NerdAxe 
-NerdAxe is currently controlled by the common board used on Nerdminer project called TTGO-TDisplayS3.
+NerdAxe is a fork from bitaxe Ultra with fullcolor display graphics. NerdAxe is indented to be an upgrade board for these who have a NerdMiner and would like to have more powerful mining features without losing the NerdMiner essence. That's why NerdAxe is currently controlled by the common board used on Nerdminer project called TTGO-TDisplayS3.
+
 The following fork could not be possible without the previous work of @skot & bitaxe devs.
 
 Upgrade your NerdMiner experience throught this addon board and start playing with ASICs
