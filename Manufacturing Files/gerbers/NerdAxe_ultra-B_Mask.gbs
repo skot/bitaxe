@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,7.0.1*
-G04 #@! TF.CreationDate,2024-03-15T23:25:05+01:00*
+G04 #@! TF.CreationDate,2024-04-18T01:50:12+02:00*
 G04 #@! TF.ProjectId,NerdAxe_ultra,4e657264-4178-4655-9f75-6c7472612e6b,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Bot*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.1) date 2024-03-15 23:25:05*
+G04 Created by KiCad (PCBNEW 7.0.1) date 2024-04-18 01:50:12*
 %MOMM*%
 %LPD*%
 G01*
@@ -29,7 +29,7 @@ G04 Aperture macros list*
 20,1,$1+$1,$6,$7,$8,$9,0*
 20,1,$1+$1,$8,$9,$2,$3,0*%
 G04 Aperture macros list end*
-%ADD10C,3.500000*%
+%ADD10C,3.000000*%
 %ADD11C,0.800000*%
 %ADD12C,6.000000*%
 %ADD13C,0.400000*%
@@ -60,7 +60,7 @@ X80090990Y-142240000D03*
 X80090990Y-145421980D03*
 X80750000Y-143830990D03*
 D10*
-X126130000Y-136350000D03*
+X126130000Y-138461000D03*
 D11*
 X130250000Y-143728000D03*
 X130909010Y-142137010D03*
