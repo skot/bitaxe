@@ -5002,7 +5002,7 @@
 				)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "270nH"
 			(at 166.37 37.465 90)
 			(effects
 				(font
@@ -6745,7 +6745,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 92.075 68.58 0)
 			(effects
 				(font
@@ -6781,7 +6781,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "490-6321-1-ND"
+		(property "DK" "1292-1639-1-ND"
 			(at 88.9 67.31 0)
 			(effects
 				(font
@@ -6790,7 +6790,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "GRM155R71A104KA01D"
+		(property "PARTNO" "0402X104K100CT"
 			(at 88.9 67.31 0)
 			(effects
 				(font
