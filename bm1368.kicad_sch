@@ -6886,9 +6886,9 @@
 		(at 86.36 174.625 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7a3e460c-db18-4de8-b67f-e507fc4d1a08")
 		(property "Reference" "R6"
 			(at 82.55 173.355 0)
