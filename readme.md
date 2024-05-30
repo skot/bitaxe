@@ -57,8 +57,8 @@ bitaxe is a fully open source hardware Bitcoin ASIC miner. Ultra is the 3rd majo
 
 ## Power Supply Requirements
 - **5V DC Only!** Anything else will damage the Bitaxe. Be careful and double-check your power supply is 5V. Many other voltage power supplies use the same connector.
-- [5VDC Power supply](https://www.amazon.com/BTF-LIGHTING-Plastic-Adapter-Transformer-WS2812B/dp/B01D8FM4N4). Should be capable of over 15W
-- The bitaxe uses a 5.5x2.5mm, center-positive barrel jack.
+- The Bitaxe needs 15W. Be aware that many power supplies _cannot_ deliver 5V at the listed power. It is best to pick an overrated power supply. 25W (5V, 5A) PSUs have been working well for people.
+- The Bitaxe uses a 5.5x2.1mm, center-positive barrel jack.
 
 ### ESP32 Programming Requirements
 - As of the bitaxeUltra, all ESP32 programming is done through a USB-C cable and connector on the bitaxe. See [ESP-Miner](https://github.com/skot/ESP-Miner) for more details.
