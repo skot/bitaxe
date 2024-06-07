@@ -2177,12 +2177,6 @@
 		(uuid "831594bc-9d9f-4cb7-99a8-0e1b814ee467")
 	)
 	(junction
-		(at 66.04 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85271c6b-2a60-4dda-83d1-d9b51b4ffd45")
-	)
-	(junction
 		(at 170.18 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2994,16 +2988,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 180.34) (xy 66.04 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70c3e36d-a4ac-4193-89d5-8c66a5dd3bb1")
-	)
-	(wire
-		(pts
 			(xy 87.63 85.09) (xy 88.9 85.09)
 		)
 		(stroke
@@ -3421,16 +3405,6 @@
 			(type default)
 		)
 		(uuid "a62b65b1-4bbc-4ae2-b1d0-804bde9aa952")
-	)
-	(wire
-		(pts
-			(xy 66.04 170.18) (xy 66.04 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a83075eb-2619-4e48-9f6a-58c46da8f488")
 	)
 	(wire
 		(pts
@@ -3924,16 +3898,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 170.18) (xy 73.66 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e426fa2a-dee5-4814-878e-b9ed9fd11752")
-	)
-	(wire
-		(pts
 			(xy 125.73 50.8) (xy 135.89 50.8)
 		)
 		(stroke
@@ -4054,7 +4018,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 170.18) (xy 66.04 170.18)
+			(xy 49.53 170.18) (xy 73.66 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4297,17 +4261,6 @@
 			(justify left bottom)
 		)
 		(uuid "51e5fc39-5f7e-4399-a1ec-5fd8fb42f28a")
-	)
-	(label "GND"
-		(at 66.04 185.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "59ce7cde-e439-424c-9564-34c4ad7e376b")
 	)
 	(label "BO"
 		(at 215.9 114.3 0)
@@ -6528,97 +6481,6 @@
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 66.04 176.53 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "7a3e460c-db18-4de8-b67f-e507fc4d1a08")
-		(property "Reference" "R6"
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 62.23 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 65.024 176.276 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-100LRCT-ND"
-			(at 66.04 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402FR-07100RL"
-			(at 66.04 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b708e6be-13ea-43c3-8691-bce9244d3067")
-		)
-		(pin "2"
-			(uuid "4da0b1f3-bb01-4409-ab69-89c4f46a1e1c")
-		)
-		(instances
-			(project "bm1397"
-				(path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-			(project "bitaxeSupra"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-					(reference "R20")
 					(unit 1)
 				)
 			)

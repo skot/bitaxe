@@ -1897,7 +1897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://tensility.s3.amazonaws.com/uploads/pdffiles/54-00164.pdf"
 			(at 66.04 46.736 0)
 			(effects
 				(font
