@@ -654,12 +654,6 @@
         },
         {
           "group_by": false,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
@@ -692,6 +686,12 @@
           "group_by": false,
           "label": "PARTNO",
           "name": "PARTNO",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DNP",
+          "name": "${DNP}",
           "show": true
         },
         {
