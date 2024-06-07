@@ -5199,7 +5199,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "445-6008-1-ND"
+		(property "DK" "490-GRM31CR61A107MEA8LCT-ND"
 			(at 224.79 68.58 0)
 			(effects
 				(font
@@ -5208,7 +5208,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "C3216X5R0J107M160AB"
+		(property "PARTNO" "GRM31CR61A107MEA8L"
 			(at 224.79 68.58 0)
 			(effects
 				(font
@@ -5286,7 +5286,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "445-6008-1-ND"
+		(property "DK" "490-GRM31CR61A107MEA8LCT-ND"
 			(at 214.63 60.96 0)
 			(effects
 				(font
@@ -5295,7 +5295,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "C3216X5R0J107M160AB"
+		(property "PARTNO" "GRM31CR61A107MEA8L"
 			(at 214.63 60.96 0)
 			(effects
 				(font
@@ -6182,7 +6182,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "445-6008-1-ND"
+		(property "DK" "490-GRM31CR61A107MEA8LCT-ND"
 			(at 234.95 60.96 0)
 			(effects
 				(font
@@ -6191,7 +6191,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "C3216X5R0J107M160AB"
+		(property "PARTNO" "GRM31CR61A107MEA8L"
 			(at 234.95 60.96 0)
 			(effects
 				(font
@@ -7380,7 +7380,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "445-6008-1-ND"
+		(property "DK" "490-GRM31CR61A107MEA8LCT-ND"
 			(at 204.47 68.58 0)
 			(effects
 				(font
@@ -7389,7 +7389,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "C3216X5R0J107M160AB"
+		(property "PARTNO" "GRM31CR61A107MEA8L"
 			(at 204.47 68.58 0)
 			(effects
 				(font
