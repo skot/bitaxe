@@ -1249,7 +1249,7 @@
 					)
 				)
 				(pin input line
-					(at -13.97 -1.27 0)
+					(at -13.97 -5.08 0)
 					(length 2.54)
 					(name "BP1V5"
 						(effects
@@ -1303,7 +1303,7 @@
 					)
 				)
 				(pin input line
-					(at -13.97 -5.08 0)
+					(at -13.97 -1.27 0)
 					(length 2.54)
 					(name "DRTN"
 						(effects
@@ -1627,12 +1627,6 @@
 		(uuid "40ebc54d-87b2-4372-ba73-d05f385830a4")
 	)
 	(junction
-		(at 38.1 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40fe633e-395b-46cc-9ed4-49988e981455")
-	)
-	(junction
 		(at 72.39 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1669,16 +1663,16 @@
 		(uuid "53f6e5f9-a8b5-44ba-811c-c35920efd364")
 	)
 	(junction
-		(at 78.74 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "548dadfc-5ae8-47a2-b919-d9836d7547e2")
-	)
-	(junction
 		(at 101.6 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d378748-0a09-433c-9100-02378afb345b")
+	)
+	(junction
+		(at 38.1 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d8868c0-d22c-4c3c-bd4c-7a105e09268a")
 	)
 	(junction
 		(at 153.67 39.37)
@@ -1709,6 +1703,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f2049f6-12ba-4a2d-8a12-7bd32275bf7a")
+	)
+	(junction
+		(at 78.74 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "710a9957-d96f-4b99-8989-a12806bdcabe")
 	)
 	(junction
 		(at 139.7 58.42)
@@ -1795,6 +1795,12 @@
 		(uuid "c1ee46bb-4a70-4f14-a6a3-981326733c9f")
 	)
 	(junction
+		(at 38.1 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4af55b3-fcfa-461a-87e2-3fc8434cb104")
+	)
+	(junction
 		(at 101.6 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1829,12 +1835,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2c222d0-8e24-45cc-b6dd-4bd8d25d3d38")
-	)
-	(junction
-		(at 38.1 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7bc0821-af0b-4ee2-b3d6-b7940b88fc36")
 	)
 	(junction
 		(at 139.7 71.12)
@@ -1971,16 +1971,6 @@
 			(type default)
 		)
 		(uuid "0270aef1-ca03-40ad-9476-99419efd25eb")
-	)
-	(wire
-		(pts
-			(xy 31.75 76.2) (xy 31.75 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04a8abae-6f33-4eac-b532-6dea3f62b077")
 	)
 	(wire
 		(pts
@@ -2164,7 +2154,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 71.12) (xy 78.74 74.93)
+			(xy 78.74 71.12) (xy 78.74 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2224,26 +2214,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 87.63) (xy 38.1 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2df8e8c7-3391-4ac4-a3ac-e1881ae860a7")
-	)
-	(wire
-		(pts
-			(xy 31.75 85.09) (xy 31.75 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eb60182-799a-47bc-8707-a7bd686740fb")
-	)
-	(wire
-		(pts
 			(xy 135.89 58.42) (xy 139.7 58.42)
 		)
 		(stroke
@@ -2294,7 +2264,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 74.93) (xy 78.74 74.93)
+			(xy 64.77 72.39) (xy 78.74 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2304,7 +2274,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 71.12) (xy 88.9 74.93)
+			(xy 88.9 71.12) (xy 88.9 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2404,16 +2374,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 87.63) (xy 38.1 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46a8a782-ed68-482b-9c48-9d7e97421498")
-	)
-	(wire
-		(pts
 			(xy 38.1 90.17) (xy 38.1 96.52)
 		)
 		(stroke
@@ -2471,16 +2431,6 @@
 			(type default)
 		)
 		(uuid "49958a75-a162-4e93-920e-b3367e095dfc")
-	)
-	(wire
-		(pts
-			(xy 107.95 76.2) (xy 31.75 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49c0988c-d9b3-4218-b51c-8336ae60f598")
 	)
 	(wire
 		(pts
@@ -2854,6 +2804,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 80.01) (xy 38.1 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78548b97-ab05-4483-af2d-cf5a7327a8ec")
+	)
+	(wire
+		(pts
 			(xy 72.39 17.78) (xy 72.39 21.59)
 		)
 		(stroke
@@ -3054,6 +3014,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 76.2) (xy 107.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9284a28b-66b5-49c3-b211-cc632168e577")
+	)
+	(wire
+		(pts
 			(xy 135.89 71.12) (xy 139.7 71.12)
 		)
 		(stroke
@@ -3244,6 +3214,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 92.71) (xy 30.48 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a873504e-15ad-41d1-aa20-ed8a51baee24")
+	)
+	(wire
+		(pts
 			(xy 41.91 29.21) (xy 41.91 34.29)
 		)
 		(stroke
@@ -3404,7 +3384,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 83.82) (xy 38.1 87.63)
+			(xy 38.1 83.82) (xy 38.1 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3481,6 +3461,26 @@
 			(type default)
 		)
 		(uuid "cdbaf467-dd50-45aa-9ebe-940b1f037dee")
+	)
+	(wire
+		(pts
+			(xy 30.48 85.09) (xy 30.48 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce603944-249d-48e8-94ff-9de7c448fa39")
+	)
+	(wire
+		(pts
+			(xy 38.1 80.01) (xy 38.1 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cec8cb7c-b8bd-450f-a8e9-b802d27ac2c0")
 	)
 	(wire
 		(pts
@@ -3604,16 +3604,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 80.01) (xy 107.95 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e475e2a3-9528-4d09-b0fd-ad2a6ad929d3")
-	)
-	(wire
-		(pts
 			(xy 139.7 60.96) (xy 139.7 63.5)
 		)
 		(stroke
@@ -3674,7 +3664,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 74.93) (xy 88.9 74.93)
+			(xy 78.74 72.39) (xy 88.9 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3714,6 +3704,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 102.87) (xy 38.1 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f029d030-b51f-45a2-8362-af4231a633a0")
+	)
+	(wire
+		(pts
 			(xy 135.89 55.88) (xy 139.7 55.88)
 		)
 		(stroke
@@ -3724,7 +3724,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 71.12) (xy 64.77 74.93)
+			(xy 64.77 71.12) (xy 64.77 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3781,16 +3781,6 @@
 			(type default)
 		)
 		(uuid "f5186553-8540-45ce-8c07-41847def4fd2")
-	)
-	(wire
-		(pts
-			(xy 38.1 80.01) (xy 38.1 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f663ada0-a729-4142-a790-be218f70977c")
 	)
 	(wire
 		(pts
@@ -4006,7 +3996,7 @@
 		(uuid "6052e5c3-a992-4fa8-9185-735f8a3598d1")
 	)
 	(label "AGND"
-		(at 72.39 74.93 0)
+		(at 72.39 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4336,7 +4326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 42.8752 29.21 0)
 			(effects
 				(font
@@ -4363,7 +4353,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-3038-1-ND"
+		(property "DK" "1276-1096-1-ND"
 			(at 41.91 25.4 0)
 			(effects
 				(font
@@ -4372,7 +4362,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL31A106KAHNFNE"
+		(property "PARTNO" "CL21A106KOQNNNE"
 			(at 41.91 25.4 0)
 			(effects
 				(font
@@ -4639,7 +4629,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 31.75 81.28 0)
+		(at 30.48 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4647,7 +4637,7 @@
 		(dnp no)
 		(uuid "2187c2f7-93ea-41c8-9345-e7ecb1dc74c4")
 		(property "Reference" "C1"
-			(at 23.876 80.01 0)
+			(at 22.606 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4656,7 +4646,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 24.13 82.55 0)
+			(at 22.86 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4664,8 +4654,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 32.7152 85.09 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 31.4452 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,7 +4664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 81.28 0)
+			(at 30.48 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,7 +4673,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 81.28 0)
+			(at 30.48 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,8 +4681,8 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "490-1550-1-ND"
-			(at 31.75 81.28 0)
+		(property "DK" "587-5514-1-ND"
+			(at 30.48 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,8 +4690,8 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "GRM188R60J105KA01D"
-			(at 31.75 81.28 0)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 30.48 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5182,7 +5172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 225.7552 72.39 0)
 			(effects
 				(font
@@ -5209,7 +5199,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "490-6533-1-ND"
+		(property "DK" "445-6008-1-ND"
 			(at 224.79 68.58 0)
 			(effects
 				(font
@@ -5218,7 +5208,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "GRM32EC80J107ME20L"
+		(property "PARTNO" "C3216X5R0J107M160AB"
 			(at 224.79 68.58 0)
 			(effects
 				(font
@@ -5269,7 +5259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 215.5952 64.77 0)
 			(effects
 				(font
@@ -5296,7 +5286,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "490-6533-1-ND"
+		(property "DK" "445-6008-1-ND"
 			(at 214.63 60.96 0)
 			(effects
 				(font
@@ -5305,7 +5295,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "GRM32EC80J107ME20L"
+		(property "PARTNO" "C3216X5R0J107M160AB"
 			(at 214.63 60.96 0)
 			(effects
 				(font
@@ -5356,7 +5346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 84.7852 29.21 0)
 			(effects
 				(font
@@ -5383,7 +5373,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "587-1291-1-ND"
+		(property "DK" "587-5514-1-ND"
 			(at 83.82 25.4 0)
 			(effects
 				(font
@@ -5392,7 +5382,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "TMK212BJ105KG-T"
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 83.82 25.4 0)
 			(effects
 				(font
@@ -6165,7 +6155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 235.9152 64.77 0)
 			(effects
 				(font
@@ -6192,7 +6182,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "490-6533-1-ND"
+		(property "DK" "445-6008-1-ND"
 			(at 234.95 60.96 0)
 			(effects
 				(font
@@ -6201,7 +6191,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "GRM32EC80J107ME20L"
+		(property "PARTNO" "C3216X5R0J107M160AB"
 			(at 234.95 60.96 0)
 			(effects
 				(font
@@ -6667,7 +6657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 63.8048 63.5 0)
 			(effects
 				(font
@@ -6694,7 +6684,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "587-1291-1-ND"
+		(property "DK" "587-5514-1-ND"
 			(at 64.77 67.31 0)
 			(effects
 				(font
@@ -6703,7 +6693,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "TMK212BJ105KG-T"
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 64.77 67.31 0)
 			(effects
 				(font
@@ -7363,7 +7353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 205.4352 72.39 0)
 			(effects
 				(font
@@ -7390,7 +7380,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "490-6533-1-ND"
+		(property "DK" "445-6008-1-ND"
 			(at 204.47 68.58 0)
 			(effects
 				(font
@@ -7399,7 +7389,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "GRM32EC80J107ME20L"
+		(property "PARTNO" "C3216X5R0J107M160AB"
 			(at 204.47 68.58 0)
 			(effects
 				(font

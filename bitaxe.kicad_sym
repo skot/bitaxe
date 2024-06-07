@@ -10003,7 +10003,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 -1.27 0)
+				(at -13.97 -5.08 0)
 				(length 2.54)
 				(name "BP1V5"
 					(effects
@@ -10057,7 +10057,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 -5.08 0)
+				(at -13.97 -1.27 0)
 				(length 2.54)
 				(name "DRTN"
 					(effects
