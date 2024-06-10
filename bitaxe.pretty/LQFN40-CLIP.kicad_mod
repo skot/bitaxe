@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "TPS546D24ARVFR"
-		(at -0.02 6.44 0)
+		(at 0.38 16.32 0)
 		(layer "F.Fab")
 		(uuid "fe86a147-ebc2-46da-a2e5-ad08a2c71daa")
 		(effects
@@ -27,8 +27,8 @@
 			)
 		)
 	)
-	(property "Footprint" "bitaxe:LQFN40-CLIP"
-		(at 0 0 0)
+	(property "Footprint" "LQFN40-CLIP"
+		(at 0.23 9.15 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -40,7 +40,7 @@
 		)
 	)
 	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps546d24a.pdf"
-		(at 0 0 0)
+		(at 2.04 12.78 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -64,7 +64,7 @@
 		)
 	)
 	(property "DK" "296-TPS546D24ARVFRCT-ND"
-		(at 0 0 -90)
+		(at 1.35 14.68 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "2b487107-ea05-47af-9cb1-a82b627fb024")
@@ -76,7 +76,7 @@
 		)
 	)
 	(property "PARTNO" "TPS546D24ARVFR"
-		(at 0 0 -90)
+		(at 0.08 11.15 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "383a8003-2229-4218-8432-71d3292380bf")
@@ -169,13 +169,13 @@
 		(uuid "21775054-4ec1-43de-a542-61e9de6595de")
 	)
 	(fp_circle
-		(center -3.23 -2.75)
-		(end -3.14 -2.75)
+		(center -3.41 -2.97)
+		(end -3.21 -2.97)
 		(stroke
 			(width 0.2)
-			(type default)
+			(type solid)
 		)
-		(fill none)
+		(fill solid)
 		(layer "F.SilkS")
 		(uuid "0507b30a-19a2-40ce-bdb0-0354c15d8403")
 	)
@@ -270,7 +270,7 @@
 		(uuid "be8db7aa-b917-4e76-a371-f25463fbb907")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 3.725 -2.65 90)
+		(at 0.08 5.05 180)
 		(layer "F.Fab")
 		(uuid "e2319ab4-dcf3-4795-9502-f8e7a1536ef4")
 		(effects
