@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "NT"
-		(at 0.03 0.89 0)
+		(at 8.12 -8.66 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "96a94053-ac79-4f9c-be59-a6c7ed80e01a")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "0"
-		(at -0.04 0.73 180)
+		(at 9.55 -8.73 180)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "a0fd932a-36d5-483c-9a3b-f3e9080654d3")
@@ -27,8 +27,8 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
+	(property "Footprint" "NetTie-0.25mm"
+		(at 0.4 -7.11 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -64,7 +64,7 @@
 		)
 	)
 	(property "DK" "P16200CT-ND"
-		(at 0 0 0)
+		(at 0.05 -8.6 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "755d9d19-c742-414a-82aa-7a79bfa448d4")
@@ -75,7 +75,7 @@
 		)
 	)
 	(property "PARTNO" "2R5TPE220MAFB"
-		(at 0 0 0)
+		(at 0.31 -5.27 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "111a0bea-3582-44b5-92b9-b693137ac05d")
@@ -86,41 +86,29 @@
 		)
 	)
 	(attr smd)
-	(fp_poly
-		(pts
-			(xy -0.35 -0.14) (xy 0.1 -0.14) (xy 0.1 0.11) (xy -0.35 0.11)
-		)
+	(fp_rect
+		(start -0.1705 -0.135)
+		(end -0.1005 0.115)
 		(stroke
-			(width 0.001)
+			(width 0.0001)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.Cu")
-		(uuid "c7d47039-cb9d-49ac-8b7b-b10e7037d9e1")
+		(uuid "5ff30339-1977-4e69-8904-473755a929ed")
 	)
 	(pad "1" smd rect
-		(at -0.35 -0.01)
-		(size 0.001 0.25)
-		(layers "F.Cu" "F.Mask")
+		(at -0.29 -0.01)
+		(size 0.25 0.25)
+		(layers "F.Cu")
 		(clearance 0.01)
 		(uuid "e4b6d801-b8c5-4289-9214-d85fea90a1b9")
 	)
 	(pad "2" smd rect
-		(at 0.1 -0.01)
-		(size 0.001 0.25)
-		(layers "F.Cu" "F.Mask")
+		(at 0.02 -0.01)
+		(size 0.25 0.25)
+		(layers "F.Cu")
 		(clearance 0.01)
 		(uuid "111f88ee-2f7c-4767-932f-1b6fadb16825")
-	)
-	(model "${KIPRJMOD}/3D/2R5TPE220MAFB.step"
-		(offset
-			(xyz 0 -13.75 -1.65)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 0 90)
-		)
 	)
 )
