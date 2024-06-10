@@ -5544,7 +5544,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "bitaxe:USB_C_Receptacle_GCT_USB4105-xx-A"
 			(at 234.315 69.215 0)
 			(effects
 				(font

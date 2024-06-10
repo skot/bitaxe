@@ -6720,7 +6720,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330uF"
+		(property "Value" "100uF"
 			(at 151.13 58.4199 0)
 			(effects
 				(font
@@ -6756,7 +6756,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "490-GRM32ER60G337ME05KCT-ND"
+		(property "DK" "1276-1782-2-ND"
 			(at 147.32 57.15 0)
 			(effects
 				(font
@@ -6765,7 +6765,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "GRM32ER60G337ME05K"
+		(property "PARTNO" "CL31A107MQHNNNE"
 			(at 147.32 57.15 0)
 			(effects
 				(font
