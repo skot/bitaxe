@@ -5311,7 +5311,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1292-1639-1-ND"
+		(property "DK" "1276-1234-1-ND"
 			(at 115.57 57.15 0)
 			(effects
 				(font
@@ -5320,7 +5320,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "0402X104K100CT"
+		(property "PARTNO" "CL05A104KO5NNNC"
 			(at 115.57 57.15 0)
 			(effects
 				(font
@@ -5704,7 +5704,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1292-1639-1-ND"
+		(property "DK" "1276-1234-1-ND"
 			(at 43.18 180.34 0)
 			(effects
 				(font
@@ -5713,7 +5713,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "0402X104K100CT"
+		(property "PARTNO" "CL05A104KO5NNNC"
 			(at 43.18 180.34 0)
 			(effects
 				(font
@@ -5858,7 +5858,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1292-1639-1-ND"
+		(property "DK" "1276-1234-1-ND"
 			(at 105.41 57.15 0)
 			(effects
 				(font
@@ -5867,7 +5867,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "0402X104K100CT"
+		(property "PARTNO" "CL05A104KO5NNNC"
 			(at 105.41 57.15 0)
 			(effects
 				(font
@@ -6540,7 +6540,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1292-1639-1-ND"
+		(property "DK" "1276-1234-1-ND"
 			(at 242.57 39.37 0)
 			(effects
 				(font
@@ -6549,7 +6549,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "0402X104K100CT"
+		(property "PARTNO" "CL05A104KO5NNNC"
 			(at 242.57 39.37 0)
 			(effects
 				(font
@@ -8633,7 +8633,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1292-1639-1-ND"
+		(property "DK" "1276-1234-1-ND"
 			(at 173.99 39.37 0)
 			(effects
 				(font
@@ -8642,7 +8642,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "0402X104K100CT"
+		(property "PARTNO" "CL05A104KO5NNNC"
 			(at 173.99 39.37 0)
 			(effects
 				(font

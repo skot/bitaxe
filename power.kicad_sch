@@ -5625,8 +5625,8 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
-			(at 150.876 52.324 0)
+		(property "Value" "1000pF"
+			(at 152.654 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6388,7 +6388,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 146.05 34.29 90)
 			(effects
 				(font
@@ -6396,7 +6396,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 149.86 29.5148 0)
 			(effects
 				(font
@@ -6423,7 +6423,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "478-KGM21NR71E104KTCT-ND"
+		(property "DK" "1276-1234-1-ND"
 			(at 146.05 30.48 0)
 			(effects
 				(font
@@ -6432,7 +6432,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "KGM21NR71E104KT"
+		(property "PARTNO" "CL05A104KO5NNNC"
 			(at 146.05 30.48 0)
 			(effects
 				(font
@@ -6771,7 +6771,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1292-1639-1-ND"
+		(property "DK" "1276-1234-1-ND"
 			(at 88.9 67.31 0)
 			(effects
 				(font
@@ -6780,7 +6780,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "0402X104K100CT"
+		(property "PARTNO" "CL05A104KO5NNNC"
 			(at 88.9 67.31 0)
 			(effects
 				(font
@@ -7293,7 +7293,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "490-10746-2-ND"
+		(property "DK" "490-10746-1-ND"
 			(at 195.58 60.96 0)
 			(effects
 				(font

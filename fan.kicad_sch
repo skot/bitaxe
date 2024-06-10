@@ -2055,7 +2055,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1292-1639-1-ND"
+		(property "DK" "1276-1234-1-ND"
 			(at 191.77 77.47 0)
 			(effects
 				(font
@@ -2064,7 +2064,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "0402X104K100CT"
+		(property "PARTNO" "CL05A104KO5NNNC"
 			(at 191.77 77.47 0)
 			(effects
 				(font
@@ -2143,7 +2143,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1292-1639-1-ND"
+		(property "DK" "1276-1234-1-ND"
 			(at 151.13 119.38 0)
 			(effects
 				(font
@@ -2152,7 +2152,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "0402X104K100CT"
+		(property "PARTNO" "CL05A104KO5NNNC"
 			(at 151.13 119.38 0)
 			(effects
 				(font
