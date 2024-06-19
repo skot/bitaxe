@@ -723,16 +723,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 101.6) (xy 175.26 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10c225e2-ce7a-43df-b197-de234325184e")
-	)
-	(wire
-		(pts
 			(xy 196.85 72.39) (xy 207.01 72.39)
 		)
 		(stroke
@@ -830,16 +820,6 @@
 			(type default)
 		)
 		(uuid "67316bbe-4f68-40a1-a506-e3f919a61a4f")
-	)
-	(wire
-		(pts
-			(xy 175.26 104.14) (xy 149.86 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ad0e93a-8a03-478b-a7f2-d660e1a7eff4")
 	)
 	(wire
 		(pts
@@ -983,16 +963,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 85.09) (xy 152.4 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b72a5341-da25-46ad-818b-dc1fb1f8f784")
-	)
-	(wire
-		(pts
 			(xy 149.86 77.47) (xy 149.86 72.39)
 		)
 		(stroke
@@ -1020,16 +990,6 @@
 			(type default)
 		)
 		(uuid "c12365dd-1dcd-493f-bb53-77fba132d7a3")
-	)
-	(wire
-		(pts
-			(xy 149.86 87.63) (xy 130.81 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c220fd23-57a0-4d59-b491-db11d9d460e5")
 	)
 	(wire
 		(pts
@@ -1090,16 +1050,6 @@
 			(type default)
 		)
 		(uuid "e1430a93-e01f-48ce-811b-02b46de76171")
-	)
-	(wire
-		(pts
-			(xy 152.4 85.09) (xy 152.4 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4fa663f-4b77-4d4c-917d-90bbde59d885")
 	)
 	(wire
 		(pts
@@ -1180,16 +1130,6 @@
 			(type default)
 		)
 		(uuid "f168a877-7c07-4079-ad4a-1c8d06eeb2c8")
-	)
-	(wire
-		(pts
-			(xy 149.86 104.14) (xy 149.86 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f32a6ec1-ea0c-415d-a8d9-ccb5fab66eba")
 	)
 	(wire
 		(pts
@@ -2750,7 +2690,7 @@
 			(color 255 255 194 1.0000)
 		)
 		(uuid "4cf9c075-d009-4c35-9949-adda70ae20c7")
-		(property "Sheetname" "BM1368"
+		(property "Sheetname" "BM1366"
 			(at 113.03 71.6784 0)
 			(effects
 				(font
@@ -2759,7 +2699,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "bm1368.kicad_sch"
+		(property "Sheetfile" "bm1366.kicad_sch"
 			(at 113.03 91.0086 0)
 			(effects
 				(font
@@ -2827,26 +2767,6 @@
 				(justify left)
 			)
 			(uuid "fe07d78e-8200-43d1-ae9c-4d7599be57f0")
-		)
-		(pin "TEMP_N" output
-			(at 130.81 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ca16bad4-0e07-407e-b117-6e173dc3946c")
-		)
-		(pin "TEMP_P" output
-			(at 130.81 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5c39b7d4-e0ec-4681-92dc-1ada4017dc95")
 		)
 		(instances
 			(project "bitaxeUltra"
@@ -2925,26 +2845,6 @@
 				(justify left)
 			)
 			(uuid "3bc71f2d-53ea-4dbd-b8fb-74681448b62d")
-		)
-		(pin "TEMP_N" input
-			(at 175.26 101.6 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b80dc711-a9fd-4498-9025-59f917b8a32b")
-		)
-		(pin "TEMP_P" input
-			(at 175.26 104.14 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8347ed9c-b20f-4899-9279-392b6e9d4cf2")
 		)
 		(instances
 			(project "bitaxeUltra"
