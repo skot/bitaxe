@@ -557,7 +557,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "bitaxeSupra.kicad_pro",
+    "filename": "bitaxeUltra.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -600,7 +600,7 @@
       "plot": "Manufacturing Files/gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "bitaxeSupra.step",
+      "step": "bitaxeUltra.step",
       "svg": "",
       "vrml": ""
     },
