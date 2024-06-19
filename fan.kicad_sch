@@ -615,6 +615,196 @@
 				)
 			)
 		)
+		(symbol "Transistor_BJT:MMBT3904"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMBT3904"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMBT3904_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MMBT3904_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "bitaxe:EMC2101"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -848,6 +1038,12 @@
 		(uuid "5f300e37-7aa6-42c2-b324-35b08d49c436")
 	)
 	(junction
+		(at 116.84 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90603f3e-c56f-43ba-b3c0-77a488c0f83d")
+	)
+	(junction
 		(at 147.32 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -871,14 +1067,6 @@
 		(color 0 0 0 0)
 		(uuid "fe4c3244-42bf-42ff-9fea-4c032ea319b5")
 	)
-	(no_connect
-		(at 132.08 81.28)
-		(uuid "ade64388-01f9-4cfb-82ee-6e8696f5cf48")
-	)
-	(no_connect
-		(at 132.08 78.74)
-		(uuid "e50e5983-6e62-4c25-9caf-7fd09a7294f6")
-	)
 	(wire
 		(pts
 			(xy 157.48 73.66) (xy 171.45 73.66)
@@ -888,6 +1076,26 @@
 			(type default)
 		)
 		(uuid "02305ac9-a2b9-4754-a661-bab892b9c087")
+	)
+	(wire
+		(pts
+			(xy 116.84 71.12) (xy 116.84 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024f94bc-ee39-4d85-be19-99a4420d8b5f")
+	)
+	(wire
+		(pts
+			(xy 114.3 78.74) (xy 116.84 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031a6225-f971-4968-8584-a691b4b08de7")
 	)
 	(wire
 		(pts
@@ -911,6 +1119,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 78.74) (xy 132.08 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "142e677f-16fa-4cfd-b136-80bb9aec8218")
+	)
+	(wire
+		(pts
 			(xy 144.78 127) (xy 151.13 127)
 		)
 		(stroke
@@ -921,6 +1139,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 86.36) (xy 116.84 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178216ff-2391-41cb-803e-394382400448")
+	)
+	(wire
+		(pts
 			(xy 179.07 66.04) (xy 191.77 66.04)
 		)
 		(stroke
@@ -928,6 +1156,16 @@
 			(type default)
 		)
 		(uuid "28ce238a-9ef7-4d27-a72f-eabd77e9dc73")
+	)
+	(wire
+		(pts
+			(xy 106.68 71.12) (xy 116.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ccc4456-e627-4cd4-8c7b-bdb94a8a2011")
 	)
 	(wire
 		(pts
@@ -1001,6 +1239,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 86.36) (xy 116.84 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "714fbf28-1d04-4308-940c-ed6b060b6c21")
+	)
+	(wire
+		(pts
 			(xy 191.77 66.04) (xy 191.77 73.66)
 		)
 		(stroke
@@ -1061,6 +1309,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 71.12) (xy 106.68 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c8de21-cf7d-4d52-897b-b461b0301d73")
+	)
+	(wire
+		(pts
 			(xy 168.91 109.22) (xy 179.07 109.22)
 		)
 		(stroke
@@ -1088,6 +1346,16 @@
 			(type default)
 		)
 		(uuid "c1fd8110-ee2e-4ae6-b874-020f36ec0426")
+	)
+	(wire
+		(pts
+			(xy 116.84 81.28) (xy 132.08 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc8fa23d-9acd-4967-ad6d-1f13e704a699")
 	)
 	(wire
 		(pts
@@ -1141,6 +1409,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 83.82) (xy 106.68 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef62de31-a306-45b5-b96c-363543f99983")
+	)
+	(wire
+		(pts
 			(xy 147.32 99.06) (xy 147.32 102.87)
 		)
 		(stroke
@@ -1158,6 +1436,16 @@
 			(type default)
 		)
 		(uuid "fa5ccc40-3f15-429c-a73a-02c307af9a27")
+	)
+	(text "Place thermal diode near ASIC"
+		(exclude_from_sim no)
+		(at 105.664 69.596 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6b2a4275-3eea-4acb-b4ed-02de0d2d11cf")
 	)
 	(text "EMC2101 Controls the fan, and reads the ASIC chip temperature"
 		(exclude_from_sim no)
@@ -1904,6 +2192,109 @@
 			(project "bitaxeUltra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT3904")
+		(at 109.22 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a144152a-678b-44c9-9d58-4ed4de2e8410")
+		(property "Reference" "Q1"
+			(at 104.14 80.0101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3904"
+			(at 104.14 77.4701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TRANS_MMBT3904LP-7B"
+			(at 104.14 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31835.pdf"
+			(at 109.22 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 109.22 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "MMBT3904LP-7BDICT-ND"
+			(at 109.22 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "MMBT3904LP-7B"
+			(at 109.22 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C460099"
+			(at 109.22 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1896e392-c84d-48f6-b18f-f9dcd50cc75d")
+		)
+		(pin "3"
+			(uuid "cdb2e250-a5d2-49f5-89ff-1dc2fffad9e5")
+		)
+		(pin "1"
+			(uuid "ef0a7934-47be-4e19-9dcf-e157696eb17d")
+		)
+		(instances
+			(project "bitaxeUltra"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
