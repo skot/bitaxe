@@ -1,4 +1,4 @@
-(footprint "SLC1175-271MEC_COC"
+(footprint "SLC1175"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SLC1175-271MEC_COC"
+	(property "Value" "SLC1175"
 		(at -0.25 5.42 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "SLC1175"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

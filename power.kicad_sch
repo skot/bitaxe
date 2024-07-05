@@ -4405,7 +4405,7 @@
 			)
 		)
 		(property "Value" "49.9"
-			(at 160.02 58.42 0)
+			(at 160.782 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5000,7 +5000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bitaxe:SLC1175-271MEC_COC"
+		(property "Footprint" "bitaxe:SLC1175"
 			(at 160.02 39.37 0)
 			(effects
 				(font
@@ -5045,7 +5045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "994-SLC1175-271MEC"
+		(property "Mouser" "994-SLC1175-301MEC"
 			(at 160.02 39.37 90)
 			(effects
 				(font
@@ -7759,6 +7759,11 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )

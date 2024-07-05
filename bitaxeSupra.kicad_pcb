@@ -8810,15 +8810,15 @@
 			)
 		)
 	)
-	(footprint "bitaxe:O 25,0-JO32-B-1V3-1-T1-LF"
+	(footprint "bitaxe:SMD3225-4P"
 		(layer "F.Cu")
 		(uuid "43d231be-1923-4934-8aa2-32ab17d1e31f")
 		(at 114.73 125.22 90)
 		(property "Reference" "U7"
-			(at 2.62 0.11 0)
+			(at 2.56 0.14 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "ad46b8cf-b3dd-4fb8-b8df-265f096ea5ce")
+			(uuid "5174ce4f-af89-4645-9c7c-1d0be9af9b36")
 			(effects
 				(font
 					(size 1 1)
@@ -8830,7 +8830,7 @@
 			(at 0.65 -4.29 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "05b0f76f-e453-4dd8-a9d9-187cb4f130d5")
+			(uuid "8c02c3f0-5e44-442b-aa02-b1230287d5a6")
 			(effects
 				(font
 					(size 1 1)
@@ -8838,12 +8838,12 @@
 				)
 			)
 		)
-		(property "Footprint" "bitaxe:O 25,0-JO32-B-1V3-1-T1-LF"
+		(property "Footprint" "bitaxe:SMD3225-4P"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "507da83a-5777-4dd8-b86d-7d51cfc797ad")
+			(uuid "f60c89b8-c90b-4ac0-8682-72ccb01e5743")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8855,7 +8855,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2db03cc3-cfe9-4d83-96c5-6f8fba90a168")
+			(uuid "ebf8582f-739e-466a-a317-2025abf527fd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8867,7 +8867,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cbad2a4d-6f78-4d89-9680-51b5dce5b08a")
+			(uuid "2e93461a-9ffe-4963-99b1-e528a6f4244e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8924,7 +8924,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "32f012b6-4890-4859-9b4f-605e3348dfd5")
+			(uuid "efd32e29-8d39-4ca2-b633-dc13d9dd7276")
 		)
 		(fp_circle
 			(center -1.76 2.01)
@@ -8935,13 +8935,13 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "1cc6fcf6-d60d-44aa-b177-684bc6d7799d")
+			(uuid "8c4b75f4-fdc6-4dd1-9036-bb1e1e610208")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 5.36 -2.32 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "0a92a13a-c91f-4698-bc8b-33d95ed8838e")
+			(uuid "d728ba3e-90a9-4df2-a157-a7f65e7f283f")
 			(effects
 				(font
 					(size 1 1)
@@ -8956,7 +8956,7 @@
 			(net 26 "/BM1368/1V2")
 			(pinfunction "EN")
 			(pintype "bidirectional")
-			(uuid "77621dbf-ff34-4d78-b0f7-130a404ff995")
+			(uuid "15e0548d-f2c7-489d-af30-7f3326d6df01")
 		)
 		(pad "2" smd rect
 			(at 1.15 0.95 90)
@@ -8965,7 +8965,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "bidirectional")
-			(uuid "bfe724e2-f775-4ad3-a03d-ffa58236ef24")
+			(uuid "13bad9cb-8dc0-4cb8-bfd7-e6a9ff98dbb2")
 		)
 		(pad "3" smd rect
 			(at 1.15 -0.95 90)
@@ -8974,7 +8974,7 @@
 			(net 60 "/BM1368/CLKI")
 			(pinfunction "OUT")
 			(pintype "bidirectional")
-			(uuid "1df7cbef-ed52-4b11-ba2f-a96a62972735")
+			(uuid "ed90777b-cfd2-4dcd-be05-238586d2cdfe")
 		)
 		(pad "4" smd rect
 			(at -1.15 -0.95 90)
@@ -8983,7 +8983,7 @@
 			(net 26 "/BM1368/1V2")
 			(pinfunction "VIN")
 			(pintype "bidirectional")
-			(uuid "150cef55-9795-4393-8947-4aebf1f4a77e")
+			(uuid "e6cea1f2-69ac-494c-9961-43f6c5add9b3")
 		)
 		(model "${KIPRJMOD}/3d/oscillator3.2x2.5.step"
 			(offset
@@ -18930,16 +18930,16 @@
 			)
 		)
 	)
-	(footprint "bitaxe:SLC1175-271MEC_COC"
+	(footprint "bitaxe:SLC1175"
 		(layer "F.Cu")
 		(uuid "acf4722b-154d-42eb-b02e-4ae1e5f57bcc")
 		(at 100.27 85.255)
 		(tags "SLC1175-271MEC ")
 		(property "Reference" "L1"
-			(at 4.9 4.635 0)
+			(at 4.85 4.785 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "f83e31c7-3dfc-4fb5-af3d-880769af58fe")
+			(uuid "6c00b758-5054-4ca7-a964-fdbeb1dc8dbb")
 			(effects
 				(font
 					(size 1 1)
@@ -18951,7 +18951,7 @@
 			(at -0.25 5.42 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "0fde0c4a-ca2c-4a7a-aa21-b9d55cda2acc")
+			(uuid "e87bfedb-df7d-48bc-a403-c15cd2ff3126")
 			(effects
 				(font
 					(size 1 1)
@@ -18959,12 +18959,12 @@
 				)
 			)
 		)
-		(property "Footprint" "bitaxe:SLC1175-271MEC_COC"
+		(property "Footprint" "bitaxe:SLC1175"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9cce644d-ec6d-47db-a92b-38eb9ab4c9a9")
+			(uuid "6f714289-dd55-46ee-886d-dd4c5438e245")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18976,7 +18976,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8b8b8551-d96e-424a-93e4-3b40935c9c2d")
+			(uuid "def42e0e-6d66-4a5b-879b-0ef2e92d4391")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18988,7 +18988,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed1e0247-0ca1-4762-90e2-2da2291c72ff")
+			(uuid "0856be71-a31d-4582-9268-7660f7a118fb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19021,7 +19021,7 @@
 				)
 			)
 		)
-		(property "Mouser" "994-SLC1175-271MEC"
+		(property "Mouser" "994-SLC1175-301MEC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19061,7 +19061,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "da6a67e5-d96c-437a-8daa-ba0ff190beb4")
+			(uuid "9cc07df5-1498-409d-a76a-1b356e9f8694")
 		)
 		(fp_rect
 			(start -6.09 -3.84)
@@ -19072,13 +19072,13 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "ca2a3556-07c9-4b13-ae1a-61722d3bd383")
+			(uuid "db3a80d5-4333-40a6-bb87-8f96bf1bb8d7")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -0.11 7.01 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "46230dcd-bc57-4bc8-8841-72033a6b2765")
+			(uuid "d5c38368-c291-482e-95d9-87322fe000a2")
 			(effects
 				(font
 					(size 1 1)
@@ -19093,7 +19093,7 @@
 			(net 12 "/Power/SW")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "661ef359-eba9-44e8-afe2-f52aeabb4521")
+			(uuid "379009aa-23d0-4936-b59f-661ba644a85b")
 		)
 		(pad "2" smd rect
 			(at 3.975 0 90)
@@ -19102,9 +19102,9 @@
 			(net 2 "/VDD")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "80001505-0f3b-466f-8178-bc8ed8dc9c96")
+			(uuid "729fc78c-aebe-4b49-b970-092448805fd4")
 		)
-		(model "${KIPRJMOD}/3d/Coilcraft-SLC1175.STEP"
+		(model "${KIPRJMOD}/3d/SLC1175-271MEC_COC.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19112,7 +19112,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -24417,7 +24417,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C11"
-			(at -3.08 0.1 360)
+			(at -3.08 0.1 0)
 			(layer "F.SilkS")
 			(uuid "1d337f2b-b809-4e50-9b1f-19a697aa30d1")
 			(effects
@@ -24428,7 +24428,7 @@
 			)
 		)
 		(property "Value" "1000pF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "ecd79cc9-2421-4a44-9f2e-cda8efdef363")
 			(effects
@@ -24606,7 +24606,7 @@
 			(uuid "da7e8941-51ad-45d3-8db7-41c3ca976afd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a594e098-34c7-4fe3-85cb-a06291441ef1")
 			(effects

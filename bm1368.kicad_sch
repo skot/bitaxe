@@ -8236,7 +8236,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bitaxe:O 25,0-JO32-B-1V3-1-T1-LF"
+		(property "Footprint" "bitaxe:SMD3225-4P"
 			(at 40.64 172.72 0)
 			(effects
 				(font
