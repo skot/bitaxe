@@ -2503,7 +2503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3mm"
 			(at 38.1 171.45 0)
 			(effects
 				(font
