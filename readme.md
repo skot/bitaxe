@@ -41,6 +41,7 @@ bitaxe is a fully open source hardware Bitcoin ASIC miner. Ultra is the 3rd majo
 - [BM1366 ASIC from NBTC on AliExpress](https://www.aliexpress.us/item/3256804709142138.html). I got the "AG" variant. Not really sure what the difference is -- "AL" works also.
 - [40x40mm heatsink and 5V fan](https://www.aliexpress.com/item/2251832861666365.html) from a random AliExpress seller. The fans are crap, but the heatsinks are good. **make sure** to use a good quality thermal compound between the heatsink and ASIC!
 - Upgrade your fan with the [Noctua NF-A4x20](https://www.amazon.com/Noctua-NF-A4x20-5V-PWM-Premium-Quality/dp/B071FNHVXN) 5V 4-Pin fan for a much more pleasant experience.
+	- Get some longer mounting screws for the 20mm thick fan vs the 10mm thick fan that comes with the heatsink: [M3x25mm Flat Head Wood Self Tapping screws](https://www.amazon.com/dp/B08W5DQ23J)
 - Supports 0.91" SSD1306-based I2C OLED Module. [Example Amazon seller](https://www.amazon.com/gp/product/B08ZY4YBHL)
 - [KiCad 7](https://www.kicad.org) design files
 
