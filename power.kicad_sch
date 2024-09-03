@@ -3705,9 +3705,9 @@
 		)
 		(uuid "291464d9-ef11-4a98-9bbc-476b98bef6ea")
 	)
-	(text "TPS40305 is a Buck regulator that steps 5V down to around 1.5V for the BM1397"
+	(text "TPS40305 is a Buck regulator that steps 5V down to around 1.5V for the BM1366 -- putput is adjustable va the DS4432U"
 		(exclude_from_sim no)
-		(at 106.045 19.05 0)
+		(at 106.426 16.764 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3737,6 +3737,17 @@
 			(justify left bottom)
 		)
 		(uuid "a1c83079-b977-4c87-a0b0-104f93469af6")
+	)
+	(text "Webench project: https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=1686BF2C7433B649"
+		(exclude_from_sim no)
+		(at 113.284 19.558 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b42e234d-7423-4474-a14a-4d87240e28a0")
 	)
 	(label "3V3"
 		(at 203.835 111.125 0)
