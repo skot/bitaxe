@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "Bitaxe Ultra")
-		(date "2023-12-15")
-		(rev "205")
+		(date "2024-06-19")
+		(rev "206")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
