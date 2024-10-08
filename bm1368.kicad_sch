@@ -7,7 +7,7 @@
 	(title_block
 		(title "bitaxeSupra")
 		(date "2024-04-07")
-		(rev "402")
+		(rev "403")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -2668,7 +2668,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 59.69) (xy 193.04 57.15)
+			(xy 193.04 46.99) (xy 193.04 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3155,16 +3155,6 @@
 			(type default)
 		)
 		(uuid "8652256a-93fd-47f4-95c7-de93e2a70ff4")
-	)
-	(wire
-		(pts
-			(xy 193.04 46.99) (xy 193.04 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "873c2262-a407-4f3a-b57e-32fadd189cc6")
 	)
 	(wire
 		(pts
@@ -4142,6 +4132,17 @@
 		(uuid "078b7634-83e7-44a5-8b31-8fe55bf0cbdb")
 	)
 	(label "1V2"
+		(at 229.87 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e6baa2b-cc77-411c-8a7c-1701fda46bba")
+	)
+	(label "1V2"
 		(at 114.3 129.54 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4305,17 +4306,6 @@
 			(justify left bottom)
 		)
 		(uuid "731b4c1a-0f5b-4915-b32c-751614df2554")
-	)
-	(label "GND"
-		(at 229.87 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "742db54a-1f31-4f9c-a6a3-091da7fd5ba6")
 	)
 	(label "PIN_MODE"
 		(at 215.9 121.92 0)
@@ -5973,91 +5963,6 @@
 			(project "bitaxeSupra"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
 					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 193.04 53.34 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d65666c-fcb2-440c-b935-8a24edd7ab29")
-		(property "Reference" "R21"
-			(at 188.595 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20k"
-			(at 188.595 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 192.024 53.086 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-20.0KLRCT-ND"
-			(at 193.04 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402FR-0720KL"
-			(at 193.04 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a21c4c0-df9b-4247-b8e5-9155ffef7d57")
-		)
-		(pin "2"
-			(uuid "70c5798f-7c3e-420a-b183-ca1ea97e3253")
-		)
-		(instances
-			(project "bitaxeSupra"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-					(reference "R21")
 					(unit 1)
 				)
 			)

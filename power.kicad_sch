@@ -7,7 +7,7 @@
 	(title_block
 		(title "bitaxeSupra")
 		(date "2024-04-07")
-		(rev "402")
+		(rev "403")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"

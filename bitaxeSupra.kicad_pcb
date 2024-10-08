@@ -197,53 +197,52 @@
 	(net 52 "/BM1368/VDD1_1")
 	(net 53 "Net-(U8-LITE_PAD)")
 	(net 54 "/BM1368/VDD2_1")
-	(net 55 "Net-(U9-OE)")
-	(net 56 "/BM1368/VDD3_1")
-	(net 57 "/BM1368/BI")
-	(net 58 "Net-(U8-INV_CLKO)")
-	(net 59 "unconnected-(U2-SYNC-Pad38)")
-	(net 60 "/BM1368/CLKI")
-	(net 61 "/BM1368/BO")
-	(net 62 "unconnected-(U2-BCX_CLK-Pad39)")
-	(net 63 "/BM1368/CI")
-	(net 64 "/BM1368/RO")
-	(net 65 "/BM1368/RST_N")
-	(net 66 "/BM1368/NRSTO")
-	(net 67 "/BM1368/RI")
-	(net 68 "/BM1368/CLKO")
-	(net 69 "/BM1368/CO")
-	(net 70 "/BM1368/PIN_MODE")
-	(net 71 "unconnected-(U2-NC-Pad36)")
-	(net 72 "unconnected-(U2-BCX_DAT-Pad40)")
-	(net 73 "/Fan/TEMP_N")
-	(net 74 "/Fan/TEMP_P")
-	(net 75 "unconnected-(U2-VSHARE-Pad35)")
-	(net 76 "unconnected-(U3-NC-Pad4)")
-	(net 77 "/Power/AGND")
-	(net 78 "unconnected-(U4-GPIO7{slash}TOUCH7{slash}ADC1_CH6-Pad7)")
-	(net 79 "unconnected-(U4-GPIO5{slash}TOUCH5{slash}ADC1_CH4-Pad5)")
-	(net 80 "unconnected-(U4-*GPIO45-Pad26)")
-	(net 81 "unconnected-(U4-GPIO12{slash}TOUCH12{slash}ADC2_CH1{slash}FSPICLK{slash}FSPIIO6{slash}SUBSPICLK-Pad20)")
-	(net 82 "unconnected-(U4-GPIO4{slash}TOUCH4{slash}ADC1_CH3-Pad4)")
-	(net 83 "unconnected-(U4-SPIDQS{slash}GPIO37{slash}FSPIQ{slash}SUBSPIQ-Pad30)")
-	(net 84 "unconnected-(U4-GPIO8{slash}TOUCH8{slash}ADC1_CH7{slash}SUBSPICS1-Pad12)")
-	(net 85 "unconnected-(U4-GPIO9{slash}TOUCH9{slash}ADC1_CH8{slash}FSPIHD{slash}SUBSPIHD-Pad17)")
-	(net 86 "unconnected-(U4-GPIO38{slash}FSPIWP{slash}SUBSPIWP-Pad31)")
-	(net 87 "unconnected-(U4-*GPIO46-Pad16)")
-	(net 88 "unconnected-(U4-GPIO21-Pad23)")
-	(net 89 "/Power/PMB_ALRT")
-	(net 90 "unconnected-(U4-GPIO6{slash}TOUCH6{slash}ADC1_CH5-Pad6)")
-	(net 91 "unconnected-(U4-SPIIO6{slash}GPIO35{slash}FSPID{slash}SUBSPID-Pad28)")
-	(net 92 "unconnected-(U4-GPIO14{slash}TOUCH14{slash}ADC2_CH3{slash}FSPIWP{slash}FSPIDQS{slash}SUBSPIWP-Pad22)")
-	(net 93 "unconnected-(U4-SPIIO7{slash}GPIO36{slash}FSPICLK{slash}SUBSPICLK-Pad29)")
-	(net 94 "unconnected-(U4-GPIO10{slash}TOUCH10{slash}ADC1_CH9{slash}FSPICS0{slash}FSPIIO4{slash}SUBSPICS0-Pad18)")
-	(net 95 "unconnected-(U9-B4-Pad11)")
-	(net 96 "Net-(C11-Pad1)")
-	(net 97 "/Fan/TEMP_DP")
-	(net 98 "/Fan/TEMP_DN")
-	(net 99 "unconnected-(U4-GPIO15{slash}U0RTS{slash}ADC2_CH4{slash}XTAL_32K_P-Pad8)")
-	(net 100 "unconnected-(U4-GPIO16{slash}U0CTS{slash}ADC2_CH5{slash}XTAL_32K_NH5-Pad9)")
-	(net 101 "unconnected-(J7-MountPin-PadMP)")
+	(net 55 "/BM1368/VDD3_1")
+	(net 56 "/BM1368/BI")
+	(net 57 "Net-(U8-INV_CLKO)")
+	(net 58 "unconnected-(U2-SYNC-Pad38)")
+	(net 59 "/BM1368/CLKI")
+	(net 60 "/BM1368/BO")
+	(net 61 "unconnected-(U2-BCX_CLK-Pad39)")
+	(net 62 "/BM1368/CI")
+	(net 63 "/BM1368/RO")
+	(net 64 "/BM1368/RST_N")
+	(net 65 "/BM1368/NRSTO")
+	(net 66 "/BM1368/RI")
+	(net 67 "/BM1368/CLKO")
+	(net 68 "/BM1368/CO")
+	(net 69 "/BM1368/PIN_MODE")
+	(net 70 "unconnected-(U2-NC-Pad36)")
+	(net 71 "unconnected-(U2-BCX_DAT-Pad40)")
+	(net 72 "/Fan/TEMP_N")
+	(net 73 "/Fan/TEMP_P")
+	(net 74 "unconnected-(U2-VSHARE-Pad35)")
+	(net 75 "unconnected-(U3-NC-Pad4)")
+	(net 76 "/Power/AGND")
+	(net 77 "unconnected-(U4-GPIO7{slash}TOUCH7{slash}ADC1_CH6-Pad7)")
+	(net 78 "unconnected-(U4-GPIO5{slash}TOUCH5{slash}ADC1_CH4-Pad5)")
+	(net 79 "unconnected-(U4-*GPIO45-Pad26)")
+	(net 80 "unconnected-(U4-GPIO12{slash}TOUCH12{slash}ADC2_CH1{slash}FSPICLK{slash}FSPIIO6{slash}SUBSPICLK-Pad20)")
+	(net 81 "unconnected-(U4-GPIO4{slash}TOUCH4{slash}ADC1_CH3-Pad4)")
+	(net 82 "unconnected-(U4-SPIDQS{slash}GPIO37{slash}FSPIQ{slash}SUBSPIQ-Pad30)")
+	(net 83 "unconnected-(U4-GPIO8{slash}TOUCH8{slash}ADC1_CH7{slash}SUBSPICS1-Pad12)")
+	(net 84 "unconnected-(U4-GPIO9{slash}TOUCH9{slash}ADC1_CH8{slash}FSPIHD{slash}SUBSPIHD-Pad17)")
+	(net 85 "unconnected-(U4-GPIO38{slash}FSPIWP{slash}SUBSPIWP-Pad31)")
+	(net 86 "unconnected-(U4-*GPIO46-Pad16)")
+	(net 87 "unconnected-(U4-GPIO21-Pad23)")
+	(net 88 "/Power/PMB_ALRT")
+	(net 89 "unconnected-(U4-GPIO6{slash}TOUCH6{slash}ADC1_CH5-Pad6)")
+	(net 90 "unconnected-(U4-SPIIO6{slash}GPIO35{slash}FSPID{slash}SUBSPID-Pad28)")
+	(net 91 "unconnected-(U4-GPIO14{slash}TOUCH14{slash}ADC2_CH3{slash}FSPIWP{slash}FSPIDQS{slash}SUBSPIWP-Pad22)")
+	(net 92 "unconnected-(U4-SPIIO7{slash}GPIO36{slash}FSPICLK{slash}SUBSPICLK-Pad29)")
+	(net 93 "unconnected-(U4-GPIO10{slash}TOUCH10{slash}ADC1_CH9{slash}FSPICS0{slash}FSPIIO4{slash}SUBSPICS0-Pad18)")
+	(net 94 "unconnected-(U9-B4-Pad11)")
+	(net 95 "Net-(C11-Pad1)")
+	(net 96 "/Fan/TEMP_DP")
+	(net 97 "/Fan/TEMP_DN")
+	(net 98 "unconnected-(U4-GPIO15{slash}U0RTS{slash}ADC2_CH4{slash}XTAL_32K_P-Pad8)")
+	(net 99 "unconnected-(U4-GPIO16{slash}U0CTS{slash}ADC2_CH5{slash}XTAL_32K_NH5-Pad9)")
+	(net 100 "unconnected-(J7-MountPin-PadMP)")
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "02c955a2-a284-4c8d-86b2-9a45216660f4")
@@ -281,6 +280,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -293,6 +293,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -305,6 +306,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -517,6 +519,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -529,6 +532,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -541,6 +545,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -716,242 +721,6 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0402_1005Metric"
-		(layer "F.Cu")
-		(uuid "0394cbd6-dd9e-4858-aa22-d7d14666b266")
-		(at 121.5 103.71 180)
-		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
-		(tags "resistor")
-		(property "Reference" "R21"
-			(at 0.55 -1.25 180)
-			(layer "F.SilkS")
-			(uuid "3a103833-5aab-4d00-b2d3-0571d187c752")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "20k"
-			(at 0 1.17 180)
-			(layer "F.Fab")
-			(uuid "bf152603-7499-4b10-814f-0b2572a21f64")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d3aa99a0-4774-476e-9de4-943f951c64ac")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9332b5db-a4f6-42c0-88cc-e33b88a1e950")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3a76871d-88a3-4829-976d-9866be593e1b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK" "311-20.0KLRCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ec4cb644-f5ca-4330-a03b-14565c9d8a56")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTNO" "RC0402FR-0720KL"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bab204d9-f331-4cd4-92b4-532ab6a1c7b4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "R_*")
-		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/5d65666c-fcb2-440c-b935-8a24edd7ab29")
-		(sheetname "BM1368")
-		(sheetfile "bm1368.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -0.153641 0.38)
-			(end 0.153641 0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "497f079a-842a-434b-938d-f96bb0c708b3")
-		)
-		(fp_line
-			(start -0.153641 -0.38)
-			(end 0.153641 -0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "39f3d74f-5a9d-40ea-9dbf-26ddb2f58e28")
-		)
-		(fp_line
-			(start 0.93 0.47)
-			(end -0.93 0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5a068eaf-e223-4a18-a27a-9a354246d761")
-		)
-		(fp_line
-			(start 0.93 -0.47)
-			(end 0.93 0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "7cd373d7-362c-47b2-83a7-2845692cf2df")
-		)
-		(fp_line
-			(start -0.93 0.47)
-			(end -0.93 -0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d14f36a1-7c82-46ef-ad8c-3d640cd6244a")
-		)
-		(fp_line
-			(start -0.93 -0.47)
-			(end 0.93 -0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "363c158c-e07e-488f-bc34-adee11cc19bb")
-		)
-		(fp_line
-			(start 0.525 0.27)
-			(end -0.525 0.27)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "25bca704-f083-4f38-ac1a-93c1a8f49f87")
-		)
-		(fp_line
-			(start 0.525 -0.27)
-			(end 0.525 0.27)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3582165d-f074-4965-a123-3939ccb19e40")
-		)
-		(fp_line
-			(start -0.525 0.27)
-			(end -0.525 -0.27)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "da697ad6-436e-4b8d-b002-89fd4caf3dfb")
-		)
-		(fp_line
-			(start -0.525 -0.27)
-			(end 0.525 -0.27)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7f597fd2-b35c-48ee-885e-a72ff49fa743")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(uuid "82bf03e7-b4a6-48b3-825b-7541d5a811a3")
-			(effects
-				(font
-					(size 0.26 0.26)
-					(thickness 0.04)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -0.51 0 180)
-			(size 0.54 0.64)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net 1 "GND")
-			(pintype "passive")
-			(uuid "a8c6e554-0c2b-4aa6-aa73-d5321494170e")
-		)
-		(pad "2" smd roundrect
-			(at 0.51 0 180)
-			(size 0.54 0.64)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net 55 "Net-(U9-OE)")
-			(pintype "passive")
-			(uuid "bc403898-8eb8-4ad9-b6da-3aca3ecd6e2d")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "03c847e4-4a7a-40e2-a972-d4a375c8771f")
@@ -989,6 +758,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1001,6 +771,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1013,6 +784,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1225,6 +997,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1237,6 +1010,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1249,6 +1023,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1337,6 +1112,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1349,6 +1125,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1361,6 +1138,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1574,6 +1352,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1586,6 +1365,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1598,6 +1378,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1686,6 +1467,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1698,6 +1480,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1710,6 +1493,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1798,6 +1582,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1810,6 +1595,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1822,6 +1608,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1909,6 +1696,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1921,6 +1709,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1933,6 +1722,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1979,7 +1769,7 @@
 			(at -0.29 -0.01)
 			(size 0.25 0.25)
 			(layers "F.Cu")
-			(net 77 "/Power/AGND")
+			(net 76 "/Power/AGND")
 			(pintype "bidirectional")
 			(clearance 0.01)
 			(uuid "8d046e13-7e2d-4ff0-9559-2cfcd77fe3ee")
@@ -2031,6 +1821,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2043,6 +1834,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2055,6 +1847,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2265,6 +2058,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2277,6 +2071,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2289,6 +2084,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2334,7 +2130,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net 58 "Net-(U8-INV_CLKO)")
+			(net 57 "Net-(U8-INV_CLKO)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "1dc93b92-23e7-479a-8120-ea4b955a4777")
@@ -2377,6 +2173,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2389,6 +2186,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2401,6 +2199,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2489,6 +2288,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2501,6 +2301,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2513,6 +2314,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2724,6 +2526,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2736,6 +2539,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2748,6 +2552,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2836,6 +2641,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2848,6 +2654,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2860,6 +2667,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3071,6 +2879,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3083,6 +2892,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3095,6 +2905,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3244,7 +3055,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 74 "/Fan/TEMP_P")
+			(net 73 "/Fan/TEMP_P")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "ec2d8305-14e8-4a03-84e9-98566f3ea6d6")
@@ -3254,7 +3065,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 97 "/Fan/TEMP_DP")
+			(net 96 "/Fan/TEMP_DP")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "2b4b3461-8626-4c7b-a5f9-f2ad766b30e6")
@@ -3308,6 +3119,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3320,6 +3132,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3332,6 +3145,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3489,7 +3303,7 @@
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 56 "/BM1368/VDD3_1")
+			(net 55 "/BM1368/VDD3_1")
 			(pintype "passive")
 			(uuid "b03349ce-f7f6-45a4-b86f-82e6fd08b242")
 		)
@@ -3543,6 +3357,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3555,6 +3370,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3567,6 +3383,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3653,6 +3470,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3665,6 +3483,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3677,6 +3496,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3887,6 +3707,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3899,6 +3720,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3911,6 +3733,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4070,7 +3893,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.222222)
-			(net 96 "Net-(C11-Pad1)")
+			(net 95 "Net-(C11-Pad1)")
 			(pintype "passive")
 			(uuid "913718fd-2821-4fd2-aff2-651bc4db93e7")
 		)
@@ -4123,6 +3946,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4135,6 +3959,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4147,6 +3972,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4359,6 +4185,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4371,6 +4198,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4383,6 +4211,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4595,6 +4424,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4607,6 +4437,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4619,6 +4450,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4890,6 +4722,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4902,6 +4735,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4914,6 +4748,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5126,6 +4961,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5138,6 +4974,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5150,6 +4987,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5195,7 +5033,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net 65 "/BM1368/RST_N")
+			(net 64 "/BM1368/RST_N")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "db6fac90-bbf6-4557-926c-334b0a94c041")
@@ -5238,6 +5076,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5250,6 +5089,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5262,6 +5102,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5351,6 +5192,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5363,6 +5205,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5375,6 +5218,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5420,7 +5264,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net 74 "/Fan/TEMP_P")
+			(net 73 "/Fan/TEMP_P")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "4b5bc66e-3d04-401d-a8ae-e15e5aae8b05")
@@ -5463,6 +5307,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5475,6 +5320,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5487,6 +5333,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5646,7 +5493,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 77 "/Power/AGND")
+			(net 76 "/Power/AGND")
 			(pintype "passive")
 			(uuid "64d7bc87-2774-43b7-b41a-31d30b1b2335")
 		)
@@ -5699,6 +5546,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5711,6 +5559,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5723,6 +5572,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5935,6 +5785,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5947,6 +5798,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5959,6 +5811,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6171,6 +6024,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6183,6 +6037,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6195,6 +6050,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6283,6 +6139,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6295,6 +6152,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6307,6 +6165,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6352,7 +6211,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net 61 "/BM1368/BO")
+			(net 60 "/BM1368/BO")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "c6524b58-8937-4522-9dd0-ea040d742055")
@@ -6395,6 +6254,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6407,6 +6267,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6419,6 +6280,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6507,6 +6369,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6519,6 +6382,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6531,6 +6395,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6741,6 +6606,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6753,6 +6619,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6765,6 +6632,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6854,6 +6722,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6866,6 +6735,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6878,6 +6748,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6964,6 +6835,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6976,6 +6848,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6988,6 +6861,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7200,6 +7074,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7212,6 +7087,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7224,6 +7100,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7435,6 +7312,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7447,6 +7325,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7459,6 +7338,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7671,6 +7551,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7683,6 +7564,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7695,6 +7577,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7907,6 +7790,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7919,6 +7803,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7931,6 +7816,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8142,6 +8028,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8154,6 +8041,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8166,6 +8054,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8378,6 +8267,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8390,6 +8280,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8402,6 +8293,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8614,6 +8506,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8626,6 +8519,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8638,6 +8532,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8848,6 +8743,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8860,6 +8756,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8872,6 +8769,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8972,7 +8870,7 @@
 			(at 1.15 -0.95 90)
 			(size 1.3 1.1)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 60 "/BM1368/CLKI")
+			(net 59 "/BM1368/CLKI")
 			(pinfunction "OUT")
 			(pintype "bidirectional")
 			(uuid "ed90777b-cfd2-4dcd-be05-238586d2cdfe")
@@ -9035,6 +8933,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9047,6 +8946,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9059,6 +8959,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9269,6 +9170,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9281,6 +9183,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9293,6 +9196,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9471,6 +9375,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9483,6 +9388,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9495,6 +9401,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9583,6 +9490,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9595,6 +9503,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9607,6 +9516,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9766,7 +9676,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 77 "/Power/AGND")
+			(net 76 "/Power/AGND")
 			(pintype "passive")
 			(uuid "2ac55b5b-fd02-4f9d-97db-be3d3f4f3207")
 		)
@@ -9819,6 +9729,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9831,6 +9742,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9843,6 +9755,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9931,6 +9844,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9943,6 +9857,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9955,6 +9870,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10166,6 +10082,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10178,6 +10095,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10190,6 +10108,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10277,6 +10196,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10289,6 +10209,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10301,6 +10222,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10513,6 +10435,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10525,6 +10448,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10537,6 +10461,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10582,7 +10507,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net 63 "/BM1368/CI")
+			(net 62 "/BM1368/CI")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "c5d01278-ceaa-4f89-93a1-85f441c67da5")
@@ -10625,6 +10550,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10637,6 +10563,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10649,6 +10576,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10859,6 +10787,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10871,6 +10800,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10883,6 +10813,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10972,6 +10903,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10984,6 +10916,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10996,6 +10929,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11041,7 +10975,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net 73 "/Fan/TEMP_N")
+			(net 72 "/Fan/TEMP_N")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "5bd1cca1-94c9-4d76-b1cc-ce5d4c94a59d")
@@ -11084,6 +11018,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11096,6 +11031,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11108,6 +11044,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11318,6 +11255,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11330,6 +11268,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11342,6 +11281,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11387,7 +11327,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net 64 "/BM1368/RO")
+			(net 63 "/BM1368/RO")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "b1405261-eb86-47b8-9253-a1825fbfdde1")
@@ -11430,6 +11370,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11442,6 +11383,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11454,6 +11396,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11499,7 +11442,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net 60 "/BM1368/CLKI")
+			(net 59 "/BM1368/CLKI")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "0a14132f-d0f4-488f-8cf7-87ee31383157")
@@ -11542,6 +11485,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11554,6 +11498,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11566,6 +11511,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11776,6 +11722,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11788,6 +11735,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11800,6 +11748,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12010,6 +11959,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12022,6 +11972,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12034,6 +11985,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12180,7 +12132,7 @@
 			(at -2.15 -0.325 270)
 			(size 1.1 0.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 97 "/Fan/TEMP_DP")
+			(net 96 "/Fan/TEMP_DP")
 			(pinfunction "DP")
 			(pintype "input")
 			(uuid "077832e0-4c52-4549-8c66-4cb082b94532")
@@ -12189,7 +12141,7 @@
 			(at -2.15 0.325 270)
 			(size 1.1 0.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 98 "/Fan/TEMP_DN")
+			(net 97 "/Fan/TEMP_DN")
 			(pinfunction "DN")
 			(pintype "input")
 			(uuid "dca7937f-40b5-4947-bee7-810a048ba560")
@@ -12288,6 +12240,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12300,6 +12253,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12312,6 +12266,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12471,7 +12426,7 @@
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 77 "/Power/AGND")
+			(net 76 "/Power/AGND")
 			(pintype "passive")
 			(uuid "3f44fdec-77e3-4587-8aad-a0127a9ac113")
 		)
@@ -12524,6 +12479,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12536,6 +12492,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12548,6 +12505,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12698,7 +12656,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 77 "/Power/AGND")
+			(net 76 "/Power/AGND")
 			(pintype "passive")
 			(uuid "5364c727-9f1b-4475-b34b-1e38868aa259")
 		)
@@ -12760,6 +12718,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12772,6 +12731,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12784,6 +12744,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12943,7 +12904,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 77 "/Power/AGND")
+			(net 76 "/Power/AGND")
 			(pintype "passive")
 			(uuid "dec1f515-a188-4aa3-9976-ddb7b7315ae1")
 		)
@@ -12996,6 +12957,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13008,6 +12970,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13020,6 +12983,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13065,7 +13029,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net 66 "/BM1368/NRSTO")
+			(net 65 "/BM1368/NRSTO")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "817066d8-3100-451e-8d9d-91884afdd3a2")
@@ -13108,6 +13072,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13120,6 +13085,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13132,6 +13098,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13403,6 +13370,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13415,6 +13383,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13427,6 +13396,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13605,6 +13575,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13617,6 +13588,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13629,6 +13601,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13841,6 +13814,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13853,6 +13827,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13865,6 +13840,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13953,6 +13929,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13965,6 +13942,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13977,6 +13955,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14189,6 +14168,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14201,6 +14181,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14213,6 +14194,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14423,6 +14405,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14435,6 +14418,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14447,6 +14431,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14657,6 +14642,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14669,6 +14655,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14681,6 +14668,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14769,6 +14757,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14781,6 +14770,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14793,6 +14783,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15005,6 +14996,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15017,6 +15009,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15029,6 +15022,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15241,6 +15235,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15253,6 +15248,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15265,6 +15261,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15422,7 +15419,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 57 "/BM1368/BI")
+			(net 56 "/BM1368/BI")
 			(pintype "passive")
 			(uuid "63cdd57c-5798-48db-ae41-304eabab328f")
 		)
@@ -15475,6 +15472,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15487,6 +15485,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15499,6 +15498,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15711,6 +15711,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15723,6 +15724,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15735,6 +15737,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16020,6 +16023,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16032,6 +16036,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16044,6 +16049,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16089,7 +16095,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net 57 "/BM1368/BI")
+			(net 56 "/BM1368/BI")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "5e75d5bf-7661-4df4-b012-4af25f0d51a2")
@@ -16132,6 +16138,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16144,6 +16151,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16156,6 +16164,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16201,7 +16210,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net 70 "/BM1368/PIN_MODE")
+			(net 69 "/BM1368/PIN_MODE")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "7c3ad4b6-7e85-4c32-abe1-73daaffbe74c")
@@ -16244,6 +16253,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16256,6 +16266,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16268,6 +16279,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16446,6 +16458,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16458,6 +16471,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16470,6 +16484,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16558,6 +16573,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16570,6 +16586,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16582,6 +16599,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16794,6 +16812,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16806,6 +16825,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16818,6 +16838,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17029,6 +17050,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17041,6 +17063,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17053,6 +17076,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17139,6 +17163,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17151,6 +17176,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17163,6 +17189,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17311,7 +17338,7 @@
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 56 "/BM1368/VDD3_1")
+			(net 55 "/BM1368/VDD3_1")
 			(pintype "passive")
 			(uuid "29a8777f-5235-4393-a1aa-c5c2e9b51c27")
 		)
@@ -17373,6 +17400,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17385,6 +17413,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17397,6 +17426,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17607,6 +17637,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17619,6 +17650,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17631,6 +17663,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17842,7 +17875,7 @@
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 65 "/BM1368/RST_N")
+			(net 64 "/BM1368/RST_N")
 			(pinfunction "A1")
 			(pintype "bidirectional")
 			(uuid "b4fa9285-7d1a-4f76-a695-1cced9df1f74")
@@ -17852,7 +17885,7 @@
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 63 "/BM1368/CI")
+			(net 62 "/BM1368/CI")
 			(pinfunction "A2")
 			(pintype "bidirectional")
 			(uuid "cc475c9d-a8b6-455c-bf0c-c4294a6472ef")
@@ -17862,7 +17895,7 @@
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 64 "/BM1368/RO")
+			(net 63 "/BM1368/RO")
 			(pinfunction "A3")
 			(pintype "bidirectional")
 			(uuid "b361f2a0-2a6a-4914-b75b-8f496e02c10c")
@@ -17892,7 +17925,7 @@
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 1 "GND")
+			(net 26 "/BM1368/1V2")
 			(pinfunction "DIR4")
 			(pintype "input")
 			(uuid "9626a8a2-1228-44a3-8ecd-2726fb8df9b8")
@@ -17902,7 +17935,7 @@
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 55 "Net-(U9-OE)")
+			(net 1 "GND")
 			(pinfunction "OE")
 			(pintype "input")
 			(uuid "c890550e-933b-4be5-abf6-887f26690156")
@@ -17922,7 +17955,7 @@
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 95 "unconnected-(U9-B4-Pad11)")
+			(net 94 "unconnected-(U9-B4-Pad11)")
 			(pinfunction "B4")
 			(pintype "bidirectional+no_connect")
 			(uuid "f420965b-d6d5-4da6-8993-71b97473beec")
@@ -18026,6 +18059,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18038,6 +18072,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18050,6 +18085,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18260,6 +18296,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18272,6 +18309,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18284,6 +18322,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18434,7 +18473,7 @@
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 77 "/Power/AGND")
+			(net 76 "/Power/AGND")
 			(pintype "passive")
 			(uuid "4281c7f8-3010-48b3-882c-2be4d324d758")
 		)
@@ -18496,6 +18535,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18508,6 +18548,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18520,6 +18561,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18731,6 +18773,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18743,6 +18786,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18755,6 +18799,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18904,7 +18949,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 98 "/Fan/TEMP_DN")
+			(net 97 "/Fan/TEMP_DN")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "f9ca6ac5-5a3c-4b63-a54a-bd840ab47a83")
@@ -18914,7 +18959,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 73 "/Fan/TEMP_N")
+			(net 72 "/Fan/TEMP_N")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "7a0dca8b-fa3e-4990-b3fd-3e7617b9c0f8")
@@ -18969,6 +19014,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18981,6 +19027,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18993,6 +19040,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19154,6 +19202,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19166,6 +19215,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19178,6 +19228,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19390,6 +19441,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19402,6 +19454,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19414,6 +19467,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19624,6 +19678,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19636,6 +19691,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19648,6 +19704,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19860,6 +19917,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19872,6 +19930,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19884,6 +19943,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20096,6 +20156,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20108,6 +20169,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20120,6 +20182,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20298,6 +20361,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20310,6 +20374,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20322,6 +20387,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20532,6 +20598,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20544,6 +20611,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20556,6 +20624,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20768,6 +20837,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20780,6 +20850,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20792,6 +20863,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21002,6 +21074,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21014,6 +21087,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21026,6 +21100,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21236,6 +21311,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21248,6 +21324,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21260,6 +21337,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21349,6 +21427,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21361,6 +21440,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21373,6 +21453,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21459,6 +21540,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21471,6 +21553,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21483,6 +21566,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21571,6 +21655,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21583,6 +21668,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21595,6 +21681,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21640,7 +21727,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net 69 "/BM1368/CO")
+			(net 68 "/BM1368/CO")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "4b96ba2d-4819-4256-82c7-b98aa58cd7f1")
@@ -21683,6 +21770,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21695,6 +21783,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21707,6 +21796,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21919,6 +22009,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21931,6 +22022,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21943,6 +22035,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22277,7 +22370,7 @@
 			(size 0.8 0.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 89 "/Power/PMB_ALRT")
+			(net 88 "/Power/PMB_ALRT")
 			(pinfunction "SMB_ALRT")
 			(pintype "input")
 			(uuid "b72febd9-265b-4615-a9a4-e9f4f9ff7591")
@@ -22567,7 +22660,7 @@
 			(size 0.25 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 75 "unconnected-(U2-VSHARE-Pad35)")
+			(net 74 "unconnected-(U2-VSHARE-Pad35)")
 			(pinfunction "VSHARE")
 			(pintype "input+no_connect")
 			(uuid "e946f58c-4700-49df-85fd-f4e3250512cb")
@@ -22577,7 +22670,7 @@
 			(size 0.25 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 71 "unconnected-(U2-NC-Pad36)")
+			(net 70 "unconnected-(U2-NC-Pad36)")
 			(pinfunction "NC")
 			(pintype "input+no_connect")
 			(uuid "ef81d57c-c39d-47a3-b7d8-7979b24220d9")
@@ -22587,7 +22680,7 @@
 			(size 0.25 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 77 "/Power/AGND")
+			(net 76 "/Power/AGND")
 			(pinfunction "AGND")
 			(pintype "power_in")
 			(uuid "bc62a7f5-db98-4d33-813e-e026f36564cd")
@@ -22597,7 +22690,7 @@
 			(size 0.25 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 59 "unconnected-(U2-SYNC-Pad38)")
+			(net 58 "unconnected-(U2-SYNC-Pad38)")
 			(pinfunction "SYNC")
 			(pintype "input+no_connect")
 			(uuid "e84fcc2f-be8b-472a-b447-cbd3c25b4f81")
@@ -22607,7 +22700,7 @@
 			(size 0.25 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 62 "unconnected-(U2-BCX_CLK-Pad39)")
+			(net 61 "unconnected-(U2-BCX_CLK-Pad39)")
 			(pinfunction "BCX_CLK")
 			(pintype "input+no_connect")
 			(uuid "8c6c4c71-e8a8-4b7f-b0ef-c3d5c08a1499")
@@ -22617,7 +22710,7 @@
 			(size 0.25 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 72 "unconnected-(U2-BCX_DAT-Pad40)")
+			(net 71 "unconnected-(U2-BCX_DAT-Pad40)")
 			(pinfunction "BCX_DAT")
 			(pintype "input+no_connect")
 			(uuid "9d814392-de75-4a87-8379-e260ccac5a0e")
@@ -22801,6 +22894,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22813,6 +22907,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22825,6 +22920,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23037,6 +23133,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23049,6 +23146,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23061,6 +23159,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23274,6 +23373,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23286,6 +23386,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23298,6 +23399,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23448,7 +23550,7 @@
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 97 "/Fan/TEMP_DP")
+			(net 96 "/Fan/TEMP_DP")
 			(pintype "passive")
 			(uuid "a02ac195-31b0-4a8a-93a6-6355617e67a3")
 		)
@@ -23457,7 +23559,7 @@
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 98 "/Fan/TEMP_DN")
+			(net 97 "/Fan/TEMP_DN")
 			(pintype "passive")
 			(uuid "d9471e26-0344-4c55-84aa-00814f2e2009")
 		)
@@ -23510,6 +23612,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23522,6 +23625,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23534,6 +23638,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23693,7 +23798,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 77 "/Power/AGND")
+			(net 76 "/Power/AGND")
 			(pintype "passive")
 			(uuid "bec19385-d761-4d56-83c7-71b0544c1cb3")
 		)
@@ -23746,6 +23851,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23758,6 +23864,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23770,6 +23877,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23980,6 +24088,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23992,6 +24101,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24004,6 +24114,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24214,6 +24325,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24226,6 +24338,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24238,6 +24351,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24448,6 +24562,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24460,6 +24575,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24472,6 +24588,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24622,7 +24739,7 @@
 			(size 1 1.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 96 "Net-(C11-Pad1)")
+			(net 95 "Net-(C11-Pad1)")
 			(pintype "passive")
 			(uuid "602300d0-e129-4773-8b4d-748b54506b3a")
 		)
@@ -24684,6 +24801,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24696,6 +24814,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24708,6 +24827,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24918,6 +25038,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24930,6 +25051,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24942,6 +25064,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24987,7 +25110,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net 67 "/BM1368/RI")
+			(net 66 "/BM1368/RI")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "d64ad6af-eaf8-44d6-acc5-692ce3c54a51")
@@ -25030,6 +25153,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25042,6 +25166,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25054,6 +25179,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25142,6 +25268,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25154,6 +25281,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25166,6 +25294,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25211,7 +25340,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net 68 "/BM1368/CLKO")
+			(net 67 "/BM1368/CLKO")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "da269741-0e3e-4565-bd41-bd73edae6fdf")
@@ -25254,6 +25383,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25266,6 +25396,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25278,6 +25409,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25490,6 +25622,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25502,6 +25635,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25514,6 +25648,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25724,6 +25859,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25736,6 +25872,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25748,6 +25885,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25960,6 +26098,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25972,6 +26111,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25984,6 +26124,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -26192,6 +26333,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -26204,6 +26346,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -26216,6 +26359,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -26380,7 +26524,7 @@
 			(at 1.37795 0.9398)
 			(size 0.9525 0.5588)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 76 "unconnected-(U3-NC-Pad4)")
+			(net 75 "unconnected-(U3-NC-Pad4)")
 			(pinfunction "NC")
 			(pintype "no_connect")
 			(uuid "cc4e97fb-5a1e-474b-bfce-c00ad5f3685c")
@@ -26443,6 +26587,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -26455,6 +26600,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -26467,6 +26613,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -26555,6 +26702,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -26567,6 +26715,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -26579,6 +26728,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -26790,6 +26940,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -26802,6 +26953,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -26814,6 +26966,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -27063,6 +27216,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -27075,6 +27229,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -27087,6 +27242,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -27391,6 +27547,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -27403,6 +27560,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -27415,6 +27573,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -27508,6 +27667,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -27520,6 +27680,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -27532,6 +27693,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -27874,6 +28036,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -27886,6 +28049,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -27898,6 +28062,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -28168,7 +28333,7 @@
 			(at -8.75 4.45 90)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 82 "unconnected-(U4-GPIO4{slash}TOUCH4{slash}ADC1_CH3-Pad4)")
+			(net 81 "unconnected-(U4-GPIO4{slash}TOUCH4{slash}ADC1_CH3-Pad4)")
 			(pinfunction "GPIO4/TOUCH4/ADC1_CH3")
 			(pintype "bidirectional+no_connect")
 			(uuid "1f795294-c11c-4fbf-9ef2-7a308d762f95")
@@ -28177,7 +28342,7 @@
 			(at -8.75 3.18 90)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 79 "unconnected-(U4-GPIO5{slash}TOUCH5{slash}ADC1_CH4-Pad5)")
+			(net 78 "unconnected-(U4-GPIO5{slash}TOUCH5{slash}ADC1_CH4-Pad5)")
 			(pinfunction "GPIO5/TOUCH5/ADC1_CH4")
 			(pintype "bidirectional+no_connect")
 			(uuid "07e973ad-27cf-4e66-b452-ab7ede4f9d63")
@@ -28186,7 +28351,7 @@
 			(at -8.75 1.91 90)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 90 "unconnected-(U4-GPIO6{slash}TOUCH6{slash}ADC1_CH5-Pad6)")
+			(net 89 "unconnected-(U4-GPIO6{slash}TOUCH6{slash}ADC1_CH5-Pad6)")
 			(pinfunction "GPIO6/TOUCH6/ADC1_CH5")
 			(pintype "bidirectional+no_connect")
 			(uuid "b1ea3b3b-bd96-4465-a12d-896bce6f30e5")
@@ -28195,7 +28360,7 @@
 			(at -8.75 0.64 90)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 78 "unconnected-(U4-GPIO7{slash}TOUCH7{slash}ADC1_CH6-Pad7)")
+			(net 77 "unconnected-(U4-GPIO7{slash}TOUCH7{slash}ADC1_CH6-Pad7)")
 			(pinfunction "GPIO7/TOUCH7/ADC1_CH6")
 			(pintype "bidirectional+no_connect")
 			(uuid "00b5338b-d6ad-4efb-b3eb-6ab5b3b1ebd0")
@@ -28204,7 +28369,7 @@
 			(at -8.75 -0.63 90)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 99 "unconnected-(U4-GPIO15{slash}U0RTS{slash}ADC2_CH4{slash}XTAL_32K_P-Pad8)")
+			(net 98 "unconnected-(U4-GPIO15{slash}U0RTS{slash}ADC2_CH4{slash}XTAL_32K_P-Pad8)")
 			(pinfunction "GPIO15/U0RTS/ADC2_CH4/XTAL_32K_P")
 			(pintype "bidirectional+no_connect")
 			(uuid "40acecab-18c9-411b-a150-7a3f5ccca0e6")
@@ -28213,7 +28378,7 @@
 			(at -8.75 -1.9 90)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 100 "unconnected-(U4-GPIO16{slash}U0CTS{slash}ADC2_CH5{slash}XTAL_32K_NH5-Pad9)")
+			(net 99 "unconnected-(U4-GPIO16{slash}U0CTS{slash}ADC2_CH5{slash}XTAL_32K_NH5-Pad9)")
 			(pinfunction "GPIO16/U0CTS/ADC2_CH5/XTAL_32K_NH5")
 			(pintype "bidirectional+no_connect")
 			(uuid "f837ff9b-1472-4937-88c0-6742bffb63ef")
@@ -28240,7 +28405,7 @@
 			(at -8.75 -5.71 90)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 84 "unconnected-(U4-GPIO8{slash}TOUCH8{slash}ADC1_CH7{slash}SUBSPICS1-Pad12)")
+			(net 83 "unconnected-(U4-GPIO8{slash}TOUCH8{slash}ADC1_CH7{slash}SUBSPICS1-Pad12)")
 			(pinfunction "GPIO8/TOUCH8/ADC1_CH7/SUBSPICS1")
 			(pintype "bidirectional+no_connect")
 			(uuid "4aab60a5-f9d1-419d-8b94-fa30728e55c9")
@@ -28276,7 +28441,7 @@
 			(at -5.715 -9.5)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 87 "unconnected-(U4-*GPIO46-Pad16)")
+			(net 86 "unconnected-(U4-*GPIO46-Pad16)")
 			(pinfunction "*GPIO46")
 			(pintype "bidirectional+no_connect")
 			(uuid "6af08d1c-116f-433d-b1db-a1be2ccdfd1d")
@@ -28285,7 +28450,7 @@
 			(at -4.445 -9.5)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 85 "unconnected-(U4-GPIO9{slash}TOUCH9{slash}ADC1_CH8{slash}FSPIHD{slash}SUBSPIHD-Pad17)")
+			(net 84 "unconnected-(U4-GPIO9{slash}TOUCH9{slash}ADC1_CH8{slash}FSPIHD{slash}SUBSPIHD-Pad17)")
 			(pinfunction "GPIO9/TOUCH9/ADC1_CH8/FSPIHD/SUBSPIHD")
 			(pintype "bidirectional+no_connect")
 			(uuid "54f53d79-c3f7-41de-9b83-a27c3487bb5c")
@@ -28294,7 +28459,7 @@
 			(at -3.175 -9.5)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 94 "unconnected-(U4-GPIO10{slash}TOUCH10{slash}ADC1_CH9{slash}FSPICS0{slash}FSPIIO4{slash}SUBSPICS0-Pad18)")
+			(net 93 "unconnected-(U4-GPIO10{slash}TOUCH10{slash}ADC1_CH9{slash}FSPICS0{slash}FSPIIO4{slash}SUBSPICS0-Pad18)")
 			(pinfunction "GPIO10/TOUCH10/ADC1_CH9/FSPICS0/FSPIIO4/SUBSPICS0")
 			(pintype "bidirectional+no_connect")
 			(uuid "f5297736-9554-4e88-ada0-ea9111f0b703")
@@ -28312,7 +28477,7 @@
 			(at -0.635 -9.5)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 81 "unconnected-(U4-GPIO12{slash}TOUCH12{slash}ADC2_CH1{slash}FSPICLK{slash}FSPIIO6{slash}SUBSPICLK-Pad20)")
+			(net 80 "unconnected-(U4-GPIO12{slash}TOUCH12{slash}ADC2_CH1{slash}FSPICLK{slash}FSPIIO6{slash}SUBSPICLK-Pad20)")
 			(pinfunction "GPIO12/TOUCH12/ADC2_CH1/FSPICLK/FSPIIO6/SUBSPICLK")
 			(pintype "bidirectional+no_connect")
 			(uuid "10c0a682-e9a7-4221-a7dc-e36cb96dac38")
@@ -28321,7 +28486,7 @@
 			(at 0.635 -9.5)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 89 "/Power/PMB_ALRT")
+			(net 88 "/Power/PMB_ALRT")
 			(pinfunction "GPIO13/TOUCH13/ADC2_CH2/FSPIQ/FSPIIO7/SUBSPIQ")
 			(pintype "bidirectional")
 			(uuid "d5026f90-d191-4342-8aeb-64807bbb42c5")
@@ -28330,7 +28495,7 @@
 			(at 1.905 -9.5)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 92 "unconnected-(U4-GPIO14{slash}TOUCH14{slash}ADC2_CH3{slash}FSPIWP{slash}FSPIDQS{slash}SUBSPIWP-Pad22)")
+			(net 91 "unconnected-(U4-GPIO14{slash}TOUCH14{slash}ADC2_CH3{slash}FSPIWP{slash}FSPIDQS{slash}SUBSPIWP-Pad22)")
 			(pinfunction "GPIO14/TOUCH14/ADC2_CH3/FSPIWP/FSPIDQS/SUBSPIWP")
 			(pintype "bidirectional+no_connect")
 			(uuid "e5b73bfe-f6f1-499c-a3be-5935a84824ff")
@@ -28339,7 +28504,7 @@
 			(at 3.175 -9.5)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 88 "unconnected-(U4-GPIO21-Pad23)")
+			(net 87 "unconnected-(U4-GPIO21-Pad23)")
 			(pinfunction "GPIO21")
 			(pintype "bidirectional+no_connect")
 			(uuid "a0913b7d-c01c-4532-981f-5ad7c64d93aa")
@@ -28366,7 +28531,7 @@
 			(at 6.985 -9.5)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 80 "unconnected-(U4-*GPIO45-Pad26)")
+			(net 79 "unconnected-(U4-*GPIO45-Pad26)")
 			(pinfunction "*GPIO45")
 			(pintype "bidirectional+no_connect")
 			(uuid "094c6d33-a04e-4564-ae48-6931d3e06c49")
@@ -28384,7 +28549,7 @@
 			(at 8.75 -6.98 270)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 91 "unconnected-(U4-SPIIO6{slash}GPIO35{slash}FSPID{slash}SUBSPID-Pad28)")
+			(net 90 "unconnected-(U4-SPIIO6{slash}GPIO35{slash}FSPID{slash}SUBSPID-Pad28)")
 			(pinfunction "SPIIO6/GPIO35/FSPID/SUBSPID")
 			(pintype "bidirectional+no_connect")
 			(uuid "ba5147c7-5bbd-44bf-95c0-1229fe16c232")
@@ -28393,7 +28558,7 @@
 			(at 8.75 -5.71 270)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 93 "unconnected-(U4-SPIIO7{slash}GPIO36{slash}FSPICLK{slash}SUBSPICLK-Pad29)")
+			(net 92 "unconnected-(U4-SPIIO7{slash}GPIO36{slash}FSPICLK{slash}SUBSPICLK-Pad29)")
 			(pinfunction "SPIIO7/GPIO36/FSPICLK/SUBSPICLK")
 			(pintype "bidirectional+no_connect")
 			(uuid "ec01ef9c-c4c3-4742-9e5e-31d4113e032b")
@@ -28402,7 +28567,7 @@
 			(at 8.75 -4.44 270)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 83 "unconnected-(U4-SPIDQS{slash}GPIO37{slash}FSPIQ{slash}SUBSPIQ-Pad30)")
+			(net 82 "unconnected-(U4-SPIDQS{slash}GPIO37{slash}FSPIQ{slash}SUBSPIQ-Pad30)")
 			(pinfunction "SPIDQS/GPIO37/FSPIQ/SUBSPIQ")
 			(pintype "bidirectional+no_connect")
 			(uuid "32636a95-b551-4195-95a7-41e7cc84af69")
@@ -28411,7 +28576,7 @@
 			(at 8.75 -3.17 270)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 86 "unconnected-(U4-GPIO38{slash}FSPIWP{slash}SUBSPIWP-Pad31)")
+			(net 85 "unconnected-(U4-GPIO38{slash}FSPIWP{slash}SUBSPIWP-Pad31)")
 			(pinfunction "GPIO38/FSPIWP/SUBSPIWP")
 			(pintype "bidirectional+no_connect")
 			(uuid "58da16ee-0a45-47b1-ad31-22b9ecc7f5e6")
@@ -28630,6 +28795,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -28642,6 +28808,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -28654,6 +28821,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -28903,6 +29071,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -28915,6 +29084,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -28927,6 +29097,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -29150,7 +29321,7 @@
 			(size 0.792 0.221)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 65 "/BM1368/RST_N")
+			(net 64 "/BM1368/RST_N")
 			(pinfunction "NRSTI")
 			(pintype "input")
 			(thermal_bridge_angle 45)
@@ -29161,7 +29332,7 @@
 			(size 0.792 0.221)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 63 "/BM1368/CI")
+			(net 62 "/BM1368/CI")
 			(pinfunction "CI")
 			(pintype "input")
 			(thermal_bridge_angle 45)
@@ -29172,7 +29343,7 @@
 			(size 0.792 0.221)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 64 "/BM1368/RO")
+			(net 63 "/BM1368/RO")
 			(pinfunction "RO")
 			(pintype "output")
 			(thermal_bridge_angle 45)
@@ -29183,7 +29354,7 @@
 			(size 0.792 0.221)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 60 "/BM1368/CLKI")
+			(net 59 "/BM1368/CLKI")
 			(pinfunction "CLKI")
 			(pintype "input")
 			(thermal_bridge_angle 45)
@@ -29194,7 +29365,7 @@
 			(size 0.792 0.221)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 57 "/BM1368/BI")
+			(net 56 "/BM1368/BI")
 			(pinfunction "BI")
 			(pintype "input")
 			(thermal_bridge_angle 45)
@@ -29227,7 +29398,7 @@
 			(size 0.792 0.221)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 58 "Net-(U8-INV_CLKO)")
+			(net 57 "Net-(U8-INV_CLKO)")
 			(pinfunction "INV_CLKO")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
@@ -29304,7 +29475,7 @@
 			(size 0.792 0.221)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 70 "/BM1368/PIN_MODE")
+			(net 69 "/BM1368/PIN_MODE")
 			(pinfunction "PIN_MODE")
 			(pintype "input")
 			(thermal_bridge_angle 45)
@@ -29315,7 +29486,7 @@
 			(size 0.792 0.221)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 74 "/Fan/TEMP_P")
+			(net 73 "/Fan/TEMP_P")
 			(pinfunction "TEMP_P")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
@@ -29326,7 +29497,7 @@
 			(size 0.792 0.221)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 73 "/Fan/TEMP_N")
+			(net 72 "/Fan/TEMP_N")
 			(pinfunction "TEMP_N")
 			(pintype "unspecified")
 			(thermal_bridge_angle 45)
@@ -29337,7 +29508,7 @@
 			(size 0.792 0.221)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 61 "/BM1368/BO")
+			(net 60 "/BM1368/BO")
 			(pinfunction "BO")
 			(pintype "output")
 			(thermal_bridge_angle 45)
@@ -29348,7 +29519,7 @@
 			(size 0.792 0.221)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 68 "/BM1368/CLKO")
+			(net 67 "/BM1368/CLKO")
 			(pinfunction "CLKO")
 			(pintype "output")
 			(thermal_bridge_angle 45)
@@ -29359,7 +29530,7 @@
 			(size 0.792 0.221)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 67 "/BM1368/RI")
+			(net 66 "/BM1368/RI")
 			(pinfunction "RI")
 			(pintype "input")
 			(thermal_bridge_angle 45)
@@ -29370,7 +29541,7 @@
 			(size 0.792 0.221)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 69 "/BM1368/CO")
+			(net 68 "/BM1368/CO")
 			(pinfunction "CO")
 			(pintype "output")
 			(thermal_bridge_angle 45)
@@ -29381,7 +29552,7 @@
 			(size 0.792 0.221)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 66 "/BM1368/NRSTO")
+			(net 65 "/BM1368/NRSTO")
 			(pinfunction "NRSTO")
 			(pintype "output")
 			(thermal_bridge_angle 45)
@@ -29403,7 +29574,7 @@
 			(size 0.792 0.221)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 56 "/BM1368/VDD3_1")
+			(net 55 "/BM1368/VDD3_1")
 			(pinfunction "VDD1_1")
 			(pintype "power_in")
 			(thermal_bridge_angle 45)
@@ -29502,6 +29673,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -29514,6 +29686,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -29526,6 +29699,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -30060,6 +30234,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -30072,6 +30247,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -30084,6 +30260,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -30606,6 +30783,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -30618,6 +30796,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -30630,6 +30809,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -30719,6 +30899,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -30732,6 +30913,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -30745,6 +30927,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -31177,6 +31360,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -31189,6 +31373,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -31201,6 +31386,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -31547,6 +31733,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -31560,6 +31747,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -31573,6 +31761,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -31987,7 +32176,7 @@
 			(size 1.2 1.8)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.208333)
-			(net 101 "unconnected-(J7-MountPin-PadMP)")
+			(net 100 "unconnected-(J7-MountPin-PadMP)")
 			(pinfunction "MountPin")
 			(pintype "passive")
 			(uuid "b7605f65-65db-46ca-9da0-59025e59b40e")
@@ -31997,7 +32186,7 @@
 			(size 1.2 1.8)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.208333)
-			(net 101 "unconnected-(J7-MountPin-PadMP)")
+			(net 100 "unconnected-(J7-MountPin-PadMP)")
 			(pinfunction "MountPin")
 			(pintype "passive")
 			(uuid "990b9175-ab99-4f68-b296-2b7a90b9e762")
@@ -32054,6 +32243,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -32066,6 +32256,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -32078,6 +32269,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -32242,6 +32434,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -32254,6 +32447,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -32266,6 +32460,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -32358,6 +32553,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -32370,6 +32566,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -32382,6 +32579,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -32729,6 +32927,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -32741,6 +32940,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -32753,6 +32953,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -33074,14 +33275,6 @@
 		(uuid "10ca7d2f-edf3-424f-bf14-8e1f26202592")
 	)
 	(segment
-		(start 119.28 102.25)
-		(end 119.28 102.93)
-		(width 0.254)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "10ed3f0e-982e-45f3-be9e-b7aab8affff4")
-	)
-	(segment
 		(start 97.2 141.21)
 		(end 96.08 141.21)
 		(width 0.254)
@@ -33146,14 +33339,6 @@
 		(uuid "3238f1c7-67fc-4638-8fe2-5685703d2288")
 	)
 	(segment
-		(start 119.775 101.755)
-		(end 119.28 102.25)
-		(width 0.254)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "33970347-2ba5-474e-9f34-af71f9a35371")
-	)
-	(segment
 		(start 101.3925 130.47)
 		(end 104.64 130.47)
 		(width 0.508)
@@ -33210,14 +33395,6 @@
 		(uuid "442ca904-b821-4750-8c30-0988333a041b")
 	)
 	(segment
-		(start 121.1525 101.755)
-		(end 119.775 101.755)
-		(width 0.254)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "448f9010-837d-4163-bb94-98a50354d3ff")
-	)
-	(segment
 		(start 123.72 120.22)
 		(end 123.71 120.23)
 		(width 0.254)
@@ -33232,14 +33409,6 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "4751c5a1-fbbf-4086-825d-9205b518b5c2")
-	)
-	(segment
-		(start 122.01 103.71)
-		(end 122.01 103.09)
-		(width 0.254)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "4ca92361-bbe6-45d0-a3f5-7d24bb18614f")
 	)
 	(segment
 		(start 118.48 55.14)
@@ -33418,20 +33587,20 @@
 		(uuid "8a7f6f40-95a4-4c95-80ec-832e88fa4254")
 	)
 	(segment
-		(start 115.4275 102.405)
-		(end 116.955 102.405)
-		(width 0.254)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "8a913887-3d29-428c-bd97-bd80a1beec59")
-	)
-	(segment
 		(start 114.24 130.5)
 		(end 114.24 131.99)
 		(width 0.254)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "8e410b1c-982c-4bc1-b763-5598f9e5e629")
+	)
+	(segment
+		(start 121.1525 103.4775)
+		(end 121.1525 101.755)
+		(width 0.254)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "8f9497d9-73ba-4d55-a704-7fcf109ca18f")
 	)
 	(segment
 		(start 113.491 132.739)
@@ -33464,14 +33633,6 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "98a19892-bc0b-400f-b289-3623d6174cb5")
-	)
-	(segment
-		(start 122.01 103.09)
-		(end 122.64 102.46)
-		(width 0.254)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "9dcddc2e-11c6-4ea7-9f51-9e4fe26b8c74")
 	)
 	(segment
 		(start 105.75 132.34)
@@ -33538,6 +33699,14 @@
 		(uuid "c0939b2e-e2a0-4ef5-96eb-a940e0543b1e")
 	)
 	(segment
+		(start 121.09 103.54)
+		(end 121.1525 103.4775)
+		(width 0.254)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "c2537536-3b7e-4a67-8435-f20393166f1b")
+	)
+	(segment
 		(start 128.67 107.6)
 		(end 128.69 107.62)
 		(width 0.2)
@@ -33560,14 +33729,6 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "d5ac0790-dbd6-42fc-9106-033edad7432e")
-	)
-	(segment
-		(start 116.955 102.405)
-		(end 117.55 103)
-		(width 0.254)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "d90b85b6-659b-4288-9770-ba7f50dfe597")
 	)
 	(segment
 		(start 116.645 97.855)
@@ -34044,7 +34205,7 @@
 		(uuid "89b6eb28-e0de-431d-bc51-0625fe0a43a1")
 	)
 	(via
-		(at 119.28 102.93)
+		(at 121.09 103.54)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -34261,14 +34422,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "f9c02301-0bac-4f26-98b6-f4fde6f60be2")
-	)
-	(via
-		(at 117.55 103)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(net 1)
-		(uuid "fd8fb77f-6c86-476f-bbd1-705855e729f7")
 	)
 	(via
 		(at 98.46 74.92)
@@ -37866,14 +38019,6 @@
 		(uuid "06227100-6ed0-4437-82d7-7a50522cd08f")
 	)
 	(segment
-		(start 115.4275 101.755)
-		(end 117.115 101.755)
-		(width 0.254)
-		(layer "F.Cu")
-		(net 26)
-		(uuid "076150fc-b56c-41ac-82f4-f571d61cb026")
-	)
-	(segment
 		(start 112.1185 126.36)
 		(end 112.1285 126.37)
 		(width 0.508)
@@ -37904,14 +38049,6 @@
 		(layer "F.Cu")
 		(net 26)
 		(uuid "1d2848b9-4912-47c5-aaf8-e7ceb552fbec")
-	)
-	(segment
-		(start 117.115 101.755)
-		(end 117.12 101.75)
-		(width 0.254)
-		(layer "F.Cu")
-		(net 26)
-		(uuid "1fe88fd8-a788-4d99-b3fc-2cf41e645870")
 	)
 	(segment
 		(start 112.1185 124.1915)
@@ -37978,6 +38115,14 @@
 		(uuid "622f5d16-1e0a-4af7-99de-bf18a92b36e9")
 	)
 	(segment
+		(start 116 103.55)
+		(end 115.4275 102.9775)
+		(width 0.254)
+		(layer "F.Cu")
+		(net 26)
+		(uuid "670980f5-5c5e-451b-8f04-c820f2d40d5f")
+	)
+	(segment
 		(start 114.86 130.16)
 		(end 114.86 134.28)
 		(width 0.254)
@@ -38010,6 +38155,14 @@
 		(uuid "8cb56f4a-8afe-4095-bd4a-58113c866e16")
 	)
 	(segment
+		(start 117.03 103.55)
+		(end 116 103.55)
+		(width 0.254)
+		(layer "F.Cu")
+		(net 26)
+		(uuid "a1082301-a392-4ff7-a202-7515b489392b")
+	)
+	(segment
 		(start 125.9 113.34)
 		(end 124.6 112.04)
 		(width 0.508)
@@ -38040,6 +38193,14 @@
 		(layer "F.Cu")
 		(net 26)
 		(uuid "c16a2275-a567-4389-89fc-ab8cc3a83b06")
+	)
+	(segment
+		(start 115.4275 102.9775)
+		(end 115.4275 101.755)
+		(width 0.254)
+		(layer "F.Cu")
+		(net 26)
+		(uuid "d015cf0b-9495-4021-ad1a-62d5732a5ca5")
 	)
 	(segment
 		(start 110.95 124.99)
@@ -38090,7 +38251,7 @@
 		(uuid "9f93aae1-29fb-4f7f-8540-63ef21d6381d")
 	)
 	(via
-		(at 117.12 101.75)
+		(at 117.03 103.55)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -38106,12 +38267,12 @@
 		(uuid "25c8e82b-5268-4a23-a987-16c294ebd67f")
 	)
 	(segment
-		(start 124.52 101.75)
-		(end 124.6 101.83)
+		(start 117.03 103.55)
+		(end 118.83 101.75)
 		(width 0.254)
 		(layer "B.Cu")
 		(net 26)
-		(uuid "2b508926-6bb7-42a7-a7f8-ca6b56520e3e")
+		(uuid "6de3d70b-5f81-455f-aacd-234350e96312")
 	)
 	(segment
 		(start 110.95 124.99)
@@ -38130,20 +38291,28 @@
 		(uuid "969a93f0-3e44-42b7-8c37-240c3df7dc00")
 	)
 	(segment
-		(start 117.12 101.75)
-		(end 124.52 101.75)
-		(width 0.254)
-		(layer "B.Cu")
-		(net 26)
-		(uuid "b1cf54f5-02f7-432e-922d-e580e2d2524e")
-	)
-	(segment
 		(start 109.63 120.53)
 		(end 109.16 120.06)
 		(width 0.254)
 		(layer "B.Cu")
 		(net 26)
 		(uuid "d32fcac6-1f54-49a7-b32e-724b20c5e02d")
+	)
+	(segment
+		(start 118.83 101.75)
+		(end 124.52 101.75)
+		(width 0.254)
+		(layer "B.Cu")
+		(net 26)
+		(uuid "d41088bb-95b0-464f-9e8c-f0b7e0f8e8cb")
+	)
+	(segment
+		(start 124.52 101.75)
+		(end 124.6 101.83)
+		(width 0.254)
+		(layer "B.Cu")
+		(net 26)
+		(uuid "ebbce29f-610f-4100-9365-795c50f338ba")
 	)
 	(segment
 		(start 89.43 80.95)
@@ -39698,27 +39867,11 @@
 		(uuid "f26233c0-2595-48b8-a9b0-c609a79f1308")
 	)
 	(segment
-		(start 120.99 102.5675)
-		(end 121.1525 102.405)
-		(width 0.254)
-		(layer "F.Cu")
-		(net 55)
-		(uuid "1a78929c-de35-4f60-aa7b-1c5a1015e11b")
-	)
-	(segment
-		(start 120.99 103.71)
-		(end 120.99 102.5675)
-		(width 0.254)
-		(layer "F.Cu")
-		(net 55)
-		(uuid "d01f3959-fa58-46dc-b078-a88ffaad1958")
-	)
-	(segment
 		(start 98.081 109.974)
 		(end 98.031 109.924)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 56)
+		(net 55)
 		(uuid "30ffe294-3511-4199-84c0-ee6b1d82e3d4")
 	)
 	(segment
@@ -39726,7 +39879,7 @@
 		(end 98.125 109.96)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 56)
+		(net 55)
 		(uuid "4976ef3e-cf80-4a89-b91e-c65aba911dde")
 	)
 	(segment
@@ -39734,7 +39887,7 @@
 		(end 98.031 108.024)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 56)
+		(net 55)
 		(uuid "aa6bf299-9065-4167-9cdb-ee1baf9ed7aa")
 	)
 	(segment
@@ -39742,7 +39895,7 @@
 		(end 98.14 109.975)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 56)
+		(net 55)
 		(uuid "edd9d7c2-89aa-4779-9bef-175ee41b6ebb")
 	)
 	(via
@@ -39750,7 +39903,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
-		(net 56)
+		(net 55)
 		(uuid "be9da52e-7cfe-48d6-9206-53a81589b448")
 	)
 	(segment
@@ -39758,7 +39911,7 @@
 		(end 100.7 114.04)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 56)
+		(net 55)
 		(uuid "398ddf7f-ca35-404f-8ad8-8a0bdd700307")
 	)
 	(segment
@@ -39766,7 +39919,7 @@
 		(end 102.694562 114.036)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 56)
+		(net 55)
 		(uuid "4f362b2c-cf8a-4c43-aff0-9ab237e9f05b")
 	)
 	(segment
@@ -39774,7 +39927,7 @@
 		(end 102.690562 114.04)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 56)
+		(net 55)
 		(uuid "a73fe3a4-9c4b-4f48-9d7a-7b99b0067470")
 	)
 	(segment
@@ -39782,7 +39935,7 @@
 		(end 98.14 111.48)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 56)
+		(net 55)
 		(uuid "bf52590d-e2e4-446d-aa55-ea227fe01193")
 	)
 	(segment
@@ -39790,7 +39943,7 @@
 		(end 120.23 113.98)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 57)
+		(net 56)
 		(uuid "3312bdb5-dc14-4e82-93b0-b5644a9c4a96")
 	)
 	(segment
@@ -39798,7 +39951,7 @@
 		(end 122.86 113.98)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 57)
+		(net 56)
 		(uuid "5e7f5bc2-9e49-4e8e-9727-45bfebfe80ed")
 	)
 	(via
@@ -39806,7 +39959,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 57)
+		(net 56)
 		(uuid "07e81256-2609-4c4f-b09e-27dbfb55a6ab")
 	)
 	(segment
@@ -39814,7 +39967,7 @@
 		(end 108.526562 117.048)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 57)
+		(net 56)
 		(uuid "5df90860-a306-49f6-8d0a-b95e7262bbf4")
 	)
 	(segment
@@ -39822,7 +39975,7 @@
 		(end 118.31 114.79)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 57)
+		(net 56)
 		(uuid "640eb2f8-b043-4360-a60d-a3f15ef6447d")
 	)
 	(segment
@@ -39830,7 +39983,7 @@
 		(end 116.052 117.048)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 57)
+		(net 56)
 		(uuid "e67cec38-a170-4907-845b-12432adb8e99")
 	)
 	(segment
@@ -39838,7 +39991,7 @@
 		(end 122.86 121.97)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 58)
+		(net 57)
 		(uuid "0fde5004-a73c-4915-9489-4252a65272b3")
 	)
 	(segment
@@ -39846,7 +39999,7 @@
 		(end 123.01 121.82)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 58)
+		(net 57)
 		(uuid "80443496-4be7-4809-bbd1-f456c260717f")
 	)
 	(via
@@ -39854,7 +40007,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 58)
+		(net 57)
 		(uuid "86aa46b9-0d0c-4310-bdb3-fd0ac3c945ea")
 	)
 	(segment
@@ -39862,7 +40015,7 @@
 		(end 124.25 121.53)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 58)
+		(net 57)
 		(uuid "50480dab-6d7c-4e19-b4f3-0d2c0cd290e0")
 	)
 	(segment
@@ -39870,7 +40023,7 @@
 		(end 119.81 121.53)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 58)
+		(net 57)
 		(uuid "88c0affa-fa57-4aab-b8e4-6ca1774263b1")
 	)
 	(segment
@@ -39878,7 +40031,7 @@
 		(end 116.834 118.554)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 58)
+		(net 57)
 		(uuid "c724942c-5a00-4c5f-8032-cc99dc2754ca")
 	)
 	(segment
@@ -39886,7 +40039,7 @@
 		(end 108.526562 118.554)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 58)
+		(net 57)
 		(uuid "dd65fad9-860c-41af-99a1-d35221f11c4c")
 	)
 	(segment
@@ -39894,7 +40047,7 @@
 		(end 118.76 113.68)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 60)
+		(net 59)
 		(uuid "24f63cd9-cc77-4945-a5ff-c9c765d41c4b")
 	)
 	(segment
@@ -39902,7 +40055,7 @@
 		(end 113.79 124.06)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 60)
+		(net 59)
 		(uuid "63bf395d-36df-42e4-ac12-d0ca70946a30")
 	)
 	(segment
@@ -39910,7 +40063,7 @@
 		(end 113.79 123.14)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 60)
+		(net 59)
 		(uuid "73ca6478-2349-4bc3-9dd0-625e69daae8a")
 	)
 	(segment
@@ -39918,7 +40071,7 @@
 		(end 118.76 121.55)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 60)
+		(net 59)
 		(uuid "a9d9c5e7-1f2b-415b-bba7-96a88117b58b")
 	)
 	(segment
@@ -39926,7 +40079,7 @@
 		(end 114.23 122.7)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 60)
+		(net 59)
 		(uuid "c12db843-f654-45e2-bda3-496bf940731b")
 	)
 	(segment
@@ -39934,7 +40087,7 @@
 		(end 117.61 122.7)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 60)
+		(net 59)
 		(uuid "cba7e702-8291-4559-a53d-822d96ce47e2")
 	)
 	(segment
@@ -39942,7 +40095,7 @@
 		(end 113.78 124.07)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 60)
+		(net 59)
 		(uuid "e610c224-42ec-421f-96b0-3adc9f091052")
 	)
 	(via
@@ -39950,7 +40103,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 60)
+		(net 59)
 		(uuid "c78a6b0a-011d-44be-aaad-8f7064bf15ca")
 	)
 	(segment
@@ -39958,7 +40111,7 @@
 		(end 108.526562 116.546)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 60)
+		(net 59)
 		(uuid "45d9476a-3488-4ec0-ba72-08cbb6abf55f")
 	)
 	(segment
@@ -39966,7 +40119,7 @@
 		(end 118.22 113.66)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 60)
+		(net 59)
 		(uuid "51dfb63e-0d33-4f38-bd28-095922346571")
 	)
 	(segment
@@ -39974,7 +40127,7 @@
 		(end 115.334 116.546)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 60)
+		(net 59)
 		(uuid "e78bd193-8929-4edd-b3be-514f25315365")
 	)
 	(segment
@@ -39982,7 +40135,7 @@
 		(end 87.11 118.38)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 61)
+		(net 60)
 		(uuid "26eb6abe-20ce-42a1-a5ca-1b8c3d0ff196")
 	)
 	(segment
@@ -39990,7 +40143,7 @@
 		(end 91.42 118.7)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 61)
+		(net 60)
 		(uuid "a643878d-61d1-4f49-bdbe-0fd2efc4a0b4")
 	)
 	(segment
@@ -39998,7 +40151,7 @@
 		(end 92.48 117.815712)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 61)
+		(net 60)
 		(uuid "bb7acab0-4faa-4408-95bd-75f75022c333")
 	)
 	(segment
@@ -40006,7 +40159,7 @@
 		(end 92.304288 117.815712)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 61)
+		(net 60)
 		(uuid "c8de18ce-5c4e-4571-90d6-16de67f92edd")
 	)
 	(segment
@@ -40014,7 +40167,7 @@
 		(end 87.43 118.7)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 61)
+		(net 60)
 		(uuid "e7ef26dd-e54f-4e88-8ffe-3a3435645bae")
 	)
 	(via
@@ -40022,7 +40175,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 61)
+		(net 60)
 		(uuid "d6897eb7-0c9b-4c76-8e25-9e1874213a21")
 	)
 	(segment
@@ -40030,7 +40183,7 @@
 		(end 102.694562 117.048)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 61)
+		(net 60)
 		(uuid "614e278a-d29a-485a-a910-0fe5401d694b")
 	)
 	(segment
@@ -40038,7 +40191,7 @@
 		(end 92.974288 117.815712)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 61)
+		(net 60)
 		(uuid "79a6ec5a-85e3-488a-a1c6-7cf95b34345e")
 	)
 	(segment
@@ -40046,7 +40199,7 @@
 		(end 93.742 117.048)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 61)
+		(net 60)
 		(uuid "e72df9e5-2dc9-4657-9d01-70cec97f1d42")
 	)
 	(segment
@@ -40054,7 +40207,7 @@
 		(end 113.77 99.77)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 63)
+		(net 62)
 		(uuid "0586c0a8-3aa6-497a-9460-3ab8d4fdeac6")
 	)
 	(segment
@@ -40062,7 +40215,7 @@
 		(end 113.61 99.61)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 63)
+		(net 62)
 		(uuid "9b29ae8b-8454-41e6-a617-039f71c390c0")
 	)
 	(segment
@@ -40070,7 +40223,7 @@
 		(end 113.805 99.805)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 63)
+		(net 62)
 		(uuid "e0847b19-9bd4-44fa-a6d1-426ad8cd6b53")
 	)
 	(segment
@@ -40078,7 +40231,7 @@
 		(end 110.99 99.61)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 63)
+		(net 62)
 		(uuid "f2322dae-ea59-47ee-b411-dfb59a52d524")
 	)
 	(via
@@ -40086,7 +40239,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 63)
+		(net 62)
 		(uuid "0f5e8d7e-fcb5-45da-a901-36f01b32bbd0")
 	)
 	(segment
@@ -40094,7 +40247,7 @@
 		(end 117.71 112.03)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 63)
+		(net 62)
 		(uuid "05116dca-930c-454f-8946-9f33b2662999")
 	)
 	(segment
@@ -40102,7 +40255,7 @@
 		(end 113.11 100.18)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 63)
+		(net 62)
 		(uuid "08f3f5c2-399b-44c0-a4ac-5ec83c4999d4")
 	)
 	(segment
@@ -40110,7 +40263,7 @@
 		(end 108.526562 115.542)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 63)
+		(net 62)
 		(uuid "1593dbf9-8d4e-4355-8bf2-0d6836c8e353")
 	)
 	(segment
@@ -40118,7 +40271,7 @@
 		(end 113.52 99.77)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 63)
+		(net 62)
 		(uuid "66413a44-1a2d-4dfa-902f-0afb71f922c6")
 	)
 	(segment
@@ -40126,7 +40279,7 @@
 		(end 114.198 115.542)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 63)
+		(net 62)
 		(uuid "842b58a4-c06e-4e31-a466-a30849a166c4")
 	)
 	(segment
@@ -40134,7 +40287,7 @@
 		(end 117.71 108.64)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 63)
+		(net 62)
 		(uuid "cd84da70-25e0-421f-990f-1bc27c7e8455")
 	)
 	(segment
@@ -40142,7 +40295,7 @@
 		(end 113.11 104.04)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 63)
+		(net 62)
 		(uuid "e3446d51-c325-4cca-b535-228ecabcbb45")
 	)
 	(segment
@@ -40150,7 +40303,7 @@
 		(end 113.875 100.455)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 64)
+		(net 63)
 		(uuid "011b2794-cdf7-4b71-a29d-b6401f8e70a2")
 	)
 	(segment
@@ -40158,7 +40311,7 @@
 		(end 118.32 108.37)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 64)
+		(net 63)
 		(uuid "716bc752-1f19-44ef-ba3a-b4b1cca60a88")
 	)
 	(segment
@@ -40166,7 +40319,7 @@
 		(end 113.83 100.5)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 64)
+		(net 63)
 		(uuid "ad78914c-a9a8-49ef-a642-d1c83c8ae128")
 	)
 	(segment
@@ -40174,7 +40327,7 @@
 		(end 115.4275 100.455)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 64)
+		(net 63)
 		(uuid "b10aa760-a255-4105-933c-03ba6ba64fec")
 	)
 	(segment
@@ -40182,7 +40335,7 @@
 		(end 118.41 108.28)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 64)
+		(net 63)
 		(uuid "f19ec18e-b7e0-489a-bae3-a6ee0fd93f8d")
 	)
 	(via
@@ -40190,7 +40343,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 64)
+		(net 63)
 		(uuid "af90e832-9bbe-40ab-a976-8ca5b82d678a")
 	)
 	(via
@@ -40198,7 +40351,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 64)
+		(net 63)
 		(uuid "dc352f83-01d1-4898-a44f-e6d7b4147a28")
 	)
 	(segment
@@ -40206,7 +40359,7 @@
 		(end 113.83 100.5)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 64)
+		(net 63)
 		(uuid "35c5a1e2-c728-4a18-9d62-1a3f823ae88a")
 	)
 	(segment
@@ -40214,7 +40367,7 @@
 		(end 114.636 116.044)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 64)
+		(net 63)
 		(uuid "522bc6ac-21f3-4cef-af4a-acae7d061c05")
 	)
 	(segment
@@ -40222,7 +40375,7 @@
 		(end 113.83 103.88)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 64)
+		(net 63)
 		(uuid "741bb3ab-61c1-4883-b25b-b9b6338adb39")
 	)
 	(segment
@@ -40230,7 +40383,7 @@
 		(end 118.32 112.36)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 64)
+		(net 63)
 		(uuid "ae6e22b5-331e-4f61-93a7-5ff250ea0dbf")
 	)
 	(segment
@@ -40238,7 +40391,7 @@
 		(end 118.32 108.37)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 64)
+		(net 63)
 		(uuid "b93924cf-09e3-46a2-b35d-32dcdf9ec883")
 	)
 	(segment
@@ -40246,7 +40399,7 @@
 		(end 113.3 98.95)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 65)
+		(net 64)
 		(uuid "2ab1bc27-b092-43c2-ae16-510898abbe76")
 	)
 	(segment
@@ -40254,7 +40407,7 @@
 		(end 113.67 98.95)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 65)
+		(net 64)
 		(uuid "5d59a497-7f79-42e5-9196-23254dc20f53")
 	)
 	(segment
@@ -40262,7 +40415,7 @@
 		(end 113.8 98.95)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 65)
+		(net 64)
 		(uuid "abbdbe03-a0bc-4ce1-a7cc-c6d76ce5353a")
 	)
 	(segment
@@ -40270,7 +40423,7 @@
 		(end 114.005 99.155)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 65)
+		(net 64)
 		(uuid "cc546e2a-6798-43dd-ab16-f9239229f631")
 	)
 	(segment
@@ -40278,7 +40431,7 @@
 		(end 110.99 96.64)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 65)
+		(net 64)
 		(uuid "f45abda0-c5a4-40f6-b248-bbe5d1cbf680")
 	)
 	(via
@@ -40286,7 +40439,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 65)
+		(net 64)
 		(uuid "82b12844-525c-453b-a964-a4429ef6a4e8")
 	)
 	(segment
@@ -40294,7 +40447,7 @@
 		(end 117.14 111.74)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 65)
+		(net 64)
 		(uuid "1f5457cb-39b5-4c8f-86c8-a5f3a0c689bc")
 	)
 	(segment
@@ -40302,7 +40455,7 @@
 		(end 113.84 115.04)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 65)
+		(net 64)
 		(uuid "393cf1b8-8e74-4fd4-8071-85a303c19af2")
 	)
 	(segment
@@ -40310,7 +40463,7 @@
 		(end 113.42 98.95)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 65)
+		(net 64)
 		(uuid "47ecf0b7-506c-4745-a09b-3f474d99c56c")
 	)
 	(segment
@@ -40318,7 +40471,7 @@
 		(end 117.14 108.98)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 65)
+		(net 64)
 		(uuid "53bbf676-ed37-4779-b2c1-3d126972c8a6")
 	)
 	(segment
@@ -40326,7 +40479,7 @@
 		(end 112.4 104.24)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 65)
+		(net 64)
 		(uuid "53e22dcb-b344-4b1e-bdcc-a6161e93ec28")
 	)
 	(segment
@@ -40334,7 +40487,7 @@
 		(end 108.526562 115.04)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 65)
+		(net 64)
 		(uuid "765a7476-a9eb-42b3-a04f-8f39f4c705d6")
 	)
 	(segment
@@ -40342,7 +40495,7 @@
 		(end 112.4 99.97)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 65)
+		(net 64)
 		(uuid "c4705fe2-c13a-48aa-b7f2-eb5e44942143")
 	)
 	(segment
@@ -40350,7 +40503,7 @@
 		(end 92.06 112.63)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 66)
+		(net 65)
 		(uuid "9bb4edcc-6cb0-4677-bb71-29e19d1e2863")
 	)
 	(segment
@@ -40358,7 +40511,7 @@
 		(end 87.3256 112.63)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 66)
+		(net 65)
 		(uuid "b70dd576-3227-43cb-8198-d8408b335131")
 	)
 	(segment
@@ -40366,7 +40519,7 @@
 		(end 87.0258 112.9298)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 66)
+		(net 65)
 		(uuid "c10c3150-ed0a-4f00-941d-2ae69f375db8")
 	)
 	(via
@@ -40374,7 +40527,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 66)
+		(net 65)
 		(uuid "8d33c0cf-b921-4524-a223-73583a354202")
 	)
 	(segment
@@ -40382,7 +40535,7 @@
 		(end 102.694562 115.04)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 66)
+		(net 65)
 		(uuid "11489194-2d76-4540-b097-f77d053d9bec")
 	)
 	(segment
@@ -40390,7 +40543,7 @@
 		(end 95.31 115.04)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 66)
+		(net 65)
 		(uuid "66e5af35-2fc0-4121-be74-3b3ff6b20f9c")
 	)
 	(segment
@@ -40398,7 +40551,7 @@
 		(end 87.1274 115.546)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 67)
+		(net 66)
 		(uuid "4e3a0d4a-f194-4344-baa2-41a1d7e77528")
 	)
 	(segment
@@ -40406,7 +40559,7 @@
 		(end 87.4814 115.9)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 67)
+		(net 66)
 		(uuid "f9dc912c-11a1-4125-9aaa-8685ae0b69a4")
 	)
 	(segment
@@ -40414,7 +40567,7 @@
 		(end 91.592856 115.9)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 67)
+		(net 66)
 		(uuid "fa3b55d8-0fe5-4327-9c50-2be889eca56b")
 	)
 	(via
@@ -40422,7 +40575,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 67)
+		(net 66)
 		(uuid "7dcaf35b-4e87-43b9-9a87-058ab12a378b")
 	)
 	(segment
@@ -40430,7 +40583,7 @@
 		(end 102.694562 116.044)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 67)
+		(net 66)
 		(uuid "00dc9182-b103-46a4-9fa6-d8fab3fc289c")
 	)
 	(segment
@@ -40438,7 +40591,7 @@
 		(end 93.511144 116.044)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 67)
+		(net 66)
 		(uuid "d2ed0394-5bbe-4158-96c5-a2cd0803886d")
 	)
 	(segment
@@ -40446,7 +40599,7 @@
 		(end 89.86 117.21)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 68)
+		(net 67)
 		(uuid "6e2a40a6-6ce3-4b5b-9cc7-5f2213aa3d2a")
 	)
 	(segment
@@ -40454,7 +40607,7 @@
 		(end 91.684284 117.21)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 68)
+		(net 67)
 		(uuid "71918df9-a7f8-4024-8d73-ab5fb22950e1")
 	)
 	(via
@@ -40462,7 +40615,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 68)
+		(net 67)
 		(uuid "b97454be-f43c-4e87-9113-d609800d448b")
 	)
 	(segment
@@ -40470,7 +40623,7 @@
 		(end 102.694562 116.545)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 68)
+		(net 67)
 		(uuid "875c4fd3-c1a7-446c-a7d1-589b1002547b")
 	)
 	(segment
@@ -40478,7 +40631,7 @@
 		(end 92.610716 116.545)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 68)
+		(net 67)
 		(uuid "9902bb17-03a9-49e1-8eea-a5b0fce9f384")
 	)
 	(segment
@@ -40486,7 +40639,7 @@
 		(end 91.571428 114.52)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 69)
+		(net 68)
 		(uuid "a423d1e8-0093-4725-84d8-76a67e5dbfe2")
 	)
 	(segment
@@ -40494,7 +40647,7 @@
 		(end 89.9 114.52)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 69)
+		(net 68)
 		(uuid "ae18b135-e7a9-4a73-803c-4c06cee9da2e")
 	)
 	(via
@@ -40502,7 +40655,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 69)
+		(net 68)
 		(uuid "8a170134-051e-4a9b-8c65-88bd19e71bbe")
 	)
 	(segment
@@ -40510,7 +40663,7 @@
 		(end 92.48 113.93)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 69)
+		(net 68)
 		(uuid "18b72488-d95c-4193-a725-b1345a393896")
 	)
 	(segment
@@ -40518,7 +40671,7 @@
 		(end 94.092 115.542)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 69)
+		(net 68)
 		(uuid "73de54a8-b6c4-474a-a580-897f07ee085f")
 	)
 	(segment
@@ -40526,7 +40679,7 @@
 		(end 102.694562 115.542)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 69)
+		(net 68)
 		(uuid "99fbca4d-dc0a-40b5-99ca-094fa0b706af")
 	)
 	(segment
@@ -40534,7 +40687,7 @@
 		(end 89.91 120.43)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 70)
+		(net 69)
 		(uuid "4fae20e7-d315-4274-ad81-346e8e61497d")
 	)
 	(segment
@@ -40542,7 +40695,7 @@
 		(end 89.86 120.48)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 70)
+		(net 69)
 		(uuid "ce35d8a1-bae1-4dc0-8f2d-3337041b4a45")
 	)
 	(via
@@ -40550,7 +40703,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 70)
+		(net 69)
 		(uuid "d4ce904b-d917-40c2-ae92-960dc5d9e6fe")
 	)
 	(segment
@@ -40558,7 +40711,7 @@
 		(end 93.61 120.68)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 70)
+		(net 69)
 		(uuid "24d4faaf-b0ed-4f9d-8583-59c18e2cf0e3")
 	)
 	(segment
@@ -40566,7 +40719,7 @@
 		(end 95.736 118.554)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 70)
+		(net 69)
 		(uuid "260c87ce-d00d-42ab-bc82-80663c9689a4")
 	)
 	(segment
@@ -40574,7 +40727,7 @@
 		(end 91.65 120.68)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 70)
+		(net 69)
 		(uuid "2f8cab50-1d18-4465-ba5b-d5e6672a2d3c")
 	)
 	(segment
@@ -40582,7 +40735,7 @@
 		(end 102.685562 118.554)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 70)
+		(net 69)
 		(uuid "72214d62-d457-4ed0-9f0a-6b0dbea8fd30")
 	)
 	(segment
@@ -40590,7 +40743,7 @@
 		(end 93.35 123.88)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 73)
+		(net 72)
 		(uuid "0923df58-e335-4aba-9486-e8c2878abca3")
 	)
 	(segment
@@ -40598,7 +40751,7 @@
 		(end 93.38 123.85)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 73)
+		(net 72)
 		(uuid "42938eda-b6b2-47a6-b87f-bd1527f035ea")
 	)
 	(segment
@@ -40606,7 +40759,7 @@
 		(end 92.18 121.4)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 73)
+		(net 72)
 		(uuid "dd5e77c4-2b9f-4c7a-872f-e3610710ce6b")
 	)
 	(segment
@@ -40614,7 +40767,7 @@
 		(end 93.38 122.6)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 73)
+		(net 72)
 		(uuid "e16963e6-a65c-4762-9917-a96c03b28ff9")
 	)
 	(segment
@@ -40622,7 +40775,7 @@
 		(end 93.38 123.85)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 73)
+		(net 72)
 		(uuid "fba8d2db-5de0-4d7f-a682-b2476064b92e")
 	)
 	(via
@@ -40630,7 +40783,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 73)
+		(net 72)
 		(uuid "c5a74361-f7b7-4a31-9150-333c560b54a3")
 	)
 	(segment
@@ -40638,7 +40791,7 @@
 		(end 92.18 119.64)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 73)
+		(net 72)
 		(uuid "5bd95679-bd38-481d-b921-611cec258551")
 	)
 	(segment
@@ -40646,7 +40799,7 @@
 		(end 102.694562 117.545)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 73)
+		(net 72)
 		(uuid "d4ba0fef-140a-4cfb-b504-f828bd6d4d54")
 	)
 	(segment
@@ -40654,7 +40807,7 @@
 		(end 94.275 117.545)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 73)
+		(net 72)
 		(uuid "f7640689-9a01-4c91-a967-a9c33bbf7698")
 	)
 	(segment
@@ -40662,7 +40815,7 @@
 		(end 94.56 123.89)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 74)
+		(net 73)
 		(uuid "01606b9f-6047-4dbb-a6a3-6b8dbcae7d62")
 	)
 	(segment
@@ -40670,7 +40823,7 @@
 		(end 94.52 122.41)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 74)
+		(net 73)
 		(uuid "11911279-1101-4712-8106-0c2d6d6a47ac")
 	)
 	(segment
@@ -40678,7 +40831,7 @@
 		(end 94.52 123.85)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 74)
+		(net 73)
 		(uuid "1c20116d-eee3-441c-940d-4b502ff8e5e4")
 	)
 	(segment
@@ -40686,7 +40839,7 @@
 		(end 92.94 120.83)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 74)
+		(net 73)
 		(uuid "5c82c43f-25b3-4867-a526-55236adcb9f6")
 	)
 	(segment
@@ -40694,7 +40847,7 @@
 		(end 94.52 123.85)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 74)
+		(net 73)
 		(uuid "d0e7701e-cda9-4fdd-8fa7-b41869594453")
 	)
 	(via
@@ -40702,7 +40855,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 74)
+		(net 73)
 		(uuid "46397e8a-7fe2-4a72-ab54-a20938b74e3c")
 	)
 	(segment
@@ -40710,7 +40863,7 @@
 		(end 94.825 118.045)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 74)
+		(net 73)
 		(uuid "1ca2960d-6730-44d3-8df3-f6baed597123")
 	)
 	(segment
@@ -40718,7 +40871,7 @@
 		(end 102.694562 118.045)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 74)
+		(net 73)
 		(uuid "ac6ab51e-4793-46d5-a149-c0f129cbedb1")
 	)
 	(segment
@@ -40726,7 +40879,7 @@
 		(end 89.25 75.05)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 77)
+		(net 76)
 		(uuid "021548de-f394-4ee1-9bf2-189494425356")
 	)
 	(segment
@@ -40734,7 +40887,7 @@
 		(end 87.5 74.32)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 77)
+		(net 76)
 		(uuid "1afdb73e-8833-4ddf-9f7b-ae850374be1a")
 	)
 	(segment
@@ -40742,7 +40895,7 @@
 		(end 89.32 73.75)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 77)
+		(net 76)
 		(uuid "3d1fd672-6e68-4642-aaeb-731facfa7f6c")
 	)
 	(segment
@@ -40750,7 +40903,7 @@
 		(end 90.08 77.84)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 77)
+		(net 76)
 		(uuid "478a5eb4-cc17-45b1-8a94-fac96b55a3de")
 	)
 	(segment
@@ -40758,7 +40911,7 @@
 		(end 87.5 73.75)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 77)
+		(net 76)
 		(uuid "4807480c-aeb1-4195-9681-07c79bf14a23")
 	)
 	(segment
@@ -40766,7 +40919,7 @@
 		(end 87.546527 75.72)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 77)
+		(net 76)
 		(uuid "568ae68d-80e3-42e9-98a5-9defcde93a50")
 	)
 	(segment
@@ -40774,7 +40927,7 @@
 		(end 89.34 74.96)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 77)
+		(net 76)
 		(uuid "71ab2cb7-62e0-468d-a008-a6bce5b0a67f")
 	)
 	(segment
@@ -40782,7 +40935,7 @@
 		(end 89.05 71.1)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 77)
+		(net 76)
 		(uuid "7298c369-f6c5-41cb-81e6-83831545cfa8")
 	)
 	(segment
@@ -40790,7 +40943,7 @@
 		(end 87.49 73.16)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 77)
+		(net 76)
 		(uuid "8236d6e8-bb79-4c61-a0ad-c884ec631608")
 	)
 	(segment
@@ -40798,7 +40951,7 @@
 		(end 88.216527 75.05)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 77)
+		(net 76)
 		(uuid "83a9d5da-ac6e-4c4a-a84b-b3efc91db93d")
 	)
 	(segment
@@ -40806,7 +40959,7 @@
 		(end 90.07 77.83)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 77)
+		(net 76)
 		(uuid "847d03d2-fd53-42e3-9a66-d6744d0d6b44")
 	)
 	(segment
@@ -40814,7 +40967,7 @@
 		(end 89.08 71.13)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 77)
+		(net 76)
 		(uuid "8c1bb788-9ddd-4fb8-bd00-66ceb9de8d2d")
 	)
 	(segment
@@ -40822,7 +40975,7 @@
 		(end 86.31 70.11)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 77)
+		(net 76)
 		(uuid "8e4dfef3-c70c-4ae0-aa93-d1e56c292ba1")
 	)
 	(segment
@@ -40830,7 +40983,7 @@
 		(end 89.08 71.13)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 77)
+		(net 76)
 		(uuid "a7018274-8b28-4558-8a4f-704419b8e13d")
 	)
 	(segment
@@ -40838,7 +40991,7 @@
 		(end 89.08 71.34)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 77)
+		(net 76)
 		(uuid "a94c2b29-6eb7-4980-952a-bb519db9790c")
 	)
 	(segment
@@ -40846,7 +40999,7 @@
 		(end 89.34 73.77)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 77)
+		(net 76)
 		(uuid "c066b1b8-5d62-4577-8424-1d87a8367538")
 	)
 	(segment
@@ -40854,7 +41007,7 @@
 		(end 86.5052 70.9752)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 77)
+		(net 76)
 		(uuid "d0442b34-9788-4f24-9137-e9d990f7d040")
 	)
 	(segment
@@ -40862,7 +41015,7 @@
 		(end 88.9252 70.9752)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 77)
+		(net 76)
 		(uuid "d55c2311-ae5a-431f-bf5e-8d0919d1ca7e")
 	)
 	(segment
@@ -40870,7 +41023,7 @@
 		(end 87.5 73.17)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 77)
+		(net 76)
 		(uuid "dc06ce62-6d28-4f5c-ac48-1e51b88c6ea1")
 	)
 	(segment
@@ -40878,7 +41031,7 @@
 		(end 86.31 70.78)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 77)
+		(net 76)
 		(uuid "de2f35f4-a6af-4202-9a32-f92a82f270e8")
 	)
 	(via
@@ -40886,7 +41039,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 77)
+		(net 76)
 		(uuid "4921028e-bac1-4691-9666-81bcad725b9e")
 	)
 	(via
@@ -40894,7 +41047,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 77)
+		(net 76)
 		(uuid "63642c59-d657-4cbf-b863-9f0a90ee95a4")
 	)
 	(via
@@ -40902,7 +41055,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 77)
+		(net 76)
 		(uuid "7ae7327a-3321-4b26-90b0-738dea3baa74")
 	)
 	(via
@@ -40910,7 +41063,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 77)
+		(net 76)
 		(uuid "7fc3b193-9d4c-49ae-9969-815dd08710bc")
 	)
 	(segment
@@ -40918,7 +41071,7 @@
 		(end 89.34 77.66)
 		(width 0.2)
 		(layer "B.Cu")
-		(net 77)
+		(net 76)
 		(uuid "00837c33-6d86-4062-a183-fd4a0c2ff4f8")
 	)
 	(segment
@@ -40926,7 +41079,7 @@
 		(end 90.68 72.94)
 		(width 0.2)
 		(layer "B.Cu")
-		(net 77)
+		(net 76)
 		(uuid "20e00fe1-ed95-45c5-a6fc-99fbcf226ca5")
 	)
 	(segment
@@ -40934,7 +41087,7 @@
 		(end 89.85 73.77)
 		(width 0.2)
 		(layer "B.Cu")
-		(net 77)
+		(net 76)
 		(uuid "3a761dec-2259-4859-9d32-0308d58d3efb")
 	)
 	(segment
@@ -40942,7 +41095,7 @@
 		(end 89.17 77.83)
 		(width 0.2)
 		(layer "B.Cu")
-		(net 77)
+		(net 76)
 		(uuid "c070f4b5-1df4-414b-8bbd-d27997c37fbb")
 	)
 	(segment
@@ -40950,7 +41103,7 @@
 		(end 89.34 74.96)
 		(width 0.2)
 		(layer "B.Cu")
-		(net 77)
+		(net 76)
 		(uuid "ce71fc09-d16a-4821-99f1-d6ec839da1e0")
 	)
 	(segment
@@ -40958,7 +41111,7 @@
 		(end 93.33 81.55)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 89)
+		(net 88)
 		(uuid "d3890fa8-cab5-40c0-960a-ec76902dde78")
 	)
 	(via
@@ -40966,7 +41119,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 89)
+		(net 88)
 		(uuid "a7727b2b-88df-4f71-ac7c-832759c70e71")
 	)
 	(segment
@@ -40974,7 +41127,7 @@
 		(end 107.93 71.975)
 		(width 0.2)
 		(layer "B.Cu")
-		(net 89)
+		(net 88)
 		(uuid "52a19647-be91-4ff9-9c0b-240bd5a817c8")
 	)
 	(segment
@@ -40982,7 +41135,7 @@
 		(end 106.23 72.41)
 		(width 0.2)
 		(layer "B.Cu")
-		(net 89)
+		(net 88)
 		(uuid "54ac6061-ccb0-40f6-a9ff-f0b19ff07142")
 	)
 	(segment
@@ -40990,7 +41143,7 @@
 		(end 106.23 80.04)
 		(width 0.2)
 		(layer "B.Cu")
-		(net 89)
+		(net 88)
 		(uuid "8e79d984-6c9c-42a3-84c1-91d42ba07618")
 	)
 	(segment
@@ -40998,7 +41151,7 @@
 		(end 104.72 81.55)
 		(width 0.2)
 		(layer "B.Cu")
-		(net 89)
+		(net 88)
 		(uuid "b03a7084-bdbf-4bb8-886b-76a18542dde9")
 	)
 	(segment
@@ -41006,7 +41159,7 @@
 		(end 106.665 71.975)
 		(width 0.2)
 		(layer "B.Cu")
-		(net 89)
+		(net 88)
 		(uuid "ea04cd5d-7cd4-425c-bf43-d76f1b5c1883")
 	)
 	(segment
@@ -41014,7 +41167,7 @@
 		(end 91.19 86.24)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 96)
+		(net 95)
 		(uuid "75c7306b-10ac-4953-a10a-d23889db3340")
 	)
 	(segment
@@ -41022,7 +41175,7 @@
 		(end 90.0875 87.3425)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 96)
+		(net 95)
 		(uuid "762069af-256c-45e4-a549-6116751a12e7")
 	)
 	(segment
@@ -41030,7 +41183,7 @@
 		(end 90.0875 88.21)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 96)
+		(net 95)
 		(uuid "83147ddc-f0bd-4648-8533-9281b19dadc8")
 	)
 	(segment
@@ -41038,7 +41191,7 @@
 		(end 94.44 125.94)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 97)
+		(net 96)
 		(uuid "17cab217-1180-471a-bb18-5b57896cd302")
 	)
 	(segment
@@ -41046,7 +41199,7 @@
 		(end 94.44 125.94)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 97)
+		(net 96)
 		(uuid "47f09a2d-c4ce-406c-b4bf-cf5ffc2c69f8")
 	)
 	(segment
@@ -41054,7 +41207,7 @@
 		(end 94.22 126.16)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 97)
+		(net 96)
 		(uuid "60de89a5-756b-4d2c-afaf-6091535b0683")
 	)
 	(segment
@@ -41062,7 +41215,7 @@
 		(end 94.52 125.86)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 97)
+		(net 96)
 		(uuid "ce17de08-87b8-4809-bbf9-5a6bc8ba447c")
 	)
 	(segment
@@ -41070,7 +41223,7 @@
 		(end 93.38 125.84)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 98)
+		(net 97)
 		(uuid "543d7453-2411-4d52-a829-0f532b9b8f86")
 	)
 	(segment
@@ -41078,7 +41231,7 @@
 		(end 93.48 125.94)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 98)
+		(net 97)
 		(uuid "962605d0-4f91-43a5-9751-bc66fdec0969")
 	)
 	(segment
@@ -41086,7 +41239,7 @@
 		(end 93.57 126.03)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 98)
+		(net 97)
 		(uuid "ae14e7e8-e7cf-4eae-bdd4-2a363debdf19")
 	)
 	(segment
@@ -41094,7 +41247,7 @@
 		(end 93.48 125.94)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 98)
+		(net 97)
 		(uuid "d8dda45c-19b9-4478-9183-9c299b2387db")
 	)
 	(zone
@@ -44603,7 +44756,7 @@
 		)
 	)
 	(zone
-		(net 101)
+		(net 100)
 		(net_name "unconnected-(J7-MountPin-PadMP)")
 		(layer "B.Cu")
 		(uuid "87cca954-8136-4c1a-b9f1-caa1a47dcc3c")
