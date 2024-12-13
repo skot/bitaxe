@@ -71,4 +71,6 @@ bitaxe is a fully open source hardware Bitcoin ASIC miner. Ultra is the 3rd majo
 ## Documentation, Instructions, and Support
 - Check out the [OSMU Wiki](https://osmu.wiki/bitaxe/about/)
 - Read the [Bitaxe Instructions](https://osmu.wiki/doc-assets/bitaxe/Bitaxe-Instructions.pdf)
+- View the [3 minute Bitaxe Setup video](https://youtu.be/qS5Oyp_X-ww) by WantClue
+- View the [22 minute Ultimate Bitaxe Setup Guide video](https://youtu.be/c6kpcUdb5yk) by WantClue
 - Note that documentation may be outdated due to the fast paced nature of open source mining development! For community support visit the [OSMU Discord](https://discord.gg/VxNqpPzCYW) community
