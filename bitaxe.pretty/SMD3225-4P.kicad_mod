@@ -1,0 +1,136 @@
+(footprint "SMD3225-4P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.03 -2.43 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c1344181-1d9e-48c4-b279-ab0e274e51f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMD3225-4P"
+		(at 0.65 -4.29 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c358d6d3-3fc1-4255-889b-dd8456b5bf5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SMD3225-4P"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "391ae14e-820f-4f4e-b809-7a377ef22f41")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a728ef34-693d-4308-8f85-e608fc14a956")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38aa981a-607f-4dd0-8813-80b2d15444d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c0bfe341-0704-4ff2-8859-063ac6ebe620")
+	)
+	(fp_circle
+		(center -1.76 2.01)
+		(end -1.50682 2.01)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "ba3bb3ff-9a2f-4de5-ba97-3a9491ea9505")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.36 -2.32 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b0901133-9ac8-4fae-b1c3-23a5c59648f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.15 0.95)
+		(size 1.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "93b86c17-095d-4de5-a8b5-bb4c5838f14a")
+	)
+	(pad "2" smd rect
+		(at 1.15 0.95)
+		(size 1.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "88e91ce6-fb03-412f-bf07-e802e71fbec8")
+	)
+	(pad "3" smd rect
+		(at 1.15 -0.95)
+		(size 1.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c6a3a4f6-9b75-4503-9dc6-464cb8856679")
+	)
+	(pad "4" smd rect
+		(at -1.15 -0.95)
+		(size 1.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "866b60bb-219c-4f75-a5a8-c4750dbe70c9")
+	)
+	(model "${KIPRJMOD}/3d/oscillator3.2x2.5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1204,17 +1204,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "For NebulaMiner; optional"
-		(exclude_from_sim no)
-		(at 45.72 113.665 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "762136c8-39fa-4c78-83d8-f8d0b84c0889")
-	)
 	(text "EMC2101 Controls the fan, and reads the ASIC chip temperature"
 		(exclude_from_sim no)
 		(at 114.3 63.5 0)
@@ -1242,12 +1231,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16b23821-7d6b-487b-8ca1-9e26088410c1")
-	)
-	(junction
-		(at 74.295 108.585)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23afe978-f5cf-4f6b-8985-26b74419e8fe")
 	)
 	(junction
 		(at 191.77 66.04)
@@ -1513,16 +1496,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.295 105.41) (xy 74.295 108.585)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a4c4c03-ca3f-4ee5-95fa-a572e0e5cbc7")
-	)
-	(wire
-		(pts
 			(xy 191.77 66.04) (xy 191.77 73.66)
 		)
 		(stroke
@@ -1583,16 +1556,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.295 108.585) (xy 74.295 111.125)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5a87a70-5002-4502-a947-ff0c8b4fd788")
-	)
-	(wire
-		(pts
 			(xy 167.005 116.205) (xy 178.435 116.205)
 		)
 		(stroke
@@ -1633,16 +1596,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 108.585) (xy 74.295 108.585)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5e2ce99-e73b-42b3-96ac-bc562ebbf8c8")
-	)
-	(wire
-		(pts
 			(xy 157.48 83.185) (xy 191.77 83.185)
 		)
 		(stroke
@@ -1660,16 +1613,6 @@
 			(type default)
 		)
 		(uuid "c1fd8110-ee2e-4ae6-b874-020f36ec0426")
-	)
-	(wire
-		(pts
-			(xy 74.295 97.79) (xy 74.295 94.615)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c91812db-df16-4832-a7b7-2d5915f33749")
 	)
 	(wire
 		(pts
@@ -1743,16 +1686,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.295 94.615) (xy 85.725 94.615)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9eb6af4-7673-4476-93b3-92c8f63ed31a")
-	)
-	(wire
-		(pts
 			(xy 151.13 123.19) (xy 151.13 127)
 		)
 		(stroke
@@ -1760,26 +1693,6 @@
 			(type default)
 		)
 		(uuid "fa5ccc40-3f15-429c-a73a-02c307af9a27")
-	)
-	(wire
-		(pts
-			(xy 74.295 118.745) (xy 74.295 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcf421db-2d7c-4f81-9c2a-6f50c059b820")
-	)
-	(label "GND"
-		(at 74.295 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "131ce57c-0e71-4603-b0a3-b77fcc258887")
 	)
 	(label "FAN_PWM"
 		(at 160.02 78.105 0)
@@ -1912,16 +1825,6 @@
 		(uuid "a919bf4d-298c-43bd-bd61-fea10e7d6e58")
 	)
 	(label "FAN_TACH"
-		(at 75.565 94.615 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d118f65a-ce81-4eb7-ab9a-ec3d707daf6a")
-	)
-	(label "FAN_TACH"
 		(at 168.91 111.125 0)
 		(effects
 			(font
@@ -1974,17 +1877,6 @@
 			(justify right)
 		)
 		(uuid "2518f970-d8af-4fed-99d8-73d36d826f2d")
-	)
-	(hierarchical_label "ALERT"
-		(shape input)
-		(at 67.31 108.585 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "353211a2-9093-49ea-9ccc-394da59b4846")
 	)
 	(hierarchical_label "SCL"
 		(shape input)
@@ -2359,91 +2251,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 74.295 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "69b52d10-220b-4bf9-90f7-ea43d2c31997")
-		(property "Reference" "R24"
-			(at 77.47 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 78.105 103.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 73.279 101.346 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.295 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.295 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-10KJRCT-ND"
-			(at 74.295 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402JR-0710KL"
-			(at 74.295 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa2b5bc2-dcee-45c4-9bcb-b10bd9be360c")
-		)
-		(pin "2"
-			(uuid "382700da-3862-409d-a34d-f0085c950e98")
-		)
-		(instances
-			(project "bitaxeMax"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DayMiner-eagle-import:RESISTOR0402-RES")
 		(at 97.79 69.215 0)
 		(mirror x)
@@ -2621,91 +2428,6 @@
 			(project "bitaxeMax"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 74.295 114.935 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "8f340d23-2454-4e7d-a23f-b33d39f03306")
-		(property "Reference" "R25"
-			(at 77.47 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "19.1k"
-			(at 79.375 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 73.279 114.681 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.295 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.295 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "YAG3027CT-ND"
-			(at 74.295 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402FR-0719R1L"
-			(at 74.295 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "037c87e3-bd71-4e4b-9051-52e716648c69")
-		)
-		(pin "2"
-			(uuid "7c519291-a118-4635-b59c-d1f9d52c6607")
-		)
-		(instances
-			(project "bitaxeMax"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-					(reference "R25")
 					(unit 1)
 				)
 			)

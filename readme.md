@@ -32,13 +32,6 @@ bitaxe is the first fully open source hardware Bitcoin ASIC miner.
     - It also has two "Modes" that change some of the signal pins around to make chaining easy
 - The BM1397 is driven by an undocumented protocol over UART. Baudrate is 115200bps by default but can go up to 6Mbps in order to provide mining jobs quickly enough to the ASIC daisy-chain.
 
-## Current Status
-- v2.2 hardware has been built and tested -- it works!
-- Using cgminer on a separate computer, the bitaxe can mine in excess of 400 GH/s
-- ESP32 miner firmware is still underdevelopment.
-    - Recently we have confirmed this is working! But it is not yet optimized. Check out [ESP-Miner](https://github.com/skot/esp-miner/tree/nonce_checking) for the latest. 
-- This is an _advanced_ build! It's also still early days, so prolly not the best thing if you're just looking for a bitcoin miner to run.
-
 ## Hardware
 - [BM1397 from random AliExpress seller](https://www.aliexpress.com/item/3256802274958527.html). I got the "AG" variant. Not really sure what the difference is.
 - [40x40mm heatsink and 5V fan](https://www.aliexpress.com/item/2251832861666365.html) from a random AliExpress seller. At least half of these arrived broken in some way. But they are cheap and the working ones do keep the BM1387's nice and cool when used with some thermal compound.
@@ -49,18 +42,7 @@ bitaxe is the first fully open source hardware Bitcoin ASIC miner.
 - All of the parts on the board are listed in the KiCad BOM
 
 ## Software
-- [ESP-Miner](https://github.com/skot/ESP-Miner) firmware in progress.
-    - check out the `i2c_test` branch for a basic firmware to init all hardware (besides BM1397)
-    - check out the `nonce_checking` branch for the latest developments in the ESP32 miner
-
-### Testing
-One of the best ways currently to test a new bitaxe is with a usbserial adapter and cgminer running on a separate computer.
-- You need a basic firmware running on the ESP32 that will power up the ASIC. [ESP-Miner i2c_test](https://github.com/skot/esp-miner/tree/i2c_test) is good for this.
-- You need a **1.8V** ftdi usbserial adapter. there are several on Amazon based on the FT232RL and one called "jim.sh" built on the FT230X
-    - Connect the usbserial adapter to the 1.8V serial debug header on the bitaxe. It's the one below the heatsink next to the fan connector.
-        - Make sure to connect the usbserial adapter `RTS` line to the bitaxe `RST` pin. Yes, that spelling is correct.
-- Download and build the [cgminer-bitaxe](https://github.com/skot/cgminer-bitaxe) fork. 
-    - This fork has a modified version of the GekkoScience CompacF driver to look for FT232RL or FT230X usbserial adapters and use the RTS signal for RST. 
+- [ESP-Miner](https://github.com/bitaxeorg/ESP-Miner) 
 
 ## Power Supply Requirements
 - [5VDC Power supply](https://www.amazon.com/BTF-LIGHTING-Plastic-Adapter-Transformer-WS2812B/dp/B01D8FM4N4). Should be capable of over 15W

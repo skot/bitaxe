@@ -2194,6 +2194,25 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(hide yes)
+					(name "SNS/NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at 8.89 1.27 180)
 					(length 2.54)
@@ -3052,8 +3071,32 @@
 		(uuid "ffc9e177-bbb6-4dd3-b69e-b5094bab1532")
 	)
 	(no_connect
+		(at 77.47 92.71)
+		(uuid "19243f56-fa2c-483f-9a65-14d15b3faa9a")
+	)
+	(no_connect
 		(at 242.57 64.77)
 		(uuid "21d77e77-d90b-49ee-b8b2-319915426ac2")
+	)
+	(no_connect
+		(at 77.47 113.03)
+		(uuid "28079228-56ea-4942-8394-0e7b4dfaf06e")
+	)
+	(no_connect
+		(at 77.47 115.57)
+		(uuid "2834e816-f1ee-4ff1-ad4a-b1692f0eb0ed")
+	)
+	(no_connect
+		(at 77.47 107.95)
+		(uuid "58d557de-f964-4c93-8a6c-fc6bb1078163")
+	)
+	(no_connect
+		(at 77.47 102.87)
+		(uuid "5adbf40c-fd9a-419f-82b4-cf1cc52747b8")
+	)
+	(no_connect
+		(at 191.77 118.11)
+		(uuid "663e8ee2-b13d-4e0c-8fe2-7c1e05a3c831")
 	)
 	(no_connect
 		(at 242.57 39.37)
@@ -3064,8 +3107,44 @@
 		(uuid "7aea5f84-90f1-4e78-8f84-1265f3d99011")
 	)
 	(no_connect
+		(at 191.77 125.73)
+		(uuid "88c9ef9e-32c4-41b8-92cf-2dd1acfcd446")
+	)
+	(no_connect
+		(at 191.77 95.25)
+		(uuid "89553a3e-3887-44c5-8909-1143cd355cf9")
+	)
+	(no_connect
+		(at 191.77 92.71)
+		(uuid "93d6c1af-1c64-4da2-96a8-b3d51e09eece")
+	)
+	(no_connect
+		(at 191.77 97.79)
+		(uuid "9743728f-6d90-4973-a9e1-8ef945e7fc5c")
+	)
+	(no_connect
+		(at 77.47 105.41)
+		(uuid "9cdab984-d029-4819-9f68-540f6287d4ec")
+	)
+	(no_connect
+		(at 77.47 118.11)
+		(uuid "a2e6075e-e107-4599-94b6-cad9864c3ba6")
+	)
+	(no_connect
 		(at 242.57 67.31)
 		(uuid "dc0603ef-9b61-40d0-95c5-cb22d567dca9")
+	)
+	(no_connect
+		(at 191.77 128.27)
+		(uuid "e047f0fd-03c0-4e7d-ae70-c3cfc551ddb6")
+	)
+	(no_connect
+		(at 191.77 123.19)
+		(uuid "e288fd97-b17c-4f15-974d-fc9110137e25")
+	)
+	(no_connect
+		(at 191.77 120.65)
+		(uuid "f90c8d23-8dac-4173-aaf8-33c62bb5998d")
 	)
 	(wire
 		(pts
@@ -3906,16 +3985,6 @@
 			(type default)
 		)
 		(uuid "b0ff2c61-b7b0-4c53-a3b0-a6d4a5018d7b")
-	)
-	(wire
-		(pts
-			(xy 77.47 113.03) (xy 66.04 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8628937-5504-4ceb-9780-80e3220227be")
 	)
 	(wire
 		(pts
@@ -4771,17 +4840,6 @@
 		)
 		(uuid "3a7747b4-9316-465c-87e0-f6fdc7a69bcf")
 	)
-	(hierarchical_label "FAN_ALERT"
-		(shape input)
-		(at 66.04 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "50221288-2d15-46b1-abb7-9287b76d2b0b")
-	)
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 73.025 29.21 0)
@@ -4996,13 +5054,21 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-1.00KLRCT-ND"
 			(at 226.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-071KL"
+			(at 226.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5822,13 +5888,21 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-1.00KLRCT-ND"
 			(at 234.315 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-071KL"
+			(at 234.315 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5952,7 +6026,7 @@
 				)
 			)
 		)
-		(property "Value" "RT9080-33GJ5"
+		(property "Value" "MIC5319-3.3YD5-TR"
 			(at 51.435 24.638 0)
 			(effects
 				(font
@@ -5969,7 +6043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.richtek.com/assets/product_file/RT9080/DS9080-05.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/500mA-uCap-Ultra-Low-Dropout-Regulator-with-High-PSRR-DS20005876B.pdf"
 			(at 42.545 29.21 0)
 			(effects
 				(font
@@ -5987,7 +6061,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1028-1509-1-ND"
+		(property "DK" "576-1910-1-ND"
 			(at 51.435 30.48 0)
 			(effects
 				(font
@@ -5996,7 +6070,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RT9080-33GJ5"
+		(property "PARTNO" "MIC5319-3.3YD5-TR"
 			(at 51.435 30.48 0)
 			(effects
 				(font
@@ -6016,6 +6090,9 @@
 		)
 		(pin "5"
 			(uuid "a5d484fa-3d95-4ce0-aea9-e4f34c867a4e")
+		)
+		(pin "4"
+			(uuid "74ad32a3-11a4-4a4e-bed6-39dfa086230b")
 		)
 		(instances
 			(project "bitaxeMax"

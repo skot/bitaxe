@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.25
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -613,7 +613,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "Manufacturing Files/bitaxeMax-103 BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -630,6 +630,12 @@
       "fields_ordered": [
         {
           "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -644,25 +650,19 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
           "show": true
         },
         {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -674,7 +674,7 @@
           "group_by": false,
           "label": "DK",
           "name": "DK",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -704,12 +704,18 @@
           "group_by": false,
           "label": "PARTNO",
           "name": "PARTNO",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "exclude_from_bom",
+          "name": "exclude_from_bom",
           "show": false
         }
       ],
@@ -718,7 +724,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "${QUANTITY}"
     },
     "connection_grid_size": 50.0,
     "drawing": {

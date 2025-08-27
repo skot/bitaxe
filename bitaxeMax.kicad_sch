@@ -422,6 +422,65 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "bitaxe:polarity"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bitaxe:polarity"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "polarity_1_1"
+				(text "Polarity Symbol"
+					(at -1.27 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 49.53 57.15)
@@ -535,16 +594,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 93.98) (xy 166.37 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34cbc98a-af5e-4767-9599-87cf8f0fc6b5")
-	)
-	(wire
-		(pts
 			(xy 119.38 99.06) (xy 119.38 121.92)
 		)
 		(stroke
@@ -552,16 +601,6 @@
 			(type default)
 		)
 		(uuid "458cb2a8-17fe-43e5-a916-72f0662c2ab1")
-	)
-	(wire
-		(pts
-			(xy 163.83 123.19) (xy 173.99 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50ed23e0-a243-48cf-98da-b97c451f22b3")
 	)
 	(wire
 		(pts
@@ -772,16 +811,6 @@
 			(type default)
 		)
 		(uuid "b1b075a3-0171-47ef-a412-35416e4fb492")
-	)
-	(wire
-		(pts
-			(xy 173.99 123.19) (xy 173.99 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b342fab1-42e2-447b-8bc6-84b385fbe29e")
 	)
 	(wire
 		(pts
@@ -1277,6 +1306,93 @@
 			(project "bitaxeMax"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bitaxe:polarity")
+		(at 71.12 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a0cb3cd-4805-4506-aeee-47e3759eccda")
+		(property "Reference" "U2"
+			(at 69.85 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 71.12 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bitaxe:polarity"
+			(at 71.12 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at -6.35 329.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 71.12 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 71.12 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "bitaxeMax"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2009,16 +2125,6 @@
 				(justify left)
 			)
 		)
-		(pin "ALERT" output
-			(at 163.83 123.19 0)
-			(uuid "bd400dac-fa49-4fe4-a836-d4296963da31")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "bitaxeMax"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2261,16 +2367,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "FAN_ALERT" input
-			(at 166.37 93.98 0)
-			(uuid "60566486-ebf5-437c-b098-4b44a6404d0b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
