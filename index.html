@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bitaxe Ultra - Open Source Bitcoin ASIC Miner</title>
+  <style>
+    :root {
+      --orange: #f7931a;
+      --orange-dark: #e2820a;
+      --dark: #0d1117;
+      --dark-card: #161b22;
+      --dark-border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --green: #3fb950;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
+      background: var(--dark);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a { color: var(--orange); text-decoration: none; }
+    a:hover { color: var(--orange-dark); }
+
+    /* Header */
+    header {
+      border-bottom: 1px solid var(--dark-border);
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      background: rgba(13, 17, 23, 0.95);
+      backdrop-filter: blur(10px);
+      z-index: 100;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--orange);
+      letter-spacing: -0.5px;
+    }
+
+    .logo span { color: var(--text); }
+
+    nav { display: flex; gap: 1.5rem; align-items: center; }
+    nav a { color: var(--text-muted); font-size: 0.9rem; transition: color 0.2s; }
+    nav a:hover { color: var(--text); }
+
+    .btn {
+      display: inline-block;
+      padding: 0.6rem 1.4rem;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn-primary {
+      background: var(--orange);
+      color: #fff;
+    }
+
+    .btn-primary:hover {
+      background: var(--orange-dark);
+      color: #fff;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(247, 147, 26, 0.3);
+    }
+
+    .btn-outline {
+      border: 1px solid var(--dark-border);
+      background: transparent;
+      color: var(--text);
+    }
+
+    .btn-outline:hover {
+      border-color: var(--text-muted);
+      color: var(--text);
+    }
+
+    /* Hero */
+    .hero {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 5rem 2rem 4rem;
+      text-align: center;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      padding: 0.3rem 0.8rem;
+      border: 1px solid var(--dark-border);
+      border-radius: 999px;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-badge strong { color: var(--green); }
+
+    .hero h1 {
+      font-size: 3.5rem;
+      font-weight: 800;
+      letter-spacing: -1.5px;
+      line-height: 1.1;
+      margin-bottom: 1.2rem;
+    }
+
+    .hero h1 .highlight { color: var(--orange); }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: var(--text-muted);
+      max-width: 640px;
+      margin: 0 auto 2rem;
+    }
+
+    .hero-actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+
+    .hero-image {
+      margin-top: 3rem;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--dark-border);
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .hero-image img {
+      width: 100%;
+      display: block;
+    }
+
+    .hero-image .placeholder {
+      width: 100%;
+      height: 380px;
+      background: linear-gradient(135deg, var(--dark-card), #1c2333);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      color: var(--text-muted);
+    }
+
+    /* Stats bar */
+    .stats {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 2rem 3rem;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+    }
+
+    .stat {
+      text-align: center;
+      padding: 1.2rem;
+      background: var(--dark-card);
+      border: 1px solid var(--dark-border);
+      border-radius: 10px;
+    }
+
+    .stat-value {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--orange);
+    }
+
+    .stat-label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 0.2rem;
+    }
+
+    /* Sections */
+    section { max-width: 1100px; margin: 0 auto; padding: 4rem 2rem; }
+
+    .section-title {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 0.5rem;
+    }
+
+    .section-sub {
+      color: var(--text-muted);
+      margin-bottom: 2.5rem;
+      font-size: 1.05rem;
+    }
+
+    /* Architecture */
+    .arch-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.2rem;
+    }
+
+    .arch-card {
+      background: var(--dark-card);
+      border: 1px solid var(--dark-border);
+      border-radius: 10px;
+      padding: 1.5rem;
+      transition: border-color 0.2s;
+    }
+
+    .arch-card:hover { border-color: var(--orange); }
+
+    .arch-card h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0.2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .arch-card .chip {
+      font-size: 0.75rem;
+      padding: 0.15rem 0.5rem;
+      background: rgba(247, 147, 26, 0.15);
+      color: var(--orange);
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    .arch-card p { color: var(--text-muted); font-size: 0.92rem; margin-top: 0.5rem; }
+
+    /* Bus diagram */
+    .bus-diagram {
+      background: var(--dark-card);
+      border: 1px solid var(--dark-border);
+      border-radius: 10px;
+      padding: 2rem;
+      margin-top: 2rem;
+      overflow-x: auto;
+    }
+
+    .bus-diagram pre {
+      font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .bus-diagram pre .hl { color: var(--orange); }
+    .bus-diagram pre .gr { color: var(--green); }
+
+    /* Features */
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.2rem;
+    }
+
+    .feature {
+      background: var(--dark-card);
+      border: 1px solid var(--dark-border);
+      border-radius: 10px;
+      padding: 1.5rem;
+    }
+
+    .feature h4 { font-size: 1rem; margin-bottom: 0.4rem; }
+    .feature p { color: var(--text-muted); font-size: 0.88rem; }
+
+    /* Specs table */
+    .specs-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--dark-card);
+      border: 1px solid var(--dark-border);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .specs-table th,
+    .specs-table td {
+      padding: 0.8rem 1.2rem;
+      text-align: left;
+      border-bottom: 1px solid var(--dark-border);
+    }
+
+    .specs-table th {
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      font-weight: 600;
+    }
+
+    .specs-table td { font-size: 0.92rem; }
+    .specs-table tr:last-child td { border-bottom: none; }
+
+    /* Buy placeholder */
+    .buy-section {
+      background: var(--dark-card);
+      border: 1px solid var(--dark-border);
+      border-radius: 12px;
+      padding: 3rem;
+      text-align: center;
+    }
+
+    .buy-section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .buy-section p {
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+    }
+
+    .buy-options {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .buy-card {
+      background: var(--dark);
+      border: 1px solid var(--dark-border);
+      border-radius: 10px;
+      padding: 1.5rem 2rem;
+      min-width: 200px;
+      transition: border-color 0.2s;
+    }
+
+    .buy-card:hover { border-color: var(--orange); }
+    .buy-card h4 { margin-bottom: 0.3rem; }
+    .buy-card p { font-size: 0.85rem; margin-bottom: 0; }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--dark-border);
+      padding: 2rem;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      max-width: 1100px;
+      margin: 2rem auto 0;
+    }
+
+    footer a { color: var(--text-muted); }
+    footer a:hover { color: var(--text); }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 2.2rem; }
+      .stats { grid-template-columns: repeat(2, 1fr); }
+      header { padding: 0.8rem 1rem; }
+      nav { gap: 0.8rem; }
+      section { padding: 3rem 1.2rem; }
+    }
+
+    @media (max-width: 480px) {
+      .hero h1 { font-size: 1.8rem; }
+      .stats { grid-template-columns: 1fr 1fr; }
+      nav .nav-links { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">bit<span>axe</span></div>
+    <nav>
+      <a href="#architecture">Architecture</a>
+      <a href="#features">Features</a>
+      <a href="#specs">Specs</a>
+      <a href="#buy" class="btn btn-primary">Get a Bitaxe</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="hero-badge">Open Source Hardware &middot; <strong>CERN-OHL-S Licensed</strong></div>
+    <h1>Mine Bitcoin with a <span class="highlight">real ASIC</span>, not a USB stick.</h1>
+    <p>Bitaxe Ultra is a fully open-source, standalone Bitcoin miner powered by the BM1366 &mdash; the same chip inside the Antminer S19XP. No host computer needed. Just WiFi and 5V power.</p>
+    <div class="hero-actions">
+      <a href="#buy" class="btn btn-primary">Where to Buy</a>
+      <a href="https://github.com/skot/bitaxe" class="btn btn-outline" target="_blank" rel="noopener">View on GitHub</a>
+    </div>
+    <div class="hero-image">
+      <div class="placeholder">[ Bitaxe Ultra board photo &mdash; replace with doc/bitaxe_204.jpg ]</div>
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-value">BM1366</div>
+      <div class="stat-label">Bitmain SHA-256 ASIC</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">~500 GH/s</div>
+      <div class="stat-label">Hashrate</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">~15W</div>
+      <div class="stat-label">Power Draw</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">WiFi</div>
+      <div class="stat-label">Standalone Mining</div>
+    </div>
+  </div>
+
+  <!-- Architecture -->
+  <section id="architecture">
+    <h2 class="section-title">System Architecture</h2>
+    <p class="section-sub">Five modular subsystems working together on a single 4-layer PCB.</p>
+
+    <div class="arch-grid">
+      <div class="arch-card">
+        <h3>ASIC Miner <span class="chip">BM1366</span></h3>
+        <p>The Bitmain BM1366 SHA-256 hashing engine. Multiple power domains (VDD core, VDDIO 0.8V/1.8V), UART interface for work distribution, and on-chip nonce rolling for efficiency. This is the same silicon found in industrial miners.</p>
+      </div>
+      <div class="arch-card">
+        <h3>Microcontroller <span class="chip">ESP32-S3</span></h3>
+        <p>Dual-core 240MHz ESP32-S3 with WiFi. Connects to your mining pool over the network, distributes work to the ASIC via UART, and controls power/thermal via I2C. Programming over USB-C &mdash; no external tools needed.</p>
+      </div>
+      <div class="arch-card">
+        <h3>Power Delivery <span class="chip">TPS40305</span></h3>
+        <p>A digitally-controlled buck converter steps down 5V to the ASIC core voltage. A DS4432U+ current DAC allows the ESP32 to adjust voltage over I2C for software autotuning. An INA260 power monitor tracks real-time watts.</p>
+      </div>
+      <div class="arch-card">
+        <h3>Thermal Management <span class="chip">EMC2101</span></h3>
+        <p>Closed-loop fan control via the EMC2101 I2C thermal controller. A remote temperature sensor is placed near the ASIC die. PWM fan speed is adjusted automatically to maintain safe operating temperatures.</p>
+      </div>
+      <div class="arch-card">
+        <h3>User Interface <span class="chip">SSD1306</span></h3>
+        <p>A 0.91" OLED display shows live hashrate, temperature, power consumption, and pool status. Physical button for basic interaction. All status is also available via a built-in web dashboard over WiFi.</p>
+      </div>
+      <div class="arch-card">
+        <h3>Voltage Autotuning <span class="chip">DS4432U+</span></h3>
+        <p>The current DAC adjusts ASIC core voltage from 0.04V to 2.4V in fine increments over I2C. Combined with the INA260 power monitor, the firmware finds the optimal voltage/frequency point for maximum efficiency.</p>
+      </div>
+    </div>
+
+    <div class="bus-diagram">
+      <pre>
+                         <span class="hl">I2C Bus (SCL / SDA)</span>
+            ┌──────────────────┼──────────────────┐
+            │                  │                  │
+      ┌─────┴──────┐    ┌─────┴──────┐    ┌──────┴─────┐
+      │  <span class="gr">EMC2101</span>   │    │  <span class="gr">INA260</span>   │    │  <span class="gr">DS4432</span>   │
+      │  Fan Ctrl  │    │  Power Mon │    │ Voltage DAC│
+      └────────────┘    └────────────┘    └────────────┘
+
+      <span class="hl">ESP32-S3</span> ──── UART (TX/RX) ────► <span class="hl">BM1366</span> ASIC
+         │
+         ├── RST ───────────────────► BM1366 (reset)
+         ├── PWR_EN ────────────────► TPS40305 (enable)
+         └── PGOOD ◄────────────────── TPS40305 (power good)
+      </pre>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features">
+    <h2 class="section-title">Why Bitaxe?</h2>
+    <p class="section-sub">The only fully open-source Bitcoin ASIC miner you can actually build yourself.</p>
+
+    <div class="features-grid">
+      <div class="feature">
+        <h4>Fully Standalone</h4>
+        <p>Connects directly to your mining pool over WiFi. No host computer, no Raspberry Pi, no controller box. Just plug in 5V power and go.</p>
+      </div>
+      <div class="feature">
+        <h4>Real ASIC Performance</h4>
+        <p>The BM1366 is a production SHA-256 ASIC from Bitmain, not a hobbyist chip. You get real hashrate in a tiny form factor.</p>
+      </div>
+      <div class="feature">
+        <h4>Software Autotuning</h4>
+        <p>Digitally adjustable core voltage + real-time power monitoring = the firmware automatically finds the sweet spot for efficiency.</p>
+      </div>
+      <div class="feature">
+        <h4>Thermal Protection</h4>
+        <p>Closed-loop fan control with a temperature sensor right next to the ASIC. Automatically throttles to prevent overheating.</p>
+      </div>
+      <div class="feature">
+        <h4>USB-C Programming</h4>
+        <p>Flash new firmware over USB-C. No JTAG programmer or special cables needed. Community firmware (ESP-Miner) is actively maintained.</p>
+      </div>
+      <div class="feature">
+        <h4>100% Open Source</h4>
+        <p>KiCad schematics, PCB layout, BOM, gerbers, and 3D models are all public under the CERN-OHL-S license. Build it, modify it, sell it.</p>
+      </div>
+      <div class="feature">
+        <h4>Built-in Web Dashboard</h4>
+        <p>Access a web interface over WiFi to monitor hashrate, temperature, power draw, shares found, and pool status in real time.</p>
+      </div>
+      <div class="feature">
+        <h4>DIY Friendly</h4>
+        <p>Designed for toaster-oven reflow soldering. Order PCBs and parts yourself, or buy a pre-assembled unit from community vendors.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specs -->
+  <section id="specs">
+    <h2 class="section-title">Technical Specifications</h2>
+    <p class="section-sub">Everything that makes the Bitaxe Ultra tick.</p>
+
+    <table class="specs-table">
+      <tr>
+        <th>Component</th>
+        <th>Details</th>
+      </tr>
+      <tr>
+        <td>Mining ASIC</td>
+        <td>Bitmain BM1366, SHA-256, on-chip nonce rolling</td>
+      </tr>
+      <tr>
+        <td>Controller</td>
+        <td>ESP32-S3-WROOM-1, dual-core 240MHz, WiFi 802.11 b/g/n, BLE 5.0</td>
+      </tr>
+      <tr>
+        <td>Power Input</td>
+        <td>5V DC via barrel jack (5.5x2.1mm, center positive) or USB-C</td>
+      </tr>
+      <tr>
+        <td>Power Draw</td>
+        <td>~15W typical (5V @ 3A)</td>
+      </tr>
+      <tr>
+        <td>Buck Converter</td>
+        <td>TPS40305 synchronous controller with CSD17311Q5 MOSFETs</td>
+      </tr>
+      <tr>
+        <td>Voltage Control</td>
+        <td>DS4432U+ I2C current DAC (0.04V &ndash; 2.4V adjustable)</td>
+      </tr>
+      <tr>
+        <td>Power Monitor</td>
+        <td>INA260 with integrated 2m&Omega; shunt, I2C interface</td>
+      </tr>
+      <tr>
+        <td>Fan Controller</td>
+        <td>EMC2101 I2C, remote temp sense, 4-pin PWM fan header</td>
+      </tr>
+      <tr>
+        <td>Display</td>
+        <td>0.91" SSD1306 OLED, 128x32, I2C</td>
+      </tr>
+      <tr>
+        <td>PCB</td>
+        <td>4-layer, 6mil trace/space, 1oz outer / 0.5oz inner copper</td>
+      </tr>
+      <tr>
+        <td>Programming</td>
+        <td>USB-C (built-in), SPI/JTAG debug header</td>
+      </tr>
+      <tr>
+        <td>License</td>
+        <td>CERN-OHL-S v2 (strongly reciprocal open hardware)</td>
+      </tr>
+      <tr>
+        <td>Hardware Revision</td>
+        <td>v204 (December 2023)</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Buy -->
+  <section id="buy">
+    <div class="buy-section">
+      <h2>Get a Bitaxe</h2>
+      <p>Available from community vendors worldwide. Pre-assembled or as a kit.</p>
+
+      <div class="buy-options">
+        <div class="buy-card">
+          <h4>Pre-Assembled</h4>
+          <p>Ready to mine out of the box. Just add a 5V power supply.</p>
+        </div>
+        <div class="buy-card">
+          <h4>DIY Kit</h4>
+          <p>PCB + components. You supply the soldering skills.</p>
+        </div>
+        <div class="buy-card">
+          <h4>Build Your Own</h4>
+          <p>Order PCBs and parts yourself using the open-source files.</p>
+        </div>
+      </div>
+
+      <p style="margin-top: 2rem; font-size: 0.85rem; color: var(--text-muted);">
+        Vendor integrations coming soon. Check the
+        <a href="https://github.com/skot/bitaxe" target="_blank" rel="noopener">GitHub repo</a>
+        for community vendor links.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      Bitaxe is open-source hardware under the <a href="https://ohwr.org/cern_ohl_s_v2.txt" target="_blank" rel="noopener">CERN-OHL-S v2</a> license.
+      Firmware: <a href="https://github.com/skot/ESP-Miner" target="_blank" rel="noopener">ESP-Miner</a>.
+      Hardware: <a href="https://github.com/skot/bitaxe" target="_blank" rel="noopener">GitHub</a>.
+    </p>
+  </footer>
+
+</body>
+</html>
